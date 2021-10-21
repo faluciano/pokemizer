@@ -43,12 +43,25 @@ app.get("/mongo", async (req,res)=>{
 
 // Returns 5 random pokemon
 app.get("/getPoke", async (req,res)=>{
-  const pokedex = await pokedexModel.find({"gen":"sinnoh"})
-  var m = []
+  let pokedex = await pokedexModel.find({"gen":"sinnoh"})
+  for(let i = 0;i<3;i++){
+    pokedex[0]["pokemon"].shift();
+  }
+  let m = []
   for (let i = 0;i<5;i++){
     m.push(sample(pokedex[0]["pokemon"]));
   }
   res.send(m);
+});
+
+// Returns a random starter
+app.get("/getStart", async (req,res)=>{
+  let m = []
+  let pokedex = await pokedexModel.find({"gen":"sinnoh"})
+  for(let i = 0;i<3;i++){
+    m.push(pokedex[0]["pokemon"].shift());
+  }
+  res.send([sample(m)]);
 });
 
 // Handles any not specified get request
