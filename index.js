@@ -61,7 +61,7 @@ app.get("/getStart", async (req,res)=>{
   for(let i = 0;i<3;i++){
     m.push(pokedex[0]["pokemon"].shift());
   }
-  res.send([sample(m)]);
+  res.send(sample(m));
 });
 
 // Handles any not specified get request

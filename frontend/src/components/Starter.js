@@ -21,26 +21,26 @@ function Starter(props){
     <div>
         <Box sx={{ flexGrow: 1 }}>
             <Grid style={{margin:"auto"}} container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
-                {data == null ? <p style={{margin:"auto"}}>Loading</p>:data.map((x,index)=>
-                <Grid item xs={2} sm={4} md={4} key={index}>
+                {data == null ? <p style={{margin:"auto"}}>Loading</p>:
+                <Grid item xs={2} sm={4} md={4} key={data}>
                 <Card sx={{ maxWidth: 200 }}>
                     <CardMedia
                     component="img"
                     height="140"
-                    image={x.image}
-                    alt={x.name}
+                    image={data.image}
+                    alt={data.name}
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                    {x.name[0].toUpperCase()+x.name.slice(1)}
+                    {data.name[0].toUpperCase()+data.name.slice(1)}
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                    {x.types.length===1 ? x.types[0]:x.types[0]+"/"+x.types[1]}
+                    {data.types.length===1 ? data.types[0]:data.types[0]+"/"+data.types[1]}
                     </Typography>
                 </CardContent>
                 </Card>
                 </Grid>
-                )}
+                }
                 <Grid item xs={8}>
                 {move===true ? 
                 <Button variant="contained" onClick={()=>getPoke()}>click</Button>:
