@@ -12,7 +12,6 @@ import { useAuth0 } from '@auth0/auth0-react';
 
 function App() {
   const [start, setStart] = React.useState(true);
-  const [login, setLogin] = React.useState(false);
   const { user, isAuthenticated } = useAuth0();
 
   return (
@@ -31,7 +30,7 @@ function App() {
           </Toolbar>
         </AppBar>
         {isAuthenticated && <p>Welcome {user.sub}</p>}
-        {login=== false ? <Home func={setLogin}/>:(start === true ? <Starter func={setStart}/>:<RandPoke/>)}
+        {!isAuthenticated ? <Home/>:(start === true ? <Starter func={setStart}/>:<RandPoke/>)}
         
         </Box>
         
