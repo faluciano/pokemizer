@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,6 +9,9 @@ import Button from '@mui/material/Button';
 
 function RandPoke() {
   const [data, setData] = React.useState(null);
+  useEffect(()=>{
+    getPoke();
+  },[]);
   function getPoke() {
     fetch("/getPoke")
           .then((res) => res.json())
