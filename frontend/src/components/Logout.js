@@ -1,20 +1,23 @@
 import React from 'react';
-import Button from '@mui/material/Button';
+import {Button} from '@chakra-ui/react';
 import { useAuth0} from '@auth0/auth0-react';
-import Toolbar from '@mui/material/Toolbar';
 
-function Logout(props){
+function Logout(){
     const { logout } = useAuth0();
-    const {user} = props;
     return(
-        <>
-        <Toolbar>
-            <img src={user.picture} alt={user.name} />
-        </Toolbar>
-        <Button style={{color:"white"}} onClick={()=>logout({ returnTo: window.location.origin })}>
-            Log out
+        <Button
+              display={{ base: 'none', md: 'inline-flex' }}
+              fontSize={'sm'}
+              fontWeight={600}
+              color={'white'}
+              bg={'red.400'}
+              href={'#'}
+              onClick={()=>logout({ returnTo: window.location.origin })}
+              _hover={{
+                bg: 'red.300',
+              }}>
+              Log out
         </Button>
-        </>
     )
 }
 

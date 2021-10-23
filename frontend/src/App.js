@@ -1,41 +1,21 @@
-import React from "react";
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import AppBar from '@mui/material/AppBar';
+import React from 'react';
 import Starter from './components/Starter';
 import RandPoke from './components/RandPoke';
 import Home from './components/Home';
-import Login from './components/Login';
-import Logout from './components/Logout';
 import { useAuth0 } from '@auth0/auth0-react';
+import {ChakraProvider} from '@chakra-ui/react';
+import NavBar from './components/NavBar';
 
 function App() {
   const [start, setStart] = React.useState(true);
   const { user, isAuthenticated } = useAuth0();
 
   return (
-    <div>
-      <header>
-        <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="static">
-          <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              IDK
-            </Typography>
-            {isAuthenticated ? 
-              <Logout user={user}/>:
-              <Login/>
-            }
-          </Toolbar>
-        </AppBar>
+    <ChakraProvider>
+        <NavBar auth={isAuthenticated}/>
         {isAuthenticated && <p>Welcome {user.sub}</p>}
         {!isAuthenticated ? <Home/>:(start === true ? <Starter func={setStart}/>:<RandPoke/>)}
-        
-        </Box>
-        
-      </header>
-    </div>
+    </ChakraProvider>
   );
 }
 
