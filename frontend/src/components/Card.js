@@ -12,11 +12,11 @@ import {
 function Card(prop) {
     const {name,image,types} = prop;
     return (
-      <Center py={12}>
+      <Center py={3}>
         <Box
           role={'group'}
           p={6}
-          maxW={'330px'}
+          maxW={'230px'}
           w={'full'}
           bg={useColorModeValue('white', 'gray.800')}
           boxShadow={'2xl'}
