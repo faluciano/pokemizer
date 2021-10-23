@@ -1,5 +1,5 @@
 import React from "react";
-import {Button,SimpleGrid} from '@chakra-ui/react';
+import {Button,SimpleGrid,Center} from '@chakra-ui/react';
 import Card from './Card';
 
 function Starter(props){
@@ -14,7 +14,7 @@ function Starter(props){
     return (
     <div>
         <SimpleGrid minChildWidth="120px" spacing="40px">
-            {data == null ? <p style={{margin:"auto"}}>Loading</p>:
+            {data == null ? <Center>Loading</Center>:
             <Card 
                 image={data.image} 
                 name={data.name[0].toUpperCase()+data.name.slice(1)} 
@@ -22,10 +22,12 @@ function Starter(props){
                 />
             }
         </SimpleGrid>
-        {move===true ? 
-            <Button onClick={()=>getPoke()}>click</Button>:
-            <Button onClick={()=>props.func(false)}>move on</Button>
-        }
+        <Center>
+            {move===true ? 
+                <Button onClick={()=>getPoke()}>click</Button>:
+                <Button onClick={()=>props.func(false)}>move on</Button>
+            }
+        </Center>
     </div>
     );
 }

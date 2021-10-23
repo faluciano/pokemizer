@@ -6,7 +6,6 @@ function Logout(){
     const { logout } = useAuth0();
     return(
         <Button
-              display={{ base: 'none', md: 'inline-flex' }}
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}

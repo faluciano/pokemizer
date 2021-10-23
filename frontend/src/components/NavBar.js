@@ -3,7 +3,6 @@ import {
     Flex,
     Text,
     IconButton,
-    Button,
     Stack,
     Collapse,
     Icon,
@@ -59,7 +58,7 @@ function NavBar(props) {
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
-              Logo
+              Pokemizer
             </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -76,26 +75,6 @@ function NavBar(props) {
               <Logout/>:
               <Login/>
             }
-            <Button
-              as={'a'}
-              fontSize={'sm'}
-              fontWeight={400}
-              variant={'link'}
-              href={'#'}>
-              Sign In
-            </Button>
-            <Button
-              display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={600}
-              color={'white'}
-              bg={'pink.400'}
-              href={'#'}
-              _hover={{
-                bg: 'pink.300',
-              }}>
-              Sign Up
-            </Button>
           </Stack>
         </Flex>
   
@@ -251,43 +230,55 @@ const MobileNavItem = ({ label, children, href }) => {
 };
   
 const NAV_ITEMS = [
+    // {
+    //   label: 'Inspiration',
+    //   children: [
+    //     {
+    //       label: 'Explore Design Work',
+    //       subLabel: 'Trending Design to inspire you',
+    //       href: '#',
+    //     },
+    //     {
+    //       label: 'New & Noteworthy',
+    //       subLabel: 'Up-and-coming Designers',
+    //       href: '#',
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: 'Find Work',
+    //   children: [
+    //     {
+    //       label: 'Job Board',
+    //       subLabel: 'Find your dream design job',
+    //       href: '#',
+    //     },
+    //     {
+    //       label: 'Freelance Projects',
+    //       subLabel: 'An exclusive list for contract work',
+    //       href: '#',
+    //     },
+    //   ],
+    // },
+    // {
+    //   label: 'Learn Design',
+    //   href: '#',
+    // },
+    // {
+    //   label: 'Hire Designers',
+    //   href: '#',
+    // },
     {
-      label: 'Inspiration',
-      children: [
-        {
-          label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
-          href: '#',
-        },
-        {
-          label: 'New & Noteworthy',
-          subLabel: 'Up-and-coming Designers',
-          href: '#',
-        },
-      ],
+        label: 'Randomizer',
+        href: '#',
     },
     {
-      label: 'Find Work',
-      children: [
-        {
-          label: 'Job Board',
-          subLabel: 'Find your dream design job',
-          href: '#',
-        },
-        {
-          label: 'Freelance Projects',
-          subLabel: 'An exclusive list for contract work',
-          href: '#',
-        },
-      ],
+        label: 'Lists',
+        href: '#',
     },
     {
-      label: 'Learn Design',
-      href: '#',
-    },
-    {
-      label: 'Hire Designers',
-      href: '#',
+        label: 'Rules',
+        href: '#',
     },
 ];
 

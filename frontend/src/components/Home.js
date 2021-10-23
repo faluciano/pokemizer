@@ -1,10 +1,11 @@
 import React from 'react';
+import {Center} from '@chakra-ui/react'
 
 function Home(){
     return(
-        <div>
+        <Center>
             <p>Home</p>
-        </div>
+        </Center>
     )
 }
 

@@ -6,7 +6,6 @@ function Login(){
     const {loginWithRedirect} = useAuth0();
     return(
         <Button
-              display={{ base: 'none', md: 'inline-flex' }}
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
