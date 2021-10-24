@@ -15,7 +15,7 @@ function RandPoke() {
   return (
       <>
         <SimpleGrid columns={3} minChildWidth="300px" spacing="5px" spacingY="5px">
-            {data == null ? <Center>Loading</Center>:data.map((x,index)=>
+            {data && data.map((x,index)=>
             <Card 
             key={index}
             image={x.image} 
@@ -27,7 +27,7 @@ function RandPoke() {
             
         </SimpleGrid>
         <Center> 
-          <Button variant="contained" onClick={()=>getPoke()}>click</Button> 
+          <Button colorScheme="teal" onClick={()=>getPoke()}>Click</Button> 
         </Center>
       </>
   );

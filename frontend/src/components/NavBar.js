@@ -97,6 +97,7 @@ const DesktopNav = () => {
             <Popover trigger={'hover'} placement={'bottom-start'}>
               <PopoverTrigger>
                 <Link
+                  onClick={navItem.onClick}
                   p={2}
                   href={navItem.href ?? '#'}
                   fontSize={'sm'}
@@ -132,12 +133,12 @@ const DesktopNav = () => {
     );
   };
   
-const DesktopSubNav = ({ label, href, subLabel }) => {
+const DesktopSubNav = ({ label, href, subLabel}) => {
     return (
       <Link
         href={href}
         role={'group'}
-        display={'block'}
+        display={'block'}        
         p={2}
         rounded={'md'}
         _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
@@ -179,7 +180,7 @@ const MobileNav = () => {
     );
 };
   
-const MobileNavItem = ({ label, children, href }) => {
+const MobileNavItem = ({ label, children, href,onClick }) => {
     const { isOpen, onToggle } = useDisclosure();
   
     return (
@@ -188,6 +189,7 @@ const MobileNavItem = ({ label, children, href }) => {
           py={2}
           as={Link}
           href={href ?? '#'}
+          onClick={onClick}
           justify={'space-between'}
           align={'center'}
           _hover={{
@@ -271,14 +273,17 @@ const NAV_ITEMS = [
     {
         label: 'Randomizer',
         href: '#',
+        onClick: ()=>console.log("Rando")
     },
     {
         label: 'Lists',
         href: '#',
+        onClick: ()=>console.log("Lists")
     },
     {
         label: 'Rules',
         href: '#',
+        onClick: ()=>console.log("Hello")
     },
 ];
 

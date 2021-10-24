@@ -14,7 +14,7 @@ function Starter(props){
     return (
     <div>
         <SimpleGrid minChildWidth="120px" spacing="40px">
-            {data == null ? <Center>Loading</Center>:
+            {data &&
             <Card 
                 image={data.image} 
                 name={data.name[0].toUpperCase()+data.name.slice(1)} 
@@ -24,8 +24,8 @@ function Starter(props){
         </SimpleGrid>
         <Center>
             {move===true ? 
-                <Button onClick={()=>getPoke()}>click</Button>:
-                <Button onClick={()=>props.func(false)}>move on</Button>
+                <Button colorScheme="teal" onClick={()=>getPoke()}>Click</Button>:
+                <Button colorScheme="teal" onClick={()=>props.func(false)}>Move on</Button>
             }
         </Center>
     </div>

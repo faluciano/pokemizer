@@ -1,11 +1,22 @@
 import React from 'react';
-import {Center} from '@chakra-ui/react'
+import {
+    Center,
+    Text,
+    Heading,
+    Stack,
+    Tag    
+} from '@chakra-ui/react'
 
 function Home(){
     return(
-        <Center>
-            <p>Home</p>
-        </Center>
+        <Stack>
+            <Center>
+                <Heading as="h1" size="4xl">Pokemizer</Heading>
+            </Center>
+            <Center>
+                <Text>Here are the rules:</Text>
+            </Center>
+        </Stack>
     )
 }
 

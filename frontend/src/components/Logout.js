@@ -8,8 +8,7 @@ function Logout(){
         <Button
               fontSize={'sm'}
               fontWeight={600}
-              color={'white'}
-              bg={'red.400'}
+              colorScheme="red"
               href={'#'}
               onClick={()=>logout({ returnTo: window.location.origin })}
               _hover={{

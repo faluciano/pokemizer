@@ -8,12 +8,11 @@ function Login(){
         <Button
               fontSize={'sm'}
               fontWeight={600}
-              color={'white'}
-              bg={'orange.400'}
+              colorScheme="teal"
               href={'#'}
               onClick={()=>loginWithRedirect()}
               _hover={{
-                bg: 'orange.300',
+                bg: 'teal.300',
               }}>
               Log in
         </Button>
