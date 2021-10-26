@@ -17,11 +17,13 @@ The rules are as follows:
 ## Enjoy!!!
 
 # Technologies used:
+- Auth0
 - Mongodb 
 - Nodejs
 - Express
 - React
 - Rest API
+- Chackra UI
 - Javascript
 - Heroku
 
