@@ -3,12 +3,15 @@ import {Button,SimpleGrid,Center} from '@chakra-ui/react';
 import Card from './Card';
 
 function Starter(props){
+    const { setStarter } = props;
     const [data, setData] = React.useState(null);
     const [move, setMove] = React.useState(true);
     function getPoke() {
         fetch("/getStart")
             .then((res) => res.json())
-            .then((data) => setData(data))
+            .then((data) => {
+                setData(data)
+                setStarter(data)})
         setMove(false);
     }
     return (

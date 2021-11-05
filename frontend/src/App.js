@@ -9,12 +9,13 @@ import NavBar from './components/NavBar';
 function App() {
   const [start, setStart] = React.useState(true);
   const { user, isAuthenticated } = useAuth0();
+  const [starter,setStarter] = React.useState("");
 
   return (
     <ChakraProvider>
         <NavBar auth={isAuthenticated}/>
         {isAuthenticated && <Center>Welcome {user.name}</Center>}
-        {!isAuthenticated ? <Home/>:(start === true ? <Starter func={setStart}/>:<RandPoke/>)}
+        {!isAuthenticated ? <Home/>:(start === true ? <Starter func={setStart} setStarter={setStarter}/>:<RandPoke starter={starter}/>)}
     </ChakraProvider>
   );
 }
