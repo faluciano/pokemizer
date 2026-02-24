@@ -1,38 +1,36 @@
-# Pokemizer
-This project is a pokemon team randomizer using a specific set of rules.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-You can choose a generation and get 30 tries to complete a team.
+## Getting Started
 
-The rules are as follows:
+First, run the development server:
 
-1. A random starter is given for that generation
-2. A screen with 5 cards is displays all with questino marks.
-3. You select a card and see what pokemon you received.
-4. You automatically keep the pokemon if no other pokemon shares a type with it.
-5. You can either replace a pokemon that shares a type with the new pokemon or choose to keep both pokemon.
-6. Starters can't be replaced
-7. A repeat counts as a failed attempt
-8. If a team is full and a pokemon with no common type is selected, it is a failed attempt.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Enjoy!!!
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Technologies used:
-- Auth0
-- Mongodb 
-- Nodejs
-- Express
-- React
-- Rest API
-- Chackra UI
-- Javascript
-- Heroku
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-# To Run:
-## Setup
-1. Run `npm install && cd frontend && npm install && cd ..`
-2. Set up mongodb database and keys
-## Execute
-1. Run `npm install -D concurrently` 
-2. Run `npm run dev`
-3. Visit [http://localhost:3000]()
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
