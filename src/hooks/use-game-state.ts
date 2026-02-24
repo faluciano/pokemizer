@@ -4,13 +4,8 @@ import { useCallback, useReducer } from "react";
 import type { GameState, Pokemon, Generation } from "@/lib/types";
 import { getRandomCards, getRandomStarter } from "@/lib/pokeapi";
 import {
-  getTypeOverlap,
-  canAutoAdd,
-  isDuplicate,
   isGameOver,
-  isTeamFull,
   MAX_ATTEMPTS,
-  MAX_TEAM_SIZE,
 } from "@/lib/game-logic";
 
 type GameAction =
@@ -32,6 +27,7 @@ const initialState: GameState = {
   currentCards: [],
   revealedIndex: null,
   allPokemon: [],
+  excludedIds: [],
 };
 
 function checkGameOver(state: GameState): GameState {
@@ -53,29 +49,38 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         attempts: 0,
         currentCards: [],
         revealedIndex: null,
+        excludedIds: [],
       };
     }
 
     case "SET_STARTER": {
       const team = [action.pokemon];
-      const currentCards = getRandomCards(state.allPokemon, team);
-      const newState: GameState = {
+      // Exclude non-chosen starters from the card pool
+      const otherStarterIds = state.allPokemon
+        .filter((p) => p.isStarter && p.id !== action.pokemon.id)
+        .map((p) => p.id);
+      const excludedIds = otherStarterIds;
+      const currentCards = getRandomCards(state.allPokemon, team, 5, new Set(excludedIds));
+      return {
         ...state,
         phase: "playing",
         team,
         currentCards,
         revealedIndex: null,
+        excludedIds,
       };
-      return newState;
     }
 
     case "REVEAL_CARD": {
       const newAttempts = state.attempts + 1;
-      return {
+      const newState: GameState = {
         ...state,
         revealedIndex: action.index,
         attempts: newAttempts,
       };
+      // Check game-over on every reveal (fixes bug where wasted-attempt
+      // paths like duplicate/team-full never trigger game-over detection)
+      return checkGameOver(newState);
     }
 
     case "ADD_TO_TEAM": {
@@ -88,12 +93,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     }
 
     case "REPLACE_POKEMON": {
+      const oldPokemon = state.team[action.teamIndex];
       const team = [...state.team];
       team[action.teamIndex] = action.newPokemon;
-      const newState: GameState = {
-        ...state,
-        team,
-      };
+      const excludedIds = [...state.excludedIds, oldPokemon.id];
+      const newState: GameState = { ...state, team, excludedIds };
       return checkGameOver(newState);
     }
 
@@ -102,12 +106,14 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     }
 
     case "NEW_ROUND": {
-      const currentCards = getRandomCards(state.allPokemon, state.team);
-      return {
-        ...state,
-        currentCards,
-        revealedIndex: null,
-      };
+      if (state.phase === "game-over") return state;
+      const currentCards = getRandomCards(
+        state.allPokemon,
+        state.team,
+        5,
+        new Set(state.excludedIds)
+      );
+      return { ...state, currentCards, revealedIndex: null };
     }
 
     case "RESET": {

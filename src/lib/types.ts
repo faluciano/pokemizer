@@ -34,6 +34,7 @@ export interface GameState {
   currentCards: Pokemon[];
   revealedIndex: number | null;
   allPokemon: Pokemon[];
+  excludedIds: number[];
 }
 
 export interface TeamHistoryEntry {

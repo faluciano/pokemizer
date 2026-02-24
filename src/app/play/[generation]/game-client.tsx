@@ -6,7 +6,6 @@ import { toast } from "sonner";
 import type { Pokemon, Generation, PokemonType } from "@/lib/types";
 import { getRandomStarter } from "@/lib/pokeapi";
 import {
-  canAutoAdd,
   isDuplicate,
   isTeamFull,
   getTypeOverlap,
@@ -47,6 +46,8 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
   const [starterPokemon, setStarterPokemon] = useState<Pokemon | null>(null);
   const [processingReveal, setProcessingReveal] = useState(false);
   const initRef = useRef(false);
+  const teamRef = useRef(state.team);
+  teamRef.current = state.team;
 
   // Initialize game on mount
   useEffect(() => {
@@ -72,12 +73,15 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
       const pokemon = state.currentCards[index];
       setRevealedPokemon(pokemon);
 
-      // Process after a short delay to let the flip animation play
       setProcessingReveal(true);
       setTimeout(() => {
-        if (isDuplicate(state.team, pokemon)) {
-          // Duplicate - wasted attempt, deal new round
-          toast.warning(`Duplicate! ${capitalize(pokemon.name)} is already on your team.`);
+        // Use ref for latest team state (avoids stale closure)
+        const currentTeam = teamRef.current;
+
+        if (isDuplicate(currentTeam, pokemon)) {
+          toast.warning(
+            `Duplicate! ${capitalize(pokemon.name)} is already on your team.`
+          );
           setTimeout(() => {
             newRound();
             setRevealedPokemon(null);
@@ -86,19 +90,23 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
           return;
         }
 
-        if (isTeamFull(state.team)) {
-          // Team full - just waste the attempt
-          toast.info("Team is full! Attempt wasted.");
+        const overlap = getTypeOverlap(currentTeam, pokemon);
+
+        if (overlap.length > 0) {
+          // Type overlap — show replace dialog (works for both full and non-full teams)
+          setOverlappingTypes(overlap);
+          toast.info(
+            `${capitalize(pokemon.name)} has type overlap — choose to replace or skip.`
+          );
           setTimeout(() => {
-            newRound();
-            setRevealedPokemon(null);
+            setShowReplaceDialog(true);
             setProcessingReveal(false);
-          }, 1000);
+          }, 800);
           return;
         }
 
-        if (canAutoAdd(state.team, pokemon)) {
-          // No type overlap - auto-add to team
+        if (!isTeamFull(currentTeam)) {
+          // No overlap, team not full — auto-add
           toast.success(`${capitalize(pokemon.name)} added to your team!`);
           addToTeam(pokemon);
           setTimeout(() => {
@@ -109,21 +117,19 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
           return;
         }
 
-        // Type overlap - show replace dialog
-        const overlap = getTypeOverlap(state.team, pokemon);
-        setOverlappingTypes(overlap);
-        toast.info(`${capitalize(pokemon.name)} has type overlap — choose to replace or skip.`);
+        // Team full, no overlap, no duplicate — wasted attempt
+        toast.info("Team is full! Attempt wasted.");
         setTimeout(() => {
-          setShowReplaceDialog(true);
+          newRound();
+          setRevealedPokemon(null);
           setProcessingReveal(false);
-        }, 800);
+        }, 1000);
       }, 700);
     },
     [
       processingReveal,
       state.revealedIndex,
       state.currentCards,
-      state.team,
       revealCard,
       addToTeam,
       newRound,
