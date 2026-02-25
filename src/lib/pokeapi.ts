@@ -1,4 +1,4 @@
-import type { Pokemon, PokemonType } from "./types";
+import type { Pokemon, PokemonType, BaseStats } from "./types";
 import { GENERATIONS, isStarter as checkIsStarter } from "./starters";
 
 const POKEAPI_BASE = "https://pokeapi.co/api/v2";
@@ -28,6 +28,19 @@ interface PokeApiPokemonResponse {
   id: number;
   name: string;
   types: { slot: number; type: { name: string } }[];
+  stats: { base_stat: number; stat: { name: string } }[];
+}
+
+function extractStats(stats: { base_stat: number; stat: { name: string } }[]): BaseStats {
+  const get = (name: string) => stats.find((s) => s.stat.name === name)?.base_stat ?? 0;
+  return {
+    hp: get("hp"),
+    attack: get("attack"),
+    defense: get("defense"),
+    spAtk: get("special-attack"),
+    spDef: get("special-defense"),
+    speed: get("speed"),
+  };
 }
 
 export async function fetchPokemonDetails(id: number, generationId: number): Promise<Pokemon> {
@@ -42,6 +55,7 @@ export async function fetchPokemonDetails(id: number, generationId: number): Pro
     types: data.types.map((t) => t.type.name as PokemonType),
     sprite: getSpriteUrl(data.id),
     isStarter: checkIsStarter(generationId, data.id),
+    stats: extractStats(data.stats),
   };
 }
 

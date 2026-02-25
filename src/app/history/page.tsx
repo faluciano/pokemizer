@@ -7,6 +7,7 @@ import { getTypeCoverage, MAX_TEAM_SIZE } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { TypeBadge } from "@/components/type-badge";
+import { StatChart } from "@/components/stat-chart";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Trash2 } from "lucide-react";
 
@@ -97,7 +98,7 @@ export default function HistoryPage() {
 
               <div className="flex flex-wrap gap-3">
                 {entry.team.map((pokemon) => (
-                  <div key={pokemon.id} className="flex flex-col items-center gap-1">
+                  <div key={pokemon.id} className="flex flex-col items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900/50 p-2">
                     <div className="relative h-12 w-12">
                       <Image
                         src={pokemon.sprite}
@@ -119,6 +120,13 @@ export default function HistoryPage() {
                         />
                       ))}
                     </div>
+                    {pokemon.stats && (
+                      <StatChart
+                        stats={pokemon.stats}
+                        primaryType={pokemon.types[0]}
+                        className="mt-1"
+                      />
+                    )}
                   </div>
                 ))}
               </div>

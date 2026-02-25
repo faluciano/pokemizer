@@ -8,6 +8,7 @@ import { useLocalStorage } from "@/hooks/use-local-storage";
 import { MAX_TEAM_SIZE, getTypeCoverage } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { TypeBadge } from "@/components/type-badge";
+import { StatChart } from "@/components/stat-chart";
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 
@@ -58,11 +59,11 @@ export function GameOver({
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-3">
+      <div className="flex flex-wrap justify-center gap-4">
         {team.map((pokemon) => (
           <div
             key={pokemon.id}
-            className="relative flex w-[130px] flex-col items-center rounded-xl border border-zinc-700 bg-zinc-800/50 p-3"
+            className="relative flex w-[170px] flex-col items-center rounded-xl border border-zinc-700 bg-zinc-800/50 p-3"
           >
             {pokemon.isStarter && (
               <div className="absolute -top-1.5 -right-1.5 rounded-full bg-yellow-500 p-0.5">
@@ -90,6 +91,11 @@ export function GameOver({
                 />
               ))}
             </div>
+            <StatChart
+              stats={pokemon.stats}
+              primaryType={pokemon.types[0]}
+              className="mt-2"
+            />
           </div>
         ))}
       </div>

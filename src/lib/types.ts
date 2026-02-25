@@ -3,12 +3,22 @@ export type PokemonType =
   | "fighting" | "poison" | "ground" | "flying" | "psychic" | "bug"
   | "rock" | "ghost" | "dragon" | "dark" | "steel" | "fairy";
 
+export interface BaseStats {
+  hp: number;
+  attack: number;
+  defense: number;
+  spAtk: number;
+  spDef: number;
+  speed: number;
+}
+
 export interface Pokemon {
   id: number;
   name: string;
   types: PokemonType[];
   sprite: string;
   isStarter: boolean;
+  stats: BaseStats;
 }
 
 export interface Generation {
