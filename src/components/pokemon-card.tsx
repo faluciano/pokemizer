@@ -27,8 +27,9 @@ export function PokemonCard({
   return (
     <div
       className={cn(
-        "relative h-[240px] w-[170px] shrink-0 cursor-pointer select-none",
-        disabled && "cursor-not-allowed opacity-50",
+        "relative h-[240px] w-[170px] shrink-0 select-none",
+        disabled && !revealed && "opacity-50",
+        disabled ? "cursor-not-allowed" : "cursor-pointer",
         className,
       )}
       onClick={!disabled && onClick ? onClick : undefined}
