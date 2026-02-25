@@ -60,7 +60,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         .filter((p) => p.isStarter && p.id !== action.pokemon.id)
         .map((p) => p.id);
       const excludedIds = otherStarterIds;
-      const currentCards = getRandomCards(state.allPokemon, team, 5, new Set(excludedIds));
+      const currentCards = getRandomCards(state.allPokemon, team, 3, new Set(excludedIds));
       return {
         ...state,
         phase: "playing",
@@ -110,7 +110,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const currentCards = getRandomCards(
         state.allPokemon,
         state.team,
-        5,
+        3,
         new Set(state.excludedIds)
       );
       return { ...state, currentCards, revealedIndex: null };

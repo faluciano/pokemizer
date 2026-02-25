@@ -89,7 +89,7 @@ export function getRandomStarter(allPokemon: Pokemon[]): Pokemon {
 export function getRandomCards(
   allPokemon: Pokemon[],
   team: Pokemon[],
-  count: number = 5,
+  count: number = 3,
   excludeIds: Set<number> = new Set()
 ): Pokemon[] {
   const teamIds = new Set(team.map((p) => p.id));
