@@ -20,6 +20,7 @@ interface ReplaceDialogProps {
   pokemon: Pokemon;
   team: Pokemon[];
   overlappingTypes: PokemonType[];
+  overlappingIndices: number[];
   onReplace: (replaceIndex: number) => void;
   onSkip: () => void;
   onClose: () => void;
@@ -30,6 +31,7 @@ export function ReplaceDialog({
   pokemon,
   team,
   overlappingTypes,
+  overlappingIndices,
   onReplace,
   onSkip,
   onClose,
@@ -117,11 +119,19 @@ export function ReplaceDialog({
               </div>
               <Button
                 size="sm"
-                variant="destructive"
+                variant={
+                  !member.isStarter && overlappingIndices.includes(index)
+                    ? "destructive"
+                    : "outline"
+                }
                 onClick={() => onReplace(index)}
-                disabled={member.isStarter}
+                disabled={member.isStarter || !overlappingIndices.includes(index)}
               >
-                {member.isStarter ? "Starter" : "Replace"}
+                {member.isStarter
+                  ? "Starter"
+                  : overlappingIndices.includes(index)
+                    ? "Replace"
+                    : "No overlap"}
               </Button>
             </div>
           ))}

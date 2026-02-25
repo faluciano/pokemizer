@@ -17,6 +17,13 @@ interface PokeApiGenerationResponse {
   pokemon_species: { name: string; url: string }[];
 }
 
+interface PokeApiSpeciesResponse {
+  id: number;
+  is_legendary: boolean;
+  is_mythical: boolean;
+  evolves_from_species: { name: string; url: string } | null;
+}
+
 interface PokeApiPokemonResponse {
   id: number;
   name: string;
@@ -38,6 +45,14 @@ export async function fetchPokemonDetails(id: number, generationId: number): Pro
   };
 }
 
+async function fetchSpeciesData(id: number): Promise<PokeApiSpeciesResponse> {
+  const res = await fetch(`${POKEAPI_BASE}/pokemon-species/${id}`, {
+    next: { revalidate: 86400 },
+  });
+  if (!res.ok) throw new Error(`Failed to fetch species ${id}`);
+  return res.json();
+}
+
 export async function getGenerationPokemon(generationId: number): Promise<Pokemon[]> {
   const gen = GENERATIONS.find((g) => g.id === generationId);
   if (!gen) throw new Error(`Generation ${generationId} not found`);
@@ -50,9 +65,16 @@ export async function getGenerationPokemon(generationId: number): Promise<Pokemo
 
   const speciesIds = data.pokemon_species.map((s) => extractIdFromUrl(s.url));
 
-  // Fetch all pokemon details in parallel
+  // Fetch species data to filter legendaries, mythicals, and evolved forms
+  const speciesData = await Promise.all(speciesIds.map((id) => fetchSpeciesData(id)));
+
+  const validSpeciesIds = speciesData
+    .filter((s) => !s.is_legendary && !s.is_mythical && s.evolves_from_species === null)
+    .map((s) => s.id);
+
+  // Fetch pokemon details only for valid (base-form, non-legendary, non-mythical) species
   const pokemon = await Promise.all(
-    speciesIds.map((id) => fetchPokemonDetails(id, generationId))
+    validSpeciesIds.map((id) => fetchPokemonDetails(id, generationId))
   );
 
   // Sort by national dex number

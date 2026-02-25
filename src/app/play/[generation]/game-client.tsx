@@ -9,6 +9,7 @@ import {
   isDuplicate,
   isTeamFull,
   getTypeOverlap,
+  getOverlappingTeamIndices,
   MAX_ATTEMPTS,
   MAX_TEAM_SIZE,
 } from "@/lib/game-logic";
@@ -43,6 +44,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
   const [showReplaceDialog, setShowReplaceDialog] = useState(false);
   const [revealedPokemon, setRevealedPokemon] = useState<Pokemon | null>(null);
   const [overlappingTypes, setOverlappingTypes] = useState<PokemonType[]>([]);
+  const [overlappingIndices, setOverlappingIndices] = useState<number[]>([]);
   const [starterPokemon, setStarterPokemon] = useState<Pokemon | null>(null);
   const [processingReveal, setProcessingReveal] = useState(false);
   const initRef = useRef(false);
@@ -93,8 +95,22 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
         const overlap = getTypeOverlap(currentTeam, pokemon);
 
         if (overlap.length > 0) {
-          // Type overlap — show replace dialog (works for both full and non-full teams)
+          const indices = getOverlappingTeamIndices(currentTeam, pokemon);
+          // If the only overlapping members are starters, auto-skip
+          const nonStarterOverlap = indices.filter((i) => !currentTeam[i].isStarter);
+          if (nonStarterOverlap.length === 0) {
+            toast.info(
+              `${capitalize(pokemon.name)} overlaps only with your starter — skipped.`
+            );
+            setTimeout(() => {
+              newRound();
+              setRevealedPokemon(null);
+              setProcessingReveal(false);
+            }, 1200);
+            return;
+          }
           setOverlappingTypes(overlap);
+          setOverlappingIndices(indices);
           toast.info(
             `${capitalize(pokemon.name)} has type overlap — choose to replace or skip.`
           );
@@ -124,7 +140,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
           setRevealedPokemon(null);
           setProcessingReveal(false);
         }, 1000);
-      }, 700);
+      }, 1500);
     },
     [
       processingReveal,
@@ -142,6 +158,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
         replacePokemon(teamIndex, revealedPokemon);
         setShowReplaceDialog(false);
         setRevealedPokemon(null);
+        setOverlappingIndices([]);
         setTimeout(() => {
           newRound();
         }, 300);
@@ -154,6 +171,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
     skipPokemon();
     setShowReplaceDialog(false);
     setRevealedPokemon(null);
+    setOverlappingIndices([]);
     setTimeout(() => {
       newRound();
     }, 300);
@@ -249,6 +267,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
             pokemon={revealedPokemon}
             team={state.team}
             overlappingTypes={overlappingTypes}
+            overlappingIndices={overlappingIndices}
             onReplace={handleReplace}
             onSkip={handleSkip}
             onClose={handleCloseDialog}

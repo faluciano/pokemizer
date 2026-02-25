@@ -38,3 +38,12 @@ export function getTeamTypes(team: Pokemon[]): PokemonType[] {
 export function getTypeCoverage(team: Pokemon[]): number {
   return getTeamTypes(team).length;
 }
+
+/** Returns indices of team members that share at least one type with the new pokemon */
+export function getOverlappingTeamIndices(team: Pokemon[], newPokemon: Pokemon): number[] {
+  const newTypes = new Set(newPokemon.types);
+  return team
+    .map((member, index) => ({ member, index }))
+    .filter(({ member }) => member.types.some((t) => newTypes.has(t)))
+    .map(({ index }) => index);
+}
