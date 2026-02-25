@@ -3,151 +3,58 @@
 import type { BaseStats, PokemonType } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
-const STAT_LABELS = ["HP", "Atk", "Def", "Sp.Atk", "Sp.Def", "Spd"] as const;
-const STAT_KEYS: (keyof BaseStats)[] = ["hp", "attack", "defense", "spAtk", "spDef", "speed"];
-const MAX_STAT = 200;
-const SIZE = 160;
-const CENTER = SIZE / 2;
-const RADIUS = 55;
-const LABEL_RADIUS = RADIUS + 20;
+const STAT_ROWS: { label: string; key: keyof BaseStats; color: string }[] = [
+  { label: "HP", key: "hp", color: "bg-red-500" },
+  { label: "Attack", key: "attack", color: "bg-orange-500" },
+  { label: "Defense", key: "defense", color: "bg-yellow-500" },
+  { label: "Sp. Atk", key: "spAtk", color: "bg-blue-400" },
+  { label: "Sp. Def", key: "spDef", color: "bg-green-400" },
+  { label: "Speed", key: "speed", color: "bg-pink-400" },
+];
 
-// Type colors for the filled polygon
-const TYPE_FILL_COLORS: Record<PokemonType, string> = {
-  normal: "rgba(168, 168, 120, 0.4)",
-  fire: "rgba(240, 128, 48, 0.4)",
-  water: "rgba(104, 144, 240, 0.4)",
-  electric: "rgba(248, 208, 48, 0.4)",
-  grass: "rgba(120, 200, 80, 0.4)",
-  ice: "rgba(152, 216, 216, 0.4)",
-  fighting: "rgba(192, 48, 40, 0.4)",
-  poison: "rgba(160, 64, 160, 0.4)",
-  ground: "rgba(224, 192, 104, 0.4)",
-  flying: "rgba(168, 144, 240, 0.4)",
-  psychic: "rgba(248, 88, 136, 0.4)",
-  bug: "rgba(168, 184, 32, 0.4)",
-  rock: "rgba(184, 160, 56, 0.4)",
-  ghost: "rgba(112, 88, 152, 0.4)",
-  dragon: "rgba(112, 56, 248, 0.4)",
-  dark: "rgba(112, 88, 72, 0.4)",
-  steel: "rgba(184, 184, 208, 0.4)",
-  fairy: "rgba(238, 153, 172, 0.4)",
-};
-
-const TYPE_STROKE_COLORS: Record<PokemonType, string> = {
-  normal: "rgba(168, 168, 120, 0.8)",
-  fire: "rgba(240, 128, 48, 0.8)",
-  water: "rgba(104, 144, 240, 0.8)",
-  electric: "rgba(248, 208, 48, 0.8)",
-  grass: "rgba(120, 200, 80, 0.8)",
-  ice: "rgba(152, 216, 216, 0.8)",
-  fighting: "rgba(192, 48, 40, 0.8)",
-  poison: "rgba(160, 64, 160, 0.8)",
-  ground: "rgba(224, 192, 104, 0.8)",
-  flying: "rgba(168, 144, 240, 0.8)",
-  psychic: "rgba(248, 88, 136, 0.8)",
-  bug: "rgba(168, 184, 32, 0.8)",
-  rock: "rgba(184, 160, 56, 0.8)",
-  ghost: "rgba(112, 88, 152, 0.8)",
-  dragon: "rgba(112, 56, 248, 0.8)",
-  dark: "rgba(112, 88, 72, 0.8)",
-  steel: "rgba(184, 184, 208, 0.8)",
-  fairy: "rgba(238, 153, 172, 0.8)",
-};
-
-function getHexPoint(centerX: number, centerY: number, radius: number, index: number): [number, number] {
-  // Start from top (–90°), go clockwise
-  const angle = (Math.PI * 2 * index) / 6 - Math.PI / 2;
-  return [
-    centerX + radius * Math.cos(angle),
-    centerY + radius * Math.sin(angle),
-  ];
-}
-
-function getHexPoints(centerX: number, centerY: number, radius: number): string {
-  return Array.from({ length: 6 })
-    .map((_, i) => getHexPoint(centerX, centerY, radius, i).join(","))
-    .join(" ");
-}
+const MAX_STAT = 255;
 
 interface StatChartProps {
   stats: BaseStats;
-  primaryType: PokemonType;
+  primaryType?: PokemonType;
   className?: string;
 }
 
-export function StatChart({ stats, primaryType, className }: StatChartProps) {
-  const statValues = STAT_KEYS.map((key) => Math.min(stats[key] / MAX_STAT, 1));
-
-  const dataPoints = statValues
-    .map((val, i) => getHexPoint(CENTER, CENTER, RADIUS * val, i).join(","))
-    .join(" ");
+export function StatChart({ stats, className }: StatChartProps) {
+  const total = STAT_ROWS.reduce((sum, row) => sum + stats[row.key], 0);
 
   return (
-    <div className={cn("inline-block", className)}>
-      <svg width={SIZE} height={SIZE} viewBox={`0 0 ${SIZE} ${SIZE}`}>
-        {/* Background hexagon rings */}
-        {[0.25, 0.5, 0.75, 1].map((scale) => (
-          <polygon
-            key={scale}
-            points={getHexPoints(CENTER, CENTER, RADIUS * scale)}
-            fill="none"
-            stroke="rgba(255, 255, 255, 0.1)"
-            strokeWidth={0.5}
-          />
-        ))}
-
-        {/* Axis lines */}
-        {Array.from({ length: 6 }).map((_, i) => {
-          const [x, y] = getHexPoint(CENTER, CENTER, RADIUS, i);
+    <div className={cn("w-full", className)}>
+      <div className="space-y-1">
+        {STAT_ROWS.map((row) => {
+          const value = stats[row.key];
+          const pct = Math.min((value / MAX_STAT) * 100, 100);
           return (
-            <line
-              key={i}
-              x1={CENTER}
-              y1={CENTER}
-              x2={x}
-              y2={y}
-              stroke="rgba(255, 255, 255, 0.08)"
-              strokeWidth={0.5}
-            />
-          );
-        })}
-
-        {/* Data polygon */}
-        <polygon
-          points={dataPoints}
-          fill={TYPE_FILL_COLORS[primaryType]}
-          stroke={TYPE_STROKE_COLORS[primaryType]}
-          strokeWidth={1.5}
-        />
-
-        {/* Stat labels and values */}
-        {STAT_LABELS.map((label, i) => {
-          const [x, y] = getHexPoint(CENTER, CENTER, LABEL_RADIUS, i);
-          const value = stats[STAT_KEYS[i]];
-          return (
-            <g key={label}>
-              <text
-                x={x}
-                y={y - 5}
-                textAnchor="middle"
-                dominantBaseline="middle"
-                className="fill-zinc-400 text-[8px] font-medium"
-              >
-                {label}
-              </text>
-              <text
-                x={x}
-                y={y + 5}
-                textAnchor="middle"
-                dominantBaseline="middle"
-                className="fill-zinc-300 text-[7px] font-bold"
-              >
+            <div key={row.key} className="flex items-center gap-1.5">
+              <span className="w-[46px] shrink-0 text-right text-[10px] font-medium text-zinc-400">
+                {row.label}
+              </span>
+              <span className="w-[26px] shrink-0 text-right text-[10px] font-bold text-zinc-200 tabular-nums">
                 {value}
-              </text>
-            </g>
+              </span>
+              <div className="h-[6px] flex-1 overflow-hidden rounded-full bg-zinc-700/50">
+                <div
+                  className={cn("h-full rounded-full", row.color)}
+                  style={{ width: `${pct}%` }}
+                />
+              </div>
+            </div>
           );
         })}
-      </svg>
+      </div>
+      <div className="mt-1.5 flex items-center gap-1.5">
+        <span className="w-[46px] shrink-0 text-right text-[10px] font-medium text-zinc-400">
+          Total
+        </span>
+        <span className="w-[26px] shrink-0 text-right text-[10px] font-bold text-white tabular-nums">
+          {total}
+        </span>
+      </div>
     </div>
   );
 }

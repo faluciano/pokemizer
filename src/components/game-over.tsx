@@ -93,7 +93,6 @@ export function GameOver({
             </div>
             <StatChart
               stats={pokemon.stats}
-              primaryType={pokemon.types[0]}
               className="mt-2"
             />
           </div>

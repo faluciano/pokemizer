@@ -123,7 +123,6 @@ export default function HistoryPage() {
                     {pokemon.stats && (
                       <StatChart
                         stats={pokemon.stats}
-                        primaryType={pokemon.types[0]}
                         className="mt-1"
                       />
                     )}
