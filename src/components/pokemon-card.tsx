@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import type { Pokemon } from "@/lib/types";
 import { TYPE_COLORS } from "@/lib/type-colors";
 import { TypeBadge } from "@/components/type-badge";
@@ -65,14 +64,15 @@ export function PokemonCard({
                   TYPE_COLORS[pokemon.types[0]].bg
                 )}
               />
-              <div className="relative mt-2 h-[120px] w-[120px]">
-                <Image
+              <div className="mt-2 h-[120px] w-[120px]">
+                {/* Plain img tag — next/image doesn't render inside 3D backface-hidden containers */}
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src={pokemon.sprite}
                   alt={pokemon.name}
-                  fill
-                  loading="eager"
-                  className="object-contain drop-shadow-lg"
-                  sizes="120px"
+                  width={120}
+                  height={120}
+                  className="h-full w-full object-contain drop-shadow-lg"
                 />
               </div>
               <p className="mt-1 text-sm font-semibold text-white">

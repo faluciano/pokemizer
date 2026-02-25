@@ -13,7 +13,7 @@ export default function Loading() {
             Loading Pokemon...
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            {Array.from({ length: 5 }).map((_, i) => (
+            {Array.from({ length: 3 }).map((_, i) => (
               <Skeleton
                 key={i}
                 className="h-[240px] w-[170px] rounded-xl"
