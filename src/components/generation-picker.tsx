@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { track } from "@vercel/analytics";
 import Image from "next/image";
 import { GENERATIONS } from "@/lib/starters";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -12,8 +13,12 @@ function getSpriteUrl(id: number): string {
 export function GenerationPicker() {
   const router = useRouter();
 
-  function handleSelect(generationId: number) {
-    router.push(`/play/${generationId}`);
+  function handleSelect(gen: (typeof GENERATIONS)[number]) {
+    track("generation_selected", {
+      generation: gen.id,
+      region: gen.region,
+    });
+    router.push(`/play/${gen.id}`);
   }
 
   return (
@@ -22,7 +27,7 @@ export function GenerationPicker() {
         <Card
           key={gen.id}
           className="cursor-pointer transition-all hover:scale-[1.02] hover:border-zinc-500 hover:shadow-md"
-          onClick={() => handleSelect(gen.id)}
+          onClick={() => handleSelect(gen)}
         >
           <CardHeader>
             <CardTitle>{gen.displayName}</CardTitle>
