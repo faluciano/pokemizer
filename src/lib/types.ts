@@ -40,7 +40,6 @@ export interface GameState {
   generation: Generation | null;
   team: Pokemon[];
   attempts: number;
-  maxAttempts: number;
   currentCards: Pokemon[];
   revealedIndex: number | null;
   allPokemon: Pokemon[];

@@ -1,7 +1,7 @@
 "use client";
 
 import type { Pokemon } from "@/lib/types";
-import { TYPE_COLORS } from "@/lib/type-colors";
+import { TYPE_COLORS, TYPE_GLOW_COLORS } from "@/lib/type-colors";
 import { TypeBadge } from "@/components/type-badge";
 import { cn, capitalize } from "@/lib/utils";
 
@@ -37,9 +37,11 @@ export function PokemonCard({
       {/* Back face (question mark) — visible when face down */}
       <div
         className={cn(
-          "absolute inset-0 flex flex-col items-center justify-center rounded-xl border-2 border-zinc-600 bg-zinc-800 shadow-lg transition-opacity duration-300",
+          "absolute inset-0 flex flex-col items-center justify-center rounded-xl border-2 bg-zinc-800 shadow-lg transition-opacity duration-300",
           revealed ? "pointer-events-none opacity-0" : "opacity-100",
+          primaryType ? borderColor : "border-zinc-600",
         )}
+        style={primaryType ? { boxShadow: `0 0 15px 2px ${TYPE_GLOW_COLORS[primaryType]}40` } : undefined}
       >
         <div className="absolute inset-2 rounded-lg border border-zinc-700 opacity-50" />
         <div className="absolute inset-0 rounded-xl bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,rgba(255,255,255,0.02)_10px,rgba(255,255,255,0.02)_20px)]" />

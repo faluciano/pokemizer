@@ -20,3 +20,24 @@ export const TYPE_COLORS: Record<PokemonType, { bg: string; text: string; border
   steel:    { bg: "bg-slate-400",    text: "text-black", border: "border-slate-400" },
   fairy:    { bg: "bg-pink-300",     text: "text-black", border: "border-pink-300" },
 };
+
+export const TYPE_GLOW_COLORS: Record<PokemonType, string> = {
+  normal:   "#a8a29e",
+  fire:     "#f97316",
+  water:    "#3b82f6",
+  electric: "#facc15",
+  grass:    "#22c55e",
+  ice:      "#67e8f9",
+  fighting: "#b91c1c",
+  poison:   "#a855f7",
+  ground:   "#d97706",
+  flying:   "#a5b4fc",
+  psychic:  "#ec4899",
+  bug:      "#84cc16",
+  rock:     "#a16207",
+  ghost:    "#7e22ce",
+  dragon:   "#7c3aed",
+  dark:     "#57534e",
+  steel:    "#94a3b8",
+  fairy:    "#f9a8d4",
+};

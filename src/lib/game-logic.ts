@@ -1,7 +1,6 @@
 import type { Pokemon, PokemonType } from "./types";
 
 export const MAX_TEAM_SIZE = 6;
-export const MAX_ATTEMPTS = 30;
 
 /** Returns the list of types that overlap between the new pokemon and existing team */
 export function getTypeOverlap(team: Pokemon[], newPokemon: Pokemon): PokemonType[] {
@@ -25,8 +24,8 @@ export function isTeamFull(team: Pokemon[]): boolean {
   return team.length >= MAX_TEAM_SIZE;
 }
 
-export function isGameOver(team: Pokemon[], attempts: number): boolean {
-  return isTeamFull(team) || attempts >= MAX_ATTEMPTS;
+export function isGameOver(team: Pokemon[]): boolean {
+  return isTeamFull(team);
 }
 
 /** Get unique types covered by the team */

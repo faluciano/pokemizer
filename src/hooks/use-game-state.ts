@@ -3,10 +3,7 @@
 import { useCallback, useReducer } from "react";
 import type { GameState, Pokemon, Generation } from "@/lib/types";
 import { getRandomCards, getRandomStarter } from "@/lib/pokeapi";
-import {
-  isGameOver,
-  MAX_ATTEMPTS,
-} from "@/lib/game-logic";
+import { isGameOver } from "@/lib/game-logic";
 
 type GameAction =
   | { type: "SET_GENERATION"; generation: Generation; allPokemon: Pokemon[] }
@@ -23,7 +20,6 @@ const initialState: GameState = {
   generation: null,
   team: [],
   attempts: 0,
-  maxAttempts: MAX_ATTEMPTS,
   currentCards: [],
   revealedIndex: null,
   allPokemon: [],
@@ -31,7 +27,7 @@ const initialState: GameState = {
 };
 
 function checkGameOver(state: GameState): GameState {
-  if (isGameOver(state.team, state.attempts)) {
+  if (isGameOver(state.team)) {
     return { ...state, phase: "game-over" };
   }
   return state;
@@ -73,14 +69,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case "REVEAL_CARD": {
       const newAttempts = state.attempts + 1;
-      const newState: GameState = {
+      return {
         ...state,
         revealedIndex: action.index,
         attempts: newAttempts,
       };
-      // Check game-over on every reveal (fixes bug where wasted-attempt
-      // paths like duplicate/team-full never trigger game-over detection)
-      return checkGameOver(newState);
     }
 
     case "ADD_TO_TEAM": {
@@ -102,7 +95,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     }
 
     case "SKIP_POKEMON": {
-      return checkGameOver(state);
+      return state;
     }
 
     case "NEW_ROUND": {

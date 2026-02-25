@@ -15,7 +15,6 @@ import { Star } from "lucide-react";
 interface GameOverProps {
   team: Pokemon[];
   attempts: number;
-  maxAttempts: number;
   generation: Generation;
   onPlayAgain: () => void;
   onNewGeneration: () => void;
@@ -24,7 +23,6 @@ interface GameOverProps {
 export function GameOver({
   team,
   attempts,
-  maxAttempts,
   generation,
   onPlayAgain,
   onNewGeneration,
@@ -103,7 +101,7 @@ export function GameOver({
         <div>
           <p className="text-2xl font-bold text-white">{attempts}</p>
           <p className="text-xs text-zinc-400">
-            of {maxAttempts} attempts used
+            attempts used
           </p>
         </div>
         <div className="h-12 w-px bg-zinc-700" />

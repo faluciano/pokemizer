@@ -4,7 +4,6 @@ import { Badge } from "@/components/ui/badge";
 interface GameHeaderProps {
   generation: Generation;
   attempts: number;
-  maxAttempts: number;
   teamSize: number;
   maxTeamSize: number;
 }
@@ -12,7 +11,6 @@ interface GameHeaderProps {
 export function GameHeader({
   generation,
   attempts,
-  maxAttempts,
   teamSize,
   maxTeamSize,
 }: GameHeaderProps) {
@@ -31,7 +29,7 @@ export function GameHeader({
         <div className="text-sm text-zinc-300">
           Attempts:{" "}
           <span className="font-bold text-white">
-            {attempts}/{maxAttempts}
+            {attempts}
           </span>
         </div>
         <div className="text-sm text-zinc-300">

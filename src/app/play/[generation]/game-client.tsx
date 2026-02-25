@@ -10,7 +10,6 @@ import {
   isTeamFull,
   getTypeOverlap,
   getOverlappingTeamIndices,
-  MAX_ATTEMPTS,
   MAX_TEAM_SIZE,
 } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
@@ -47,6 +46,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
   const [overlappingIndices, setOverlappingIndices] = useState<number[]>([]);
   const [starterPokemon, setStarterPokemon] = useState<Pokemon | null>(null);
   const [processingReveal, setProcessingReveal] = useState(false);
+  const [revealAll, setRevealAll] = useState(false);
   const initRef = useRef(false);
   const teamRef = useRef(state.team);
   teamRef.current = state.team;
@@ -67,6 +67,16 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
     }
   }, [starterPokemon, setStarter]);
 
+  const startNewRound = useCallback(() => {
+    setRevealAll(true);
+    setTimeout(() => {
+      setRevealAll(false);
+      newRound();
+      setRevealedPokemon(null);
+      setProcessingReveal(false);
+    }, 1200);
+  }, [newRound]);
+
   const handleReveal = useCallback(
     (index: number) => {
       if (processingReveal || state.revealedIndex !== null) return;
@@ -85,9 +95,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
             `Duplicate! ${capitalize(pokemon.name)} is already on your team.`
           );
           setTimeout(() => {
-            newRound();
-            setRevealedPokemon(null);
-            setProcessingReveal(false);
+            startNewRound();
           }, 1000);
           return;
         }
@@ -103,9 +111,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
               `${capitalize(pokemon.name)} overlaps only with your starter — skipped.`
             );
             setTimeout(() => {
-              newRound();
-              setRevealedPokemon(null);
-              setProcessingReveal(false);
+              startNewRound();
             }, 1200);
             return;
           }
@@ -126,9 +132,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
           toast.success(`${capitalize(pokemon.name)} added to your team!`);
           addToTeam(pokemon);
           setTimeout(() => {
-            newRound();
-            setRevealedPokemon(null);
-            setProcessingReveal(false);
+            startNewRound();
           }, 1200);
           return;
         }
@@ -136,9 +140,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
         // Team full, no overlap, no duplicate — wasted attempt
         toast.info("Team is full! Attempt wasted.");
         setTimeout(() => {
-          newRound();
-          setRevealedPokemon(null);
-          setProcessingReveal(false);
+          startNewRound();
         }, 1000);
       }, 1500);
     },
@@ -148,7 +150,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
       state.currentCards,
       revealCard,
       addToTeam,
-      newRound,
+      startNewRound,
     ]
   );
 
@@ -157,25 +159,19 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
       if (revealedPokemon) {
         replacePokemon(teamIndex, revealedPokemon);
         setShowReplaceDialog(false);
-        setRevealedPokemon(null);
         setOverlappingIndices([]);
-        setTimeout(() => {
-          newRound();
-        }, 300);
+        startNewRound();
       }
     },
-    [revealedPokemon, replacePokemon, newRound]
+    [revealedPokemon, replacePokemon, startNewRound]
   );
 
   const handleSkip = useCallback(() => {
     skipPokemon();
     setShowReplaceDialog(false);
-    setRevealedPokemon(null);
     setOverlappingIndices([]);
-    setTimeout(() => {
-      newRound();
-    }, 300);
-  }, [skipPokemon, newRound]);
+    startNewRound();
+  }, [skipPokemon, startNewRound]);
 
   const handleCloseDialog = useCallback(() => {
     // Closing the dialog is the same as skipping
@@ -220,7 +216,6 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
         <GameOver
           team={state.team}
           attempts={state.attempts}
-          maxAttempts={state.maxAttempts}
           generation={state.generation}
           onPlayAgain={handlePlayAgain}
           onNewGeneration={handleNewGeneration}
@@ -236,7 +231,6 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
           <GameHeader
             generation={state.generation}
             attempts={state.attempts}
-            maxAttempts={state.maxAttempts}
             teamSize={state.team.length}
             maxTeamSize={MAX_TEAM_SIZE}
           />
@@ -248,6 +242,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
             <CardGrid
               cards={state.currentCards}
               revealedIndex={state.revealedIndex}
+              revealAll={revealAll}
               onReveal={handleReveal}
               disabled={processingReveal}
             />

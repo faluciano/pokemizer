@@ -7,6 +7,7 @@ import { PokemonCard } from "@/components/pokemon-card";
 interface CardGridProps {
   cards: Pokemon[];
   revealedIndex: number | null;
+  revealAll?: boolean;
   onReveal: (index: number) => void;
   disabled: boolean;
 }
@@ -14,6 +15,7 @@ interface CardGridProps {
 export function CardGrid({
   cards,
   revealedIndex,
+  revealAll = false,
   onReveal,
   disabled,
 }: CardGridProps) {
@@ -31,9 +33,10 @@ export function CardGrid({
         <PokemonCard
           key={`${card.id}-${index}`}
           pokemon={card}
-          faceDown={revealedIndex !== index}
+          faceDown={revealAll ? false : revealedIndex !== index}
           onClick={() => onReveal(index)}
           disabled={disabled || revealedIndex !== null}
+          className={revealAll && revealedIndex !== index ? "opacity-60" : ""}
         />
       ))}
     </div>
