@@ -70,6 +70,7 @@ export function PokemonCard({
                   src={pokemon.sprite}
                   alt={pokemon.name}
                   fill
+                  loading="eager"
                   className="object-contain drop-shadow-lg"
                   sizes="120px"
                 />
