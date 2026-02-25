@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { TeamHistoryEntry } from "@/lib/types";
-import { getTypeCoverage, MAX_TEAM_SIZE } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { TypeBadge } from "@/components/type-badge";
@@ -65,7 +64,6 @@ export default function HistoryPage() {
       {/* History entries */}
       <div className="flex flex-col gap-4">
         {history.map((entry, index) => {
-          const typesCovered = getTypeCoverage(entry.team);
           return (
             <div
               key={`${entry.date}-${index}`}
@@ -80,20 +78,7 @@ export default function HistoryPage() {
                     {entry.generation.region} &middot; {formatDate(entry.date)}
                   </p>
                 </div>
-                <div className="flex gap-4 text-center text-xs text-zinc-400">
-                  <div>
-                    <p className="text-sm font-bold text-white">{entry.attempts}</p>
-                    <p>attempts</p>
-                  </div>
-                  <div>
-                    <p className="text-sm font-bold text-white">{entry.team.length}/{MAX_TEAM_SIZE}</p>
-                    <p>team</p>
-                  </div>
-                  <div>
-                    <p className="text-sm font-bold text-white">{typesCovered}/18</p>
-                    <p>types</p>
-                  </div>
-                </div>
+
               </div>
 
               <div className="flex flex-wrap gap-3">

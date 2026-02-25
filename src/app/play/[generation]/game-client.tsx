@@ -10,7 +10,6 @@ import {
   isTeamFull,
   getTypeOverlap,
   getOverlappingTeamIndices,
-  MAX_TEAM_SIZE,
 } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { useGameState } from "@/hooks/use-game-state";
@@ -228,12 +227,7 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
     return (
       <main className="mx-auto max-w-4xl px-4 py-8">
         <div className="flex flex-col gap-8">
-          <GameHeader
-            generation={state.generation}
-            attempts={state.attempts}
-            teamSize={state.team.length}
-            maxTeamSize={MAX_TEAM_SIZE}
-          />
+          <GameHeader generation={state.generation} />
 
           <section className="text-center">
             <h3 className="mb-4 text-lg font-semibold text-zinc-300">

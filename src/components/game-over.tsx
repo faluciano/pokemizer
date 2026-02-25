@@ -5,7 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Pokemon, Generation, TeamHistoryEntry } from "@/lib/types";
 import { useLocalStorage } from "@/hooks/use-local-storage";
-import { MAX_TEAM_SIZE, getTypeCoverage } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { TypeBadge } from "@/components/type-badge";
 import { StatChart } from "@/components/stat-chart";
@@ -43,14 +42,12 @@ export function GameOver({
     setHistory((prev) => [entry, ...prev]);
   }, [generation, team, attempts, setHistory]);
 
-  const isComplete = team.length >= MAX_TEAM_SIZE;
-  const typesCovered = getTypeCoverage(team);
 
   return (
     <div className="flex flex-col items-center gap-8">
       <div className="text-center">
         <h2 className="text-4xl font-bold text-white">
-          {isComplete ? "Team Complete!" : "Game Over!"}
+          Game Over!
         </h2>
         <p className="mt-2 text-lg text-zinc-400">
           {generation.displayName} &middot; {generation.region}
@@ -95,25 +92,6 @@ export function GameOver({
             />
           </div>
         ))}
-      </div>
-
-      <div className="flex gap-6 text-center">
-        <div>
-          <p className="text-2xl font-bold text-white">{attempts}</p>
-          <p className="text-xs text-zinc-400">
-            attempts used
-          </p>
-        </div>
-        <div className="h-12 w-px bg-zinc-700" />
-        <div>
-          <p className="text-2xl font-bold text-white">{team.length}</p>
-          <p className="text-xs text-zinc-400">of {MAX_TEAM_SIZE} Pokemon</p>
-        </div>
-        <div className="h-12 w-px bg-zinc-700" />
-        <div>
-          <p className="text-2xl font-bold text-white">{typesCovered}</p>
-          <p className="text-xs text-zinc-400">of 18 types covered</p>
-        </div>
       </div>
 
       <div className="flex gap-3">
