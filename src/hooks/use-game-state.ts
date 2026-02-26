@@ -1,12 +1,12 @@
 "use client";
 
 import { useCallback, useReducer } from "react";
-import type { GameState, Pokemon, Generation } from "@/lib/types";
-import { getRandomCards, getRandomStarter } from "@/lib/pokeapi";
+import type { GameState, Pokemon, Generation, GameVersion } from "@/lib/types";
+import { getRandomCards } from "@/lib/pokeapi";
 import { isGameOver } from "@/lib/game-logic";
 
 type GameAction =
-  | { type: "SET_GENERATION"; generation: Generation; allPokemon: Pokemon[] }
+  | { type: "SET_GAME"; generation: Generation; gameVersion: GameVersion; allPokemon: Pokemon[] }
   | { type: "SET_STARTER"; pokemon: Pokemon }
   | { type: "REVEAL_CARD"; index: number }
   | { type: "ADD_TO_TEAM"; pokemon: Pokemon }
@@ -18,6 +18,7 @@ type GameAction =
 const initialState: GameState = {
   phase: "picking-generation",
   generation: null,
+  gameVersion: null,
   team: [],
   attempts: 0,
   currentCards: [],
@@ -35,11 +36,12 @@ function checkGameOver(state: GameState): GameState {
 
 function gameReducer(state: GameState, action: GameAction): GameState {
   switch (action.type) {
-    case "SET_GENERATION": {
+    case "SET_GAME": {
       return {
         ...state,
         phase: "starter-reveal",
         generation: action.generation,
+        gameVersion: action.gameVersion,
         allPokemon: action.allPokemon,
         team: [],
         attempts: 0,
@@ -51,7 +53,6 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case "SET_STARTER": {
       const team = [action.pokemon];
-      // Exclude non-chosen starters from the card pool
       const otherStarterIds = state.allPokemon
         .filter((p) => p.isStarter && p.id !== action.pokemon.id)
         .map((p) => p.id);
@@ -121,9 +122,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 export function useGameState() {
   const [state, dispatch] = useReducer(gameReducer, initialState);
 
-  const setGeneration = useCallback(
-    (generation: Generation, allPokemon: Pokemon[]) => {
-      dispatch({ type: "SET_GENERATION", generation, allPokemon });
+  const setGame = useCallback(
+    (generation: Generation, gameVersion: GameVersion, allPokemon: Pokemon[]) => {
+      dispatch({ type: "SET_GAME", generation, gameVersion, allPokemon });
     },
     []
   );
@@ -161,7 +162,7 @@ export function useGameState() {
 
   return {
     state,
-    setGeneration,
+    setGame,
     setStarter,
     revealCard,
     addToTeam,

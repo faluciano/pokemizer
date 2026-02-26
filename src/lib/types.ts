@@ -29,6 +29,23 @@ export interface Generation {
   starterIds: number[];
 }
 
+export interface GameVersion {
+  /** Unique slug used in routing, e.g. "firered-leafgreen" */
+  slug: string;
+  /** Pretty display name shown in UI */
+  displayName: string;
+  /** Which generation this game belongs to (for grouping in UI) */
+  generationId: number;
+  /** Region name for display */
+  region: string;
+  /** PokeAPI pokedex ID(s) to fetch the pokemon pool */
+  pokedexIds: number[];
+  /** Starter pokemon national dex IDs for this game */
+  starterIds: number[];
+  /** Individual game names within this version group */
+  games: string[];
+}
+
 export type GamePhase =
   | "picking-generation"
   | "starter-reveal"
@@ -38,6 +55,7 @@ export type GamePhase =
 export interface GameState {
   phase: GamePhase;
   generation: Generation | null;
+  gameVersion: GameVersion | null;
   team: Pokemon[];
   attempts: number;
   currentCards: Pokemon[];
@@ -48,6 +66,7 @@ export interface GameState {
 
 export interface TeamHistoryEntry {
   generation: Generation;
+  gameVersion?: GameVersion;
   team: Pokemon[];
   attempts: number;
   date: string;

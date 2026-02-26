@@ -1,5 +1,4 @@
-import type { Pokemon, PokemonType, BaseStats } from "./types";
-import { GENERATIONS, isStarter as checkIsStarter } from "./starters";
+import type { Pokemon, PokemonType, BaseStats, GameVersion } from "./types";
 
 const POKEAPI_BASE = "https://pokeapi.co/api/v2";
 
@@ -13,10 +12,6 @@ function extractIdFromUrl(url: string): number {
 }
 
 // PokeAPI response types (partial)
-interface PokeApiGenerationResponse {
-  pokemon_species: { name: string; url: string }[];
-}
-
 interface PokeApiSpeciesResponse {
   id: number;
   is_legendary: boolean;
@@ -31,6 +26,13 @@ interface PokeApiPokemonResponse {
   stats: { base_stat: number; stat: { name: string } }[];
 }
 
+interface PokeApiPokedexResponse {
+  pokemon_entries: {
+    entry_number: number;
+    pokemon_species: { name: string; url: string };
+  }[];
+}
+
 function extractStats(stats: { base_stat: number; stat: { name: string } }[]): BaseStats {
   const get = (name: string) => stats.find((s) => s.stat.name === name)?.base_stat ?? 0;
   return {
@@ -43,7 +45,7 @@ function extractStats(stats: { base_stat: number; stat: { name: string } }[]): B
   };
 }
 
-export async function fetchPokemonDetails(id: number, generationId: number): Promise<Pokemon> {
+async function fetchPokemonDetailsRaw(id: number): Promise<Omit<Pokemon, "isStarter">> {
   const res = await fetch(`${POKEAPI_BASE}/pokemon/${id}`, {
     next: { revalidate: 86400 },
   });
@@ -54,7 +56,6 @@ export async function fetchPokemonDetails(id: number, generationId: number): Pro
     name: data.name,
     types: data.types.map((t) => t.type.name as PokemonType),
     sprite: getSpriteUrl(data.id),
-    isStarter: checkIsStarter(generationId, data.id),
     stats: extractStats(data.stats),
   };
 }
@@ -67,31 +68,53 @@ async function fetchSpeciesData(id: number): Promise<PokeApiSpeciesResponse> {
   return res.json();
 }
 
-export async function getGenerationPokemon(generationId: number): Promise<Pokemon[]> {
-  const gen = GENERATIONS.find((g) => g.id === generationId);
-  if (!gen) throw new Error(`Generation ${generationId} not found`);
+/**
+ * Fetch all Pokemon available in a specific game version using its pokedex.
+ * Filters out legendaries, mythicals, and evolved forms (base forms only).
+ */
+export async function getGamePokemon(gameVersion: GameVersion): Promise<Pokemon[]> {
+  // Fetch all pokedex entries for this game (some games have multiple pokedexes)
+  const allEntries = new Map<number, string>();
 
-  const res = await fetch(`${POKEAPI_BASE}/generation/${gen.name}`, {
-    next: { revalidate: 86400 },
-  });
-  if (!res.ok) throw new Error(`Failed to fetch generation ${gen.name}`);
-  const data: PokeApiGenerationResponse = await res.json();
+  await Promise.all(
+    gameVersion.pokedexIds.map(async (pokedexId) => {
+      const res = await fetch(`${POKEAPI_BASE}/pokedex/${pokedexId}`, {
+        next: { revalidate: 86400 },
+      });
+      if (!res.ok) throw new Error(`Failed to fetch pokedex ${pokedexId}`);
+      const data: PokeApiPokedexResponse = await res.json();
 
-  const speciesIds = data.pokemon_species.map((s) => extractIdFromUrl(s.url));
+      for (const entry of data.pokemon_entries) {
+        const id = extractIdFromUrl(entry.pokemon_species.url);
+        allEntries.set(id, entry.pokemon_species.name);
+      }
+    })
+  );
+
+  const speciesIds = [...allEntries.keys()];
 
   // Fetch species data to filter legendaries, mythicals, and evolved forms
-  const speciesData = await Promise.all(speciesIds.map((id) => fetchSpeciesData(id)));
+  const speciesData = await Promise.all(
+    speciesIds.map((id) => fetchSpeciesData(id))
+  );
 
   const validSpeciesIds = speciesData
     .filter((s) => !s.is_legendary && !s.is_mythical && s.evolves_from_species === null)
     .map((s) => s.id);
 
-  // Fetch pokemon details only for valid (base-form, non-legendary, non-mythical) species
+  // Mark starters based on the game's starter IDs
+  const starterSet = new Set(gameVersion.starterIds);
+
   const pokemon = await Promise.all(
-    validSpeciesIds.map((id) => fetchPokemonDetails(id, generationId))
+    validSpeciesIds.map(async (id) => {
+      const p = await fetchPokemonDetailsRaw(id);
+      return {
+        ...p,
+        isStarter: starterSet.has(id),
+      };
+    })
   );
 
-  // Sort by national dex number
   return pokemon.sort((a, b) => a.id - b.id);
 }
 
@@ -107,7 +130,6 @@ export function getRandomCards(
   excludeIds: Set<number> = new Set()
 ): Pokemon[] {
   const teamIds = new Set(team.map((p) => p.id));
-  // Only exclude the player's starter (on team), not all starters
   const available = allPokemon.filter(
     (p) => !teamIds.has(p.id) && !excludeIds.has(p.id)
   );
@@ -120,7 +142,6 @@ export function getRandomCards(
   // Weight each pokemon: 3x boost for each type NOT already on team
   const weighted = available.map((pokemon) => {
     const uncoveredCount = pokemon.types.filter((t) => !teamTypes.has(t)).length;
-    // Base weight 1, +2 for each uncovered type (so 1, 3, or 5)
     const weight = 1 + uncoveredCount * 2;
     return { pokemon, weight };
   });

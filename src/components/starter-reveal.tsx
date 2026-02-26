@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import type { Pokemon, Generation } from "@/lib/types";
+import type { Pokemon, GameVersion } from "@/lib/types";
 import { TypeBadge } from "@/components/type-badge";
 import { Button } from "@/components/ui/button";
 import { TYPE_COLORS } from "@/lib/type-colors";
@@ -10,13 +10,13 @@ import { useState, useEffect } from "react";
 
 interface StarterRevealProps {
   starter: Pokemon;
-  generation: Generation;
+  gameVersion: GameVersion;
   onContinue: () => void;
 }
 
 export function StarterReveal({
   starter,
-  generation,
+  gameVersion,
   onContinue,
 }: StarterRevealProps) {
   const [visible, setVisible] = useState(false);
@@ -32,7 +32,7 @@ export function StarterReveal({
     <div className="flex flex-col items-center gap-8">
       <div className="text-center">
         <p className="text-lg text-zinc-400">
-          {generation.displayName} &middot; {generation.region}
+          {gameVersion.displayName} &middot; {gameVersion.region}
         </p>
         <h2 className="mt-2 text-2xl font-bold text-white">
           Your starter is...

@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import type { Pokemon, Generation, PokemonType } from "@/lib/types";
+import type { Pokemon, Generation, GameVersion, PokemonType } from "@/lib/types";
 import { getRandomStarter } from "@/lib/pokeapi";
 import {
   isDuplicate,
@@ -22,14 +22,15 @@ import { GameOver } from "@/components/game-over";
 
 interface GameClientProps {
   generation: Generation;
+  gameVersion: GameVersion;
   allPokemon: Pokemon[];
 }
 
-export function GameClient({ generation, allPokemon }: GameClientProps) {
+export function GameClient({ generation, gameVersion, allPokemon }: GameClientProps) {
   const router = useRouter();
   const {
     state,
-    setGeneration,
+    setGame,
     setStarter,
     revealCard,
     addToTeam,
@@ -56,9 +57,9 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
       initRef.current = true;
       const starter = getRandomStarter(allPokemon);
       setStarterPokemon(starter);
-      setGeneration(generation, allPokemon);
+      setGame(generation, gameVersion, allPokemon);
     }
-  }, [allPokemon, generation, setGeneration]);
+  }, [allPokemon, generation, gameVersion, setGame]);
 
   const handleStarterContinue = useCallback(() => {
     if (starterPokemon) {
@@ -173,7 +174,6 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
   }, [skipPokemon, startNewRound]);
 
   const handleCloseDialog = useCallback(() => {
-    // Closing the dialog is the same as skipping
     handleSkip();
   }, [handleSkip]);
 
@@ -181,8 +181,8 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
     initRef.current = false;
     const starter = getRandomStarter(allPokemon);
     setStarterPokemon(starter);
-    setGeneration(generation, allPokemon);
-  }, [allPokemon, generation, setGeneration]);
+    setGame(generation, gameVersion, allPokemon);
+  }, [allPokemon, generation, gameVersion, setGame]);
 
   const handleNewGeneration = useCallback(() => {
     reset();
@@ -191,12 +191,12 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
 
   // Render based on phase
   if (state.phase === "picking-generation" || state.phase === "starter-reveal") {
-    if (starterPokemon && state.generation) {
+    if (starterPokemon && state.gameVersion) {
       return (
         <main className="mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center px-4 py-16">
           <StarterReveal
             starter={starterPokemon}
-            generation={state.generation}
+            gameVersion={state.gameVersion}
             onContinue={handleStarterContinue}
           />
         </main>
@@ -209,13 +209,14 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
     );
   }
 
-  if (state.phase === "game-over" && state.generation) {
+  if (state.phase === "game-over" && state.gameVersion) {
     return (
       <main className="mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center px-4 py-16">
         <GameOver
           team={state.team}
           attempts={state.attempts}
-          generation={state.generation}
+          generation={state.generation!}
+          gameVersion={state.gameVersion}
           onPlayAgain={handlePlayAgain}
           onNewGeneration={handleNewGeneration}
         />
@@ -223,11 +224,11 @@ export function GameClient({ generation, allPokemon }: GameClientProps) {
     );
   }
 
-  if (state.phase === "playing" && state.generation) {
+  if (state.phase === "playing" && state.gameVersion) {
     return (
       <main className="mx-auto max-w-4xl px-4 py-8">
         <div className="flex flex-col gap-8">
-          <GameHeader generation={state.generation} />
+          <GameHeader gameVersion={state.gameVersion} />
 
           <section className="text-center">
             <h3 className="mb-4 text-lg font-semibold text-zinc-300">

@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import type { Pokemon, Generation, TeamHistoryEntry } from "@/lib/types";
+import type { Pokemon, Generation, GameVersion, TeamHistoryEntry } from "@/lib/types";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { capitalize } from "@/lib/utils";
 import { TypeBadge } from "@/components/type-badge";
@@ -15,6 +15,7 @@ interface GameOverProps {
   team: Pokemon[];
   attempts: number;
   generation: Generation;
+  gameVersion: GameVersion;
   onPlayAgain: () => void;
   onNewGeneration: () => void;
 }
@@ -23,6 +24,7 @@ export function GameOver({
   team,
   attempts,
   generation,
+  gameVersion,
   onPlayAgain,
   onNewGeneration,
 }: GameOverProps) {
@@ -35,13 +37,13 @@ export function GameOver({
 
     const entry: TeamHistoryEntry = {
       generation,
+      gameVersion,
       team,
       attempts,
       date: new Date().toISOString(),
     };
     setHistory((prev) => [entry, ...prev]);
-  }, [generation, team, attempts, setHistory]);
-
+  }, [generation, gameVersion, team, attempts, setHistory]);
 
   return (
     <div className="flex flex-col items-center gap-8">
@@ -50,7 +52,7 @@ export function GameOver({
           Game Over!
         </h2>
         <p className="mt-2 text-lg text-zinc-400">
-          {generation.displayName} &middot; {generation.region}
+          {gameVersion.displayName} &middot; {gameVersion.region}
         </p>
       </div>
 
@@ -96,10 +98,10 @@ export function GameOver({
 
       <div className="flex gap-3">
         <Button size="lg" onClick={onPlayAgain}>
-          Play Again (Same Gen)
+          Play Again
         </Button>
         <Button size="lg" variant="outline" onClick={onNewGeneration}>
-          Pick New Generation
+          Pick New Game
         </Button>
       </div>
 

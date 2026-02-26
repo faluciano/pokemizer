@@ -72,10 +72,10 @@ export default function HistoryPage() {
               <div className="mb-3 flex items-center justify-between">
                 <div>
                   <h3 className="font-semibold text-white">
-                    {entry.generation.displayName}
+                    {entry.gameVersion?.displayName ?? entry.generation.displayName}
                   </h3>
                   <p className="text-xs text-zinc-500">
-                    {entry.generation.region} &middot; {formatDate(entry.date)}
+                    {(entry.gameVersion?.region ?? entry.generation.region)} &middot; {formatDate(entry.date)}
                   </p>
                 </div>
 

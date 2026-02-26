@@ -19,8 +19,3 @@ export function getGeneration(id: number): Generation | undefined {
 export function getGenerationByName(name: string): Generation | undefined {
   return GENERATIONS.find((g) => g.name === name);
 }
-
-export function isStarter(generationId: number, pokemonId: number): boolean {
-  const gen = getGeneration(generationId);
-  return gen?.starterIds.includes(pokemonId) ?? false;
-}
