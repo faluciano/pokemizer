@@ -3,13 +3,14 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import type { Pokemon, Generation, GameVersion, PokemonType } from "@/lib/types";
+import type { EvolutionLine, Generation, GameVersion } from "@/lib/types";
 import { getRandomStarter } from "@/lib/pokemon-utils";
 import {
   isDuplicate,
-  isTeamFull,
-  getTypeOverlap,
-  getOverlappingTeamIndices,
+  getTypeCoverageDelta,
+  getActionScenario,
+  getReplaceableIndices,
+  getTypeCoverage,
 } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { useGameState } from "@/hooks/use-game-state";
@@ -17,13 +18,14 @@ import { StarterReveal } from "@/components/starter-reveal";
 import { GameHeader } from "@/components/game-header";
 import { CardGrid } from "@/components/card-grid";
 import { TeamDisplay } from "@/components/team-display";
-import { ReplaceDialog } from "@/components/replace-dialog";
+import { ActionBar } from "@/components/action-bar";
+import { TeamSwapSelector } from "@/components/team-swap-selector";
 import { GameOver } from "@/components/game-over";
 
 interface GameClientProps {
   generation: Generation;
   gameVersion: GameVersion;
-  allPokemon: Pokemon[];
+  allPokemon: EvolutionLine[];
 }
 
 export function GameClient({ generation, gameVersion, allPokemon }: GameClientProps) {
@@ -40,13 +42,12 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
     reset,
   } = useGameState();
 
-  const [showReplaceDialog, setShowReplaceDialog] = useState(false);
-  const [revealedPokemon, setRevealedPokemon] = useState<Pokemon | null>(null);
-  const [overlappingTypes, setOverlappingTypes] = useState<PokemonType[]>([]);
-  const [overlappingIndices, setOverlappingIndices] = useState<number[]>([]);
-  const [starterPokemon, setStarterPokemon] = useState<Pokemon | null>(null);
+  const [revealedLine, setRevealedLine] = useState<EvolutionLine | null>(null);
+  const [starterLine, setStarterLine] = useState<EvolutionLine | null>(null);
   const [processingReveal, setProcessingReveal] = useState(false);
   const [revealAll, setRevealAll] = useState(false);
+  const [showSwapSelector, setShowSwapSelector] = useState(false);
+  const [showActionBar, setShowActionBar] = useState(false);
   const initRef = useRef(false);
   const teamRef = useRef(state.team);
   teamRef.current = state.team;
@@ -56,24 +57,26 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
     if (!initRef.current) {
       initRef.current = true;
       const starter = getRandomStarter(allPokemon);
-      setStarterPokemon(starter);
+      setStarterLine(starter);
       setGame(generation, gameVersion, allPokemon);
     }
   }, [allPokemon, generation, gameVersion, setGame]);
 
   const handleStarterContinue = useCallback(() => {
-    if (starterPokemon) {
-      setStarter(starterPokemon);
+    if (starterLine) {
+      setStarter(starterLine);
     }
-  }, [starterPokemon, setStarter]);
+  }, [starterLine, setStarter]);
 
   const startNewRound = useCallback(() => {
     setRevealAll(true);
     setTimeout(() => {
       setRevealAll(false);
       newRound();
-      setRevealedPokemon(null);
+      setRevealedLine(null);
       setProcessingReveal(false);
+      setShowActionBar(false);
+      setShowSwapSelector(false);
     }, 1200);
   }, [newRound]);
 
@@ -82,105 +85,74 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
       if (processingReveal || state.revealedIndex !== null) return;
 
       revealCard(index);
-      const pokemon = state.currentCards[index];
-      setRevealedPokemon(pokemon);
-
+      const line = state.currentCards[index];
+      setRevealedLine(line);
       setProcessingReveal(true);
+
       setTimeout(() => {
-        // Use ref for latest team state (avoids stale closure)
         const currentTeam = teamRef.current;
 
-        if (isDuplicate(currentTeam, pokemon)) {
+        // Duplicates are still auto-skipped (wasted pick)
+        if (isDuplicate(currentTeam, line)) {
           toast.warning(
-            `Duplicate! ${capitalize(pokemon.name)} is already on your team.`
+            `Duplicate! ${capitalize(line.stages[0].name)} is already on your team.`
           );
-          setTimeout(() => {
-            startNewRound();
-          }, 1000);
+          setTimeout(() => startNewRound(), 1000);
           return;
         }
 
-        const overlap = getTypeOverlap(currentTeam, pokemon);
-
-        if (overlap.length > 0) {
-          const indices = getOverlappingTeamIndices(currentTeam, pokemon);
-          // If the only overlapping members are starters, auto-skip
-          const nonStarterOverlap = indices.filter((i) => !currentTeam[i].isStarter);
-          if (nonStarterOverlap.length === 0) {
-            toast.info(
-              `${capitalize(pokemon.name)} overlaps only with your starter — skipped.`
-            );
-            setTimeout(() => {
-              startNewRound();
-            }, 1200);
-            return;
-          }
-          setOverlappingTypes(overlap);
-          setOverlappingIndices(indices);
-          toast.info(
-            `${capitalize(pokemon.name)} has type overlap — choose to replace or skip.`
-          );
-          setTimeout(() => {
-            setShowReplaceDialog(true);
-            setProcessingReveal(false);
-          }, 800);
-          return;
-        }
-
-        if (!isTeamFull(currentTeam)) {
-          // No overlap, team not full — auto-add
-          toast.success(`${capitalize(pokemon.name)} added to your team!`);
-          addToTeam(pokemon);
-          setTimeout(() => {
-            startNewRound();
-          }, 1200);
-          return;
-        }
-
-        // Team full, no overlap, no duplicate — wasted attempt
-        toast.info("Team is full! Attempt wasted.");
-        setTimeout(() => {
-          startNewRound();
-        }, 1000);
+        // Show action bar for all non-duplicate reveals
+        setShowActionBar(true);
+        setProcessingReveal(false);
       }, 1500);
     },
-    [
-      processingReveal,
-      state.revealedIndex,
-      state.currentCards,
-      revealCard,
-      addToTeam,
-      startNewRound,
-    ]
+    [processingReveal, state.revealedIndex, state.currentCards, revealCard, startNewRound]
   );
 
-  const handleReplace = useCallback(
+  const handleAdd = useCallback(() => {
+    if (revealedLine) {
+      const name = capitalize(revealedLine.stages[0].name);
+      toast.success(`${name} added to your team!`);
+      addToTeam(revealedLine);
+      setShowActionBar(false);
+      startNewRound();
+    }
+  }, [revealedLine, addToTeam, startNewRound]);
+
+  const handleStartReplace = useCallback(() => {
+    setShowSwapSelector(true);
+    setShowActionBar(false);
+  }, []);
+
+  const handleSwapSelect = useCallback(
     (teamIndex: number) => {
-      if (revealedPokemon) {
-        replacePokemon(teamIndex, revealedPokemon);
-        setShowReplaceDialog(false);
-        setOverlappingIndices([]);
+      if (revealedLine) {
+        const oldName = capitalize(state.team[teamIndex].stages[0].name);
+        const newName = capitalize(revealedLine.stages[0].name);
+        toast.success(`Replaced ${oldName} with ${newName}!`);
+        replacePokemon(teamIndex, revealedLine);
+        setShowSwapSelector(false);
         startNewRound();
       }
     },
-    [revealedPokemon, replacePokemon, startNewRound]
+    [revealedLine, state.team, replacePokemon, startNewRound]
   );
+
+  const handleSwapCancel = useCallback(() => {
+    setShowSwapSelector(false);
+    setShowActionBar(true);
+  }, []);
 
   const handleSkip = useCallback(() => {
     skipPokemon();
-    setShowReplaceDialog(false);
-    setOverlappingIndices([]);
+    setShowActionBar(false);
     startNewRound();
   }, [skipPokemon, startNewRound]);
-
-  const handleCloseDialog = useCallback(() => {
-    handleSkip();
-  }, [handleSkip]);
 
   const handlePlayAgain = useCallback(() => {
     initRef.current = false;
     const starter = getRandomStarter(allPokemon);
-    setStarterPokemon(starter);
+    setStarterLine(starter);
     setGame(generation, gameVersion, allPokemon);
   }, [allPokemon, generation, gameVersion, setGame]);
 
@@ -189,13 +161,14 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
     router.push("/");
   }, [reset, router]);
 
-  // Render based on phase
+  // --- Render ---
+
   if (state.phase === "picking-generation" || state.phase === "starter-reveal") {
-    if (starterPokemon && state.gameVersion) {
+    if (starterLine && state.gameVersion) {
       return (
         <main className="mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center px-4 py-16">
           <StarterReveal
-            starter={starterPokemon}
+            starter={starterLine}
             gameVersion={state.gameVersion}
             onContinue={handleStarterContinue}
           />
@@ -213,6 +186,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
     return (
       <main className="mx-auto flex min-h-screen max-w-4xl flex-col items-center justify-center px-4 py-16">
         <GameOver
+          key={`game-over-${state.gameVersion.slug}-${state.team.length}`}
           team={state.team}
           attempts={state.attempts}
           generation={state.generation!}
@@ -230,8 +204,8 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
         <div className="flex flex-col gap-8">
           <GameHeader gameVersion={state.gameVersion} />
 
-          <section className="text-center">
-            <h3 className="mb-4 text-lg font-semibold text-zinc-300">
+          <section className="flex flex-col items-center gap-4">
+            <h3 className="text-lg font-semibold text-zinc-300">
               Pick a card
             </h3>
             <CardGrid
@@ -239,30 +213,41 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
               revealedIndex={state.revealedIndex}
               revealAll={revealAll}
               onReveal={handleReveal}
-              disabled={processingReveal}
+              disabled={processingReveal || showActionBar || showSwapSelector}
             />
+
+            {/* Action bar — shown after reveal (non-duplicate) */}
+            {showActionBar && revealedLine && (
+              <ActionBar
+                line={revealedLine}
+                scenario={getActionScenario(teamRef.current, revealedLine)}
+                coverageDelta={getTypeCoverageDelta(teamRef.current, revealedLine)}
+                onAdd={handleAdd}
+                onReplace={handleStartReplace}
+                onSkip={handleSkip}
+                className="mt-2 w-full max-w-sm"
+              />
+            )}
+
+            {/* Swap selector — shown when "Replace" is clicked */}
+            {showSwapSelector && revealedLine && (
+              <TeamSwapSelector
+                team={state.team}
+                replaceableIndices={getReplaceableIndices(state.team)}
+                onSelect={handleSwapSelect}
+                onCancel={handleSwapCancel}
+                className="mt-2"
+              />
+            )}
           </section>
 
           <section>
             <h3 className="mb-4 text-center text-lg font-semibold text-zinc-300">
-              Your Team
+              Your Team ({getTypeCoverage(state.team)}/18 types)
             </h3>
             <TeamDisplay team={state.team} />
           </section>
         </div>
-
-        {revealedPokemon && (
-          <ReplaceDialog
-            open={showReplaceDialog}
-            pokemon={revealedPokemon}
-            team={state.team}
-            overlappingTypes={overlappingTypes}
-            overlappingIndices={overlappingIndices}
-            onReplace={handleReplace}
-            onSkip={handleSkip}
-            onClose={handleCloseDialog}
-          />
-        )}
       </main>
     );
   }

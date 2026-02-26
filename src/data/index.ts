@@ -1,4 +1,4 @@
-import type { Pokemon } from "@/lib/types";
+import type { EvolutionLine } from "@/lib/types";
 import redBlue from "./red-blue.json";
 import yellow from "./yellow.json";
 import goldSilver from "./gold-silver.json";
@@ -21,30 +21,30 @@ import brilliantDiamondShiningPearl from "./brilliant-diamond-shining-pearl.json
 import legendsArceus from "./legends-arceus.json";
 import scarletViolet from "./scarlet-violet.json";
 
-const GAME_DATA: Record<string, Pokemon[]> = {
-  "red-blue": redBlue as unknown as Pokemon[],
-  "yellow": yellow as unknown as Pokemon[],
-  "gold-silver": goldSilver as unknown as Pokemon[],
-  "crystal": crystal as unknown as Pokemon[],
-  "ruby-sapphire": rubySapphire as unknown as Pokemon[],
-  "emerald": emerald as unknown as Pokemon[],
-  "firered-leafgreen": fireredLeafgreen as unknown as Pokemon[],
-  "diamond-pearl": diamondPearl as unknown as Pokemon[],
-  "platinum": platinum as unknown as Pokemon[],
-  "heartgold-soulsilver": heartgoldSoulsilver as unknown as Pokemon[],
-  "black-white": blackWhite as unknown as Pokemon[],
-  "black-2-white-2": black2White2 as unknown as Pokemon[],
-  "x-y": xY as unknown as Pokemon[],
-  "omega-ruby-alpha-sapphire": omegaRubyAlphaSapphire as unknown as Pokemon[],
-  "sun-moon": sunMoon as unknown as Pokemon[],
-  "ultra-sun-ultra-moon": ultraSunUltraMoon as unknown as Pokemon[],
-  "lets-go-pikachu-lets-go-eevee": letsGoPikachuLetsGoEevee as unknown as Pokemon[],
-  "sword-shield": swordShield as unknown as Pokemon[],
-  "brilliant-diamond-shining-pearl": brilliantDiamondShiningPearl as unknown as Pokemon[],
-  "legends-arceus": legendsArceus as unknown as Pokemon[],
-  "scarlet-violet": scarletViolet as unknown as Pokemon[],
+const GAME_DATA: Record<string, EvolutionLine[]> = {
+  "red-blue": redBlue as unknown as EvolutionLine[],
+  "yellow": yellow as unknown as EvolutionLine[],
+  "gold-silver": goldSilver as unknown as EvolutionLine[],
+  "crystal": crystal as unknown as EvolutionLine[],
+  "ruby-sapphire": rubySapphire as unknown as EvolutionLine[],
+  "emerald": emerald as unknown as EvolutionLine[],
+  "firered-leafgreen": fireredLeafgreen as unknown as EvolutionLine[],
+  "diamond-pearl": diamondPearl as unknown as EvolutionLine[],
+  "platinum": platinum as unknown as EvolutionLine[],
+  "heartgold-soulsilver": heartgoldSoulsilver as unknown as EvolutionLine[],
+  "black-white": blackWhite as unknown as EvolutionLine[],
+  "black-2-white-2": black2White2 as unknown as EvolutionLine[],
+  "x-y": xY as unknown as EvolutionLine[],
+  "omega-ruby-alpha-sapphire": omegaRubyAlphaSapphire as unknown as EvolutionLine[],
+  "sun-moon": sunMoon as unknown as EvolutionLine[],
+  "ultra-sun-ultra-moon": ultraSunUltraMoon as unknown as EvolutionLine[],
+  "lets-go-pikachu-lets-go-eevee": letsGoPikachuLetsGoEevee as unknown as EvolutionLine[],
+  "sword-shield": swordShield as unknown as EvolutionLine[],
+  "brilliant-diamond-shining-pearl": brilliantDiamondShiningPearl as unknown as EvolutionLine[],
+  "legends-arceus": legendsArceus as unknown as EvolutionLine[],
+  "scarlet-violet": scarletViolet as unknown as EvolutionLine[],
 };
 
-export function getGameData(slug: string): Pokemon[] | undefined {
+export function getGameData(slug: string): EvolutionLine[] | undefined {
   return GAME_DATA[slug];
 }

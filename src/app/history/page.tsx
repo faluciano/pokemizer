@@ -2,19 +2,55 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import type { TeamHistoryEntry } from "@/lib/types";
+import type { TeamHistoryEntry, EvolutionLine } from "@/lib/types";
 import { capitalize } from "@/lib/utils";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { TypeBadge } from "@/components/type-badge";
 import { StatChart } from "@/components/stat-chart";
+import { EvolutionStrip } from "@/components/evolution-strip";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Trash2 } from "lucide-react";
 
+// --- History migration helpers ---
+
+function migrateOldPokemon(pokemon: any): EvolutionLine {
+  return {
+    lineId: pokemon.id,
+    stages: [{
+      id: pokemon.id,
+      name: pokemon.name,
+      types: pokemon.types,
+      sprite: pokemon.sprite,
+      stats: pokemon.stats,
+      stage: 0,
+    }],
+    types: pokemon.types,
+    isStarter: pokemon.isStarter ?? false,
+  };
+}
+
+function isLegacyEntry(entry: any): boolean {
+  return entry.team?.length > 0 && !('lineId' in entry.team[0]);
+}
+
+function migrateEntry(entry: any): TeamHistoryEntry {
+  if (isLegacyEntry(entry)) {
+    return {
+      ...entry,
+      team: entry.team.map(migrateOldPokemon),
+    };
+  }
+  return entry as TeamHistoryEntry;
+}
+
+// --- Page component ---
+
 export default function HistoryPage() {
-  const [history, setHistory] = useLocalStorage<TeamHistoryEntry[]>("team-history", []);
+  const [rawHistory, setRawHistory] = useLocalStorage<any[]>("team-history", []);
+  const history: TeamHistoryEntry[] = rawHistory.map(migrateEntry);
 
   const clearHistory = () => {
-    setHistory([]);
+    setRawHistory([]);
   };
 
   const formatDate = (iso: string) => {
@@ -82,22 +118,22 @@ export default function HistoryPage() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                {entry.team.map((pokemon) => (
-                  <div key={pokemon.id} className="flex flex-col items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900/50 p-2">
+                {entry.team.map((line) => (
+                  <div key={line.lineId} className="flex flex-col items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900/50 p-2">
                     <div className="relative h-12 w-12">
                       <Image
-                        src={pokemon.sprite}
-                        alt={pokemon.name}
+                        src={line.stages[0].sprite}
+                        alt={line.stages[0].name}
                         fill
                         className="object-contain"
                         sizes="48px"
                       />
                     </div>
                     <p className="text-[10px] font-medium text-zinc-300">
-                      {capitalize(pokemon.name)}
+                      {capitalize(line.stages[0].name)}
                     </p>
                     <div className="flex gap-0.5">
-                      {pokemon.types.map((type) => (
+                      {line.types.map((type) => (
                         <TypeBadge
                           key={type}
                           type={type}
@@ -105,9 +141,16 @@ export default function HistoryPage() {
                         />
                       ))}
                     </div>
-                    {pokemon.stats && (
+                    {line.stages.length > 1 && (
+                      <EvolutionStrip
+                        stages={line.stages}
+                        size="sm"
+                        className="mt-1"
+                      />
+                    )}
+                    {line.stages[0].stats && (
                       <StatChart
-                        stats={pokemon.stats}
+                        stats={line.stages[0].stats}
                         className="mt-1"
                       />
                     )}

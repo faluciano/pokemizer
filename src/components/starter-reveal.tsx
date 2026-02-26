@@ -1,15 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import type { Pokemon, GameVersion } from "@/lib/types";
+import type { EvolutionLine, GameVersion } from "@/lib/types";
 import { TypeBadge } from "@/components/type-badge";
+import { EvolutionStrip } from "@/components/evolution-strip";
 import { Button } from "@/components/ui/button";
 import { TYPE_COLORS } from "@/lib/type-colors";
 import { cn, capitalize } from "@/lib/utils";
 import { useState, useEffect } from "react";
 
 interface StarterRevealProps {
-  starter: Pokemon;
+  starter: EvolutionLine;
   gameVersion: GameVersion;
   onContinue: () => void;
 }
@@ -26,6 +27,7 @@ export function StarterReveal({
     return () => clearTimeout(timer);
   }, []);
 
+  const baseStage = starter.stages[0];
   const borderColor = TYPE_COLORS[starter.types[0]].border;
 
   return (
@@ -56,8 +58,8 @@ export function StarterReveal({
         />
         <div className="relative h-[200px] w-[200px]">
           <Image
-            src={starter.sprite}
-            alt={starter.name}
+            src={baseStage.sprite}
+            alt={baseStage.name}
             fill
             className="object-contain drop-shadow-2xl"
             sizes="200px"
@@ -65,13 +67,20 @@ export function StarterReveal({
           />
         </div>
         <h3 className="mt-4 text-3xl font-bold text-white">
-          {capitalize(starter.name)}
+          {capitalize(baseStage.name)}
         </h3>
         <div className="mt-3 flex gap-2">
           {starter.types.map((type) => (
             <TypeBadge key={type} type={type} />
           ))}
         </div>
+        {starter.stages.length > 1 && (
+          <EvolutionStrip
+            stages={starter.stages}
+            size="md"
+            className="mt-4"
+          />
+        )}
       </div>
 
       <Button

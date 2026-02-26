@@ -1,35 +1,35 @@
-import type { Pokemon, PokemonType } from "./types";
+import type { EvolutionLine, PokemonType } from "./types";
 
-export function getRandomStarter(allPokemon: Pokemon[]): Pokemon {
-  const starters = allPokemon.filter((p) => p.isStarter);
+export function getRandomStarter(allPokemon: EvolutionLine[]): EvolutionLine {
+  const starters = allPokemon.filter((l) => l.isStarter);
   return starters[Math.floor(Math.random() * starters.length)];
 }
 
 export function getRandomCards(
-  allPokemon: Pokemon[],
-  team: Pokemon[],
+  allPokemon: EvolutionLine[],
+  team: EvolutionLine[],
   count: number = 3,
-  excludeIds: Set<number> = new Set()
-): Pokemon[] {
-  const teamIds = new Set(team.map((p) => p.id));
+  excludeLineIds: Set<number> = new Set()
+): EvolutionLine[] {
+  const teamLineIds = new Set(team.map((l) => l.lineId));
   const available = allPokemon.filter(
-    (p) => !teamIds.has(p.id) && !excludeIds.has(p.id)
+    (l) => !teamLineIds.has(l.lineId) && !excludeLineIds.has(l.lineId)
   );
 
   if (available.length === 0) return [];
 
-  // Compute team's current type coverage
-  const teamTypes = new Set<PokemonType>(team.flatMap((p) => p.types));
+  // Compute team's current type coverage (using base form types)
+  const teamTypes = new Set<PokemonType>(team.flatMap((l) => l.types));
 
-  // Weight each pokemon: 3x boost for each type NOT already on team
-  const weighted = available.map((pokemon) => {
-    const uncoveredCount = pokemon.types.filter((t) => !teamTypes.has(t)).length;
+  // Weight each line: boost for types NOT already on team
+  const weighted = available.map((line) => {
+    const uncoveredCount = line.types.filter((t) => !teamTypes.has(t)).length;
     const weight = 1 + uncoveredCount * 2;
-    return { pokemon, weight };
+    return { line, weight };
   });
 
   // Weighted random sampling without replacement
-  const selected: Pokemon[] = [];
+  const selected: EvolutionLine[] = [];
   const pool = [...weighted];
 
   for (let i = 0; i < Math.min(count, pool.length); i++) {
@@ -45,7 +45,7 @@ export function getRandomCards(
       }
     }
 
-    selected.push(pool[chosenIndex].pokemon);
+    selected.push(pool[chosenIndex].line);
     pool.splice(chosenIndex, 1);
   }
 

@@ -2,7 +2,7 @@
  * generate-pokemon-data.ts
  *
  * Build script that fetches all Pokemon data from PokeAPI and writes
- * per-game JSON files to src/data/. Run manually via:
+ * per-game JSON files to src/data/ as EvolutionLine[]. Run manually via:
  *
  *   bun scripts/generate-pokemon-data.ts
  *
@@ -29,6 +29,7 @@ interface PokeApiSpecies {
   is_legendary: boolean;
   is_mythical: boolean;
   evolves_from_species: { url: string } | null;
+  evolution_chain: { url: string };
 }
 
 interface PokeApiPokemon {
@@ -38,8 +39,18 @@ interface PokeApiPokemon {
   stats: { base_stat: number; stat: { name: string } }[];
 }
 
+interface EvolutionChainNode {
+  species: { name: string; url: string };
+  evolves_to: EvolutionChainNode[];
+}
+
+interface PokeApiEvolutionChain {
+  id: number;
+  chain: EvolutionChainNode;
+}
+
 // ---------------------------------------------------------------------------
-// Output types (matches src/lib/types.ts Pokemon & BaseStats)
+// Output types (matches src/lib/types.ts EvolutionLine & EvolutionStage)
 // ---------------------------------------------------------------------------
 
 interface BaseStats {
@@ -58,13 +69,29 @@ interface PokemonData {
   stats: BaseStats;
 }
 
-interface PokemonOutput {
+interface EvolutionStageOutput {
   id: number;
   name: string;
   types: string[];
   sprite: string;
-  isStarter: boolean;
   stats: BaseStats;
+  stage: number;
+}
+
+interface EvolutionLineOutput {
+  lineId: number;
+  stages: EvolutionStageOutput[];
+  types: string[];
+  isStarter: boolean;
+  branchIndex?: number;
+}
+
+interface SpeciesData {
+  id: number;
+  isLegendary: boolean;
+  isMythical: boolean;
+  evolvesFromSpecies: boolean;
+  evolutionChainUrl: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -178,6 +205,126 @@ async function fetchWithRetry<T>(url: string, label: string): Promise<T> {
 }
 
 // ---------------------------------------------------------------------------
+// Chain walking — builds EvolutionLine[] from a chain tree
+// ---------------------------------------------------------------------------
+
+function walkChain(
+  node: EvolutionChainNode,
+  pokemonMap: Map<number, PokemonData>,
+  gameSpeciesIds: Set<number>,
+  speciesDataMap: Map<number, SpeciesData>,
+  currentPath: EvolutionStageOutput[],
+  stage: number,
+  results: EvolutionLineOutput[],
+  starterIds: number[],
+  branchCounter: { count: number },
+  hasBranching: boolean,
+): void {
+  const speciesId = extractIdFromUrl(node.species.url);
+
+  // Skip mega/gmax forms (id > 10000), species not in this game, or missing pokemon data
+  if (speciesId > 10000 || !gameSpeciesIds.has(speciesId) || !pokemonMap.has(speciesId)) {
+    if (currentPath.length === 0) {
+      // Base form missing from this game's pokedex — skip it but continue walking
+      // children. This handles cases like Pichu→Pikachu→Raichu in Yellow where
+      // Pichu (Gen II) doesn't exist but Pikachu (starter) does.
+      for (const child of node.evolves_to) {
+        walkChain(
+          child,
+          pokemonMap,
+          gameSpeciesIds,
+          speciesDataMap,
+          [],
+          0,
+          results,
+          starterIds,
+          branchCounter,
+          hasBranching,
+        );
+      }
+      return;
+    }
+    // Mid/final stage missing — truncate here, emit what we have
+    emitLine(currentPath, results, starterIds, speciesDataMap, branchCounter, hasBranching);
+    return;
+  }
+
+  const pokemon = pokemonMap.get(speciesId)!;
+  const stageEntry: EvolutionStageOutput = {
+    id: pokemon.id,
+    name: pokemon.name,
+    types: pokemon.types,
+    sprite: `${SPRITES_BASE}/${pokemon.id}.png`,
+    stats: pokemon.stats,
+    stage,
+  };
+
+  const newPath = [...currentPath, stageEntry];
+
+  if (node.evolves_to.length === 0) {
+    // End of chain — emit the line
+    emitLine(newPath, results, starterIds, speciesDataMap, branchCounter, hasBranching);
+    return;
+  }
+
+  // Determine if this node introduces branching
+  const branchingHere = node.evolves_to.length > 1;
+  const newHasBranching = hasBranching || branchingHere;
+
+  for (const child of node.evolves_to) {
+    walkChain(
+      child,
+      pokemonMap,
+      gameSpeciesIds,
+      speciesDataMap,
+      newPath,
+      stage + 1,
+      results,
+      starterIds,
+      branchCounter,
+      newHasBranching,
+    );
+  }
+}
+
+function emitLine(
+  path: EvolutionStageOutput[],
+  results: EvolutionLineOutput[],
+  starterIds: number[],
+  speciesDataMap: Map<number, SpeciesData>,
+  branchCounter: { count: number },
+  hasBranching: boolean,
+): void {
+  if (path.length === 0) return;
+
+  // Check legendary/mythical: if ANY stage is legendary/mythical, skip unless starter line
+  const stageIds = path.map((s) => s.id);
+  const hasLegendaryOrMythical = stageIds.some((id) => {
+    const species = speciesDataMap.get(id);
+    return species && (species.isLegendary || species.isMythical);
+  });
+  const containsStarter = stageIds.some((id) => starterIds.includes(id));
+
+  if (hasLegendaryOrMythical && !containsStarter) {
+    return;
+  }
+
+  const line: EvolutionLineOutput = {
+    lineId: path[0].id,
+    stages: path,
+    types: path[0].types,
+    isStarter: containsStarter,
+  };
+
+  if (hasBranching) {
+    line.branchIndex = branchCounter.count;
+    branchCounter.count++;
+  }
+
+  results.push(line);
+}
+
+// ---------------------------------------------------------------------------
 // Main pipeline
 // ---------------------------------------------------------------------------
 
@@ -236,10 +383,7 @@ async function main() {
   // --- Step 5: Fetch species data for each unique species ---
   console.log(`Fetching species (0/${allSpeciesIds.size})...`);
   let speciesFetched = 0;
-  const speciesDataMap = new Map<
-    number,
-    { id: number; isLegendary: boolean; isMythical: boolean; evolvesFromSpecies: boolean }
-  >();
+  const speciesDataMap = new Map<number, SpeciesData>();
 
   const speciesArray = [...allSpeciesIds];
   await Promise.all(
@@ -254,6 +398,7 @@ async function main() {
           isLegendary: data.is_legendary,
           isMythical: data.is_mythical,
           evolvesFromSpecies: data.evolves_from_species !== null,
+          evolutionChainUrl: data.evolution_chain.url,
         });
         speciesFetched++;
         if (speciesFetched % 100 === 0 || speciesFetched === allSpeciesIds.size) {
@@ -263,26 +408,54 @@ async function main() {
     )
   );
 
-  // --- Step 6: Determine valid species ---
-  const validSpeciesIds = new Set<number>();
+  // --- Step 6: Collect and fetch evolution chains ---
+  const uniqueChainUrls = new Set<string>();
+  for (const species of speciesDataMap.values()) {
+    uniqueChainUrls.add(species.evolutionChainUrl);
+  }
+  console.log(`Fetching evolution chains (0/${uniqueChainUrls.size})...`);
+  let chainsFetched = 0;
+  const chainMap = new Map<number, PokeApiEvolutionChain>();
+
+  await Promise.all(
+    [...uniqueChainUrls].map((chainUrl) =>
+      limit(async () => {
+        const chainId = extractIdFromUrl(chainUrl);
+        const data = await fetchWithRetry<PokeApiEvolutionChain>(
+          chainUrl,
+          `evolution-chain/${chainId}`
+        );
+        chainMap.set(chainId, data);
+        chainsFetched++;
+        if (chainsFetched % 100 === 0 || chainsFetched === uniqueChainUrls.size) {
+          console.log(`Fetching evolution chains (${chainsFetched}/${uniqueChainUrls.size})...`);
+        }
+      })
+    )
+  );
+
+  // --- Step 7: Build species-to-chain mapping ---
+  const speciesChainMap = new Map<number, number>();
   for (const [speciesId, species] of speciesDataMap) {
-    const isBaseForm =
-      !species.evolvesFromSpecies && !species.isLegendary && !species.isMythical;
-    const isStarter = allStarterIds.has(speciesId);
-    if (isBaseForm || isStarter) {
-      validSpeciesIds.add(speciesId);
+    const chainId = extractIdFromUrl(species.evolutionChainUrl);
+    speciesChainMap.set(speciesId, chainId);
+  }
+  console.log(`Species-to-chain mapping: ${speciesChainMap.size} entries`);
+
+  // --- Step 8: Fetch pokemon details for ALL species in the pokedexes ---
+  // Filter out IDs > 10000 (mega forms, Gmax forms, etc.)
+  const fetchableSpeciesIds = new Set<number>();
+  for (const id of allSpeciesIds) {
+    if (id <= 10000) {
+      fetchableSpeciesIds.add(id);
     }
   }
-  console.log(`Valid species (base-form + starters): ${validSpeciesIds.size}`);
-
-  // --- Step 7: Fetch pokemon details for each valid species ---
-  console.log(`Fetching pokemon details (0/${validSpeciesIds.size})...`);
+  console.log(`Fetching pokemon details (0/${fetchableSpeciesIds.size})...`);
   let pokemonFetched = 0;
   const pokemonMap = new Map<number, PokemonData>();
 
-  const validArray = [...validSpeciesIds];
   await Promise.all(
-    validArray.map((speciesId) =>
+    [...fetchableSpeciesIds].map((speciesId) =>
       limit(async () => {
         const data = await fetchWithRetry<PokeApiPokemon>(
           `${POKEAPI_BASE}/pokemon/${speciesId}`,
@@ -295,20 +468,21 @@ async function main() {
           stats: parseStats(data.stats),
         });
         pokemonFetched++;
-        if (pokemonFetched % 100 === 0 || pokemonFetched === validSpeciesIds.size) {
-          console.log(`Fetching pokemon details (${pokemonFetched}/${validSpeciesIds.size})...`);
+        if (pokemonFetched % 100 === 0 || pokemonFetched === fetchableSpeciesIds.size) {
+          console.log(`Fetching pokemon details (${pokemonFetched}/${fetchableSpeciesIds.size})...`);
         }
       })
     )
   );
 
-  // --- Step 8: Build per-game data and write JSON files ---
+  // --- Step 9: Build per-game evolution lines and write JSON files ---
   console.log("\nGenerating per-game data files...");
   await mkdir(DATA_DIR, { recursive: true });
 
-  const totalUniquePokemon = new Set<number>();
+  const totalUniqueLines = new Set<string>();
 
   for (const game of GAME_VERSIONS) {
+    // Collect all species IDs in this game's pokedexes
     const gameSpeciesIds = new Set<number>();
     for (const pokedexId of game.pokedexIds) {
       const speciesInPokedex = pokedexMap.get(pokedexId);
@@ -319,38 +493,64 @@ async function main() {
       }
     }
 
-    // Intersect with valid species
-    const gamePokemon: PokemonOutput[] = [];
+    // Group species by their evolution chain ID
+    const chainSpeciesGroups = new Map<number, Set<number>>();
     for (const speciesId of gameSpeciesIds) {
-      if (!validSpeciesIds.has(speciesId)) continue;
-      const pokemon = pokemonMap.get(speciesId);
-      if (!pokemon) continue;
-
-      gamePokemon.push({
-        id: pokemon.id,
-        name: pokemon.name,
-        types: pokemon.types,
-        sprite: `${SPRITES_BASE}/${pokemon.id}.png`,
-        isStarter: game.starterIds.includes(pokemon.id),
-        stats: pokemon.stats,
-      });
-
-      totalUniquePokemon.add(pokemon.id);
+      const chainId = speciesChainMap.get(speciesId);
+      if (chainId === undefined) continue;
+      if (!chainSpeciesGroups.has(chainId)) {
+        chainSpeciesGroups.set(chainId, new Set());
+      }
+      chainSpeciesGroups.get(chainId)!.add(speciesId);
     }
 
-    // Sort by id ascending
-    gamePokemon.sort((a, b) => a.id - b.id);
+    // Build evolution lines for each chain
+    const gameLines: EvolutionLineOutput[] = [];
 
-    // --- Step 9: Validation ---
-    validate(game, gamePokemon);
+    for (const [chainId] of chainSpeciesGroups) {
+      const chain = chainMap.get(chainId);
+      if (!chain) continue;
+
+      const branchCounter = { count: 0 };
+      const chainResults: EvolutionLineOutput[] = [];
+
+      walkChain(
+        chain.chain,
+        pokemonMap,
+        gameSpeciesIds,
+        speciesDataMap,
+        [],
+        0,
+        chainResults,
+        game.starterIds,
+        branchCounter,
+        false,
+      );
+
+      gameLines.push(...chainResults);
+    }
+
+    // Sort by lineId ascending, then branchIndex ascending
+    gameLines.sort((a, b) => {
+      if (a.lineId !== b.lineId) return a.lineId - b.lineId;
+      return (a.branchIndex ?? -1) - (b.branchIndex ?? -1);
+    });
+
+    // Track unique lines for summary
+    for (const line of gameLines) {
+      totalUniqueLines.add(`${line.lineId}-${line.branchIndex ?? "x"}`);
+    }
+
+    // --- Step 10: Validation ---
+    validate(game, gameLines);
 
     // Write JSON file
     const filePath = join(DATA_DIR, `${game.slug}.json`);
-    await writeFile(filePath, JSON.stringify(gamePokemon, null, 2) + "\n");
-    console.log(`  ${game.slug}: ${gamePokemon.length} pokemon \u2713`);
+    await writeFile(filePath, JSON.stringify(gameLines, null, 2) + "\n");
+    console.log(`  ${game.slug}: ${gameLines.length} evolution lines \u2713`);
   }
 
-  // --- Step 10: Generate barrel file ---
+  // --- Step 11: Generate barrel file ---
   console.log("\nGenerating barrel file (src/data/index.ts)...");
   const barrelContent = generateBarrelFile(GAME_VERSIONS);
   await writeFile(join(DATA_DIR, "index.ts"), barrelContent);
@@ -359,7 +559,7 @@ async function main() {
   // --- Summary ---
   const elapsed = ((performance.now() - startTime) / 1000).toFixed(1);
   console.log(
-    `\nGenerated data for ${GAME_VERSIONS.length} games. Total unique pokemon: ${totalUniquePokemon.size}. Files written to src/data/`
+    `\nGenerated data for ${GAME_VERSIONS.length} games. Total unique evolution lines: ${totalUniqueLines.size}. Files written to src/data/`
   );
   console.log(`Completed in ${elapsed}s.`);
 }
@@ -368,36 +568,58 @@ async function main() {
 // Validation
 // ---------------------------------------------------------------------------
 
-function validate(game: GameVersion, pokemon: PokemonOutput[]): void {
+function validate(game: GameVersion, lines: EvolutionLineOutput[]): void {
   const errors: string[] = [];
 
-  // At least 15 base-form pokemon per game
-  if (pokemon.length < 15) {
+  // At least 15 evolution lines per game
+  if (lines.length < 15) {
     errors.push(
-      `${game.slug}: expected at least 15 pokemon, got ${pokemon.length}`
+      `${game.slug}: expected at least 15 evolution lines, got ${lines.length}`
     );
   }
 
-  // All starters must be present
-  const pokemonIds = new Set(pokemon.map((p) => p.id));
+  // All starters must be present — at least one line with isStarter=true for each starter ID
+  const allStageIds = new Set<number>();
+  for (const line of lines) {
+    for (const stage of line.stages) {
+      allStageIds.add(stage.id);
+    }
+  }
   for (const starterId of game.starterIds) {
-    if (!pokemonIds.has(starterId)) {
+    const hasStarterLine = lines.some(
+      (line) => line.isStarter && line.stages.some((s) => s.id === starterId)
+    );
+    if (!hasStarterLine) {
       errors.push(
-        `${game.slug}: starter ${starterId} is missing from output`
+        `${game.slug}: starter ${starterId} is missing from evolution lines`
       );
     }
   }
 
-  // Each pokemon must have valid id, name, types
-  for (const p of pokemon) {
-    if (p.id <= 0) {
-      errors.push(`${game.slug}: pokemon has invalid id ${p.id}`);
+  // Each line must have at least 1 stage
+  for (const line of lines) {
+    if (line.stages.length < 1) {
+      errors.push(`${game.slug}: evolution line ${line.lineId} has no stages`);
     }
-    if (!p.name || p.name.length === 0) {
-      errors.push(`${game.slug}: pokemon ${p.id} has empty name`);
+
+    // Each stage must have valid id, name, types
+    for (const stage of line.stages) {
+      if (stage.id <= 0) {
+        errors.push(`${game.slug}: stage has invalid id ${stage.id}`);
+      }
+      if (!stage.name || stage.name.length === 0) {
+        errors.push(`${game.slug}: stage ${stage.id} has empty name`);
+      }
+      if (!stage.types || stage.types.length < 1) {
+        errors.push(`${game.slug}: stage ${stage.id} (${stage.name}) has no types`);
+      }
     }
-    if (!p.types || p.types.length < 1) {
-      errors.push(`${game.slug}: pokemon ${p.id} (${p.name}) has no types`);
+
+    // lineId must match first stage's id
+    if (line.stages.length > 0 && line.lineId !== line.stages[0].id) {
+      errors.push(
+        `${game.slug}: lineId ${line.lineId} does not match first stage id ${line.stages[0].id}`
+      );
     }
   }
 
@@ -422,18 +644,18 @@ function generateBarrelFile(gameVersions: GameVersion[]): string {
     // Convert slug to a valid JS identifier: "red-blue" → "redBlue"
     const varName = slugToIdentifier(game.slug);
     importLines.push(`import ${varName} from "./${game.slug}.json";`);
-    recordEntries.push(`  "${game.slug}": ${varName} as unknown as Pokemon[],`);
+    recordEntries.push(`  "${game.slug}": ${varName} as unknown as EvolutionLine[],`);
   }
 
   return [
-    `import type { Pokemon } from "@/lib/types";`,
+    `import type { EvolutionLine } from "@/lib/types";`,
     ...importLines,
     ``,
-    `const GAME_DATA: Record<string, Pokemon[]> = {`,
+    `const GAME_DATA: Record<string, EvolutionLine[]> = {`,
     ...recordEntries,
     `};`,
     ``,
-    `export function getGameData(slug: string): Pokemon[] | undefined {`,
+    `export function getGameData(slug: string): EvolutionLine[] | undefined {`,
     `  return GAME_DATA[slug];`,
     `}`,
     ``,

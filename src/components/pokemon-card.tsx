@@ -1,12 +1,13 @@
 "use client";
 
-import type { Pokemon } from "@/lib/types";
+import type { EvolutionLine } from "@/lib/types";
 import { TYPE_COLORS, TYPE_GLOW_COLORS } from "@/lib/type-colors";
 import { TypeBadge } from "@/components/type-badge";
+import { EvolutionStrip } from "@/components/evolution-strip";
 import { cn, capitalize } from "@/lib/utils";
 
 interface PokemonCardProps {
-  pokemon: Pokemon | null;
+  line: EvolutionLine | null;
   faceDown: boolean;
   onClick?: () => void;
   disabled?: boolean;
@@ -14,15 +15,16 @@ interface PokemonCardProps {
 }
 
 export function PokemonCard({
-  pokemon,
+  line,
   faceDown,
   onClick,
   disabled = false,
   className,
 }: PokemonCardProps) {
   const revealed = !faceDown;
-  const primaryType = pokemon?.types[0];
+  const primaryType = line?.types[0];
   const borderColor = primaryType ? TYPE_COLORS[primaryType].border : "";
+  const baseStage = line?.stages[0];
 
   return (
     <div
@@ -51,37 +53,44 @@ export function PokemonCard({
       {/* Front face (Pokemon) — visible when revealed */}
       <div
         className={cn(
-          "absolute inset-0 flex flex-col items-center justify-center rounded-xl border-2 bg-zinc-900 shadow-lg transition-opacity duration-300",
+          "absolute inset-0 flex flex-col items-center rounded-xl border-2 bg-zinc-900 shadow-lg transition-opacity duration-300",
           revealed ? "opacity-100" : "pointer-events-none opacity-0",
           borderColor || "border-zinc-600",
         )}
       >
-        {pokemon && (
+        {line && baseStage && (
           <>
             <div
               className={cn(
                 "absolute top-0 left-0 right-0 h-1 rounded-t-xl",
-                TYPE_COLORS[pokemon.types[0]].bg,
+                TYPE_COLORS[line.types[0]].bg,
               )}
             />
             <div className="mt-2 h-[120px] w-[120px]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={pokemon.sprite}
-                alt={pokemon.name}
+                src={baseStage.sprite}
+                alt={baseStage.name}
                 width={120}
                 height={120}
                 className="h-full w-full object-contain drop-shadow-lg"
               />
             </div>
             <p className="mt-1 text-sm font-semibold text-white">
-              {capitalize(pokemon.name)}
+              {capitalize(baseStage.name)}
             </p>
             <div className="mt-1.5 flex gap-1">
-              {pokemon.types.map((type) => (
+              {line.types.map((type) => (
                 <TypeBadge key={type} type={type} className="text-[10px] px-1.5 py-0" />
               ))}
             </div>
+            {line.stages.length > 1 && (
+              <EvolutionStrip
+                stages={line.stages}
+                size="sm"
+                className="mt-1.5"
+              />
+            )}
           </>
         )}
       </div>

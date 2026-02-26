@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import type { Pokemon } from "@/lib/types";
+import type { EvolutionLine } from "@/lib/types";
 import { PokemonCard } from "@/components/pokemon-card";
 
 interface CardGridProps {
-  cards: Pokemon[];
+  cards: EvolutionLine[];
   revealedIndex: number | null;
   revealAll?: boolean;
   onReveal: (index: number) => void;
@@ -19,20 +19,20 @@ export function CardGrid({
   onReveal,
   disabled,
 }: CardGridProps) {
-  // Preload all card sprites into browser cache when cards are dealt
+  // Preload all card base form sprites into browser cache when cards are dealt
   useEffect(() => {
-    cards.forEach((card) => {
+    cards.forEach((line) => {
       const img = new Image();
-      img.src = card.sprite;
+      img.src = line.stages[0].sprite;
     });
   }, [cards]);
 
   return (
     <div className="flex flex-wrap justify-center gap-4">
-      {cards.map((card, index) => (
+      {cards.map((line, index) => (
         <PokemonCard
-          key={`${card.id}-${index}`}
-          pokemon={card}
+          key={`${line.lineId}-${index}`}
+          line={line}
           faceDown={revealAll ? false : revealedIndex !== index}
           onClick={() => onReveal(index)}
           disabled={disabled || revealedIndex !== null}

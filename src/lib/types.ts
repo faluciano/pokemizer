@@ -21,6 +21,23 @@ export interface Pokemon {
   stats: BaseStats;
 }
 
+export interface EvolutionStage {
+  id: number;          // National dex ID
+  name: string;        // Lowercase from PokeAPI
+  types: PokemonType[];
+  sprite: string;
+  stats: BaseStats;
+  stage: number;       // 0 = base, 1 = mid, 2 = final
+}
+
+export interface EvolutionLine {
+  lineId: number;      // Base form species ID (unique per evolution chain)
+  stages: EvolutionStage[];
+  types: PokemonType[];   // Base form types (always === stages[0].types)
+  isStarter: boolean;
+  branchIndex?: number;   // Only for Eevee-style branches
+}
+
 export interface Generation {
   id: number;
   name: string;
@@ -56,15 +73,24 @@ export interface GameState {
   phase: GamePhase;
   generation: Generation | null;
   gameVersion: GameVersion | null;
-  team: Pokemon[];
+  team: EvolutionLine[];
   attempts: number;
-  currentCards: Pokemon[];
+  currentCards: EvolutionLine[];
   revealedIndex: number | null;
-  allPokemon: Pokemon[];
-  excludedIds: number[];
+  allPokemon: EvolutionLine[];
+  excludedLineIds: number[];
 }
 
 export interface TeamHistoryEntry {
+  generation: Generation;
+  gameVersion?: GameVersion;
+  team: EvolutionLine[];
+  attempts: number;
+  date: string;
+}
+
+/** @deprecated Old format — used only for backward-compatible history reads */
+export interface LegacyTeamHistoryEntry {
   generation: Generation;
   gameVersion?: GameVersion;
   team: Pokemon[];
