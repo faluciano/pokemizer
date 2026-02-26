@@ -1,13 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import type { TeamHistoryEntry, EvolutionLine } from "@/lib/types";
-import { capitalize } from "@/lib/utils";
 import { useLocalStorage } from "@/hooks/use-local-storage";
-import { TypeBadge } from "@/components/type-badge";
-import { StatChart } from "@/components/stat-chart";
-import { EvolutionStrip } from "@/components/evolution-strip";
+import { EvolutionStageViewer } from "@/components/evolution-stage-viewer";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Trash2 } from "lucide-react";
 
@@ -120,40 +116,7 @@ export default function HistoryPage() {
               <div className="flex flex-wrap gap-3">
                 {entry.team.map((line) => (
                   <div key={line.lineId} className="flex flex-col items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900/50 p-2">
-                    <div className="relative h-12 w-12">
-                      <Image
-                        src={line.stages[0].sprite}
-                        alt={line.stages[0].name}
-                        fill
-                        className="object-contain"
-                        sizes="48px"
-                      />
-                    </div>
-                    <p className="text-[10px] font-medium text-zinc-300">
-                      {capitalize(line.stages[0].name)}
-                    </p>
-                    <div className="flex gap-0.5">
-                      {line.types.map((type) => (
-                        <TypeBadge
-                          key={type}
-                          type={type}
-                          className="text-[8px] px-0.5 py-0"
-                        />
-                      ))}
-                    </div>
-                    {line.stages.length > 1 && (
-                      <EvolutionStrip
-                        stages={line.stages}
-                        size="sm"
-                        className="mt-1"
-                      />
-                    )}
-                    {line.stages[0].stats && (
-                      <StatChart
-                        stats={line.stages[0].stats}
-                        className="mt-1"
-                      />
-                    )}
+                    <EvolutionStageViewer line={line} size="sm" />
                   </div>
                 ))}
               </div>

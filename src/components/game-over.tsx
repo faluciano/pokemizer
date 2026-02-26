@@ -1,15 +1,11 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import type { EvolutionLine, Generation, GameVersion, TeamHistoryEntry } from "@/lib/types";
 import { getTypeCoverage } from "@/lib/game-logic";
 import { useLocalStorage } from "@/hooks/use-local-storage";
-import { capitalize } from "@/lib/utils";
-import { TypeBadge } from "@/components/type-badge";
-import { EvolutionStrip } from "@/components/evolution-strip";
-import { StatChart } from "@/components/stat-chart";
+import { EvolutionStageViewer } from "@/components/evolution-stage-viewer";
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 
@@ -64,10 +60,7 @@ export function GameOver({
       </div>
 
       <div className="flex flex-wrap justify-center gap-4">
-        {team.map((line) => {
-          const baseStage = line.stages[0];
-
-          return (
+        {team.map((line) => (
             <div
               key={line.lineId}
               className="relative flex w-[170px] flex-col items-center rounded-xl border border-zinc-700 bg-zinc-800/50 p-3"
@@ -77,41 +70,9 @@ export function GameOver({
                   <Star className="size-3 fill-white text-white" />
                 </div>
               )}
-              <div className="relative h-[80px] w-[80px]">
-                <Image
-                  src={baseStage.sprite}
-                  alt={baseStage.name}
-                  fill
-                  className="object-contain"
-                  sizes="80px"
-                />
-              </div>
-              <p className="mt-1 text-sm font-semibold text-white">
-                {capitalize(baseStage.name)}
-              </p>
-              <div className="mt-1 flex gap-0.5">
-                {line.types.map((type) => (
-                  <TypeBadge
-                    key={type}
-                    type={type}
-                    className="text-[9px] px-1 py-0"
-                  />
-                ))}
-              </div>
-              {line.stages.length > 1 && (
-                <EvolutionStrip
-                  stages={line.stages}
-                  size="sm"
-                  className="mt-1.5"
-                />
-              )}
-              <StatChart
-                stats={baseStage.stats}
-                className="mt-2"
-              />
+              <EvolutionStageViewer line={line} size="lg" />
             </div>
-          );
-        })}
+          ))}
       </div>
 
       <div className="flex gap-3">

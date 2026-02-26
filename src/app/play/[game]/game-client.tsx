@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
+import { track } from "@vercel/analytics";
 import { toast } from "sonner";
 import type { EvolutionLine, Generation, GameVersion } from "@/lib/types";
 import { getRandomStarter } from "@/lib/pokemon-utils";
@@ -62,11 +63,37 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
     }
   }, [allPokemon, generation, gameVersion, setGame]);
 
+  // Track game completion
+  const gameCompletedRef = useRef(false);
+  useEffect(() => {
+    if (state.phase === "game-over" && !gameCompletedRef.current && state.gameVersion) {
+      gameCompletedRef.current = true;
+      track("game_completed", {
+        generation: generation.id,
+        region: gameVersion.region,
+        game: gameVersion.slug,
+        team_size: state.team.length,
+        attempts: state.attempts,
+        coverage: getTypeCoverage(state.team),
+      });
+    }
+    // Reset when starting a new game
+    if (state.phase === "picking-generation") {
+      gameCompletedRef.current = false;
+    }
+  }, [state.phase, state.gameVersion, state.team, state.attempts, generation, gameVersion]);
+
   const handleStarterContinue = useCallback(() => {
     if (starterLine) {
+      track("game_started", {
+        generation: generation.id,
+        region: gameVersion.region,
+        game: gameVersion.slug,
+        starter: starterLine.stages[0].name,
+      });
       setStarter(starterLine);
     }
-  }, [starterLine, setStarter]);
+  }, [starterLine, setStarter, generation, gameVersion]);
 
   const startNewRound = useCallback(() => {
     setRevealAll(true);
