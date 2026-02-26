@@ -2,7 +2,7 @@
 
 import { useCallback, useReducer } from "react";
 import type { GameState, Pokemon, Generation, GameVersion } from "@/lib/types";
-import { getRandomCards } from "@/lib/pokeapi";
+import { getRandomCards } from "@/lib/pokemon-utils";
 import { isGameOver } from "@/lib/game-logic";
 
 type GameAction =

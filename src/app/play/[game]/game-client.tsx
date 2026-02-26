@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 import type { Pokemon, Generation, GameVersion, PokemonType } from "@/lib/types";
-import { getRandomStarter } from "@/lib/pokeapi";
+import { getRandomStarter } from "@/lib/pokemon-utils";
 import {
   isDuplicate,
   isTeamFull,
