@@ -5,7 +5,7 @@ import Image from "next/image";
 import type { EvolutionLine } from "@/lib/types";
 import { TypeBadge } from "@/components/type-badge";
 import { StatChart } from "@/components/stat-chart";
-import { Slider } from "@/components/ui/slider";
+
 import { cn, capitalize } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
 
@@ -84,9 +84,10 @@ export function EvolutionStageViewer({
                 type="button"
                 onClick={() => setSelectedStage(index)}
                 className={cn(
-                  "flex flex-col items-center gap-0.5 transition-all duration-200",
-                  selectedStage === index &&
-                    "ring-2 ring-primary rounded-lg p-0.5"
+                  "flex flex-col items-center gap-0.5 rounded-lg p-0.5 transition-all duration-200",
+                  selectedStage === index
+                    ? "ring-2 ring-primary"
+                    : "opacity-50 hover:opacity-80"
                 )}
               >
                 <div
@@ -108,22 +109,6 @@ export function EvolutionStageViewer({
             </div>
           ))}
         </div>
-      )}
-
-      {/* Slider */}
-      {hasEvolutions && (
-        <Slider
-          value={[selectedStage]}
-          onValueChange={([value]) => setSelectedStage(value)}
-          min={0}
-          max={stages.length - 1}
-          step={1}
-          className={cn(
-            size === "sm"
-              ? "mt-1 w-full max-w-[120px]"
-              : "mt-1 w-full max-w-[160px]"
-          )}
-        />
       )}
 
       {/* Stat chart */}
