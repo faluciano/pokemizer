@@ -29,7 +29,11 @@ export function EvolutionStageViewer({
   const stripSpriteSize = size === "sm" ? 24 : 32;
 
   return (
-    <div className={cn("flex flex-col items-center", className)}>
+    <div className={cn(
+      "flex flex-col items-center w-full",
+      size === "sm" ? "min-w-[120px]" : "min-w-[140px]",
+      className
+    )}>
       {/* Sprite */}
       <div
         className={cn(
