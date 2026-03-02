@@ -145,19 +145,29 @@
 .flip-card-face {
   position: absolute;
   inset: 0;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  overflow: hidden;
-  border-radius: 0.75rem; /* match rounded-xl */
 }
 
 .flip-card-back {
-  /* Back face is the default visible side (no rotation) */
+  /* Back face: visible by default, fades out at flip midpoint */
+  transition: opacity 0s 0.3s; /* delay matches half the flip duration */
+}
+
+.flip-card-inner.flipped .flip-card-back {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .flip-card-front {
-  /* Front face starts rotated 180deg (hidden by backface-visibility) */
+  /* Front face: hidden by default, fades in at flip midpoint */
   transform: rotateY(180deg);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0s 0.3s;
+}
+
+.flip-card-inner.flipped .flip-card-front {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* Duplicate card shake */
