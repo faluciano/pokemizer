@@ -1,7 +1,7 @@
 "use client";
 
 import type { EvolutionLine } from "@/lib/types";
-import { TYPE_COLORS, TYPE_GLOW_COLORS } from "@/lib/type-colors";
+import { TYPE_COLORS, TYPE_GLOW_COLORS, TYPE_HINT_FAMILY, HINT_FAMILY_COLORS } from "@/lib/type-colors";
 import { TypeBadge } from "@/components/type-badge";
 import { EvolutionStrip } from "@/components/evolution-strip";
 import { cn, capitalize } from "@/lib/utils";
@@ -27,6 +27,8 @@ export function PokemonCard({
   const primaryType = line?.types[0];
   const borderColor = primaryType ? TYPE_COLORS[primaryType].border : "";
   const baseStage = line?.stages[0];
+  const hintFamily = primaryType ? TYPE_HINT_FAMILY[primaryType] : null;
+  const hintColors = hintFamily ? HINT_FAMILY_COLORS[hintFamily] : null;
 
   return (
     <div
@@ -48,10 +50,11 @@ export function PokemonCard({
       <div className={cn("flip-card-inner", revealed && "flipped")}>
         {/* Back face (question mark) — visible when face down */}
         <div
-          className={cn(
-            "flip-card-face flip-card-back flex flex-col items-center justify-center rounded-xl border-2 bg-zinc-800 shadow-lg",
-            "border-zinc-600",
-          )}
+          className="flip-card-face flip-card-back flex flex-col items-center justify-center rounded-xl border-2 bg-zinc-800 shadow-lg"
+          style={{
+            borderColor: hintColors?.border ?? '#8A8580',
+            boxShadow: hintColors ? `0 0 12px 1px ${hintColors.glow}40` : undefined,
+          }}
         >
           <div className="absolute inset-2 rounded-lg border border-zinc-700 opacity-50" />
           <div className="absolute inset-0 rounded-xl bg-[repeating-linear-gradient(45deg,transparent,transparent_10px,rgba(255,255,255,0.02)_10px,rgba(255,255,255,0.02)_20px)]" />

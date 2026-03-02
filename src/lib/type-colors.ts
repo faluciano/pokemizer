@@ -21,6 +21,38 @@ export const TYPE_COLORS: Record<PokemonType, { bg: string; text: string; border
   fairy:    { bg: "bg-pink-300",     text: "text-black", border: "border-pink-300" },
 };
 
+/** 5 hint families — vague color tint on card backs to hint at type category without revealing exact type */
+export type TypeHintFamily = "ember" | "volt" | "tide" | "aura" | "void";
+
+export const TYPE_HINT_FAMILY: Record<PokemonType, TypeHintFamily> = {
+  fire:     "ember",
+  fighting: "ember",
+  ground:   "ember",
+  rock:     "ember",
+  electric: "volt",
+  grass:    "volt",
+  bug:      "volt",
+  poison:   "volt",
+  water:    "tide",
+  ice:      "tide",
+  flying:   "tide",
+  steel:    "tide",
+  psychic:  "aura",
+  fairy:    "aura",
+  ghost:    "aura",
+  dragon:   "aura",
+  normal:   "void",
+  dark:     "void",
+};
+
+export const HINT_FAMILY_COLORS: Record<TypeHintFamily, { border: string; glow: string }> = {
+  ember: { border: "#C4643A", glow: "#7A3515" },
+  volt:  { border: "#7CA830", glow: "#3D5C14" },
+  tide:  { border: "#4A8ABF", glow: "#1A3A5C" },
+  aura:  { border: "#B44ADF", glow: "#5A1A6E" },
+  void:  { border: "#8A8580", glow: "#3A3835" },
+};
+
 export const TYPE_GLOW_COLORS: Record<PokemonType, string> = {
   normal:   "#a8a29e",
   fire:     "#f97316",
