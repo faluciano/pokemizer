@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { ServiceWorkerRegister } from "@/components/service-worker-register";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,8 +16,45 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pokemizer",
-  description: "Build your Pokemon team with the randomizer card game",
+  metadataBase: new URL("https://pokemizer.com"),
+  title: {
+    default: "Pokemizer",
+    template: "%s | Pokemizer",
+  },
+  description:
+    "Build your Pokemon team with the randomizer card game. Pick a generation, get a random starter, and flip cards to assemble a team of 6 under type-overlap rules.",
+  keywords: [
+    "pokemon",
+    "team builder",
+    "randomizer",
+    "card game",
+    "pokemon team",
+    "random team",
+    "nuzlocke",
+    "team generator",
+  ],
+  openGraph: {
+    title: "Pokemizer",
+    description:
+      "Build your Pokemon team with the randomizer card game. Pick a generation, get a random starter, and flip cards to assemble a team of 6.",
+    url: "https://pokemizer.com",
+    siteName: "Pokemizer",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pokemizer",
+    description:
+      "Build your Pokemon team with the randomizer card game. Pick a generation, get a random starter, and flip cards to assemble a team of 6.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://pokemizer.com",
+  },
 };
 
 export default function RootLayout({
@@ -42,6 +80,7 @@ export default function RootLayout({
         </footer>
         <Toaster />
         <Analytics />
+        <ServiceWorkerRegister />
       </body>
     </html>
   );
