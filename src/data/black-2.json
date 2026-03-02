@@ -649,32 +649,6 @@
     "isStarter": false
   },
   {
-    "lineId": 127,
-    "stages": [
-      {
-        "id": 127,
-        "name": "pinsir",
-        "types": [
-          "bug"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-        "stats": {
-          "hp": 65,
-          "attack": 125,
-          "defense": 100,
-          "spAtk": 55,
-          "spDef": 70,
-          "speed": 85
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "bug"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 131,
     "stages": [
       {
@@ -1750,40 +1724,6 @@
           "speed": 95
         },
         "stage": 0
-      },
-      {
-        "id": 125,
-        "name": "electabuzz",
-        "types": [
-          "electric"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
-        "stats": {
-          "hp": 65,
-          "attack": 83,
-          "defense": 57,
-          "spAtk": 95,
-          "spDef": 85,
-          "speed": 105
-        },
-        "stage": 1
-      },
-      {
-        "id": 466,
-        "name": "electivire",
-        "types": [
-          "electric"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/466.png",
-        "stats": {
-          "hp": 75,
-          "attack": 123,
-          "defense": 67,
-          "spAtk": 95,
-          "spDef": 85,
-          "speed": 95
-        },
-        "stage": 2
       }
     ],
     "types": [
@@ -2130,49 +2070,6 @@
     "isStarter": false
   },
   {
-    "lineId": 300,
-    "stages": [
-      {
-        "id": 300,
-        "name": "skitty",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
-        "stats": {
-          "hp": 50,
-          "attack": 45,
-          "defense": 45,
-          "spAtk": 35,
-          "spDef": 35,
-          "speed": 50
-        },
-        "stage": 0
-      },
-      {
-        "id": 301,
-        "name": "delcatty",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
-        "stats": {
-          "hp": 70,
-          "attack": 65,
-          "defense": 65,
-          "spAtk": 55,
-          "spDef": 55,
-          "speed": 90
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "normal"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 304,
     "stages": [
       {
@@ -2276,52 +2173,6 @@
     ],
     "types": [
       "water"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 322,
-    "stages": [
-      {
-        "id": 322,
-        "name": "numel",
-        "types": [
-          "fire",
-          "ground"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
-        "stats": {
-          "hp": 60,
-          "attack": 60,
-          "defense": 40,
-          "spAtk": 65,
-          "spDef": 45,
-          "speed": 35
-        },
-        "stage": 0
-      },
-      {
-        "id": 323,
-        "name": "camerupt",
-        "types": [
-          "fire",
-          "ground"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
-        "stats": {
-          "hp": 70,
-          "attack": 100,
-          "defense": 70,
-          "spAtk": 105,
-          "spDef": 75,
-          "speed": 40
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "fire",
-      "ground"
     ],
     "isStarter": false
   },
@@ -4553,49 +4404,6 @@
     "isStarter": false
   },
   {
-    "lineId": 548,
-    "stages": [
-      {
-        "id": 548,
-        "name": "petilil",
-        "types": [
-          "grass"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/548.png",
-        "stats": {
-          "hp": 45,
-          "attack": 35,
-          "defense": 50,
-          "spAtk": 70,
-          "spDef": 50,
-          "speed": 30
-        },
-        "stage": 0
-      },
-      {
-        "id": 549,
-        "name": "lilligant",
-        "types": [
-          "grass"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
-        "stats": {
-          "hp": 70,
-          "attack": 60,
-          "defense": 75,
-          "spAtk": 110,
-          "spDef": 75,
-          "speed": 90
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "grass"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 550,
     "stages": [
       {
@@ -5227,66 +5035,6 @@
     "isStarter": false
   },
   {
-    "lineId": 577,
-    "stages": [
-      {
-        "id": 577,
-        "name": "solosis",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/577.png",
-        "stats": {
-          "hp": 45,
-          "attack": 30,
-          "defense": 40,
-          "spAtk": 105,
-          "spDef": 50,
-          "speed": 20
-        },
-        "stage": 0
-      },
-      {
-        "id": 578,
-        "name": "duosion",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png",
-        "stats": {
-          "hp": 65,
-          "attack": 40,
-          "defense": 50,
-          "spAtk": 125,
-          "spDef": 60,
-          "speed": 30
-        },
-        "stage": 1
-      },
-      {
-        "id": 579,
-        "name": "reuniclus",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
-        "stats": {
-          "hp": 110,
-          "attack": 65,
-          "defense": 75,
-          "spAtk": 125,
-          "spDef": 85,
-          "speed": 30
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "psychic"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 580,
     "stages": [
       {
@@ -5579,7 +5327,7 @@
       },
       {
         "id": 593,
-        "name": "jellicent",
+        "name": "jellicent-male",
         "types": [
           "water",
           "ghost"
@@ -6331,52 +6079,6 @@
     ],
     "types": [
       "normal"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 627,
-    "stages": [
-      {
-        "id": 627,
-        "name": "rufflet",
-        "types": [
-          "normal",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png",
-        "stats": {
-          "hp": 70,
-          "attack": 83,
-          "defense": 50,
-          "spAtk": 37,
-          "spDef": 50,
-          "speed": 60
-        },
-        "stage": 0
-      },
-      {
-        "id": 628,
-        "name": "braviary",
-        "types": [
-          "normal",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
-        "stats": {
-          "hp": 100,
-          "attack": 123,
-          "defense": 75,
-          "spAtk": 57,
-          "spDef": 75,
-          "speed": 80
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "normal",
-      "flying"
     ],
     "isStarter": false
   },

@@ -589,6 +589,24 @@
           "speed": 70
         },
         "stage": 1
+      },
+      {
+        "id": 462,
+        "name": "magnezone",
+        "types": [
+          "electric",
+          "steel"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/462.png",
+        "stats": {
+          "hp": 70,
+          "attack": 70,
+          "defense": 115,
+          "spAtk": 130,
+          "spDef": 90,
+          "speed": 60
+        },
+        "stage": 2
       }
     ],
     "types": [
@@ -810,6 +828,24 @@
           "speed": 40
         },
         "stage": 1
+      },
+      {
+        "id": 464,
+        "name": "rhyperior",
+        "types": [
+          "ground",
+          "rock"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png",
+        "stats": {
+          "hp": 115,
+          "attack": 140,
+          "defense": 130,
+          "spAtk": 55,
+          "spDef": 55,
+          "speed": 40
+        },
+        "stage": 2
       }
     ],
     "types": [
@@ -1846,70 +1882,6 @@
     "branchIndex": 1
   },
   {
-    "lineId": 270,
-    "stages": [
-      {
-        "id": 270,
-        "name": "lotad",
-        "types": [
-          "water",
-          "grass"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png",
-        "stats": {
-          "hp": 40,
-          "attack": 30,
-          "defense": 30,
-          "spAtk": 40,
-          "spDef": 50,
-          "speed": 30
-        },
-        "stage": 0
-      },
-      {
-        "id": 271,
-        "name": "lombre",
-        "types": [
-          "water",
-          "grass"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
-        "stats": {
-          "hp": 60,
-          "attack": 50,
-          "defense": 50,
-          "spAtk": 60,
-          "spDef": 70,
-          "speed": 50
-        },
-        "stage": 1
-      },
-      {
-        "id": 272,
-        "name": "ludicolo",
-        "types": [
-          "water",
-          "grass"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png",
-        "stats": {
-          "hp": 80,
-          "attack": 70,
-          "defense": 70,
-          "spAtk": 90,
-          "spDef": 100,
-          "speed": 70
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "water",
-      "grass"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 273,
     "stages": [
       {
@@ -2166,6 +2138,24 @@
           "speed": 50
         },
         "stage": 1
+      },
+      {
+        "id": 475,
+        "name": "gallade",
+        "types": [
+          "psychic",
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+        "stats": {
+          "hp": 68,
+          "attack": 125,
+          "defense": 65,
+          "spAtk": 65,
+          "spDef": 115,
+          "speed": 80
+        },
+        "stage": 2
       }
     ],
     "types": [
@@ -2605,6 +2595,24 @@
           "speed": 30
         },
         "stage": 0
+      },
+      {
+        "id": 476,
+        "name": "probopass",
+        "types": [
+          "rock",
+          "steel"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/476.png",
+        "stats": {
+          "hp": 60,
+          "attack": 55,
+          "defense": 145,
+          "spAtk": 75,
+          "spDef": 150,
+          "speed": 40
+        },
+        "stage": 1
       }
     ],
     "types": [
@@ -2652,34 +2660,6 @@
     ],
     "types": [
       "normal"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 302,
-    "stages": [
-      {
-        "id": 302,
-        "name": "sableye",
-        "types": [
-          "dark",
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
-        "stats": {
-          "hp": 50,
-          "attack": 75,
-          "defense": 75,
-          "spAtk": 65,
-          "spDef": 65,
-          "speed": 50
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "dark",
-      "ghost"
     ],
     "isStarter": false
   },
@@ -2965,34 +2945,6 @@
     ],
     "types": [
       "bug"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 315,
-    "stages": [
-      {
-        "id": 315,
-        "name": "roselia",
-        "types": [
-          "grass",
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
-        "stats": {
-          "hp": 50,
-          "attack": 60,
-          "defense": 45,
-          "spAtk": 100,
-          "spDef": 80,
-          "speed": 65
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "grass",
-      "poison"
     ],
     "isStarter": false
   },
@@ -3448,60 +3400,6 @@
     "isStarter": false
   },
   {
-    "lineId": 336,
-    "stages": [
-      {
-        "id": 336,
-        "name": "seviper",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/336.png",
-        "stats": {
-          "hp": 73,
-          "attack": 100,
-          "defense": 60,
-          "spAtk": 100,
-          "spDef": 60,
-          "speed": 65
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "poison"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 337,
-    "stages": [
-      {
-        "id": 337,
-        "name": "lunatone",
-        "types": [
-          "rock",
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
-        "stats": {
-          "hp": 90,
-          "attack": 55,
-          "defense": 65,
-          "spAtk": 95,
-          "spDef": 85,
-          "speed": 70
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "rock",
-      "psychic"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 338,
     "stages": [
       {
@@ -3931,6 +3829,23 @@
           "speed": 25
         },
         "stage": 1
+      },
+      {
+        "id": 477,
+        "name": "dusknoir",
+        "types": [
+          "ghost"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/477.png",
+        "stats": {
+          "hp": 45,
+          "attack": 100,
+          "defense": 135,
+          "spAtk": 65,
+          "spDef": 135,
+          "speed": 45
+        },
+        "stage": 2
       }
     ],
     "types": [
@@ -3963,32 +3878,6 @@
     "types": [
       "grass",
       "flying"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 358,
-    "stages": [
-      {
-        "id": 358,
-        "name": "chimecho",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
-        "stats": {
-          "hp": 75,
-          "attack": 50,
-          "defense": 80,
-          "spAtk": 95,
-          "spDef": 90,
-          "speed": 65
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "psychic"
     ],
     "isStarter": false
   },
@@ -4124,6 +4013,24 @@
           "speed": 50
         },
         "stage": 0
+      },
+      {
+        "id": 478,
+        "name": "froslass",
+        "types": [
+          "ice",
+          "ghost"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+        "stats": {
+          "hp": 70,
+          "attack": 80,
+          "defense": 70,
+          "spAtk": 80,
+          "spDef": 70,
+          "speed": 110
+        },
+        "stage": 1
       }
     ],
     "types": [
@@ -4459,6 +4366,113 @@
     ],
     "types": [
       "steel",
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 406,
+    "stages": [
+      {
+        "id": 406,
+        "name": "budew",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
+        "stats": {
+          "hp": 40,
+          "attack": 30,
+          "defense": 35,
+          "spAtk": 50,
+          "spDef": 70,
+          "speed": 55
+        },
+        "stage": 0
+      },
+      {
+        "id": 315,
+        "name": "roselia",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+        "stats": {
+          "hp": 50,
+          "attack": 60,
+          "defense": 45,
+          "spAtk": 100,
+          "spDef": 80,
+          "speed": 65
+        },
+        "stage": 1
+      },
+      {
+        "id": 407,
+        "name": "roserade",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
+        "stats": {
+          "hp": 60,
+          "attack": 70,
+          "defense": 65,
+          "spAtk": 125,
+          "spDef": 105,
+          "speed": 90
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 433,
+    "stages": [
+      {
+        "id": 433,
+        "name": "chingling",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png",
+        "stats": {
+          "hp": 45,
+          "attack": 30,
+          "defense": 50,
+          "spAtk": 65,
+          "spDef": 50,
+          "speed": 45
+        },
+        "stage": 0
+      },
+      {
+        "id": 358,
+        "name": "chimecho",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+        "stats": {
+          "hp": 75,
+          "attack": 50,
+          "defense": 80,
+          "spAtk": 95,
+          "spDef": 90,
+          "speed": 65
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
       "psychic"
     ],
     "isStarter": false

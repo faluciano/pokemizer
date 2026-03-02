@@ -1556,50 +1556,6 @@
     "isStarter": false
   },
   {
-    "lineId": 90,
-    "stages": [
-      {
-        "id": 90,
-        "name": "shellder",
-        "types": [
-          "water"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
-        "stats": {
-          "hp": 30,
-          "attack": 65,
-          "defense": 100,
-          "spAtk": 45,
-          "spDef": 25,
-          "speed": 40
-        },
-        "stage": 0
-      },
-      {
-        "id": 91,
-        "name": "cloyster",
-        "types": [
-          "water",
-          "ice"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
-        "stats": {
-          "hp": 50,
-          "attack": 95,
-          "defense": 180,
-          "spAtk": 85,
-          "spDef": 45,
-          "speed": 70
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "water"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 92,
     "stages": [
       {
@@ -3604,34 +3560,6 @@
     "isStarter": false
   },
   {
-    "lineId": 214,
-    "stages": [
-      {
-        "id": 214,
-        "name": "heracross",
-        "types": [
-          "bug",
-          "fighting"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
-        "stats": {
-          "hp": 80,
-          "attack": 125,
-          "defense": 75,
-          "spAtk": 40,
-          "spDef": 95,
-          "speed": 85
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "bug",
-      "fighting"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 215,
     "stages": [
       {
@@ -4126,70 +4054,6 @@
     ],
     "types": [
       "normal"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 246,
-    "stages": [
-      {
-        "id": 246,
-        "name": "larvitar",
-        "types": [
-          "rock",
-          "ground"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
-        "stats": {
-          "hp": 50,
-          "attack": 64,
-          "defense": 50,
-          "spAtk": 45,
-          "spDef": 50,
-          "speed": 41
-        },
-        "stage": 0
-      },
-      {
-        "id": 247,
-        "name": "pupitar",
-        "types": [
-          "rock",
-          "ground"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
-        "stats": {
-          "hp": 70,
-          "attack": 84,
-          "defense": 70,
-          "spAtk": 65,
-          "spDef": 70,
-          "speed": 51
-        },
-        "stage": 1
-      },
-      {
-        "id": 248,
-        "name": "tyranitar",
-        "types": [
-          "rock",
-          "dark"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
-        "stats": {
-          "hp": 100,
-          "attack": 134,
-          "defense": 110,
-          "spAtk": 95,
-          "spDef": 100,
-          "speed": 61
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "rock",
-      "ground"
     ],
     "isStarter": false
   },
@@ -5122,49 +4986,6 @@
     "types": [
       "fighting",
       "psychic"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 309,
-    "stages": [
-      {
-        "id": 309,
-        "name": "electrike",
-        "types": [
-          "electric"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
-        "stats": {
-          "hp": 40,
-          "attack": 45,
-          "defense": 40,
-          "spAtk": 65,
-          "spDef": 40,
-          "speed": 65
-        },
-        "stage": 0
-      },
-      {
-        "id": 310,
-        "name": "manectric",
-        "types": [
-          "electric"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
-        "stats": {
-          "hp": 70,
-          "attack": 75,
-          "defense": 60,
-          "spAtk": 105,
-          "spDef": 60,
-          "speed": 105
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "electric"
     ],
     "isStarter": false
   },
@@ -7251,49 +7072,6 @@
     "isStarter": false
   },
   {
-    "lineId": 509,
-    "stages": [
-      {
-        "id": 509,
-        "name": "purrloin",
-        "types": [
-          "dark"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/509.png",
-        "stats": {
-          "hp": 41,
-          "attack": 50,
-          "defense": 37,
-          "spAtk": 50,
-          "spDef": 37,
-          "speed": 66
-        },
-        "stage": 0
-      },
-      {
-        "id": 510,
-        "name": "liepard",
-        "types": [
-          "dark"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/510.png",
-        "stats": {
-          "hp": 64,
-          "attack": 88,
-          "defense": 50,
-          "spAtk": 88,
-          "spDef": 50,
-          "speed": 106
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "dark"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 511,
     "stages": [
       {
@@ -9360,7 +9138,7 @@
       },
       {
         "id": 668,
-        "name": "pyroar",
+        "name": "pyroar-male",
         "types": [
           "fire",
           "normal"
@@ -9664,49 +9442,6 @@
     "isStarter": false
   },
   {
-    "lineId": 682,
-    "stages": [
-      {
-        "id": 682,
-        "name": "spritzee",
-        "types": [
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
-        "stats": {
-          "hp": 78,
-          "attack": 52,
-          "defense": 60,
-          "spAtk": 63,
-          "spDef": 65,
-          "speed": 23
-        },
-        "stage": 0
-      },
-      {
-        "id": 683,
-        "name": "aromatisse",
-        "types": [
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
-        "stats": {
-          "hp": 101,
-          "attack": 72,
-          "defense": 72,
-          "spAtk": 99,
-          "spDef": 89,
-          "speed": 29
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "fairy"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 684,
     "stages": [
       {
@@ -9837,52 +9572,6 @@
     ],
     "types": [
       "rock",
-      "water"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 690,
-    "stages": [
-      {
-        "id": 690,
-        "name": "skrelp",
-        "types": [
-          "poison",
-          "water"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
-        "stats": {
-          "hp": 50,
-          "attack": 60,
-          "defense": 60,
-          "spAtk": 60,
-          "spDef": 60,
-          "speed": 30
-        },
-        "stage": 0
-      },
-      {
-        "id": 691,
-        "name": "dragalge",
-        "types": [
-          "poison",
-          "dragon"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
-        "stats": {
-          "hp": 65,
-          "attack": 75,
-          "defense": 90,
-          "spAtk": 97,
-          "spDef": 123,
-          "speed": 44
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "poison",
       "water"
     ],
     "isStarter": false

@@ -1700,49 +1700,6 @@
     "isStarter": false
   },
   {
-    "lineId": 200,
-    "stages": [
-      {
-        "id": 200,
-        "name": "misdreavus",
-        "types": [
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
-        "stats": {
-          "hp": 60,
-          "attack": 60,
-          "defense": 60,
-          "spAtk": 85,
-          "spDef": 85,
-          "speed": 85
-        },
-        "stage": 0
-      },
-      {
-        "id": 429,
-        "name": "mismagius",
-        "types": [
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
-        "stats": {
-          "hp": 60,
-          "attack": 60,
-          "defense": 60,
-          "spAtk": 105,
-          "spDef": 105,
-          "speed": 105
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "ghost"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 203,
     "stages": [
       {
@@ -2765,49 +2722,6 @@
     "isStarter": false
   },
   {
-    "lineId": 316,
-    "stages": [
-      {
-        "id": 316,
-        "name": "gulpin",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
-        "stats": {
-          "hp": 70,
-          "attack": 43,
-          "defense": 53,
-          "spAtk": 43,
-          "spDef": 53,
-          "speed": 40
-        },
-        "stage": 0
-      },
-      {
-        "id": 317,
-        "name": "swalot",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
-        "stats": {
-          "hp": 100,
-          "attack": 73,
-          "defense": 83,
-          "spAtk": 73,
-          "spDef": 83,
-          "speed": 55
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "poison"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 322,
     "stages": [
       {
@@ -3293,67 +3207,6 @@
     ],
     "types": [
       "water"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 371,
-    "stages": [
-      {
-        "id": 371,
-        "name": "bagon",
-        "types": [
-          "dragon"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
-        "stats": {
-          "hp": 45,
-          "attack": 75,
-          "defense": 60,
-          "spAtk": 40,
-          "spDef": 30,
-          "speed": 50
-        },
-        "stage": 0
-      },
-      {
-        "id": 372,
-        "name": "shelgon",
-        "types": [
-          "dragon"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
-        "stats": {
-          "hp": 65,
-          "attack": 95,
-          "defense": 100,
-          "spAtk": 60,
-          "spDef": 50,
-          "speed": 50
-        },
-        "stage": 1
-      },
-      {
-        "id": 373,
-        "name": "salamence",
-        "types": [
-          "dragon",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
-        "stats": {
-          "hp": 95,
-          "attack": 135,
-          "defense": 80,
-          "spAtk": 110,
-          "spDef": 80,
-          "speed": 100
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "dragon"
     ],
     "isStarter": false
   },
@@ -5177,7 +5030,7 @@
       },
       {
         "id": 668,
-        "name": "pyroar",
+        "name": "pyroar-male",
         "types": [
           "fire",
           "normal"
@@ -5345,49 +5198,6 @@
     ],
     "types": [
       "poison",
-      "water"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 692,
-    "stages": [
-      {
-        "id": 692,
-        "name": "clauncher",
-        "types": [
-          "water"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
-        "stats": {
-          "hp": 50,
-          "attack": 53,
-          "defense": 62,
-          "spAtk": 58,
-          "spDef": 63,
-          "speed": 44
-        },
-        "stage": 0
-      },
-      {
-        "id": 693,
-        "name": "clawitzer",
-        "types": [
-          "water"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
-        "stats": {
-          "hp": 71,
-          "attack": 73,
-          "defense": 88,
-          "spAtk": 120,
-          "spDef": 89,
-          "speed": 59
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
       "water"
     ],
     "isStarter": false
@@ -6046,32 +5856,6 @@
     "types": [
       "normal",
       "psychic"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 766,
-    "stages": [
-      {
-        "id": 766,
-        "name": "passimian",
-        "types": [
-          "fighting"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
-        "stats": {
-          "hp": 100,
-          "attack": 120,
-          "defense": 90,
-          "spAtk": 40,
-          "spDef": 60,
-          "speed": 80
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "fighting"
     ],
     "isStarter": false
   },
@@ -6961,32 +6745,6 @@
     "isStarter": false
   },
   {
-    "lineId": 875,
-    "stages": [
-      {
-        "id": 875,
-        "name": "eiscue-ice",
-        "types": [
-          "ice"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/875.png",
-        "stats": {
-          "hp": 75,
-          "attack": 80,
-          "defense": 110,
-          "spAtk": 65,
-          "spDef": 90,
-          "speed": 50
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "ice"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 876,
     "stages": [
       {
@@ -7054,70 +6812,6 @@
     ],
     "types": [
       "steel"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 885,
-    "stages": [
-      {
-        "id": 885,
-        "name": "dreepy",
-        "types": [
-          "dragon",
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png",
-        "stats": {
-          "hp": 28,
-          "attack": 60,
-          "defense": 30,
-          "spAtk": 40,
-          "spDef": 30,
-          "speed": 82
-        },
-        "stage": 0
-      },
-      {
-        "id": 886,
-        "name": "drakloak",
-        "types": [
-          "dragon",
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/886.png",
-        "stats": {
-          "hp": 68,
-          "attack": 80,
-          "defense": 50,
-          "spAtk": 60,
-          "spDef": 50,
-          "speed": 102
-        },
-        "stage": 1
-      },
-      {
-        "id": 887,
-        "name": "dragapult",
-        "types": [
-          "dragon",
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png",
-        "stats": {
-          "hp": 88,
-          "attack": 120,
-          "defense": 75,
-          "spAtk": 100,
-          "spDef": 75,
-          "speed": 142
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "dragon",
-      "ghost"
     ],
     "isStarter": false
   },
@@ -7798,24 +7492,6 @@
           "speed": 35
         },
         "stage": 0
-      },
-      {
-        "id": 937,
-        "name": "ceruledge",
-        "types": [
-          "fire",
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png",
-        "stats": {
-          "hp": 75,
-          "attack": 125,
-          "defense": 80,
-          "spAtk": 60,
-          "spDef": 100,
-          "speed": 85
-        },
-        "stage": 1
       }
     ],
     "types": [
@@ -8968,166 +8644,8 @@
     "isStarter": false
   },
   {
-    "lineId": 991,
+    "lineId": 997,
     "stages": [
-      {
-        "id": 991,
-        "name": "iron-bundle",
-        "types": [
-          "ice",
-          "water"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/991.png",
-        "stats": {
-          "hp": 56,
-          "attack": 80,
-          "defense": 114,
-          "spAtk": 124,
-          "spDef": 60,
-          "speed": 136
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "ice",
-      "water"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 992,
-    "stages": [
-      {
-        "id": 992,
-        "name": "iron-hands",
-        "types": [
-          "fighting",
-          "electric"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/992.png",
-        "stats": {
-          "hp": 154,
-          "attack": 140,
-          "defense": 108,
-          "spAtk": 50,
-          "spDef": 68,
-          "speed": 50
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "fighting",
-      "electric"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 993,
-    "stages": [
-      {
-        "id": 993,
-        "name": "iron-jugulis",
-        "types": [
-          "dark",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/993.png",
-        "stats": {
-          "hp": 94,
-          "attack": 80,
-          "defense": 86,
-          "spAtk": 122,
-          "spDef": 80,
-          "speed": 108
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "dark",
-      "flying"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 994,
-    "stages": [
-      {
-        "id": 994,
-        "name": "iron-moth",
-        "types": [
-          "fire",
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/994.png",
-        "stats": {
-          "hp": 80,
-          "attack": 70,
-          "defense": 60,
-          "spAtk": 140,
-          "spDef": 110,
-          "speed": 110
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "fire",
-      "poison"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 995,
-    "stages": [
-      {
-        "id": 995,
-        "name": "iron-thorns",
-        "types": [
-          "rock",
-          "electric"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/995.png",
-        "stats": {
-          "hp": 100,
-          "attack": 134,
-          "defense": 110,
-          "spAtk": 70,
-          "spDef": 84,
-          "speed": 72
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "rock",
-      "electric"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 996,
-    "stages": [
-      {
-        "id": 996,
-        "name": "frigibax",
-        "types": [
-          "dragon",
-          "ice"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/996.png",
-        "stats": {
-          "hp": 65,
-          "attack": 75,
-          "defense": 45,
-          "spAtk": 35,
-          "spDef": 45,
-          "speed": 55
-        },
-        "stage": 0
-      },
       {
         "id": 997,
         "name": "arctibax",
@@ -9144,7 +8662,7 @@
           "spDef": 65,
           "speed": 62
         },
-        "stage": 1
+        "stage": 0
       },
       {
         "id": 998,
@@ -9162,7 +8680,7 @@
           "spDef": 86,
           "speed": 87
         },
-        "stage": 2
+        "stage": 1
       }
     ],
     "types": [
@@ -9240,34 +8758,6 @@
     "types": [
       "dragon",
       "dark"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 1006,
-    "stages": [
-      {
-        "id": 1006,
-        "name": "iron-valiant",
-        "types": [
-          "fairy",
-          "fighting"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1006.png",
-        "stats": {
-          "hp": 74,
-          "attack": 130,
-          "defense": 90,
-          "spAtk": 120,
-          "spDef": 60,
-          "speed": 116
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "fairy",
-      "fighting"
     ],
     "isStarter": false
   }

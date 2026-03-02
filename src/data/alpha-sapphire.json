@@ -1946,68 +1946,6 @@
     "isStarter": false
   },
   {
-    "lineId": 273,
-    "stages": [
-      {
-        "id": 273,
-        "name": "seedot",
-        "types": [
-          "grass"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
-        "stats": {
-          "hp": 40,
-          "attack": 40,
-          "defense": 50,
-          "spAtk": 30,
-          "spDef": 30,
-          "speed": 30
-        },
-        "stage": 0
-      },
-      {
-        "id": 274,
-        "name": "nuzleaf",
-        "types": [
-          "grass",
-          "dark"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
-        "stats": {
-          "hp": 70,
-          "attack": 70,
-          "defense": 40,
-          "spAtk": 60,
-          "spDef": 40,
-          "speed": 60
-        },
-        "stage": 1
-      },
-      {
-        "id": 275,
-        "name": "shiftry",
-        "types": [
-          "grass",
-          "dark"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png",
-        "stats": {
-          "hp": 90,
-          "attack": 100,
-          "defense": 60,
-          "spAtk": 90,
-          "spDef": 60,
-          "speed": 80
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "grass"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 276,
     "stages": [
       {
@@ -2756,34 +2694,6 @@
     "isStarter": false
   },
   {
-    "lineId": 303,
-    "stages": [
-      {
-        "id": 303,
-        "name": "mawile",
-        "types": [
-          "steel",
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
-        "stats": {
-          "hp": 50,
-          "attack": 85,
-          "defense": 85,
-          "spAtk": 55,
-          "spDef": 55,
-          "speed": 50
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "steel",
-      "fairy"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 304,
     "stages": [
       {
@@ -3466,32 +3376,6 @@
     "isStarter": false
   },
   {
-    "lineId": 335,
-    "stages": [
-      {
-        "id": 335,
-        "name": "zangoose",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
-        "stats": {
-          "hp": 73,
-          "attack": 115,
-          "defense": 60,
-          "spAtk": 60,
-          "spDef": 60,
-          "speed": 90
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "normal"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 336,
     "stages": [
       {
@@ -3534,34 +3418,6 @@
           "defense": 65,
           "spAtk": 95,
           "spDef": 85,
-          "speed": 70
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "rock",
-      "psychic"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 338,
-    "stages": [
-      {
-        "id": 338,
-        "name": "solrock",
-        "types": [
-          "rock",
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
-        "stats": {
-          "hp": 90,
-          "attack": 95,
-          "defense": 85,
-          "spAtk": 55,
-          "spDef": 65,
           "speed": 70
         },
         "stage": 0

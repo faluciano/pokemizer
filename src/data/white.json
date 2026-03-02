@@ -1085,52 +1085,6 @@
     "isStarter": false
   },
   {
-    "lineId": 546,
-    "stages": [
-      {
-        "id": 546,
-        "name": "cottonee",
-        "types": [
-          "grass",
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png",
-        "stats": {
-          "hp": 40,
-          "attack": 27,
-          "defense": 60,
-          "spAtk": 37,
-          "spDef": 50,
-          "speed": 66
-        },
-        "stage": 0
-      },
-      {
-        "id": 547,
-        "name": "whimsicott",
-        "types": [
-          "grass",
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
-        "stats": {
-          "hp": 60,
-          "attack": 67,
-          "defense": 85,
-          "spAtk": 77,
-          "spDef": 75,
-          "speed": 116
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "grass",
-      "fairy"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 548,
     "stages": [
       {
@@ -1745,66 +1699,6 @@
     "isStarter": false
   },
   {
-    "lineId": 574,
-    "stages": [
-      {
-        "id": 574,
-        "name": "gothita",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/574.png",
-        "stats": {
-          "hp": 45,
-          "attack": 30,
-          "defense": 50,
-          "spAtk": 55,
-          "spDef": 65,
-          "speed": 45
-        },
-        "stage": 0
-      },
-      {
-        "id": 575,
-        "name": "gothorita",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/575.png",
-        "stats": {
-          "hp": 60,
-          "attack": 45,
-          "defense": 70,
-          "spAtk": 75,
-          "spDef": 85,
-          "speed": 55
-        },
-        "stage": 1
-      },
-      {
-        "id": 576,
-        "name": "gothitelle",
-        "types": [
-          "psychic"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
-        "stats": {
-          "hp": 70,
-          "attack": 55,
-          "defense": 95,
-          "spAtk": 95,
-          "spDef": 110,
-          "speed": 65
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "psychic"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 577,
     "stages": [
       {
@@ -2157,7 +2051,7 @@
       },
       {
         "id": 593,
-        "name": "jellicent",
+        "name": "jellicent-male",
         "types": [
           "water",
           "ghost"
@@ -2954,52 +2848,6 @@
     ],
     "types": [
       "normal",
-      "flying"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 629,
-    "stages": [
-      {
-        "id": 629,
-        "name": "vullaby",
-        "types": [
-          "dark",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/629.png",
-        "stats": {
-          "hp": 70,
-          "attack": 55,
-          "defense": 75,
-          "spAtk": 45,
-          "spDef": 65,
-          "speed": 60
-        },
-        "stage": 0
-      },
-      {
-        "id": 630,
-        "name": "mandibuzz",
-        "types": [
-          "dark",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/630.png",
-        "stats": {
-          "hp": 110,
-          "attack": 65,
-          "defense": 105,
-          "spAtk": 55,
-          "spDef": 95,
-          "speed": 80
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "dark",
       "flying"
     ],
     "isStarter": false

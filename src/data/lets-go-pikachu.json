@@ -463,49 +463,6 @@
     "isStarter": false
   },
   {
-    "lineId": 23,
-    "stages": [
-      {
-        "id": 23,
-        "name": "ekans",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
-        "stats": {
-          "hp": 35,
-          "attack": 60,
-          "defense": 44,
-          "spAtk": 40,
-          "spDef": 54,
-          "speed": 55
-        },
-        "stage": 0
-      },
-      {
-        "id": 24,
-        "name": "arbok",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
-        "stats": {
-          "hp": 60,
-          "attack": 95,
-          "defense": 69,
-          "spAtk": 65,
-          "spDef": 79,
-          "speed": 80
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "poison"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 25,
     "stages": [
       {
@@ -753,49 +710,6 @@
     ],
     "types": [
       "fairy"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 37,
-    "stages": [
-      {
-        "id": 37,
-        "name": "vulpix",
-        "types": [
-          "fire"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-        "stats": {
-          "hp": 38,
-          "attack": 41,
-          "defense": 40,
-          "spAtk": 50,
-          "spDef": 65,
-          "speed": 65
-        },
-        "stage": 0
-      },
-      {
-        "id": 38,
-        "name": "ninetales",
-        "types": [
-          "fire"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-        "stats": {
-          "hp": 73,
-          "attack": 76,
-          "defense": 75,
-          "spAtk": 81,
-          "spDef": 100,
-          "speed": 100
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "fire"
     ],
     "isStarter": false
   },
@@ -1137,77 +1051,6 @@
       "ground"
     ],
     "isStarter": false
-  },
-  {
-    "lineId": 52,
-    "stages": [
-      {
-        "id": 52,
-        "name": "meowth",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
-        "stats": {
-          "hp": 40,
-          "attack": 45,
-          "defense": 35,
-          "spAtk": 40,
-          "spDef": 40,
-          "speed": 90
-        },
-        "stage": 0
-      },
-      {
-        "id": 53,
-        "name": "persian",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
-        "stats": {
-          "hp": 65,
-          "attack": 70,
-          "defense": 60,
-          "spAtk": 65,
-          "spDef": 65,
-          "speed": 115
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "normal"
-    ],
-    "isStarter": false,
-    "branchIndex": 0
-  },
-  {
-    "lineId": 52,
-    "stages": [
-      {
-        "id": 52,
-        "name": "meowth",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
-        "stats": {
-          "hp": 40,
-          "attack": 45,
-          "defense": 35,
-          "spAtk": 40,
-          "spDef": 40,
-          "speed": 90
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "normal"
-    ],
-    "isStarter": false,
-    "branchIndex": 1
   },
   {
     "lineId": 54,
@@ -1561,70 +1404,6 @@
     ],
     "types": [
       "fighting"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 69,
-    "stages": [
-      {
-        "id": 69,
-        "name": "bellsprout",
-        "types": [
-          "grass",
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
-        "stats": {
-          "hp": 50,
-          "attack": 75,
-          "defense": 35,
-          "spAtk": 70,
-          "spDef": 30,
-          "speed": 40
-        },
-        "stage": 0
-      },
-      {
-        "id": 70,
-        "name": "weepinbell",
-        "types": [
-          "grass",
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
-        "stats": {
-          "hp": 65,
-          "attack": 90,
-          "defense": 50,
-          "spAtk": 85,
-          "spDef": 45,
-          "speed": 55
-        },
-        "stage": 1
-      },
-      {
-        "id": 71,
-        "name": "victreebel",
-        "types": [
-          "grass",
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
-        "stats": {
-          "hp": 80,
-          "attack": 105,
-          "defense": 65,
-          "spAtk": 100,
-          "spDef": 70,
-          "speed": 70
-        },
-        "stage": 2
-      }
-    ],
-    "types": [
-      "grass",
-      "poison"
     ],
     "isStarter": false
   },
@@ -2497,49 +2276,6 @@
     "isStarter": false
   },
   {
-    "lineId": 109,
-    "stages": [
-      {
-        "id": 109,
-        "name": "koffing",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
-        "stats": {
-          "hp": 40,
-          "attack": 65,
-          "defense": 95,
-          "spAtk": 60,
-          "spDef": 45,
-          "speed": 35
-        },
-        "stage": 0
-      },
-      {
-        "id": 110,
-        "name": "weezing",
-        "types": [
-          "poison"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
-        "stats": {
-          "hp": 65,
-          "attack": 90,
-          "defense": 120,
-          "spAtk": 85,
-          "spDef": 70,
-          "speed": 60
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "poison"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 111,
     "stages": [
       {
@@ -2960,32 +2696,6 @@
     "isStarter": false
   },
   {
-    "lineId": 127,
-    "stages": [
-      {
-        "id": 127,
-        "name": "pinsir",
-        "types": [
-          "bug"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
-        "stats": {
-          "hp": 65,
-          "attack": 125,
-          "defense": 100,
-          "spAtk": 55,
-          "spDef": 70,
-          "speed": 85
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "bug"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 128,
     "stages": [
       {
@@ -3150,7 +2860,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 0
   },
   {
@@ -3194,7 +2904,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 1
   },
   {
@@ -3238,7 +2948,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 2
   },
   {
@@ -3265,7 +2975,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 3
   },
   {
@@ -3292,7 +3002,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 4
   },
   {
@@ -3319,7 +3029,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 5
   },
   {
@@ -3346,7 +3056,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 6
   },
   {
@@ -3373,7 +3083,7 @@
     "types": [
       "normal"
     ],
-    "isStarter": true,
+    "isStarter": false,
     "branchIndex": 7
   },
   {

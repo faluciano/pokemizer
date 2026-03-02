@@ -1,0 +1,3150 @@
+[
+  {
+    "lineId": 41,
+    "stages": [
+      {
+        "id": 41,
+        "name": "zubat",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+        "stats": {
+          "hp": 40,
+          "attack": 45,
+          "defense": 35,
+          "spAtk": 30,
+          "spDef": 40,
+          "speed": 55
+        },
+        "stage": 0
+      },
+      {
+        "id": 42,
+        "name": "golbat",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+        "stats": {
+          "hp": 75,
+          "attack": 80,
+          "defense": 70,
+          "spAtk": 65,
+          "spDef": 75,
+          "speed": 90
+        },
+        "stage": 1
+      },
+      {
+        "id": 169,
+        "name": "crobat",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
+        "stats": {
+          "hp": 85,
+          "attack": 90,
+          "defense": 80,
+          "spAtk": 70,
+          "spDef": 80,
+          "speed": 130
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 54,
+    "stages": [
+      {
+        "id": 54,
+        "name": "psyduck",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+        "stats": {
+          "hp": 50,
+          "attack": 52,
+          "defense": 48,
+          "spAtk": 65,
+          "spDef": 50,
+          "speed": 55
+        },
+        "stage": 0
+      },
+      {
+        "id": 55,
+        "name": "golduck",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+        "stats": {
+          "hp": 80,
+          "attack": 82,
+          "defense": 78,
+          "spAtk": 95,
+          "spDef": 80,
+          "speed": 85
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 63,
+    "stages": [
+      {
+        "id": 63,
+        "name": "abra",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+        "stats": {
+          "hp": 25,
+          "attack": 20,
+          "defense": 15,
+          "spAtk": 105,
+          "spDef": 55,
+          "speed": 90
+        },
+        "stage": 0
+      },
+      {
+        "id": 64,
+        "name": "kadabra",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+        "stats": {
+          "hp": 40,
+          "attack": 35,
+          "defense": 30,
+          "spAtk": 120,
+          "spDef": 70,
+          "speed": 105
+        },
+        "stage": 1
+      },
+      {
+        "id": 65,
+        "name": "alakazam",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+        "stats": {
+          "hp": 55,
+          "attack": 50,
+          "defense": 45,
+          "spAtk": 135,
+          "spDef": 95,
+          "speed": 120
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 66,
+    "stages": [
+      {
+        "id": 66,
+        "name": "machop",
+        "types": [
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+        "stats": {
+          "hp": 70,
+          "attack": 80,
+          "defense": 50,
+          "spAtk": 35,
+          "spDef": 35,
+          "speed": 35
+        },
+        "stage": 0
+      },
+      {
+        "id": 67,
+        "name": "machoke",
+        "types": [
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+        "stats": {
+          "hp": 80,
+          "attack": 100,
+          "defense": 70,
+          "spAtk": 50,
+          "spDef": 60,
+          "speed": 45
+        },
+        "stage": 1
+      },
+      {
+        "id": 68,
+        "name": "machamp",
+        "types": [
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+        "stats": {
+          "hp": 90,
+          "attack": 130,
+          "defense": 80,
+          "spAtk": 65,
+          "spDef": 85,
+          "speed": 55
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "fighting"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 72,
+    "stages": [
+      {
+        "id": 72,
+        "name": "tentacool",
+        "types": [
+          "water",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+        "stats": {
+          "hp": 40,
+          "attack": 40,
+          "defense": 35,
+          "spAtk": 50,
+          "spDef": 100,
+          "speed": 70
+        },
+        "stage": 0
+      },
+      {
+        "id": 73,
+        "name": "tentacruel",
+        "types": [
+          "water",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+        "stats": {
+          "hp": 80,
+          "attack": 70,
+          "defense": 65,
+          "spAtk": 80,
+          "spDef": 120,
+          "speed": 100
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water",
+      "poison"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 74,
+    "stages": [
+      {
+        "id": 74,
+        "name": "geodude",
+        "types": [
+          "rock",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+        "stats": {
+          "hp": 40,
+          "attack": 80,
+          "defense": 100,
+          "spAtk": 30,
+          "spDef": 30,
+          "speed": 20
+        },
+        "stage": 0
+      },
+      {
+        "id": 75,
+        "name": "graveler",
+        "types": [
+          "rock",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+        "stats": {
+          "hp": 55,
+          "attack": 95,
+          "defense": 115,
+          "spAtk": 45,
+          "spDef": 45,
+          "speed": 35
+        },
+        "stage": 1
+      },
+      {
+        "id": 76,
+        "name": "golem",
+        "types": [
+          "rock",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+        "stats": {
+          "hp": 80,
+          "attack": 120,
+          "defense": 130,
+          "spAtk": 55,
+          "spDef": 65,
+          "speed": 45
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 77,
+    "stages": [
+      {
+        "id": 77,
+        "name": "ponyta",
+        "types": [
+          "fire"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+        "stats": {
+          "hp": 50,
+          "attack": 85,
+          "defense": 55,
+          "spAtk": 65,
+          "spDef": 65,
+          "speed": 90
+        },
+        "stage": 0
+      },
+      {
+        "id": 78,
+        "name": "rapidash",
+        "types": [
+          "fire"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+        "stats": {
+          "hp": 65,
+          "attack": 100,
+          "defense": 70,
+          "spAtk": 80,
+          "spDef": 80,
+          "speed": 105
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "fire"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 92,
+    "stages": [
+      {
+        "id": 92,
+        "name": "gastly",
+        "types": [
+          "ghost",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+        "stats": {
+          "hp": 30,
+          "attack": 35,
+          "defense": 30,
+          "spAtk": 100,
+          "spDef": 35,
+          "speed": 80
+        },
+        "stage": 0
+      },
+      {
+        "id": 93,
+        "name": "haunter",
+        "types": [
+          "ghost",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+        "stats": {
+          "hp": 45,
+          "attack": 50,
+          "defense": 45,
+          "spAtk": 115,
+          "spDef": 55,
+          "speed": 95
+        },
+        "stage": 1
+      },
+      {
+        "id": 94,
+        "name": "gengar",
+        "types": [
+          "ghost",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+        "stats": {
+          "hp": 60,
+          "attack": 65,
+          "defense": 60,
+          "spAtk": 130,
+          "spDef": 75,
+          "speed": 110
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 95,
+    "stages": [
+      {
+        "id": 95,
+        "name": "onix",
+        "types": [
+          "rock",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+        "stats": {
+          "hp": 35,
+          "attack": 45,
+          "defense": 160,
+          "spAtk": 30,
+          "spDef": 45,
+          "speed": 70
+        },
+        "stage": 0
+      },
+      {
+        "id": 208,
+        "name": "steelix",
+        "types": [
+          "steel",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+        "stats": {
+          "hp": 75,
+          "attack": 85,
+          "defense": 200,
+          "spAtk": 55,
+          "spDef": 65,
+          "speed": 30
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 118,
+    "stages": [
+      {
+        "id": 118,
+        "name": "goldeen",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+        "stats": {
+          "hp": 45,
+          "attack": 67,
+          "defense": 60,
+          "spAtk": 35,
+          "spDef": 50,
+          "speed": 63
+        },
+        "stage": 0
+      },
+      {
+        "id": 119,
+        "name": "seaking",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+        "stats": {
+          "hp": 80,
+          "attack": 92,
+          "defense": 65,
+          "spAtk": 65,
+          "spDef": 80,
+          "speed": 68
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 129,
+    "stages": [
+      {
+        "id": 129,
+        "name": "magikarp",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+        "stats": {
+          "hp": 20,
+          "attack": 10,
+          "defense": 55,
+          "spAtk": 15,
+          "spDef": 20,
+          "speed": 80
+        },
+        "stage": 0
+      },
+      {
+        "id": 130,
+        "name": "gyarados",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+        "stats": {
+          "hp": 95,
+          "attack": 125,
+          "defense": 79,
+          "spAtk": 60,
+          "spDef": 100,
+          "speed": 81
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 163,
+    "stages": [
+      {
+        "id": 163,
+        "name": "hoothoot",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
+        "stats": {
+          "hp": 60,
+          "attack": 30,
+          "defense": 30,
+          "spAtk": 36,
+          "spDef": 56,
+          "speed": 50
+        },
+        "stage": 0
+      },
+      {
+        "id": 164,
+        "name": "noctowl",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
+        "stats": {
+          "hp": 100,
+          "attack": 50,
+          "defense": 50,
+          "spAtk": 86,
+          "spDef": 96,
+          "speed": 70
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 172,
+    "stages": [
+      {
+        "id": 172,
+        "name": "pichu",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+        "stats": {
+          "hp": 20,
+          "attack": 40,
+          "defense": 15,
+          "spAtk": 35,
+          "spDef": 35,
+          "speed": 60
+        },
+        "stage": 0
+      },
+      {
+        "id": 25,
+        "name": "pikachu",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+        "stats": {
+          "hp": 35,
+          "attack": 55,
+          "defense": 40,
+          "spAtk": 50,
+          "spDef": 50,
+          "speed": 90
+        },
+        "stage": 1
+      },
+      {
+        "id": 26,
+        "name": "raichu",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+        "stats": {
+          "hp": 60,
+          "attack": 90,
+          "defense": 55,
+          "spAtk": 90,
+          "spDef": 80,
+          "speed": 110
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "electric"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 173,
+    "stages": [
+      {
+        "id": 173,
+        "name": "cleffa",
+        "types": [
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
+        "stats": {
+          "hp": 50,
+          "attack": 25,
+          "defense": 28,
+          "spAtk": 45,
+          "spDef": 55,
+          "speed": 15
+        },
+        "stage": 0
+      },
+      {
+        "id": 35,
+        "name": "clefairy",
+        "types": [
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+        "stats": {
+          "hp": 70,
+          "attack": 45,
+          "defense": 48,
+          "spAtk": 60,
+          "spDef": 65,
+          "speed": 35
+        },
+        "stage": 1
+      },
+      {
+        "id": 36,
+        "name": "clefable",
+        "types": [
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+        "stats": {
+          "hp": 95,
+          "attack": 70,
+          "defense": 73,
+          "spAtk": 95,
+          "spDef": 90,
+          "speed": 60
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "fairy"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 190,
+    "stages": [
+      {
+        "id": 190,
+        "name": "aipom",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
+        "stats": {
+          "hp": 55,
+          "attack": 70,
+          "defense": 55,
+          "spAtk": 40,
+          "spDef": 55,
+          "speed": 85
+        },
+        "stage": 0
+      },
+      {
+        "id": 424,
+        "name": "ambipom",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/424.png",
+        "stats": {
+          "hp": 75,
+          "attack": 100,
+          "defense": 66,
+          "spAtk": 60,
+          "spDef": 66,
+          "speed": 115
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "normal"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 194,
+    "stages": [
+      {
+        "id": 194,
+        "name": "wooper",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
+        "stats": {
+          "hp": 55,
+          "attack": 45,
+          "defense": 45,
+          "spAtk": 25,
+          "spDef": 25,
+          "speed": 15
+        },
+        "stage": 0
+      },
+      {
+        "id": 195,
+        "name": "quagsire",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
+        "stats": {
+          "hp": 95,
+          "attack": 85,
+          "defense": 85,
+          "spAtk": 65,
+          "spDef": 65,
+          "speed": 35
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water",
+      "ground"
+    ],
+    "isStarter": false,
+    "branchIndex": 0
+  },
+  {
+    "lineId": 194,
+    "stages": [
+      {
+        "id": 194,
+        "name": "wooper",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
+        "stats": {
+          "hp": 55,
+          "attack": 45,
+          "defense": 45,
+          "spAtk": 25,
+          "spDef": 25,
+          "speed": 15
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "water",
+      "ground"
+    ],
+    "isStarter": false,
+    "branchIndex": 1
+  },
+  {
+    "lineId": 198,
+    "stages": [
+      {
+        "id": 198,
+        "name": "murkrow",
+        "types": [
+          "dark",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
+        "stats": {
+          "hp": 60,
+          "attack": 85,
+          "defense": 42,
+          "spAtk": 85,
+          "spDef": 42,
+          "speed": 91
+        },
+        "stage": 0
+      },
+      {
+        "id": 430,
+        "name": "honchkrow",
+        "types": [
+          "dark",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png",
+        "stats": {
+          "hp": 100,
+          "attack": 125,
+          "defense": 52,
+          "spAtk": 105,
+          "spDef": 52,
+          "speed": 71
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 201,
+    "stages": [
+      {
+        "id": 201,
+        "name": "unown",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
+        "stats": {
+          "hp": 48,
+          "attack": 72,
+          "defense": 48,
+          "spAtk": 72,
+          "spDef": 48,
+          "speed": 48
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 203,
+    "stages": [
+      {
+        "id": 203,
+        "name": "girafarig",
+        "types": [
+          "normal",
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
+        "stats": {
+          "hp": 70,
+          "attack": 80,
+          "defense": 65,
+          "spAtk": 90,
+          "spDef": 65,
+          "speed": 85
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 214,
+    "stages": [
+      {
+        "id": 214,
+        "name": "heracross",
+        "types": [
+          "bug",
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+        "stats": {
+          "hp": 80,
+          "attack": 125,
+          "defense": 75,
+          "spAtk": 40,
+          "spDef": 95,
+          "speed": 85
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 215,
+    "stages": [
+      {
+        "id": 215,
+        "name": "sneasel",
+        "types": [
+          "dark",
+          "ice"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+        "stats": {
+          "hp": 55,
+          "attack": 95,
+          "defense": 55,
+          "spAtk": 35,
+          "spDef": 75,
+          "speed": 115
+        },
+        "stage": 0
+      },
+      {
+        "id": 461,
+        "name": "weavile",
+        "types": [
+          "dark",
+          "ice"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png",
+        "stats": {
+          "hp": 70,
+          "attack": 120,
+          "defense": 65,
+          "spAtk": 45,
+          "spDef": 85,
+          "speed": 125
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "isStarter": false,
+    "branchIndex": 0
+  },
+  {
+    "lineId": 215,
+    "stages": [
+      {
+        "id": 215,
+        "name": "sneasel",
+        "types": [
+          "dark",
+          "ice"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+        "stats": {
+          "hp": 55,
+          "attack": 95,
+          "defense": 55,
+          "spAtk": 35,
+          "spDef": 75,
+          "speed": 115
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "isStarter": false,
+    "branchIndex": 1
+  },
+  {
+    "lineId": 223,
+    "stages": [
+      {
+        "id": 223,
+        "name": "remoraid",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
+        "stats": {
+          "hp": 35,
+          "attack": 65,
+          "defense": 35,
+          "spAtk": 65,
+          "spDef": 35,
+          "speed": 65
+        },
+        "stage": 0
+      },
+      {
+        "id": 224,
+        "name": "octillery",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
+        "stats": {
+          "hp": 75,
+          "attack": 105,
+          "defense": 75,
+          "spAtk": 105,
+          "spDef": 75,
+          "speed": 45
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 265,
+    "stages": [
+      {
+        "id": 265,
+        "name": "wurmple",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+        "stats": {
+          "hp": 45,
+          "attack": 45,
+          "defense": 35,
+          "spAtk": 20,
+          "spDef": 30,
+          "speed": 20
+        },
+        "stage": 0
+      },
+      {
+        "id": 266,
+        "name": "silcoon",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
+        "stats": {
+          "hp": 50,
+          "attack": 35,
+          "defense": 55,
+          "spAtk": 25,
+          "spDef": 25,
+          "speed": 15
+        },
+        "stage": 1
+      },
+      {
+        "id": 267,
+        "name": "beautifly",
+        "types": [
+          "bug",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
+        "stats": {
+          "hp": 60,
+          "attack": 70,
+          "defense": 50,
+          "spAtk": 100,
+          "spDef": 50,
+          "speed": 65
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "bug"
+    ],
+    "isStarter": false,
+    "branchIndex": 0
+  },
+  {
+    "lineId": 265,
+    "stages": [
+      {
+        "id": 265,
+        "name": "wurmple",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+        "stats": {
+          "hp": 45,
+          "attack": 45,
+          "defense": 35,
+          "spAtk": 20,
+          "spDef": 30,
+          "speed": 20
+        },
+        "stage": 0
+      },
+      {
+        "id": 268,
+        "name": "cascoon",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+        "stats": {
+          "hp": 50,
+          "attack": 35,
+          "defense": 55,
+          "spAtk": 25,
+          "spDef": 25,
+          "speed": 15
+        },
+        "stage": 1
+      },
+      {
+        "id": 269,
+        "name": "dustox",
+        "types": [
+          "bug",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
+        "stats": {
+          "hp": 60,
+          "attack": 50,
+          "defense": 70,
+          "spAtk": 50,
+          "spDef": 90,
+          "speed": 65
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "bug"
+    ],
+    "isStarter": false,
+    "branchIndex": 1
+  },
+  {
+    "lineId": 278,
+    "stages": [
+      {
+        "id": 278,
+        "name": "wingull",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png",
+        "stats": {
+          "hp": 40,
+          "attack": 30,
+          "defense": 30,
+          "spAtk": 55,
+          "spDef": 30,
+          "speed": 85
+        },
+        "stage": 0
+      },
+      {
+        "id": 279,
+        "name": "pelipper",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
+        "stats": {
+          "hp": 60,
+          "attack": 50,
+          "defense": 100,
+          "spAtk": 95,
+          "spDef": 70,
+          "speed": 65
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 298,
+    "stages": [
+      {
+        "id": 298,
+        "name": "azurill",
+        "types": [
+          "normal",
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png",
+        "stats": {
+          "hp": 50,
+          "attack": 20,
+          "defense": 40,
+          "spAtk": 20,
+          "spDef": 40,
+          "speed": 20
+        },
+        "stage": 0
+      },
+      {
+        "id": 183,
+        "name": "marill",
+        "types": [
+          "water",
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
+        "stats": {
+          "hp": 70,
+          "attack": 20,
+          "defense": 50,
+          "spAtk": 20,
+          "spDef": 50,
+          "speed": 40
+        },
+        "stage": 1
+      },
+      {
+        "id": 184,
+        "name": "azumarill",
+        "types": [
+          "water",
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
+        "stats": {
+          "hp": 100,
+          "attack": 50,
+          "defense": 80,
+          "spAtk": 60,
+          "spDef": 80,
+          "speed": 50
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 307,
+    "stages": [
+      {
+        "id": 307,
+        "name": "meditite",
+        "types": [
+          "fighting",
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+        "stats": {
+          "hp": 30,
+          "attack": 40,
+          "defense": 55,
+          "spAtk": 40,
+          "spDef": 55,
+          "speed": 60
+        },
+        "stage": 0
+      },
+      {
+        "id": 308,
+        "name": "medicham",
+        "types": [
+          "fighting",
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+        "stats": {
+          "hp": 60,
+          "attack": 60,
+          "defense": 75,
+          "spAtk": 60,
+          "spDef": 75,
+          "speed": 80
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 339,
+    "stages": [
+      {
+        "id": 339,
+        "name": "barboach",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png",
+        "stats": {
+          "hp": 50,
+          "attack": 48,
+          "defense": 43,
+          "spAtk": 46,
+          "spDef": 41,
+          "speed": 60
+        },
+        "stage": 0
+      },
+      {
+        "id": 340,
+        "name": "whiscash",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/340.png",
+        "stats": {
+          "hp": 110,
+          "attack": 78,
+          "defense": 73,
+          "spAtk": 76,
+          "spDef": 71,
+          "speed": 60
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water",
+      "ground"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 349,
+    "stages": [
+      {
+        "id": 349,
+        "name": "feebas",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
+        "stats": {
+          "hp": 20,
+          "attack": 15,
+          "defense": 20,
+          "spAtk": 10,
+          "spDef": 55,
+          "speed": 80
+        },
+        "stage": 0
+      },
+      {
+        "id": 350,
+        "name": "milotic",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+        "stats": {
+          "hp": 95,
+          "attack": 60,
+          "defense": 79,
+          "spAtk": 100,
+          "spDef": 125,
+          "speed": 81
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 387,
+    "stages": [
+      {
+        "id": 387,
+        "name": "turtwig",
+        "types": [
+          "grass"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png",
+        "stats": {
+          "hp": 55,
+          "attack": 68,
+          "defense": 64,
+          "spAtk": 45,
+          "spDef": 55,
+          "speed": 31
+        },
+        "stage": 0
+      },
+      {
+        "id": 388,
+        "name": "grotle",
+        "types": [
+          "grass"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/388.png",
+        "stats": {
+          "hp": 75,
+          "attack": 89,
+          "defense": 85,
+          "spAtk": 55,
+          "spDef": 65,
+          "speed": 36
+        },
+        "stage": 1
+      },
+      {
+        "id": 389,
+        "name": "torterra",
+        "types": [
+          "grass",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png",
+        "stats": {
+          "hp": 95,
+          "attack": 109,
+          "defense": 105,
+          "spAtk": 75,
+          "spDef": 85,
+          "speed": 56
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "grass"
+    ],
+    "isStarter": true
+  },
+  {
+    "lineId": 390,
+    "stages": [
+      {
+        "id": 390,
+        "name": "chimchar",
+        "types": [
+          "fire"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
+        "stats": {
+          "hp": 44,
+          "attack": 58,
+          "defense": 44,
+          "spAtk": 58,
+          "spDef": 44,
+          "speed": 61
+        },
+        "stage": 0
+      },
+      {
+        "id": 391,
+        "name": "monferno",
+        "types": [
+          "fire",
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/391.png",
+        "stats": {
+          "hp": 64,
+          "attack": 78,
+          "defense": 52,
+          "spAtk": 78,
+          "spDef": 52,
+          "speed": 81
+        },
+        "stage": 1
+      },
+      {
+        "id": 392,
+        "name": "infernape",
+        "types": [
+          "fire",
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png",
+        "stats": {
+          "hp": 76,
+          "attack": 104,
+          "defense": 71,
+          "spAtk": 104,
+          "spDef": 71,
+          "speed": 108
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "fire"
+    ],
+    "isStarter": true
+  },
+  {
+    "lineId": 393,
+    "stages": [
+      {
+        "id": 393,
+        "name": "piplup",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
+        "stats": {
+          "hp": 53,
+          "attack": 51,
+          "defense": 53,
+          "spAtk": 61,
+          "spDef": 56,
+          "speed": 40
+        },
+        "stage": 0
+      },
+      {
+        "id": 394,
+        "name": "prinplup",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/394.png",
+        "stats": {
+          "hp": 64,
+          "attack": 66,
+          "defense": 68,
+          "spAtk": 81,
+          "spDef": 76,
+          "speed": 50
+        },
+        "stage": 1
+      },
+      {
+        "id": 395,
+        "name": "empoleon",
+        "types": [
+          "water",
+          "steel"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
+        "stats": {
+          "hp": 84,
+          "attack": 86,
+          "defense": 88,
+          "spAtk": 111,
+          "spDef": 101,
+          "speed": 60
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": true
+  },
+  {
+    "lineId": 396,
+    "stages": [
+      {
+        "id": 396,
+        "name": "starly",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
+        "stats": {
+          "hp": 40,
+          "attack": 55,
+          "defense": 30,
+          "spAtk": 30,
+          "spDef": 30,
+          "speed": 60
+        },
+        "stage": 0
+      },
+      {
+        "id": 397,
+        "name": "staravia",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/397.png",
+        "stats": {
+          "hp": 55,
+          "attack": 75,
+          "defense": 50,
+          "spAtk": 40,
+          "spDef": 40,
+          "speed": 80
+        },
+        "stage": 1
+      },
+      {
+        "id": 398,
+        "name": "staraptor",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
+        "stats": {
+          "hp": 85,
+          "attack": 120,
+          "defense": 70,
+          "spAtk": 50,
+          "spDef": 60,
+          "speed": 100
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 399,
+    "stages": [
+      {
+        "id": 399,
+        "name": "bidoof",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png",
+        "stats": {
+          "hp": 59,
+          "attack": 45,
+          "defense": 40,
+          "spAtk": 35,
+          "spDef": 40,
+          "speed": 31
+        },
+        "stage": 0
+      },
+      {
+        "id": 400,
+        "name": "bibarel",
+        "types": [
+          "normal",
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png",
+        "stats": {
+          "hp": 79,
+          "attack": 85,
+          "defense": 60,
+          "spAtk": 55,
+          "spDef": 60,
+          "speed": 71
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "normal"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 401,
+    "stages": [
+      {
+        "id": 401,
+        "name": "kricketot",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png",
+        "stats": {
+          "hp": 37,
+          "attack": 25,
+          "defense": 41,
+          "spAtk": 25,
+          "spDef": 41,
+          "speed": 25
+        },
+        "stage": 0
+      },
+      {
+        "id": 402,
+        "name": "kricketune",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/402.png",
+        "stats": {
+          "hp": 77,
+          "attack": 85,
+          "defense": 51,
+          "spAtk": 55,
+          "spDef": 51,
+          "speed": 65
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "bug"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 403,
+    "stages": [
+      {
+        "id": 403,
+        "name": "shinx",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png",
+        "stats": {
+          "hp": 45,
+          "attack": 65,
+          "defense": 34,
+          "spAtk": 40,
+          "spDef": 34,
+          "speed": 45
+        },
+        "stage": 0
+      },
+      {
+        "id": 404,
+        "name": "luxio",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/404.png",
+        "stats": {
+          "hp": 60,
+          "attack": 85,
+          "defense": 49,
+          "spAtk": 60,
+          "spDef": 49,
+          "speed": 60
+        },
+        "stage": 1
+      },
+      {
+        "id": 405,
+        "name": "luxray",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png",
+        "stats": {
+          "hp": 80,
+          "attack": 120,
+          "defense": 79,
+          "spAtk": 95,
+          "spDef": 79,
+          "speed": 70
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "electric"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 406,
+    "stages": [
+      {
+        "id": 406,
+        "name": "budew",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
+        "stats": {
+          "hp": 40,
+          "attack": 30,
+          "defense": 35,
+          "spAtk": 50,
+          "spDef": 70,
+          "speed": 55
+        },
+        "stage": 0
+      },
+      {
+        "id": 315,
+        "name": "roselia",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+        "stats": {
+          "hp": 50,
+          "attack": 60,
+          "defense": 45,
+          "spAtk": 100,
+          "spDef": 80,
+          "speed": 65
+        },
+        "stage": 1
+      },
+      {
+        "id": 407,
+        "name": "roserade",
+        "types": [
+          "grass",
+          "poison"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
+        "stats": {
+          "hp": 60,
+          "attack": 70,
+          "defense": 65,
+          "spAtk": 125,
+          "spDef": 105,
+          "speed": 90
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 408,
+    "stages": [
+      {
+        "id": 408,
+        "name": "cranidos",
+        "types": [
+          "rock"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png",
+        "stats": {
+          "hp": 67,
+          "attack": 125,
+          "defense": 40,
+          "spAtk": 30,
+          "spDef": 30,
+          "speed": 58
+        },
+        "stage": 0
+      },
+      {
+        "id": 409,
+        "name": "rampardos",
+        "types": [
+          "rock"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
+        "stats": {
+          "hp": 97,
+          "attack": 165,
+          "defense": 60,
+          "spAtk": 65,
+          "spDef": 50,
+          "speed": 58
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "rock"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 412,
+    "stages": [
+      {
+        "id": 412,
+        "name": "burmy",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
+        "stats": {
+          "hp": 40,
+          "attack": 29,
+          "defense": 45,
+          "spAtk": 29,
+          "spDef": 45,
+          "speed": 36
+        },
+        "stage": 0
+      },
+      {
+        "id": 413,
+        "name": "wormadam-plant",
+        "types": [
+          "bug",
+          "grass"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png",
+        "stats": {
+          "hp": 60,
+          "attack": 59,
+          "defense": 85,
+          "spAtk": 79,
+          "spDef": 105,
+          "speed": 36
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "bug"
+    ],
+    "isStarter": false,
+    "branchIndex": 0
+  },
+  {
+    "lineId": 412,
+    "stages": [
+      {
+        "id": 412,
+        "name": "burmy",
+        "types": [
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
+        "stats": {
+          "hp": 40,
+          "attack": 29,
+          "defense": 45,
+          "spAtk": 29,
+          "spDef": 45,
+          "speed": 36
+        },
+        "stage": 0
+      },
+      {
+        "id": 414,
+        "name": "mothim",
+        "types": [
+          "bug",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/414.png",
+        "stats": {
+          "hp": 70,
+          "attack": 94,
+          "defense": 50,
+          "spAtk": 94,
+          "spDef": 50,
+          "speed": 66
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "bug"
+    ],
+    "isStarter": false,
+    "branchIndex": 1
+  },
+  {
+    "lineId": 415,
+    "stages": [
+      {
+        "id": 415,
+        "name": "combee",
+        "types": [
+          "bug",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png",
+        "stats": {
+          "hp": 30,
+          "attack": 30,
+          "defense": 42,
+          "spAtk": 30,
+          "spDef": 42,
+          "speed": 70
+        },
+        "stage": 0
+      },
+      {
+        "id": 416,
+        "name": "vespiquen",
+        "types": [
+          "bug",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/416.png",
+        "stats": {
+          "hp": 70,
+          "attack": 80,
+          "defense": 102,
+          "spAtk": 80,
+          "spDef": 102,
+          "speed": 40
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 417,
+    "stages": [
+      {
+        "id": 417,
+        "name": "pachirisu",
+        "types": [
+          "electric"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/417.png",
+        "stats": {
+          "hp": 60,
+          "attack": 45,
+          "defense": 70,
+          "spAtk": 45,
+          "spDef": 90,
+          "speed": 95
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "electric"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 418,
+    "stages": [
+      {
+        "id": 418,
+        "name": "buizel",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/418.png",
+        "stats": {
+          "hp": 55,
+          "attack": 65,
+          "defense": 35,
+          "spAtk": 60,
+          "spDef": 30,
+          "speed": 85
+        },
+        "stage": 0
+      },
+      {
+        "id": 419,
+        "name": "floatzel",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/419.png",
+        "stats": {
+          "hp": 85,
+          "attack": 105,
+          "defense": 55,
+          "spAtk": 85,
+          "spDef": 50,
+          "speed": 115
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 420,
+    "stages": [
+      {
+        "id": 420,
+        "name": "cherubi",
+        "types": [
+          "grass"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/420.png",
+        "stats": {
+          "hp": 45,
+          "attack": 35,
+          "defense": 45,
+          "spAtk": 62,
+          "spDef": 53,
+          "speed": 35
+        },
+        "stage": 0
+      },
+      {
+        "id": 421,
+        "name": "cherrim",
+        "types": [
+          "grass"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/421.png",
+        "stats": {
+          "hp": 70,
+          "attack": 60,
+          "defense": 70,
+          "spAtk": 87,
+          "spDef": 78,
+          "speed": 85
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "grass"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 422,
+    "stages": [
+      {
+        "id": 422,
+        "name": "shellos",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
+        "stats": {
+          "hp": 76,
+          "attack": 48,
+          "defense": 48,
+          "spAtk": 57,
+          "spDef": 62,
+          "speed": 34
+        },
+        "stage": 0
+      },
+      {
+        "id": 423,
+        "name": "gastrodon",
+        "types": [
+          "water",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png",
+        "stats": {
+          "hp": 111,
+          "attack": 83,
+          "defense": 68,
+          "spAtk": 92,
+          "spDef": 82,
+          "speed": 39
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 425,
+    "stages": [
+      {
+        "id": 425,
+        "name": "drifloon",
+        "types": [
+          "ghost",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/425.png",
+        "stats": {
+          "hp": 90,
+          "attack": 50,
+          "defense": 34,
+          "spAtk": 60,
+          "spDef": 44,
+          "speed": 70
+        },
+        "stage": 0
+      },
+      {
+        "id": 426,
+        "name": "drifblim",
+        "types": [
+          "ghost",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/426.png",
+        "stats": {
+          "hp": 150,
+          "attack": 80,
+          "defense": 44,
+          "spAtk": 90,
+          "spDef": 54,
+          "speed": 80
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 427,
+    "stages": [
+      {
+        "id": 427,
+        "name": "buneary",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
+        "stats": {
+          "hp": 55,
+          "attack": 66,
+          "defense": 44,
+          "spAtk": 44,
+          "spDef": 56,
+          "speed": 85
+        },
+        "stage": 0
+      },
+      {
+        "id": 428,
+        "name": "lopunny",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+        "stats": {
+          "hp": 65,
+          "attack": 76,
+          "defense": 84,
+          "spAtk": 54,
+          "spDef": 96,
+          "speed": 105
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "normal"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 433,
+    "stages": [
+      {
+        "id": 433,
+        "name": "chingling",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png",
+        "stats": {
+          "hp": 45,
+          "attack": 30,
+          "defense": 50,
+          "spAtk": 65,
+          "spDef": 50,
+          "speed": 45
+        },
+        "stage": 0
+      },
+      {
+        "id": 358,
+        "name": "chimecho",
+        "types": [
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+        "stats": {
+          "hp": 75,
+          "attack": 50,
+          "defense": 80,
+          "spAtk": 95,
+          "spDef": 90,
+          "speed": 65
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 434,
+    "stages": [
+      {
+        "id": 434,
+        "name": "stunky",
+        "types": [
+          "poison",
+          "dark"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/434.png",
+        "stats": {
+          "hp": 63,
+          "attack": 63,
+          "defense": 47,
+          "spAtk": 41,
+          "spDef": 41,
+          "speed": 74
+        },
+        "stage": 0
+      },
+      {
+        "id": 435,
+        "name": "skuntank",
+        "types": [
+          "poison",
+          "dark"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/435.png",
+        "stats": {
+          "hp": 103,
+          "attack": 93,
+          "defense": 67,
+          "spAtk": 71,
+          "spDef": 61,
+          "speed": 84
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 436,
+    "stages": [
+      {
+        "id": 436,
+        "name": "bronzor",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/436.png",
+        "stats": {
+          "hp": 57,
+          "attack": 24,
+          "defense": 86,
+          "spAtk": 24,
+          "spDef": 86,
+          "speed": 23
+        },
+        "stage": 0
+      },
+      {
+        "id": 437,
+        "name": "bronzong",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png",
+        "stats": {
+          "hp": 67,
+          "attack": 89,
+          "defense": 116,
+          "spAtk": 79,
+          "spDef": 116,
+          "speed": 33
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 438,
+    "stages": [
+      {
+        "id": 438,
+        "name": "bonsly",
+        "types": [
+          "rock"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/438.png",
+        "stats": {
+          "hp": 50,
+          "attack": 80,
+          "defense": 95,
+          "spAtk": 10,
+          "spDef": 45,
+          "speed": 10
+        },
+        "stage": 0
+      },
+      {
+        "id": 185,
+        "name": "sudowoodo",
+        "types": [
+          "rock"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
+        "stats": {
+          "hp": 70,
+          "attack": 100,
+          "defense": 115,
+          "spAtk": 30,
+          "spDef": 65,
+          "speed": 30
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "rock"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 439,
+    "stages": [
+      {
+        "id": 439,
+        "name": "mime-jr",
+        "types": [
+          "psychic",
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
+        "stats": {
+          "hp": 20,
+          "attack": 25,
+          "defense": 45,
+          "spAtk": 70,
+          "spDef": 90,
+          "speed": 60
+        },
+        "stage": 0
+      },
+      {
+        "id": 122,
+        "name": "mr-mime",
+        "types": [
+          "psychic",
+          "fairy"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+        "stats": {
+          "hp": 40,
+          "attack": 45,
+          "defense": 65,
+          "spAtk": 100,
+          "spDef": 120,
+          "speed": 90
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 440,
+    "stages": [
+      {
+        "id": 440,
+        "name": "happiny",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/440.png",
+        "stats": {
+          "hp": 100,
+          "attack": 5,
+          "defense": 5,
+          "spAtk": 15,
+          "spDef": 65,
+          "speed": 30
+        },
+        "stage": 0
+      },
+      {
+        "id": 113,
+        "name": "chansey",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+        "stats": {
+          "hp": 250,
+          "attack": 5,
+          "defense": 5,
+          "spAtk": 35,
+          "spDef": 105,
+          "speed": 50
+        },
+        "stage": 1
+      },
+      {
+        "id": 242,
+        "name": "blissey",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
+        "stats": {
+          "hp": 255,
+          "attack": 10,
+          "defense": 10,
+          "spAtk": 75,
+          "spDef": 135,
+          "speed": 55
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "normal"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 441,
+    "stages": [
+      {
+        "id": 441,
+        "name": "chatot",
+        "types": [
+          "normal",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/441.png",
+        "stats": {
+          "hp": 76,
+          "attack": 65,
+          "defense": 45,
+          "spAtk": 92,
+          "spDef": 42,
+          "speed": 91
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 442,
+    "stages": [
+      {
+        "id": 442,
+        "name": "spiritomb",
+        "types": [
+          "ghost",
+          "dark"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
+        "stats": {
+          "hp": 50,
+          "attack": 92,
+          "defense": 108,
+          "spAtk": 92,
+          "spDef": 108,
+          "speed": 35
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 443,
+    "stages": [
+      {
+        "id": 443,
+        "name": "gible",
+        "types": [
+          "dragon",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
+        "stats": {
+          "hp": 58,
+          "attack": 70,
+          "defense": 45,
+          "spAtk": 40,
+          "spDef": 45,
+          "speed": 42
+        },
+        "stage": 0
+      },
+      {
+        "id": 444,
+        "name": "gabite",
+        "types": [
+          "dragon",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png",
+        "stats": {
+          "hp": 68,
+          "attack": 90,
+          "defense": 65,
+          "spAtk": 50,
+          "spDef": 55,
+          "speed": 82
+        },
+        "stage": 1
+      },
+      {
+        "id": 445,
+        "name": "garchomp",
+        "types": [
+          "dragon",
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+        "stats": {
+          "hp": 108,
+          "attack": 130,
+          "defense": 95,
+          "spAtk": 80,
+          "spDef": 85,
+          "speed": 102
+        },
+        "stage": 2
+      }
+    ],
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 446,
+    "stages": [
+      {
+        "id": 446,
+        "name": "munchlax",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png",
+        "stats": {
+          "hp": 135,
+          "attack": 85,
+          "defense": 40,
+          "spAtk": 40,
+          "spDef": 85,
+          "speed": 5
+        },
+        "stage": 0
+      },
+      {
+        "id": 143,
+        "name": "snorlax",
+        "types": [
+          "normal"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+        "stats": {
+          "hp": 160,
+          "attack": 110,
+          "defense": 65,
+          "spAtk": 65,
+          "spDef": 110,
+          "speed": 30
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "normal"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 447,
+    "stages": [
+      {
+        "id": 447,
+        "name": "riolu",
+        "types": [
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
+        "stats": {
+          "hp": 40,
+          "attack": 70,
+          "defense": 40,
+          "spAtk": 35,
+          "spDef": 40,
+          "speed": 60
+        },
+        "stage": 0
+      },
+      {
+        "id": 448,
+        "name": "lucario",
+        "types": [
+          "fighting",
+          "steel"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+        "stats": {
+          "hp": 70,
+          "attack": 110,
+          "defense": 70,
+          "spAtk": 115,
+          "spDef": 70,
+          "speed": 90
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "fighting"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 449,
+    "stages": [
+      {
+        "id": 449,
+        "name": "hippopotas",
+        "types": [
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
+        "stats": {
+          "hp": 68,
+          "attack": 72,
+          "defense": 78,
+          "spAtk": 38,
+          "spDef": 42,
+          "speed": 32
+        },
+        "stage": 0
+      },
+      {
+        "id": 450,
+        "name": "hippowdon",
+        "types": [
+          "ground"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
+        "stats": {
+          "hp": 108,
+          "attack": 112,
+          "defense": 118,
+          "spAtk": 68,
+          "spDef": 72,
+          "speed": 47
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "ground"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 451,
+    "stages": [
+      {
+        "id": 451,
+        "name": "skorupi",
+        "types": [
+          "poison",
+          "bug"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png",
+        "stats": {
+          "hp": 40,
+          "attack": 50,
+          "defense": 90,
+          "spAtk": 30,
+          "spDef": 55,
+          "speed": 65
+        },
+        "stage": 0
+      },
+      {
+        "id": 452,
+        "name": "drapion",
+        "types": [
+          "poison",
+          "dark"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/452.png",
+        "stats": {
+          "hp": 70,
+          "attack": 90,
+          "defense": 110,
+          "spAtk": 60,
+          "spDef": 75,
+          "speed": 95
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 453,
+    "stages": [
+      {
+        "id": 453,
+        "name": "croagunk",
+        "types": [
+          "poison",
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/453.png",
+        "stats": {
+          "hp": 48,
+          "attack": 61,
+          "defense": 40,
+          "spAtk": 61,
+          "spDef": 40,
+          "speed": 50
+        },
+        "stage": 0
+      },
+      {
+        "id": 454,
+        "name": "toxicroak",
+        "types": [
+          "poison",
+          "fighting"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
+        "stats": {
+          "hp": 83,
+          "attack": 106,
+          "defense": 65,
+          "spAtk": 86,
+          "spDef": 65,
+          "speed": 85
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 455,
+    "stages": [
+      {
+        "id": 455,
+        "name": "carnivine",
+        "types": [
+          "grass"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/455.png",
+        "stats": {
+          "hp": 74,
+          "attack": 100,
+          "defense": 72,
+          "spAtk": 90,
+          "spDef": 72,
+          "speed": 46
+        },
+        "stage": 0
+      }
+    ],
+    "types": [
+      "grass"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 456,
+    "stages": [
+      {
+        "id": 456,
+        "name": "finneon",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/456.png",
+        "stats": {
+          "hp": 49,
+          "attack": 49,
+          "defense": 56,
+          "spAtk": 49,
+          "spDef": 61,
+          "speed": 66
+        },
+        "stage": 0
+      },
+      {
+        "id": 457,
+        "name": "lumineon",
+        "types": [
+          "water"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/457.png",
+        "stats": {
+          "hp": 69,
+          "attack": 69,
+          "defense": 76,
+          "spAtk": 69,
+          "spDef": 86,
+          "speed": 91
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 458,
+    "stages": [
+      {
+        "id": 458,
+        "name": "mantyke",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/458.png",
+        "stats": {
+          "hp": 45,
+          "attack": 20,
+          "defense": 50,
+          "spAtk": 60,
+          "spDef": 120,
+          "speed": 50
+        },
+        "stage": 0
+      },
+      {
+        "id": 226,
+        "name": "mantine",
+        "types": [
+          "water",
+          "flying"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
+        "stats": {
+          "hp": 85,
+          "attack": 40,
+          "defense": 70,
+          "spAtk": 80,
+          "spDef": 140,
+          "speed": 70
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "water",
+      "flying"
+    ],
+    "isStarter": false
+  },
+  {
+    "lineId": 459,
+    "stages": [
+      {
+        "id": 459,
+        "name": "snover",
+        "types": [
+          "grass",
+          "ice"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png",
+        "stats": {
+          "hp": 60,
+          "attack": 62,
+          "defense": 50,
+          "spAtk": 62,
+          "spDef": 60,
+          "speed": 40
+        },
+        "stage": 0
+      },
+      {
+        "id": 460,
+        "name": "abomasnow",
+        "types": [
+          "grass",
+          "ice"
+        ],
+        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
+        "stats": {
+          "hp": 90,
+          "attack": 92,
+          "defense": 75,
+          "spAtk": 92,
+          "spDef": 85,
+          "speed": 60
+        },
+        "stage": 1
+      }
+    ],
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "isStarter": false
+  }
+]

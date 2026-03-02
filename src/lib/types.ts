@@ -61,6 +61,8 @@ export interface GameVersion {
   starterIds: number[];
   /** Individual game names within this version group */
   games: string[];
+  /** Species IDs not available in this specific version (version-exclusive filtering) */
+  excludedSpeciesIds?: number[];
 }
 
 export type GamePhase =

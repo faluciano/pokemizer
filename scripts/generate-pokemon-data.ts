@@ -493,6 +493,13 @@ async function main() {
       }
     }
 
+    // Remove version-excluded species
+    if (game.excludedSpeciesIds) {
+      for (const excludedId of game.excludedSpeciesIds) {
+        gameSpeciesIds.delete(excludedId);
+      }
+    }
+
     // Group species by their evolution chain ID
     const chainSpeciesGroups = new Map<number, Set<number>>();
     for (const speciesId of gameSpeciesIds) {

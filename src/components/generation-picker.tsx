@@ -8,7 +8,6 @@ import { GENERATIONS } from "@/lib/starters";
 import { getGamesByGeneration } from "@/lib/games";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { ArrowLeft } from "lucide-react";
 
 function getSpriteUrl(id: number): string {
@@ -82,13 +81,6 @@ export function GenerationPicker() {
                         sizes="60px"
                       />
                     </div>
-                  ))}
-                </div>
-                <div className="mt-2 flex flex-wrap justify-center gap-1">
-                  {game.games.map((name) => (
-                    <Badge key={name} variant="secondary" className="text-[10px]">
-                      {name}
-                    </Badge>
                   ))}
                 </div>
               </CardContent>

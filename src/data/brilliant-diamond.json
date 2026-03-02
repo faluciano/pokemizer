@@ -908,49 +908,6 @@
     "isStarter": false
   },
   {
-    "lineId": 200,
-    "stages": [
-      {
-        "id": 200,
-        "name": "misdreavus",
-        "types": [
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
-        "stats": {
-          "hp": 60,
-          "attack": 60,
-          "defense": 60,
-          "spAtk": 85,
-          "spDef": 85,
-          "speed": 85
-        },
-        "stage": 0
-      },
-      {
-        "id": 429,
-        "name": "mismagius",
-        "types": [
-          "ghost"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
-        "stats": {
-          "hp": 60,
-          "attack": 60,
-          "defense": 60,
-          "spAtk": 105,
-          "spDef": 105,
-          "speed": 105
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "ghost"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 201,
     "stages": [
       {
@@ -2023,52 +1980,6 @@
     "isStarter": false
   },
   {
-    "lineId": 410,
-    "stages": [
-      {
-        "id": 410,
-        "name": "shieldon",
-        "types": [
-          "rock",
-          "steel"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/410.png",
-        "stats": {
-          "hp": 30,
-          "attack": 42,
-          "defense": 118,
-          "spAtk": 42,
-          "spDef": 88,
-          "speed": 30
-        },
-        "stage": 0
-      },
-      {
-        "id": 411,
-        "name": "bastiodon",
-        "types": [
-          "rock",
-          "steel"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
-        "stats": {
-          "hp": 60,
-          "attack": 52,
-          "defense": 168,
-          "spAtk": 47,
-          "spDef": 138,
-          "speed": 30
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "rock",
-      "steel"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 412,
     "stages": [
       {
@@ -2440,49 +2351,6 @@
           "spAtk": 54,
           "spDef": 96,
           "speed": 105
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "normal"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 431,
-    "stages": [
-      {
-        "id": 431,
-        "name": "glameow",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/431.png",
-        "stats": {
-          "hp": 49,
-          "attack": 55,
-          "defense": 42,
-          "spAtk": 42,
-          "spDef": 37,
-          "speed": 85
-        },
-        "stage": 0
-      },
-      {
-        "id": 432,
-        "name": "purugly",
-        "types": [
-          "normal"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/432.png",
-        "stats": {
-          "hp": 71,
-          "attack": 82,
-          "defense": 64,
-          "spAtk": 64,
-          "spDef": 59,
-          "speed": 112
         },
         "stage": 1
       }

@@ -193,49 +193,6 @@
     "isStarter": false
   },
   {
-    "lineId": 37,
-    "stages": [
-      {
-        "id": 37,
-        "name": "vulpix",
-        "types": [
-          "fire"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
-        "stats": {
-          "hp": 38,
-          "attack": 41,
-          "defense": 40,
-          "spAtk": 50,
-          "spDef": 65,
-          "speed": 65
-        },
-        "stage": 0
-      },
-      {
-        "id": 38,
-        "name": "ninetales",
-        "types": [
-          "fire"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
-        "stats": {
-          "hp": 73,
-          "attack": 76,
-          "defense": 75,
-          "spAtk": 81,
-          "spDef": 100,
-          "speed": 100
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "fire"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 41,
     "stages": [
       {
@@ -3828,49 +3785,6 @@
     "isStarter": false
   },
   {
-    "lineId": 408,
-    "stages": [
-      {
-        "id": 408,
-        "name": "cranidos",
-        "types": [
-          "rock"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png",
-        "stats": {
-          "hp": 67,
-          "attack": 125,
-          "defense": 40,
-          "spAtk": 30,
-          "spDef": 30,
-          "speed": 58
-        },
-        "stage": 0
-      },
-      {
-        "id": 409,
-        "name": "rampardos",
-        "types": [
-          "rock"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
-        "stats": {
-          "hp": 97,
-          "attack": 165,
-          "defense": 60,
-          "spAtk": 65,
-          "spDef": 50,
-          "speed": 58
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "rock"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 410,
     "stages": [
       {
@@ -4424,52 +4338,6 @@
     "isStarter": false
   },
   {
-    "lineId": 546,
-    "stages": [
-      {
-        "id": 546,
-        "name": "cottonee",
-        "types": [
-          "grass",
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png",
-        "stats": {
-          "hp": 40,
-          "attack": 27,
-          "defense": 60,
-          "spAtk": 37,
-          "spDef": 50,
-          "speed": 66
-        },
-        "stage": 0
-      },
-      {
-        "id": 547,
-        "name": "whimsicott",
-        "types": [
-          "grass",
-          "fairy"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
-        "stats": {
-          "hp": 60,
-          "attack": 67,
-          "defense": 85,
-          "spAtk": 77,
-          "spDef": 75,
-          "speed": 116
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "grass",
-      "fairy"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 548,
     "stages": [
       {
@@ -4573,52 +4441,6 @@
     "types": [
       "ground",
       "dark"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 564,
-    "stages": [
-      {
-        "id": 564,
-        "name": "tirtouga",
-        "types": [
-          "water",
-          "rock"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png",
-        "stats": {
-          "hp": 54,
-          "attack": 78,
-          "defense": 103,
-          "spAtk": 53,
-          "spDef": 45,
-          "speed": 22
-        },
-        "stage": 0
-      },
-      {
-        "id": 565,
-        "name": "carracosta",
-        "types": [
-          "water",
-          "rock"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/565.png",
-        "stats": {
-          "hp": 74,
-          "attack": 108,
-          "defense": 133,
-          "spAtk": 83,
-          "spDef": 65,
-          "speed": 32
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "water",
-      "rock"
     ],
     "isStarter": false
   },
@@ -4822,52 +4644,6 @@
     ],
     "types": [
       "water"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 627,
-    "stages": [
-      {
-        "id": 627,
-        "name": "rufflet",
-        "types": [
-          "normal",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png",
-        "stats": {
-          "hp": 70,
-          "attack": 83,
-          "defense": 50,
-          "spAtk": 37,
-          "spDef": 50,
-          "speed": 60
-        },
-        "stage": 0
-      },
-      {
-        "id": 628,
-        "name": "braviary",
-        "types": [
-          "normal",
-          "flying"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
-        "stats": {
-          "hp": 100,
-          "attack": 123,
-          "defense": 75,
-          "spAtk": 57,
-          "spDef": 75,
-          "speed": 80
-        },
-        "stage": 1
-      }
-    ],
-    "types": [
-      "normal",
-      "flying"
     ],
     "isStarter": false
   },
@@ -6160,32 +5936,6 @@
     "isStarter": false
   },
   {
-    "lineId": 766,
-    "stages": [
-      {
-        "id": 766,
-        "name": "passimian",
-        "types": [
-          "fighting"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
-        "stats": {
-          "hp": 100,
-          "attack": 120,
-          "defense": 90,
-          "spAtk": 40,
-          "spDef": 60,
-          "speed": 80
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "fighting"
-    ],
-    "isStarter": false
-  },
-  {
     "lineId": 767,
     "stages": [
       {
@@ -6354,34 +6104,6 @@
     ],
     "types": [
       "normal"
-    ],
-    "isStarter": false
-  },
-  {
-    "lineId": 776,
-    "stages": [
-      {
-        "id": 776,
-        "name": "turtonator",
-        "types": [
-          "fire",
-          "dragon"
-        ],
-        "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/776.png",
-        "stats": {
-          "hp": 60,
-          "attack": 78,
-          "defense": 135,
-          "spAtk": 91,
-          "spDef": 85,
-          "speed": 36
-        },
-        "stage": 0
-      }
-    ],
-    "types": [
-      "fire",
-      "dragon"
     ],
     "isStarter": false
   },
