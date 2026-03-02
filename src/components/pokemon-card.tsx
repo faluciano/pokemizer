@@ -5,6 +5,7 @@ import type { EvolutionLine } from "@/lib/types";
 import { TYPE_COLORS, TYPE_GLOW_COLORS, TYPE_HINT_FAMILY, HINT_FAMILY_COLORS } from "@/lib/type-colors";
 import { TypeBadge } from "@/components/type-badge";
 import { EvolutionStrip } from "@/components/evolution-strip";
+import { MapPin } from "lucide-react";
 import { cn, capitalize } from "@/lib/utils";
 
 interface PokemonCardProps {
@@ -101,6 +102,12 @@ export function PokemonCard({
                   size="sm"
                   className="mt-1.5"
                 />
+              )}
+              {baseStage.locations.length > 0 && (
+                <div className="absolute bottom-1.5 left-2 flex items-center gap-0.5 text-zinc-500">
+                  <MapPin className="size-3" />
+                  <span className="text-[9px]">{baseStage.locations.length}</span>
+                </div>
               )}
             </>
           )}

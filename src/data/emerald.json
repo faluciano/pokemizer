@@ -17,7 +17,11 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mirage Tower",
+          "Route 111"
+        ]
       },
       {
         "id": 28,
@@ -34,7 +38,8 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -60,7 +65,10 @@
           "spDef": 65,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Pyre Outside"
+        ]
       },
       {
         "id": 38,
@@ -77,7 +85,8 @@
           "spDef": 100,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -104,7 +113,19 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Altering Cave A",
+          "Cave Of Origin",
+          "Cave Of Origin Entrance",
+          "Granite Cave",
+          "Granite Cave 1fsmall Room",
+          "Meteor Falls",
+          "Seafloor Cavern",
+          "Shoal Cave",
+          "Shoal Cave High Tide",
+          "Victory Road"
+        ]
       },
       {
         "id": 42,
@@ -122,7 +143,19 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cave Of Origin",
+          "Cave Of Origin Entrance",
+          "Meteor Falls",
+          "Meteor Falls Back",
+          "Meteor Falls Backsmall Room",
+          "Seafloor Cavern",
+          "Shoal Cave",
+          "Shoal Cave High Tide",
+          "Sky Pillar",
+          "Victory Road"
+        ]
       },
       {
         "id": 169,
@@ -140,7 +173,8 @@
           "spDef": 80,
           "speed": 130
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -168,7 +202,19 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 110",
+          "Route 117",
+          "Route 119",
+          "Route 120",
+          "Route 121",
+          "Route 123",
+          "Safari Zone Neacro Bike",
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 44,
@@ -186,7 +232,15 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 121",
+          "Route 123",
+          "Safari Zone Neacro Bike",
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 45,
@@ -204,7 +258,8 @@
           "spDef": 90,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -233,7 +288,19 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 110",
+          "Route 117",
+          "Route 119",
+          "Route 120",
+          "Route 121",
+          "Route 123",
+          "Safari Zone Neacro Bike",
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 44,
@@ -251,7 +318,15 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 121",
+          "Route 123",
+          "Safari Zone Neacro Bike",
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 182,
@@ -268,7 +343,8 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -296,7 +372,11 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 55,
@@ -313,7 +393,10 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Nwmach Bike"
+        ]
       }
     ],
     "types": [
@@ -339,7 +422,12 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Granite Cave",
+          "Granite Cave 1fsmall Room",
+          "Route 116"
+        ]
       },
       {
         "id": 64,
@@ -356,7 +444,8 @@
           "spDef": 70,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 65,
@@ -373,7 +462,8 @@
           "spDef": 95,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -399,7 +489,11 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fiery Path",
+          "Jagged Pass"
+        ]
       },
       {
         "id": 67,
@@ -416,7 +510,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 68,
@@ -433,7 +528,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -460,7 +556,43 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Abandoned Ship",
+          "Dewford Town",
+          "Ever Grande City",
+          "Lilycove City",
+          "Mossdeep City",
+          "Pacifidlog Town",
+          "Route 103",
+          "Route 105",
+          "Route 106",
+          "Route 107",
+          "Route 108",
+          "Route 109",
+          "Route 110",
+          "Route 115",
+          "Route 118",
+          "Route 119",
+          "Route 121",
+          "Route 122",
+          "Route 123",
+          "Route 124",
+          "Route 125",
+          "Route 126",
+          "Route 127",
+          "Route 128",
+          "Route 129",
+          "Route 130",
+          "Route 131",
+          "Route 132",
+          "Route 133",
+          "Route 134",
+          "Seafloor Cavern",
+          "Shoal Cave High Tide",
+          "Slateport City",
+          "Sootopolis City"
+        ]
       },
       {
         "id": 73,
@@ -478,7 +610,10 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Abandoned Ship"
+        ]
       }
     ],
     "types": [
@@ -506,7 +641,15 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Granite Cave",
+          "Magma Hideout",
+          "Route 111",
+          "Route 114",
+          "Safari Zone Neacro Bike",
+          "Victory Road"
+        ]
       },
       {
         "id": 75,
@@ -524,7 +667,11 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Magma Hideout",
+          "Victory Road"
+        ]
       },
       {
         "id": 76,
@@ -542,7 +689,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -570,7 +718,11 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "New Mauville",
+          "New Mauville Entrance"
+        ]
       },
       {
         "id": 82,
@@ -588,7 +740,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "New Mauville"
+        ]
       }
     ],
     "types": [
@@ -616,7 +771,12 @@
           "spDef": 35,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 85,
@@ -634,7 +794,10 @@
           "spDef": 60,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Nwmach Bike"
+        ]
       }
     ],
     "types": [
@@ -661,7 +824,10 @@
           "spDef": 50,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fiery Path"
+        ]
       },
       {
         "id": 89,
@@ -678,7 +844,8 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -704,7 +871,11 @@
           "spDef": 55,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "New Mauville",
+          "New Mauville Entrance"
+        ]
       },
       {
         "id": 101,
@@ -721,7 +892,12 @@
           "spDef": 80,
           "speed": 150
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "New Mauville",
+          "Team Aqua Hideout",
+          "Team Magma Hideout"
+        ]
       }
     ],
     "types": [
@@ -747,7 +923,10 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fiery Path"
+        ]
       },
       {
         "id": 110,
@@ -764,7 +943,8 @@
           "spDef": 70,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -791,7 +971,10 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Nwmach Bike"
+        ]
       },
       {
         "id": 112,
@@ -809,7 +992,8 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -836,7 +1020,12 @@
           "spDef": 25,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 132",
+          "Route 133",
+          "Route 134"
+        ]
       },
       {
         "id": 117,
@@ -853,7 +1042,8 @@
           "spDef": 45,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 230,
@@ -871,7 +1061,8 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -897,7 +1088,22 @@
           "spDef": 50,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Meteor Falls",
+          "Meteor Falls Back",
+          "Meteor Falls Backsmall Room",
+          "Petalburg City",
+          "Route 102",
+          "Route 111",
+          "Route 114",
+          "Route 117",
+          "Route 120",
+          "Safari Zone Expansion South",
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Sw",
+          "Victory Road"
+        ]
       },
       {
         "id": 119,
@@ -914,7 +1120,11 @@
           "spDef": 80,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Sw"
+        ]
       }
     ],
     "types": [
@@ -940,7 +1150,10 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lilycove City"
+        ]
       },
       {
         "id": 121,
@@ -958,7 +1171,8 @@
           "spDef": 85,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -984,7 +1198,10 @@
           "spDef": 70,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Nwmach Bike"
+        ]
       }
     ],
     "types": [
@@ -1010,7 +1227,57 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Abandoned Ship",
+          "Dewford Town",
+          "Ever Grande City",
+          "Lilycove City",
+          "Meteor Falls",
+          "Meteor Falls Back",
+          "Meteor Falls Backsmall Room",
+          "Mossdeep City",
+          "Pacifidlog Town",
+          "Petalburg City",
+          "Route 102",
+          "Route 103",
+          "Route 104",
+          "Route 105",
+          "Route 106",
+          "Route 107",
+          "Route 108",
+          "Route 109",
+          "Route 110",
+          "Route 111",
+          "Route 114",
+          "Route 115",
+          "Route 117",
+          "Route 118",
+          "Route 119",
+          "Route 120",
+          "Route 121",
+          "Route 122",
+          "Route 123",
+          "Route 124",
+          "Route 125",
+          "Route 126",
+          "Route 127",
+          "Route 128",
+          "Route 129",
+          "Route 130",
+          "Route 131",
+          "Route 132",
+          "Route 133",
+          "Route 134",
+          "Safari Zone Expansion South",
+          "Safari Zone Nwmach Bike",
+          "Safari Zone Sw",
+          "Seafloor Cavern",
+          "Shoal Cave High Tide",
+          "Slateport City",
+          "Sootopolis City",
+          "Victory Road"
+        ]
       },
       {
         "id": 130,
@@ -1028,7 +1295,10 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Sootopolis City"
+        ]
       }
     ],
     "types": [
@@ -1055,7 +1325,11 @@
           "spDef": 56,
           "speed": 67
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 124",
+          "Route 126"
+        ]
       },
       {
         "id": 171,
@@ -1073,7 +1347,8 @@
           "spDef": 76,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1100,7 +1375,8 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 25,
@@ -1117,7 +1393,12 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokecenter",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 26,
@@ -1134,7 +1415,8 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1161,7 +1443,8 @@
           "spDef": 20,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 39,
@@ -1179,7 +1462,10 @@
           "spDef": 25,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 115"
+        ]
       },
       {
         "id": 40,
@@ -1197,7 +1483,8 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1225,7 +1512,12 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Neacro Bike",
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       },
       {
         "id": 178,
@@ -1243,7 +1535,10 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Neacro Bike"
+        ]
       }
     ],
     "types": [
@@ -1271,7 +1566,11 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       }
     ],
     "types": [
@@ -1299,7 +1598,10 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Neacro Bike"
+        ]
       }
     ],
     "types": [
@@ -1326,7 +1628,11 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fiery Path",
+          "Route 113"
+        ]
       },
       {
         "id": 219,
@@ -1344,7 +1650,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1371,7 +1678,11 @@
           "spDef": 95,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ever Grande City",
+          "Route 128"
+        ]
       }
     ],
     "types": [
@@ -1399,7 +1710,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 113"
+        ]
       }
     ],
     "types": [
@@ -1426,7 +1740,10 @@
           "spDef": 40,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Neacro Bike"
+        ]
       },
       {
         "id": 232,
@@ -1443,7 +1760,8 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1469,7 +1787,10 @@
           "spDef": 55,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 101"
+        ]
       },
       {
         "id": 253,
@@ -1486,7 +1807,8 @@
           "spDef": 65,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 254,
@@ -1503,7 +1825,8 @@
           "spDef": 85,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1529,7 +1852,10 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 101"
+        ]
       },
       {
         "id": 256,
@@ -1547,7 +1873,8 @@
           "spDef": 60,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 257,
@@ -1565,7 +1892,8 @@
           "spDef": 70,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1591,7 +1919,10 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 101"
+        ]
       },
       {
         "id": 259,
@@ -1609,7 +1940,8 @@
           "spDef": 70,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 260,
@@ -1627,7 +1959,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1653,7 +1986,20 @@
           "spDef": 30,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg Woods",
+          "Route 101",
+          "Route 102",
+          "Route 103",
+          "Route 104",
+          "Route 110",
+          "Route 116",
+          "Route 117",
+          "Route 120",
+          "Route 121",
+          "Route 123"
+        ]
       },
       {
         "id": 262,
@@ -1670,7 +2016,12 @@
           "spDef": 60,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 120",
+          "Route 121",
+          "Route 123"
+        ]
       }
     ],
     "types": [
@@ -1696,7 +2047,14 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 101",
+          "Route 102",
+          "Route 103",
+          "Route 118",
+          "Route 119"
+        ]
       },
       {
         "id": 264,
@@ -1713,7 +2071,11 @@
           "spDef": 61,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 118",
+          "Route 119"
+        ]
       }
     ],
     "types": [
@@ -1739,7 +2101,13 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg Woods",
+          "Route 101",
+          "Route 102",
+          "Route 104"
+        ]
       },
       {
         "id": 266,
@@ -1756,7 +2124,10 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Petalburg Woods"
+        ]
       },
       {
         "id": 267,
@@ -1774,7 +2145,8 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1801,7 +2173,13 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg Woods",
+          "Route 101",
+          "Route 102",
+          "Route 104"
+        ]
       },
       {
         "id": 268,
@@ -1818,7 +2196,10 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Petalburg Woods"
+        ]
       },
       {
         "id": 269,
@@ -1836,7 +2217,8 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1864,7 +2246,11 @@
           "spDef": 50,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 102",
+          "Route 114"
+        ]
       },
       {
         "id": 271,
@@ -1882,7 +2268,10 @@
           "spDef": 70,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 114"
+        ]
       },
       {
         "id": 272,
@@ -1900,7 +2289,8 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1927,7 +2317,12 @@
           "spDef": 30,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 102",
+          "Route 117",
+          "Route 120"
+        ]
       },
       {
         "id": 274,
@@ -1945,7 +2340,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 114"
+        ]
       },
       {
         "id": 275,
@@ -1963,7 +2361,8 @@
           "spDef": 60,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1990,7 +2389,13 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg Woods",
+          "Route 104",
+          "Route 115",
+          "Route 116"
+        ]
       },
       {
         "id": 277,
@@ -2008,7 +2413,10 @@
           "spDef": 50,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 115"
+        ]
       }
     ],
     "types": [
@@ -2036,7 +2444,41 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dewford Town",
+          "Ever Grande City",
+          "Lilycove City",
+          "Mossdeep City",
+          "Mt. Pyre Outside",
+          "Pacifidlog Town",
+          "Route 103",
+          "Route 104",
+          "Route 105",
+          "Route 106",
+          "Route 107",
+          "Route 108",
+          "Route 109",
+          "Route 110",
+          "Route 115",
+          "Route 118",
+          "Route 119",
+          "Route 121",
+          "Route 122",
+          "Route 123",
+          "Route 124",
+          "Route 125",
+          "Route 126",
+          "Route 127",
+          "Route 128",
+          "Route 129",
+          "Route 130",
+          "Route 131",
+          "Route 132",
+          "Route 133",
+          "Route 134",
+          "Slateport City"
+        ]
       },
       {
         "id": 279,
@@ -2054,7 +2496,40 @@
           "spDef": 70,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dewford Town",
+          "Ever Grande City",
+          "Lilycove City",
+          "Mossdeep City",
+          "Pacifidlog Town",
+          "Route 103",
+          "Route 104",
+          "Route 105",
+          "Route 106",
+          "Route 107",
+          "Route 108",
+          "Route 109",
+          "Route 110",
+          "Route 115",
+          "Route 118",
+          "Route 119",
+          "Route 121",
+          "Route 122",
+          "Route 123",
+          "Route 124",
+          "Route 125",
+          "Route 126",
+          "Route 127",
+          "Route 128",
+          "Route 129",
+          "Route 130",
+          "Route 131",
+          "Route 132",
+          "Route 133",
+          "Route 134",
+          "Slateport City"
+        ]
       }
     ],
     "types": [
@@ -2082,7 +2557,10 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 102"
+        ]
       },
       {
         "id": 281,
@@ -2100,7 +2578,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 282,
@@ -2118,7 +2597,8 @@
           "spDef": 115,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2147,7 +2627,10 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 102"
+        ]
       },
       {
         "id": 281,
@@ -2165,7 +2648,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2194,7 +2678,8 @@
           "spDef": 52,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 284,
@@ -2212,7 +2697,8 @@
           "spDef": 82,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2239,7 +2725,10 @@
           "spDef": 60,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg Woods"
+        ]
       },
       {
         "id": 286,
@@ -2257,7 +2746,8 @@
           "spDef": 60,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2283,7 +2773,10 @@
           "spDef": 35,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg Woods"
+        ]
       },
       {
         "id": 288,
@@ -2300,7 +2793,8 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 289,
@@ -2317,7 +2811,8 @@
           "spDef": 65,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2344,7 +2839,10 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 116"
+        ]
       },
       {
         "id": 291,
@@ -2362,7 +2860,8 @@
           "spDef": 50,
           "speed": 160
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2391,7 +2890,10 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 116"
+        ]
       },
       {
         "id": 292,
@@ -2409,7 +2911,8 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2437,7 +2940,13 @@
           "spDef": 23,
           "speed": 28
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Underpass",
+          "Route 116",
+          "Rusturf Tunnel",
+          "Victory Road"
+        ]
       },
       {
         "id": 294,
@@ -2454,7 +2963,11 @@
           "spDef": 43,
           "speed": 48
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Desert Underpass",
+          "Victory Road"
+        ]
       },
       {
         "id": 295,
@@ -2471,7 +2984,8 @@
           "spDef": 73,
           "speed": 68
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2497,7 +3011,12 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Granite Cave",
+          "Granite Cave 1fsmall Room",
+          "Victory Road"
+        ]
       },
       {
         "id": 297,
@@ -2514,7 +3033,10 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Victory Road"
+        ]
       }
     ],
     "types": [
@@ -2541,7 +3063,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 183,
@@ -2559,7 +3082,18 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Petalburg City",
+          "Route 102",
+          "Route 104",
+          "Route 111",
+          "Route 112",
+          "Route 114",
+          "Route 117",
+          "Route 120",
+          "Safari Zone Expansion South"
+        ]
       },
       {
         "id": 184,
@@ -2577,7 +3111,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2604,7 +3139,10 @@
           "spDef": 90,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Granite Cave"
+        ]
       }
     ],
     "types": [
@@ -2630,7 +3168,10 @@
           "spDef": 35,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 116"
+        ]
       },
       {
         "id": 301,
@@ -2647,7 +3188,8 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2674,7 +3216,13 @@
           "spDef": 65,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cave Of Origin",
+          "Granite Cave",
+          "Sky Pillar",
+          "Victory Road"
+        ]
       }
     ],
     "types": [
@@ -2702,7 +3250,10 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Victory Road"
+        ]
       }
     ],
     "types": [
@@ -2730,7 +3281,12 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Granite Cave",
+          "Granite Cave 1fsmall Room",
+          "Victory Road"
+        ]
       },
       {
         "id": 305,
@@ -2748,7 +3304,10 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Victory Road"
+        ]
       },
       {
         "id": 306,
@@ -2766,7 +3325,8 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2794,7 +3354,8 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 308,
@@ -2812,7 +3373,8 @@
           "spDef": 75,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2839,7 +3401,11 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 110",
+          "Route 118"
+        ]
       },
       {
         "id": 310,
@@ -2856,7 +3422,10 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 118"
+        ]
       }
     ],
     "types": [
@@ -2882,7 +3451,10 @@
           "spDef": 75,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 110"
+        ]
       }
     ],
     "types": [
@@ -2908,7 +3480,10 @@
           "spDef": 85,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 110"
+        ]
       }
     ],
     "types": [
@@ -2934,7 +3509,10 @@
           "spDef": 85,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 117"
+        ]
       }
     ],
     "types": [
@@ -2960,7 +3538,10 @@
           "spDef": 85,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 117"
+        ]
       }
     ],
     "types": [
@@ -2987,7 +3568,8 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3014,7 +3596,10 @@
           "spDef": 53,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 110"
+        ]
       },
       {
         "id": 317,
@@ -3031,7 +3616,8 @@
           "spDef": 83,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3058,7 +3644,11 @@
           "spDef": 20,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 118",
+          "Route 119"
+        ]
       },
       {
         "id": 319,
@@ -3076,7 +3666,24 @@
           "spDef": 40,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mossdeep City",
+          "Pacifidlog Town",
+          "Route 103",
+          "Route 118",
+          "Route 122",
+          "Route 124",
+          "Route 125",
+          "Route 126",
+          "Route 127",
+          "Route 129",
+          "Route 130",
+          "Route 131",
+          "Route 132",
+          "Route 133",
+          "Route 134"
+        ]
       }
     ],
     "types": [
@@ -3103,7 +3710,39 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dewford Town",
+          "Ever Grande City",
+          "Lilycove City",
+          "Mossdeep City",
+          "Pacifidlog Town",
+          "Route 103",
+          "Route 105",
+          "Route 106",
+          "Route 107",
+          "Route 108",
+          "Route 109",
+          "Route 110",
+          "Route 115",
+          "Route 121",
+          "Route 122",
+          "Route 123",
+          "Route 124",
+          "Route 125",
+          "Route 126",
+          "Route 127",
+          "Route 128",
+          "Route 129",
+          "Route 130",
+          "Route 131",
+          "Route 132",
+          "Route 133",
+          "Route 134",
+          "Seafloor Cavern",
+          "Shoal Cave High Tide",
+          "Slateport City"
+        ]
       },
       {
         "id": 321,
@@ -3120,7 +3759,10 @@
           "spDef": 45,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 129"
+        ]
       }
     ],
     "types": [
@@ -3147,7 +3789,12 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fiery Path",
+          "Jagged Pass",
+          "Route 112"
+        ]
       },
       {
         "id": 323,
@@ -3165,7 +3812,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3192,7 +3840,11 @@
           "spDef": 70,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fiery Path",
+          "Magma Hideout"
+        ]
       }
     ],
     "types": [
@@ -3218,7 +3870,10 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Jagged Pass"
+        ]
       },
       {
         "id": 326,
@@ -3235,7 +3890,8 @@
           "spDef": 110,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3261,7 +3917,10 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 113"
+        ]
       }
     ],
     "types": [
@@ -3287,7 +3946,11 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mirage Tower",
+          "Route 111"
+        ]
       },
       {
         "id": 329,
@@ -3305,7 +3968,8 @@
           "spDef": 50,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 330,
@@ -3323,7 +3987,8 @@
           "spDef": 80,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3349,7 +4014,10 @@
           "spDef": 40,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 111"
+        ]
       },
       {
         "id": 332,
@@ -3367,7 +4035,8 @@
           "spDef": 60,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3394,7 +4063,11 @@
           "spDef": 75,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 114",
+          "Route 115"
+        ]
       },
       {
         "id": 334,
@@ -3412,7 +4085,10 @@
           "spDef": 105,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Sky Pillar"
+        ]
       }
     ],
     "types": [
@@ -3439,7 +4115,8 @@
           "spDef": 60,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3465,7 +4142,10 @@
           "spDef": 60,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 114"
+        ]
       }
     ],
     "types": [
@@ -3492,7 +4172,8 @@
           "spDef": 85,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3520,7 +4201,12 @@
           "spDef": 65,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Meteor Falls",
+          "Meteor Falls Back",
+          "Meteor Falls Backsmall Room"
+        ]
       }
     ],
     "types": [
@@ -3548,7 +4234,16 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Meteor Falls",
+          "Meteor Falls Back",
+          "Meteor Falls Backsmall Room",
+          "Route 111",
+          "Route 114",
+          "Route 120",
+          "Victory Road"
+        ]
       },
       {
         "id": 340,
@@ -3566,7 +4261,13 @@
           "spDef": 71,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Meteor Falls",
+          "Meteor Falls Back",
+          "Meteor Falls Backsmall Room",
+          "Victory Road"
+        ]
       }
     ],
     "types": [
@@ -3593,7 +4294,12 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Petalburg City",
+          "Route 102",
+          "Route 117"
+        ]
       },
       {
         "id": 342,
@@ -3611,7 +4317,8 @@
           "spDef": 55,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3638,7 +4345,10 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 111"
+        ]
       },
       {
         "id": 344,
@@ -3656,7 +4366,10 @@
           "spDef": 120,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Sky Pillar"
+        ]
       }
     ],
     "types": [
@@ -3684,7 +4397,10 @@
           "spDef": 87,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Rustboro City"
+        ]
       },
       {
         "id": 346,
@@ -3702,7 +4418,8 @@
           "spDef": 107,
           "speed": 43
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3730,7 +4447,10 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Rustboro City"
+        ]
       },
       {
         "id": 348,
@@ -3748,7 +4468,8 @@
           "spDef": 80,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3775,7 +4496,10 @@
           "spDef": 55,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 119"
+        ]
       },
       {
         "id": 350,
@@ -3792,7 +4516,8 @@
           "spDef": 125,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3818,7 +4543,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 119"
+        ]
       }
     ],
     "types": [
@@ -3844,7 +4572,14 @@
           "spDef": 120,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 118",
+          "Route 119",
+          "Route 120",
+          "Route 121",
+          "Route 123"
+        ]
       }
     ],
     "types": [
@@ -3870,7 +4605,14 @@
           "spDef": 33,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Pyre",
+          "Mt. Pyre Outside",
+          "Mt. Pyre Summit",
+          "Route 121",
+          "Route 123"
+        ]
       },
       {
         "id": 354,
@@ -3887,7 +4629,10 @@
           "spDef": 63,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Sky Pillar"
+        ]
       }
     ],
     "types": [
@@ -3913,7 +4658,11 @@
           "spDef": 90,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Pyre",
+          "Mt. Pyre Summit"
+        ]
       },
       {
         "id": 356,
@@ -3930,7 +4679,8 @@
           "spDef": 130,
           "speed": 25
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3957,7 +4707,10 @@
           "spDef": 87,
           "speed": 51
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 119"
+        ]
       }
     ],
     "types": [
@@ -3984,7 +4737,10 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Pyre Summit"
+        ]
       }
     ],
     "types": [
@@ -4010,7 +4766,10 @@
           "spDef": 60,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 120"
+        ]
       }
     ],
     "types": [
@@ -4036,7 +4795,11 @@
           "spDef": 48,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lavaridge Town",
+          "Route 130"
+        ]
       },
       {
         "id": 202,
@@ -4053,7 +4816,11 @@
           "spDef": 58,
           "speed": 33
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Se",
+          "Safari Zone Sw"
+        ]
       }
     ],
     "types": [
@@ -4079,7 +4846,10 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Shoal Cave"
+        ]
       },
       {
         "id": 362,
@@ -4096,7 +4866,8 @@
           "spDef": 80,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4123,7 +4894,10 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Shoal Cave"
+        ]
       }
     ],
     "types": [
@@ -4151,7 +4925,11 @@
           "spDef": 50,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Shoal Cave",
+          "Shoal Cave High Tide"
+        ]
       },
       {
         "id": 364,
@@ -4169,7 +4947,8 @@
           "spDef": 70,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 365,
@@ -4187,7 +4966,8 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4214,7 +4994,11 @@
           "spDef": 55,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 124",
+          "Route 126"
+        ]
       },
       {
         "id": 367,
@@ -4231,7 +5015,8 @@
           "spDef": 75,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4258,7 +5043,11 @@
           "spDef": 55,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 124",
+          "Route 126"
+        ]
       },
       {
         "id": 368,
@@ -4275,7 +5064,8 @@
           "spDef": 75,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4303,7 +5093,11 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 124",
+          "Route 126"
+        ]
       }
     ],
     "types": [
@@ -4330,7 +5124,11 @@
           "spDef": 65,
           "speed": 97
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ever Grande City",
+          "Route 128"
+        ]
       }
     ],
     "types": [
@@ -4356,7 +5154,10 @@
           "spDef": 30,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Meteor Falls Backsmall Room"
+        ]
       },
       {
         "id": 372,
@@ -4373,7 +5174,8 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 373,
@@ -4391,7 +5193,8 @@
           "spDef": 80,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4418,7 +5221,10 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mossdeep City Stevens House"
+        ]
       },
       {
         "id": 375,
@@ -4436,7 +5242,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 376,
@@ -4454,7 +5261,8 @@
           "spDef": 90,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [

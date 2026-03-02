@@ -7,7 +7,7 @@ import { TypeBadge } from "@/components/type-badge";
 import { StatChart } from "@/components/stat-chart";
 
 import { cn, capitalize } from "@/lib/utils";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, MapPin } from "lucide-react";
 
 interface EvolutionStageViewerProps {
   line: EvolutionLine;
@@ -120,6 +120,20 @@ export function EvolutionStageViewer({
         stats={current.stats}
         className={size === "sm" ? "mt-1" : "mt-2"}
       />
+
+      {/* Locations */}
+      {size === "lg" && (
+        <div className="mt-2 flex flex-wrap items-start gap-1">
+          <MapPin className="size-3.5 shrink-0 text-zinc-500 mt-0.5" />
+          {current.locations.length > 0 ? (
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              {current.locations.join(", ")}
+            </p>
+          ) : (
+            <p className="text-xs text-zinc-600 italic">Not found in the wild</p>
+          )}
+        </div>
+      )}
     </div>
   );
 }

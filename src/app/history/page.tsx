@@ -19,6 +19,7 @@ function migrateOldPokemon(pokemon: any): EvolutionLine {
       sprite: pokemon.sprite,
       stats: pokemon.stats,
       stage: 0,
+      locations: [],
     }],
     types: pokemon.types,
     isStarter: pokemon.isStarter ?? false,

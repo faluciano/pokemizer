@@ -18,7 +18,8 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 49,
@@ -36,7 +37,8 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -63,7 +65,8 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 51,
@@ -80,7 +83,8 @@
           "spDef": 70,
           "speed": 120
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -106,7 +110,8 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 53,
@@ -123,7 +128,8 @@
           "spDef": 65,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -150,7 +156,8 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -177,7 +184,8 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 55,
@@ -194,7 +202,8 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -220,7 +229,8 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 57,
@@ -237,7 +247,8 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 979,
@@ -255,7 +266,8 @@
           "spDef": 90,
           "speed": 90
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -281,7 +293,8 @@
           "spDef": 50,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 59,
@@ -298,7 +311,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -325,7 +339,8 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 80,
@@ -343,7 +358,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -372,7 +388,8 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 199,
@@ -390,7 +407,8 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -419,7 +437,8 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 82,
@@ -437,7 +456,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 462,
@@ -455,7 +475,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -482,7 +503,8 @@
           "spDef": 50,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 89,
@@ -499,7 +521,8 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -525,7 +548,8 @@
           "spDef": 25,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 91,
@@ -543,7 +567,8 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -570,7 +595,8 @@
           "spDef": 35,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 93,
@@ -588,7 +614,8 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 94,
@@ -606,7 +633,8 @@
           "spDef": 75,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -633,7 +661,8 @@
           "spDef": 90,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 97,
@@ -650,7 +679,8 @@
           "spDef": 115,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -676,7 +706,8 @@
           "spDef": 55,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 101,
@@ -693,7 +724,8 @@
           "spDef": 80,
           "speed": 150
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -720,7 +752,8 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 212,
@@ -738,7 +771,8 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -767,7 +801,8 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -795,7 +830,8 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -821,7 +857,8 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 130,
@@ -839,7 +876,8 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -865,7 +903,8 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -891,7 +930,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 134,
@@ -908,7 +948,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -935,7 +976,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 135,
@@ -952,7 +994,8 @@
           "spDef": 95,
           "speed": 130
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -979,7 +1022,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 136,
@@ -996,7 +1040,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1023,7 +1068,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 196,
@@ -1040,7 +1086,8 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1067,7 +1114,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 197,
@@ -1084,7 +1132,8 @@
           "spDef": 130,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1111,7 +1160,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 470,
@@ -1128,7 +1178,8 @@
           "spDef": 65,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1155,7 +1206,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 471,
@@ -1172,7 +1224,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1199,7 +1252,8 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 700,
@@ -1216,7 +1270,8 @@
           "spDef": 130,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1243,7 +1298,8 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 148,
@@ -1260,7 +1316,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 149,
@@ -1278,7 +1335,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1304,7 +1362,8 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 25,
@@ -1321,7 +1380,8 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 26,
@@ -1338,7 +1398,8 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1365,7 +1426,8 @@
           "spDef": 20,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 39,
@@ -1383,7 +1445,8 @@
           "spDef": 25,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 40,
@@ -1401,7 +1464,8 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1428,7 +1492,8 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 180,
@@ -1445,7 +1510,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 181,
@@ -1462,7 +1528,8 @@
           "spDef": 90,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1489,7 +1556,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 188,
@@ -1507,7 +1575,8 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 189,
@@ -1525,7 +1594,8 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1552,7 +1622,8 @@
           "spDef": 30,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 192,
@@ -1569,7 +1640,8 @@
           "spDef": 85,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1596,7 +1668,8 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -1625,7 +1698,8 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 980,
@@ -1643,7 +1717,8 @@
           "spDef": 100,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1672,7 +1747,8 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 430,
@@ -1690,7 +1766,8 @@
           "spDef": 52,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1718,7 +1795,8 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 981,
@@ -1736,7 +1814,8 @@
           "spDef": 70,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1763,7 +1842,8 @@
           "spDef": 35,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 205,
@@ -1781,7 +1861,8 @@
           "spDef": 60,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1807,7 +1888,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 982,
@@ -1824,7 +1906,8 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1851,7 +1934,8 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -1879,7 +1963,8 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -1907,7 +1992,8 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 461,
@@ -1925,7 +2011,8 @@
           "spDef": 85,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1954,7 +2041,8 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -1982,7 +2070,8 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 217,
@@ -1999,7 +2088,8 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2026,7 +2116,8 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2054,7 +2145,8 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 229,
@@ -2072,7 +2164,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2099,7 +2192,8 @@
           "spDef": 40,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 232,
@@ -2116,7 +2210,8 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2142,7 +2237,8 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2169,7 +2265,8 @@
           "spDef": 50,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 247,
@@ -2187,7 +2284,8 @@
           "spDef": 70,
           "speed": 51
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 248,
@@ -2205,7 +2303,8 @@
           "spDef": 100,
           "speed": 61
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2233,7 +2332,8 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 279,
@@ -2251,7 +2351,8 @@
           "spDef": 70,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2279,7 +2380,8 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 281,
@@ -2297,7 +2399,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 282,
@@ -2315,7 +2418,8 @@
           "spDef": 115,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2344,7 +2448,8 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 281,
@@ -2362,7 +2467,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 475,
@@ -2380,7 +2486,8 @@
           "spDef": 115,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2409,7 +2516,8 @@
           "spDef": 52,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 284,
@@ -2427,7 +2535,8 @@
           "spDef": 82,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2454,7 +2563,8 @@
           "spDef": 60,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 286,
@@ -2472,7 +2582,8 @@
           "spDef": 60,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2498,7 +2609,8 @@
           "spDef": 35,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 288,
@@ -2515,7 +2627,8 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 289,
@@ -2532,7 +2645,8 @@
           "spDef": 65,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2558,7 +2672,8 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 297,
@@ -2575,7 +2690,8 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2602,7 +2718,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 183,
@@ -2620,7 +2737,8 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 184,
@@ -2638,7 +2756,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2666,7 +2785,8 @@
           "spDef": 65,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2694,7 +2814,8 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 308,
@@ -2712,7 +2833,8 @@
           "spDef": 75,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2740,7 +2862,8 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 323,
@@ -2758,7 +2881,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2785,7 +2909,8 @@
           "spDef": 70,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2811,7 +2936,8 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 326,
@@ -2828,7 +2954,8 @@
           "spDef": 110,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2854,7 +2981,8 @@
           "spDef": 40,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 332,
@@ -2872,7 +3000,8 @@
           "spDef": 60,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2899,7 +3028,8 @@
           "spDef": 75,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 334,
@@ -2917,7 +3047,8 @@
           "spDef": 105,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2944,7 +3075,8 @@
           "spDef": 60,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2970,7 +3102,8 @@
           "spDef": 60,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2997,7 +3130,8 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 340,
@@ -3015,7 +3149,8 @@
           "spDef": 71,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3042,7 +3177,8 @@
           "spDef": 33,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 354,
@@ -3059,7 +3195,8 @@
           "spDef": 63,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3086,7 +3223,8 @@
           "spDef": 87,
           "speed": 51
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3113,7 +3251,8 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 362,
@@ -3130,7 +3269,8 @@
           "spDef": 80,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3157,7 +3297,8 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 478,
@@ -3175,7 +3316,8 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3202,7 +3344,8 @@
           "spDef": 65,
           "speed": 97
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3229,7 +3372,8 @@
           "spDef": 30,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 397,
@@ -3247,7 +3391,8 @@
           "spDef": 40,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 398,
@@ -3265,7 +3410,8 @@
           "spDef": 60,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3292,7 +3438,8 @@
           "spDef": 41,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 402,
@@ -3309,7 +3456,8 @@
           "spDef": 51,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3335,7 +3483,8 @@
           "spDef": 34,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 404,
@@ -3352,7 +3501,8 @@
           "spDef": 49,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 405,
@@ -3369,7 +3519,8 @@
           "spDef": 79,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3396,7 +3547,8 @@
           "spDef": 42,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 416,
@@ -3414,7 +3566,8 @@
           "spDef": 102,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3441,7 +3594,8 @@
           "spDef": 90,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3467,7 +3621,8 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 419,
@@ -3484,7 +3639,8 @@
           "spDef": 50,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3510,7 +3666,8 @@
           "spDef": 62,
           "speed": 34
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 423,
@@ -3528,7 +3685,8 @@
           "spDef": 82,
           "speed": 39
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3555,7 +3713,8 @@
           "spDef": 44,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 426,
@@ -3573,7 +3732,8 @@
           "spDef": 54,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3601,7 +3761,8 @@
           "spDef": 41,
           "speed": 74
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 435,
@@ -3619,7 +3780,8 @@
           "spDef": 61,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3647,7 +3809,8 @@
           "spDef": 86,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 437,
@@ -3665,7 +3828,8 @@
           "spDef": 116,
           "speed": 33
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3692,7 +3856,8 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 185,
@@ -3709,7 +3874,8 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3735,7 +3901,8 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 113,
@@ -3752,7 +3919,8 @@
           "spDef": 105,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 242,
@@ -3769,7 +3937,8 @@
           "spDef": 135,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3796,7 +3965,8 @@
           "spDef": 108,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3824,7 +3994,8 @@
           "spDef": 45,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 444,
@@ -3842,7 +4013,8 @@
           "spDef": 55,
           "speed": 82
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 445,
@@ -3860,7 +4032,8 @@
           "spDef": 85,
           "speed": 102
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3887,7 +4060,8 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 448,
@@ -3905,7 +4079,8 @@
           "spDef": 70,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3931,7 +4106,8 @@
           "spDef": 42,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 450,
@@ -3948,7 +4124,8 @@
           "spDef": 72,
           "speed": 47
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3975,7 +4152,8 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 454,
@@ -3993,7 +4171,8 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4020,7 +4199,8 @@
           "spDef": 61,
           "speed": 66
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 457,
@@ -4037,7 +4217,8 @@
           "spDef": 86,
           "speed": 91
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4064,7 +4245,8 @@
           "spDef": 60,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 460,
@@ -4082,7 +4264,8 @@
           "spDef": 85,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4110,7 +4293,8 @@
           "spDef": 77,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -4137,7 +4321,8 @@
           "spDef": 50,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 549,
@@ -4154,7 +4339,8 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4180,7 +4366,8 @@
           "spDef": 55,
           "speed": 98
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -4207,7 +4394,8 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 552,
@@ -4225,7 +4413,8 @@
           "spDef": 45,
           "speed": 74
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 553,
@@ -4243,7 +4432,8 @@
           "spDef": 70,
           "speed": 92
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4270,7 +4460,8 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 571,
@@ -4287,7 +4478,8 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4313,7 +4505,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 575,
@@ -4330,7 +4523,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 576,
@@ -4347,7 +4541,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4374,7 +4569,8 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 586,
@@ -4392,7 +4588,8 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4420,7 +4617,8 @@
           "spDef": 55,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 591,
@@ -4438,7 +4636,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4465,7 +4664,8 @@
           "spDef": 45,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -4491,7 +4691,8 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 603,
@@ -4508,7 +4709,8 @@
           "spDef": 70,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 604,
@@ -4525,7 +4727,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4551,7 +4754,8 @@
           "spDef": 40,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 611,
@@ -4568,7 +4772,8 @@
           "spDef": 50,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 612,
@@ -4585,7 +4790,8 @@
           "spDef": 70,
           "speed": 97
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4611,7 +4817,8 @@
           "spDef": 40,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 614,
@@ -4628,7 +4835,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4654,7 +4862,8 @@
           "spDef": 135,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -4681,7 +4890,8 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 625,
@@ -4699,7 +4909,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 983,
@@ -4717,7 +4928,8 @@
           "spDef": 85,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4745,7 +4957,8 @@
           "spDef": 50,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 628,
@@ -4763,7 +4976,8 @@
           "spDef": 75,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4791,7 +5005,8 @@
           "spDef": 50,
           "speed": 38
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 634,
@@ -4809,7 +5024,8 @@
           "spDef": 70,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 635,
@@ -4827,7 +5043,8 @@
           "spDef": 90,
           "speed": 98
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4855,7 +5072,8 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 637,
@@ -4873,7 +5091,8 @@
           "spDef": 105,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4901,7 +5120,8 @@
           "spDef": 38,
           "speed": 62
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 662,
@@ -4919,7 +5139,8 @@
           "spDef": 52,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 663,
@@ -4937,7 +5158,8 @@
           "spDef": 69,
           "speed": 126
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4964,7 +5186,8 @@
           "spDef": 25,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 665,
@@ -4981,7 +5204,8 @@
           "spDef": 30,
           "speed": 29
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 666,
@@ -4999,7 +5223,8 @@
           "spDef": 50,
           "speed": 89
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5026,7 +5251,8 @@
           "spDef": 54,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 668,
@@ -5044,7 +5270,8 @@
           "spDef": 66,
           "speed": 106
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5071,7 +5298,8 @@
           "spDef": 79,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 670,
@@ -5088,7 +5316,8 @@
           "spDef": 98,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 671,
@@ -5105,7 +5334,8 @@
           "spDef": 154,
           "speed": 75
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5131,7 +5361,8 @@
           "spDef": 57,
           "speed": 52
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 673,
@@ -5148,7 +5379,8 @@
           "spDef": 81,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5175,7 +5407,8 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 691,
@@ -5193,7 +5426,8 @@
           "spDef": 123,
           "speed": 44
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5221,7 +5455,8 @@
           "spDef": 63,
           "speed": 118
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5249,7 +5484,8 @@
           "spDef": 67,
           "speed": 101
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5276,7 +5512,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 705,
@@ -5293,7 +5530,8 @@
           "spDef": 113,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 706,
@@ -5310,7 +5548,8 @@
           "spDef": 150,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5337,7 +5576,8 @@
           "spDef": 87,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5364,7 +5604,8 @@
           "spDef": 35,
           "speed": 28
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 713,
@@ -5381,7 +5622,8 @@
           "spDef": 46,
           "speed": 28
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5408,7 +5650,8 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 715,
@@ -5426,7 +5669,8 @@
           "spDef": 80,
           "speed": 123
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5453,7 +5697,8 @@
           "spDef": 30,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 735,
@@ -5470,7 +5715,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5496,7 +5742,8 @@
           "spDef": 47,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 740,
@@ -5514,7 +5761,8 @@
           "spDef": 67,
           "speed": 43
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5541,7 +5789,8 @@
           "spDef": 70,
           "speed": 93
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5568,7 +5817,8 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 745,
@@ -5585,7 +5835,8 @@
           "spDef": 65,
           "speed": 112
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5612,7 +5863,8 @@
           "spDef": 52,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 748,
@@ -5630,7 +5882,8 @@
           "spDef": 142,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5657,7 +5910,8 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 750,
@@ -5674,7 +5928,8 @@
           "spDef": 85,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5700,7 +5955,8 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 754,
@@ -5717,7 +5973,8 @@
           "spDef": 90,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5744,7 +6001,8 @@
           "spDef": 40,
           "speed": 77
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 758,
@@ -5762,7 +6020,8 @@
           "spDef": 60,
           "speed": 117
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5789,7 +6048,8 @@
           "spDef": 38,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 762,
@@ -5806,7 +6066,8 @@
           "spDef": 48,
           "speed": 62
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 763,
@@ -5823,7 +6084,8 @@
           "spDef": 98,
           "speed": 72
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5850,7 +6112,8 @@
           "spDef": 110,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5878,7 +6141,8 @@
           "spDef": 45,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 770,
@@ -5896,7 +6160,8 @@
           "spDef": 75,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5923,7 +6188,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5950,7 +6216,8 @@
           "spDef": 105,
           "speed": 96
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -5978,7 +6245,8 @@
           "spDef": 70,
           "speed": 92
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -6005,7 +6273,8 @@
           "spDef": 35,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 820,
@@ -6022,7 +6291,8 @@
           "spDef": 75,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6048,7 +6318,8 @@
           "spDef": 35,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 822,
@@ -6065,7 +6336,8 @@
           "spDef": 55,
           "speed": 77
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 823,
@@ -6083,7 +6355,8 @@
           "spDef": 85,
           "speed": 67
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6109,7 +6382,8 @@
           "spDef": 38,
           "speed": 44
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 834,
@@ -6127,7 +6401,8 @@
           "spDef": 68,
           "speed": 74
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6153,7 +6428,8 @@
           "spDef": 50,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 838,
@@ -6171,7 +6447,8 @@
           "spDef": 70,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 839,
@@ -6189,7 +6466,8 @@
           "spDef": 90,
           "speed": 30
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6216,7 +6494,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 841,
@@ -6234,7 +6513,8 @@
           "spDef": 60,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6263,7 +6543,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 842,
@@ -6281,7 +6562,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6310,7 +6592,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -6338,7 +6621,8 @@
           "spDef": 50,
           "speed": 46
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 844,
@@ -6355,7 +6639,8 @@
           "spDef": 70,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6381,7 +6666,8 @@
           "spDef": 30,
           "speed": 66
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 847,
@@ -6398,7 +6684,8 @@
           "spDef": 50,
           "speed": 136
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6425,7 +6712,8 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 849,
@@ -6443,7 +6731,8 @@
           "spDef": 70,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6470,7 +6759,8 @@
           "spDef": 54,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 855,
@@ -6487,7 +6777,8 @@
           "spDef": 114,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6513,7 +6804,8 @@
           "spDef": 53,
           "speed": 39
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 857,
@@ -6530,7 +6822,8 @@
           "spDef": 73,
           "speed": 49
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 858,
@@ -6548,7 +6841,8 @@
           "spDef": 103,
           "speed": 29
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6575,7 +6869,8 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 860,
@@ -6593,7 +6888,8 @@
           "spDef": 55,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 861,
@@ -6611,7 +6907,8 @@
           "spDef": 75,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6638,7 +6935,8 @@
           "spDef": 60,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -6664,7 +6962,8 @@
           "spDef": 85,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -6691,7 +6990,8 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 873,
@@ -6709,7 +7009,8 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6736,7 +7037,8 @@
           "spDef": 20,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -6763,7 +7065,8 @@
           "spDef": 95,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -6790,7 +7093,8 @@
           "spDef": 49,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 879,
@@ -6807,7 +7111,8 @@
           "spDef": 69,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6833,7 +7138,8 @@
           "spDef": 45,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 907,
@@ -6850,7 +7156,8 @@
           "spDef": 63,
           "speed": 83
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 908,
@@ -6868,7 +7175,8 @@
           "spDef": 70,
           "speed": 123
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6894,7 +7202,8 @@
           "spDef": 40,
           "speed": 36
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 910,
@@ -6911,7 +7220,8 @@
           "spDef": 58,
           "speed": 49
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 911,
@@ -6929,7 +7239,8 @@
           "spDef": 75,
           "speed": 66
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6955,7 +7266,8 @@
           "spDef": 45,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 913,
@@ -6972,7 +7284,8 @@
           "spDef": 60,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 914,
@@ -6990,7 +7303,8 @@
           "spDef": 75,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7016,7 +7330,8 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 916,
@@ -7033,7 +7348,8 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7059,7 +7375,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 918,
@@ -7076,7 +7393,8 @@
           "spDef": 86,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7102,7 +7420,8 @@
           "spDef": 25,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 920,
@@ -7120,7 +7439,8 @@
           "spDef": 55,
           "speed": 92
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7146,7 +7466,8 @@
           "spDef": 25,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 922,
@@ -7164,7 +7485,8 @@
           "spDef": 40,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 923,
@@ -7182,7 +7504,8 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7208,7 +7531,8 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 925,
@@ -7225,7 +7549,8 @@
           "spDef": 75,
           "speed": 111
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7251,7 +7576,8 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 927,
@@ -7268,7 +7594,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7295,7 +7622,8 @@
           "spDef": 51,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 929,
@@ -7313,7 +7641,8 @@
           "spDef": 78,
           "speed": 33
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 930,
@@ -7331,7 +7660,8 @@
           "spDef": 109,
           "speed": 39
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7359,7 +7689,8 @@
           "spDef": 51,
           "speed": 92
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -7386,7 +7717,8 @@
           "spDef": 35,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 933,
@@ -7403,7 +7735,8 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 934,
@@ -7420,7 +7753,8 @@
           "spDef": 90,
           "speed": 35
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7446,7 +7780,8 @@
           "spDef": 40,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 936,
@@ -7464,7 +7799,8 @@
           "spDef": 80,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7491,7 +7827,8 @@
           "spDef": 40,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -7518,7 +7855,8 @@
           "spDef": 35,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 939,
@@ -7535,7 +7873,8 @@
           "spDef": 83,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7562,7 +7901,8 @@
           "spDef": 40,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 941,
@@ -7580,7 +7920,8 @@
           "spDef": 60,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7607,7 +7948,8 @@
           "spDef": 51,
           "speed": 51
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 943,
@@ -7624,7 +7966,8 @@
           "spDef": 70,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7651,7 +7994,8 @@
           "spDef": 35,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 945,
@@ -7669,7 +8013,8 @@
           "spDef": 72,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7697,7 +8042,8 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 947,
@@ -7715,7 +8061,8 @@
           "spDef": 70,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7743,7 +8090,8 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 949,
@@ -7761,7 +8109,8 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7788,7 +8137,8 @@
           "spDef": 55,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -7814,7 +8164,8 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 952,
@@ -7832,7 +8183,8 @@
           "spDef": 65,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7858,7 +8210,8 @@
           "spDef": 58,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 954,
@@ -7876,7 +8229,8 @@
           "spDef": 100,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7902,7 +8256,8 @@
           "spDef": 30,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 956,
@@ -7919,7 +8274,8 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7946,7 +8302,8 @@
           "spDef": 64,
           "speed": 58
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 958,
@@ -7964,7 +8321,8 @@
           "spDef": 82,
           "speed": 78
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 959,
@@ -7982,7 +8340,8 @@
           "spDef": 105,
           "speed": 94
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8009,7 +8368,8 @@
           "spDef": 25,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 961,
@@ -8026,7 +8386,8 @@
           "spDef": 70,
           "speed": 120
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8053,7 +8414,8 @@
           "spDef": 85,
           "speed": 82
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8080,7 +8442,8 @@
           "spDef": 40,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 964,
@@ -8097,7 +8460,8 @@
           "spDef": 62,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8124,7 +8488,8 @@
           "spDef": 45,
           "speed": 47
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 966,
@@ -8142,7 +8507,8 @@
           "spDef": 67,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8170,7 +8536,8 @@
           "spDef": 65,
           "speed": 121
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8197,7 +8564,8 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8224,7 +8592,8 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 970,
@@ -8242,7 +8611,8 @@
           "spDef": 81,
           "speed": 86
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8269,7 +8639,8 @@
           "spDef": 55,
           "speed": 34
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 972,
@@ -8286,7 +8657,8 @@
           "spDef": 97,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8313,7 +8685,8 @@
           "spDef": 64,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8340,7 +8713,8 @@
           "spDef": 40,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 975,
@@ -8357,7 +8731,8 @@
           "spDef": 55,
           "speed": 73
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8384,7 +8759,8 @@
           "spDef": 65,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8411,7 +8787,8 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8438,7 +8815,8 @@
           "spDef": 95,
           "speed": 82
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8466,7 +8844,8 @@
           "spDef": 53,
           "speed": 87
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8494,7 +8873,8 @@
           "spDef": 115,
           "speed": 111
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8522,7 +8902,8 @@
           "spDef": 99,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8550,7 +8931,8 @@
           "spDef": 135,
           "speed": 135
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8578,7 +8960,8 @@
           "spDef": 105,
           "speed": 81
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8606,7 +8989,8 @@
           "spDef": 85,
           "speed": 101
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8634,7 +9018,8 @@
           "spDef": 70,
           "speed": 106
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8662,7 +9047,8 @@
           "spDef": 65,
           "speed": 62
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 998,
@@ -8680,7 +9066,8 @@
           "spDef": 86,
           "speed": 87
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8707,7 +9094,8 @@
           "spDef": 70,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 1000,
@@ -8725,7 +9113,8 @@
           "spDef": 91,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8752,7 +9141,8 @@
           "spDef": 101,
           "speed": 119
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [

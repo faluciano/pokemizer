@@ -18,7 +18,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lumiose City"
+        ]
       },
       {
         "id": 2,
@@ -36,7 +39,8 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 3,
@@ -54,7 +58,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -81,7 +86,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lumiose City"
+        ]
       },
       {
         "id": 5,
@@ -98,7 +106,8 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 6,
@@ -116,7 +125,8 @@
           "spDef": 85,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -142,7 +152,10 @@
           "spDef": 64,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lumiose City"
+        ]
       },
       {
         "id": 8,
@@ -159,7 +172,8 @@
           "spDef": 80,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 9,
@@ -176,7 +190,8 @@
           "spDef": 105,
           "speed": 78
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -202,7 +217,11 @@
           "spDef": 20,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Santalune Forest"
+        ]
       },
       {
         "id": 11,
@@ -219,7 +238,10 @@
           "spDef": 25,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Santalune Forest"
+        ]
       },
       {
         "id": 12,
@@ -237,7 +259,8 @@
           "spDef": 80,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -264,7 +287,10 @@
           "spDef": 20,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Santalune Forest"
+        ]
       },
       {
         "id": 14,
@@ -282,7 +308,8 @@
           "spDef": 25,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 15,
@@ -300,7 +327,8 @@
           "spDef": 80,
           "speed": 75
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -328,7 +356,11 @@
           "spDef": 35,
           "speed": 56
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Route 3"
+        ]
       },
       {
         "id": 17,
@@ -346,7 +378,8 @@
           "spDef": 50,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 18,
@@ -364,7 +397,8 @@
           "spDef": 70,
           "speed": 101
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -392,7 +426,8 @@
           "spDef": 31,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 22,
@@ -410,7 +445,8 @@
           "spDef": 61,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -437,7 +473,10 @@
           "spDef": 54,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14"
+        ]
       },
       {
         "id": 24,
@@ -454,7 +493,10 @@
           "spDef": 79,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -480,7 +522,8 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 28,
@@ -497,7 +540,14 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 18",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber"
+        ]
       }
     ],
     "types": [
@@ -523,7 +573,10 @@
           "spDef": 40,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 30,
@@ -540,7 +593,10 @@
           "spDef": 55,
           "speed": 56
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 31,
@@ -558,7 +614,8 @@
           "spDef": 85,
           "speed": 76
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -584,7 +641,10 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 33,
@@ -601,7 +661,10 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 34,
@@ -619,7 +682,8 @@
           "spDef": 75,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -646,7 +710,10 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Connecting Cave"
+        ]
       },
       {
         "id": 42,
@@ -664,7 +731,8 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 169,
@@ -682,7 +750,8 @@
           "spDef": 80,
           "speed": 130
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -710,7 +779,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 44,
@@ -728,7 +800,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 45,
@@ -746,7 +819,8 @@
           "spDef": 90,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -775,7 +849,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 44,
@@ -793,7 +870,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 182,
@@ -810,7 +888,8 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -838,7 +917,8 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 51,
@@ -855,7 +935,10 @@
           "spDef": 70,
           "speed": 120
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 13"
+        ]
       }
     ],
     "types": [
@@ -881,7 +964,11 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22",
+          "Route 7"
+        ]
       },
       {
         "id": 55,
@@ -898,7 +985,8 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -924,7 +1012,22 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Couriway Town",
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 315",
+          "Laverre City",
+          "Pokémon Village",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 19",
+          "Route 21",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 61,
@@ -941,7 +1044,22 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Couriway Town",
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 315",
+          "Laverre City",
+          "Pokémon Village",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 19",
+          "Route 21",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 62,
@@ -959,7 +1077,10 @@
           "spDef": 90,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Victory Road Unknown Area 328"
+        ]
       }
     ],
     "types": [
@@ -986,7 +1107,22 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Couriway Town",
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 315",
+          "Laverre City",
+          "Pokémon Village",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 19",
+          "Route 21",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 61,
@@ -1003,7 +1139,22 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Couriway Town",
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 315",
+          "Laverre City",
+          "Pokémon Village",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 19",
+          "Route 21",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 186,
@@ -1020,7 +1171,10 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -1047,7 +1201,10 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       },
       {
         "id": 64,
@@ -1064,7 +1221,8 @@
           "spDef": 70,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 65,
@@ -1081,7 +1239,8 @@
           "spDef": 95,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1107,7 +1266,10 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       },
       {
         "id": 67,
@@ -1124,7 +1286,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 68,
@@ -1141,7 +1304,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1168,7 +1332,10 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14"
+        ]
       },
       {
         "id": 70,
@@ -1186,7 +1353,12 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14",
+          "Route 16",
+          "Route 19"
+        ]
       },
       {
         "id": 71,
@@ -1204,7 +1376,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1232,7 +1405,15 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Azure Bay",
+          "Cyllage City",
+          "Route 12",
+          "Route 8",
+          "Shalour City"
+        ]
       },
       {
         "id": 73,
@@ -1250,7 +1431,8 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1278,7 +1460,18 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 18",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 75,
@@ -1296,7 +1489,19 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 13",
+          "Route 18",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 76,
@@ -1314,7 +1519,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1342,7 +1548,11 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12"
+        ]
       },
       {
         "id": 80,
@@ -1360,7 +1570,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1389,7 +1600,11 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12"
+        ]
       },
       {
         "id": 199,
@@ -1407,7 +1622,8 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1436,7 +1652,8 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 82,
@@ -1454,7 +1671,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lost Hotel"
+        ]
       },
       {
         "id": 462,
@@ -1472,7 +1692,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1500,7 +1721,10 @@
           "spDef": 62,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22"
+        ]
       }
     ],
     "types": [
@@ -1528,7 +1752,10 @@
           "spDef": 35,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       },
       {
         "id": 85,
@@ -1546,7 +1773,8 @@
           "spDef": 60,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1573,7 +1801,10 @@
           "spDef": 25,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 91,
@@ -1591,7 +1822,10 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -1618,7 +1852,8 @@
           "spDef": 35,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 93,
@@ -1636,7 +1871,19 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317",
+          "Route 14",
+          "Route 19",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 94,
@@ -1654,7 +1901,8 @@
           "spDef": 75,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1682,7 +1930,11 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303",
+          "Glittering Cave Unknown Area 304"
+        ]
       },
       {
         "id": 208,
@@ -1700,7 +1952,8 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1727,7 +1980,8 @@
           "spDef": 55,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 101,
@@ -1744,7 +1998,10 @@
           "spDef": 80,
           "speed": 150
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lost Hotel"
+        ]
       }
     ],
     "types": [
@@ -1771,7 +2028,11 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12"
+        ]
       },
       {
         "id": 103,
@@ -1789,7 +2050,8 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1816,7 +2078,10 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       },
       {
         "id": 105,
@@ -1833,7 +2098,8 @@
           "spDef": 80,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1859,7 +2125,13 @@
           "spDef": 75,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 463,
@@ -1876,7 +2148,8 @@
           "spDef": 95,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1903,7 +2176,10 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       },
       {
         "id": 112,
@@ -1921,7 +2197,8 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 464,
@@ -1939,7 +2216,8 @@
           "spDef": 55,
           "speed": 40
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1966,7 +2244,10 @@
           "spDef": 80,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       }
     ],
     "types": [
@@ -1992,7 +2273,11 @@
           "spDef": 25,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Cyllage City"
+        ]
       },
       {
         "id": 117,
@@ -2009,7 +2294,11 @@
           "spDef": 45,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ambrette Town",
+          "Cyllage City"
+        ]
       },
       {
         "id": 230,
@@ -2027,7 +2316,8 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2053,7 +2343,12 @@
           "spDef": 50,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Parfum Palace",
+          "Route 22",
+          "Route 3"
+        ]
       },
       {
         "id": 119,
@@ -2070,7 +2365,12 @@
           "spDef": 80,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Parfum Palace",
+          "Route 22",
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -2097,7 +2397,10 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 21"
+        ]
       },
       {
         "id": 212,
@@ -2115,7 +2418,8 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2144,7 +2448,10 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 21"
+        ]
       }
     ],
     "types": [
@@ -2172,7 +2479,10 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -2198,7 +2508,12 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Parfum Palace",
+          "Route 22",
+          "Route 3"
+        ]
       },
       {
         "id": 130,
@@ -2216,7 +2531,12 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Parfum Palace",
+          "Route 22",
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -2243,7 +2563,11 @@
           "spDef": 95,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -2270,7 +2594,10 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Village"
+        ]
       }
     ],
     "types": [
@@ -2296,7 +2623,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 134,
@@ -2313,7 +2643,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2340,7 +2671,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 135,
@@ -2357,7 +2691,8 @@
           "spDef": 95,
           "speed": 130
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2384,7 +2719,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 136,
@@ -2401,7 +2739,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2428,7 +2767,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 196,
@@ -2445,7 +2787,8 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2472,7 +2815,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 197,
@@ -2489,7 +2835,8 @@
           "spDef": 130,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2516,7 +2863,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 470,
@@ -2533,7 +2883,8 @@
           "spDef": 65,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2560,7 +2911,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 471,
@@ -2577,7 +2931,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2604,7 +2959,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 700,
@@ -2621,7 +2979,8 @@
           "spDef": 130,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2649,7 +3008,8 @@
           "spDef": 75,
           "speed": 130
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2676,7 +3036,10 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 21"
+        ]
       },
       {
         "id": 148,
@@ -2693,7 +3056,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 21"
+        ]
       },
       {
         "id": 149,
@@ -2711,7 +3077,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2737,7 +3104,10 @@
           "spDef": 45,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 162,
@@ -2754,7 +3124,8 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2781,7 +3152,8 @@
           "spDef": 56,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 164,
@@ -2799,7 +3171,11 @@
           "spDef": 96,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Village",
+          "Route 20"
+        ]
       }
     ],
     "types": [
@@ -2827,7 +3203,10 @@
           "spDef": 80,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4"
+        ]
       },
       {
         "id": 166,
@@ -2845,7 +3224,8 @@
           "spDef": 110,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2873,7 +3253,8 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 168,
@@ -2891,7 +3272,8 @@
           "spDef": 70,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2919,7 +3301,11 @@
           "spDef": 56,
           "speed": 67
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Shalour City"
+        ]
       },
       {
         "id": 171,
@@ -2937,7 +3323,11 @@
           "spDef": 76,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Azure Bay",
+          "Shalour City"
+        ]
       }
     ],
     "types": [
@@ -2964,7 +3354,8 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 25,
@@ -2981,7 +3372,11 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 3",
+          "Santalune Forest"
+        ]
       },
       {
         "id": 26,
@@ -2998,7 +3393,8 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3025,7 +3421,8 @@
           "spDef": 20,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 39,
@@ -3043,7 +3440,11 @@
           "spDef": 25,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Village",
+          "Route 20"
+        ]
       },
       {
         "id": 40,
@@ -3061,7 +3462,8 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3088,7 +3490,10 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       },
       {
         "id": 180,
@@ -3105,7 +3510,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 181,
@@ -3122,7 +3528,8 @@
           "spDef": 90,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3149,7 +3556,10 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       },
       {
         "id": 188,
@@ -3167,7 +3577,8 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 189,
@@ -3185,7 +3596,8 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3213,7 +3625,10 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 469,
@@ -3231,7 +3646,8 @@
           "spDef": 56,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3259,7 +3675,8 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 195,
@@ -3277,7 +3694,11 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -3306,7 +3727,8 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3335,7 +3757,11 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 15",
+          "Route 16"
+        ]
       },
       {
         "id": 430,
@@ -3353,7 +3779,8 @@
           "spDef": 52,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3380,7 +3807,11 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22",
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -3407,7 +3838,10 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 19"
+        ]
       },
       {
         "id": 472,
@@ -3425,7 +3859,8 @@
           "spDef": 75,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3452,7 +3887,10 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 210,
@@ -3469,7 +3907,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3496,7 +3935,10 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -3524,7 +3966,15 @@
           "spDef": 230,
           "speed": 5
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 18",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324"
+        ]
       }
     ],
     "types": [
@@ -3552,7 +4002,10 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -3580,7 +4033,10 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 17"
+        ]
       },
       {
         "id": 461,
@@ -3598,7 +4054,8 @@
           "spDef": 85,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3627,7 +4084,10 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 17"
+        ]
       }
     ],
     "types": [
@@ -3655,7 +4115,8 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 217,
@@ -3672,7 +4133,10 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 21"
+        ]
       }
     ],
     "types": [
@@ -3698,7 +4162,10 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 13"
+        ]
       },
       {
         "id": 219,
@@ -3716,7 +4183,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3743,7 +4211,8 @@
           "spDef": 30,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 221,
@@ -3761,7 +4230,13 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       },
       {
         "id": 473,
@@ -3779,7 +4254,8 @@
           "spDef": 60,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3807,7 +4283,10 @@
           "spDef": 95,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -3834,7 +4313,12 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12",
+          "Shalour City"
+        ]
       },
       {
         "id": 224,
@@ -3851,7 +4335,12 @@
           "spDef": 75,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Azure Bay",
+          "Route 12",
+          "Shalour City"
+        ]
       }
     ],
     "types": [
@@ -3878,7 +4367,10 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 17"
+        ]
       }
     ],
     "types": [
@@ -3906,7 +4398,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3933,7 +4426,10 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -3960,7 +4456,14 @@
           "spDef": 65,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       },
       {
         "id": 124,
@@ -3978,7 +4481,13 @@
           "spDef": 95,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       }
     ],
     "types": [
@@ -4005,7 +4514,10 @@
           "spDef": 70,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -4032,7 +4544,13 @@
           "spDef": 50,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber"
+        ]
       },
       {
         "id": 247,
@@ -4050,7 +4568,14 @@
           "spDef": 70,
           "speed": 51
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 18",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber"
+        ]
       },
       {
         "id": 248,
@@ -4068,7 +4593,8 @@
           "spDef": 100,
           "speed": 61
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4095,7 +4621,10 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       },
       {
         "id": 264,
@@ -4112,7 +4641,8 @@
           "spDef": 61,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4139,7 +4669,8 @@
           "spDef": 50,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 271,
@@ -4157,7 +4688,15 @@
           "spDef": 70,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Couriway Town",
+          "Pokémon Village",
+          "Route 15",
+          "Route 16",
+          "Route 21",
+          "Victory Road Outside"
+        ]
       },
       {
         "id": 272,
@@ -4175,7 +4714,8 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4203,7 +4743,10 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 277,
@@ -4221,7 +4764,8 @@
           "spDef": 50,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4249,7 +4793,12 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12",
+          "Route 8"
+        ]
       },
       {
         "id": 279,
@@ -4267,7 +4816,8 @@
           "spDef": 70,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4295,7 +4845,10 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4"
+        ]
       },
       {
         "id": 281,
@@ -4313,7 +4866,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 282,
@@ -4331,7 +4885,8 @@
           "spDef": 115,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4360,7 +4915,10 @@
           "spDef": 35,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4"
+        ]
       },
       {
         "id": 281,
@@ -4378,7 +4936,8 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 475,
@@ -4396,7 +4955,8 @@
           "spDef": 115,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4425,7 +4985,8 @@
           "spDef": 52,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 284,
@@ -4443,7 +5004,10 @@
           "spDef": 82,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -4471,7 +5035,10 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 291,
@@ -4489,7 +5056,8 @@
           "spDef": 50,
           "speed": 160
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4518,7 +5086,10 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 292,
@@ -4536,7 +5107,8 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4564,7 +5136,10 @@
           "spDef": 23,
           "speed": 28
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Connecting Cave"
+        ]
       },
       {
         "id": 294,
@@ -4581,7 +5156,8 @@
           "spDef": 43,
           "speed": 48
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 295,
@@ -4598,7 +5174,8 @@
           "spDef": 73,
           "speed": 68
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4624,7 +5201,8 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 297,
@@ -4641,7 +5219,10 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -4668,7 +5249,11 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22",
+          "Route 3"
+        ]
       },
       {
         "id": 183,
@@ -4686,7 +5271,10 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 184,
@@ -4704,7 +5292,10 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Route 22"
+        ]
       }
     ],
     "types": [
@@ -4731,7 +5322,10 @@
           "spDef": 90,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 476,
@@ -4749,7 +5343,8 @@
           "spDef": 150,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4775,7 +5370,10 @@
           "spDef": 35,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4"
+        ]
       },
       {
         "id": 301,
@@ -4792,7 +5390,8 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4819,7 +5418,13 @@
           "spDef": 65,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       }
     ],
     "types": [
@@ -4847,7 +5452,10 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       }
     ],
     "types": [
@@ -4875,7 +5483,10 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Connecting Cave"
+        ]
       },
       {
         "id": 308,
@@ -4893,7 +5504,8 @@
           "spDef": 75,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4920,7 +5532,10 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 310,
@@ -4937,7 +5552,8 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4963,7 +5579,10 @@
           "spDef": 75,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       }
     ],
     "types": [
@@ -4989,7 +5608,10 @@
           "spDef": 85,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       }
     ],
     "types": [
@@ -5015,7 +5637,10 @@
           "spDef": 85,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -5041,7 +5666,10 @@
           "spDef": 85,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -5067,7 +5695,10 @@
           "spDef": 53,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       },
       {
         "id": 317,
@@ -5084,7 +5715,8 @@
           "spDef": 83,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5111,7 +5743,10 @@
           "spDef": 20,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22"
+        ]
       },
       {
         "id": 319,
@@ -5129,7 +5764,10 @@
           "spDef": 40,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 22"
+        ]
       }
     ],
     "types": [
@@ -5156,7 +5794,12 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Cyllage City",
+          "Route 8"
+        ]
       },
       {
         "id": 321,
@@ -5173,7 +5816,8 @@
           "spDef": 45,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5199,7 +5843,10 @@
           "spDef": 70,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -5225,7 +5872,10 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 326,
@@ -5242,7 +5892,8 @@
           "spDef": 110,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5268,7 +5919,10 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 21"
+        ]
       }
     ],
     "types": [
@@ -5294,7 +5948,10 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 13"
+        ]
       },
       {
         "id": 329,
@@ -5312,7 +5969,8 @@
           "spDef": 50,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 330,
@@ -5330,7 +5988,8 @@
           "spDef": 80,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5357,7 +6016,10 @@
           "spDef": 75,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 21"
+        ]
       },
       {
         "id": 334,
@@ -5375,7 +6037,10 @@
           "spDef": 105,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 21"
+        ]
       }
     ],
     "types": [
@@ -5402,7 +6067,10 @@
           "spDef": 60,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -5428,7 +6096,10 @@
           "spDef": 60,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -5455,7 +6126,10 @@
           "spDef": 85,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       }
     ],
     "types": [
@@ -5483,7 +6157,10 @@
           "spDef": 65,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       }
     ],
     "types": [
@@ -5511,7 +6188,11 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       },
       {
         "id": 340,
@@ -5529,7 +6210,11 @@
           "spDef": 71,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -5556,7 +6241,11 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Parfum Palace",
+          "Route 3"
+        ]
       },
       {
         "id": 342,
@@ -5574,7 +6263,11 @@
           "spDef": 55,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Parfum Palace",
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -5600,7 +6293,10 @@
           "spDef": 120,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -5626,7 +6322,8 @@
           "spDef": 33,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 354,
@@ -5643,7 +6340,8 @@
           "spDef": 63,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5669,7 +6367,10 @@
           "spDef": 60,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -5695,7 +6396,8 @@
           "spDef": 48,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 202,
@@ -5712,7 +6414,13 @@
           "spDef": 58,
           "speed": 33
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       }
     ],
     "types": [
@@ -5738,7 +6446,10 @@
           "spDef": 55,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       },
       {
         "id": 367,
@@ -5755,7 +6466,8 @@
           "spDef": 75,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5782,7 +6494,10 @@
           "spDef": 55,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       },
       {
         "id": 368,
@@ -5799,7 +6514,10 @@
           "spDef": 75,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -5827,7 +6545,11 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Cyllage City"
+        ]
       }
     ],
     "types": [
@@ -5854,7 +6576,15 @@
           "spDef": 65,
           "speed": 97
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Azure Bay",
+          "Cyllage City",
+          "Route 12",
+          "Route 8",
+          "Shalour City"
+        ]
       }
     ],
     "types": [
@@ -5880,7 +6610,10 @@
           "spDef": 30,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 372,
@@ -5897,7 +6630,8 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 373,
@@ -5915,7 +6649,8 @@
           "spDef": 80,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5942,7 +6677,10 @@
           "spDef": 30,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 397,
@@ -5960,7 +6698,10 @@
           "spDef": 40,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 398,
@@ -5978,7 +6719,8 @@
           "spDef": 60,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6005,7 +6747,11 @@
           "spDef": 40,
           "speed": 31
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22",
+          "Route 3"
+        ]
       },
       {
         "id": 400,
@@ -6023,7 +6769,10 @@
           "spDef": 60,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 22"
+        ]
       }
     ],
     "types": [
@@ -6050,7 +6799,10 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4"
+        ]
       },
       {
         "id": 315,
@@ -6068,7 +6820,10 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 7"
+        ]
       },
       {
         "id": 407,
@@ -6086,7 +6841,8 @@
           "spDef": 105,
           "speed": 90
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6113,7 +6869,10 @@
           "spDef": 45,
           "speed": 36
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 413,
@@ -6131,7 +6890,8 @@
           "spDef": 105,
           "speed": 36
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6158,7 +6918,10 @@
           "spDef": 45,
           "speed": 36
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 414,
@@ -6176,7 +6939,8 @@
           "spDef": 50,
           "speed": 66
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6204,7 +6968,10 @@
           "spDef": 42,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4"
+        ]
       },
       {
         "id": 416,
@@ -6222,7 +6989,8 @@
           "spDef": 102,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6249,7 +7017,10 @@
           "spDef": 90,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -6275,7 +7046,8 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 419,
@@ -6292,7 +7064,18 @@
           "spDef": 50,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Couriway Town",
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 315",
+          "Route 15",
+          "Route 16",
+          "Route 21",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 328"
+        ]
       }
     ],
     "types": [
@@ -6319,7 +7102,10 @@
           "spDef": 44,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 426,
@@ -6337,7 +7123,8 @@
           "spDef": 54,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6364,7 +7151,14 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308",
+          "Route 11"
+        ]
       },
       {
         "id": 358,
@@ -6381,7 +7175,8 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6408,7 +7203,10 @@
           "spDef": 41,
           "speed": 74
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 435,
@@ -6426,7 +7224,8 @@
           "spDef": 61,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6453,7 +7252,8 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 185,
@@ -6470,7 +7270,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 20"
+        ]
       }
     ],
     "types": [
@@ -6497,7 +7300,13 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       },
       {
         "id": 122,
@@ -6515,7 +7324,13 @@
           "spDef": 120,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       }
     ],
     "types": [
@@ -6543,7 +7358,11 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -6571,7 +7390,10 @@
           "spDef": 45,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 13"
+        ]
       },
       {
         "id": 444,
@@ -6589,7 +7411,8 @@
           "spDef": 55,
           "speed": 82
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 445,
@@ -6607,7 +7430,8 @@
           "spDef": 85,
           "speed": 102
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6634,7 +7458,8 @@
           "spDef": 85,
           "speed": 5
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 143,
@@ -6651,7 +7476,10 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -6677,7 +7505,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22"
+        ]
       },
       {
         "id": 448,
@@ -6695,7 +7526,10 @@
           "spDef": 70,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Tower Of Mastery"
+        ]
       }
     ],
     "types": [
@@ -6721,7 +7555,10 @@
           "spDef": 42,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 9"
+        ]
       },
       {
         "id": 450,
@@ -6738,7 +7575,8 @@
           "spDef": 72,
           "speed": 47
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6765,7 +7603,12 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14",
+          "Route 15",
+          "Route 16"
+        ]
       },
       {
         "id": 452,
@@ -6783,7 +7626,10 @@
           "spDef": 75,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -6811,7 +7657,10 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       },
       {
         "id": 454,
@@ -6829,7 +7678,8 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6856,7 +7706,11 @@
           "spDef": 72,
           "speed": 46
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -6883,7 +7737,12 @@
           "spDef": 120,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 12",
+          "Shalour City"
+        ]
       },
       {
         "id": 226,
@@ -6901,7 +7760,8 @@
           "spDef": 140,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6929,7 +7789,10 @@
           "spDef": 60,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 17"
+        ]
       },
       {
         "id": 460,
@@ -6947,7 +7810,10 @@
           "spDef": 85,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 17"
+        ]
       }
     ],
     "types": [
@@ -6975,7 +7841,8 @@
           "spDef": 77,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -7002,7 +7869,8 @@
           "spDef": 39,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 505,
@@ -7019,7 +7887,10 @@
           "spDef": 69,
           "speed": 77
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -7045,7 +7916,8 @@
           "spDef": 37,
           "speed": 66
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 510,
@@ -7062,7 +7934,10 @@
           "spDef": 50,
           "speed": 106
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -7088,7 +7963,10 @@
           "spDef": 48,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Santalune Forest"
+        ]
       },
       {
         "id": 512,
@@ -7105,7 +7983,8 @@
           "spDef": 63,
           "speed": 101
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7131,7 +8010,10 @@
           "spDef": 48,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Santalune Forest"
+        ]
       },
       {
         "id": 514,
@@ -7148,7 +8030,8 @@
           "spDef": 63,
           "speed": 101
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7174,7 +8057,10 @@
           "spDef": 48,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Santalune Forest"
+        ]
       },
       {
         "id": 516,
@@ -7191,7 +8077,8 @@
           "spDef": 63,
           "speed": 101
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7217,7 +8104,13 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       },
       {
         "id": 525,
@@ -7234,7 +8127,8 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 526,
@@ -7251,7 +8145,8 @@
           "spDef": 80,
           "speed": 25
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7278,7 +8173,8 @@
           "spDef": 43,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 528,
@@ -7296,7 +8192,8 @@
           "spDef": 55,
           "speed": 114
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7323,7 +8220,8 @@
           "spDef": 86,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -7349,7 +8247,8 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 533,
@@ -7366,7 +8265,14 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 18",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 534,
@@ -7383,7 +8289,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7409,7 +8316,10 @@
           "spDef": 85,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -7435,7 +8345,8 @@
           "spDef": 75,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -7462,7 +8373,8 @@
           "spDef": 39,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 544,
@@ -7480,7 +8392,8 @@
           "spDef": 79,
           "speed": 47
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 545,
@@ -7498,7 +8411,8 @@
           "spDef": 69,
           "speed": 112
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7525,7 +8439,20 @@
           "spDef": 55,
           "speed": 98
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Couriway Town",
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 315",
+          "Laverre City",
+          "Pokémon Village",
+          "Route 15",
+          "Route 16",
+          "Route 21",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 328"
+        ]
       }
     ],
     "types": [
@@ -7552,7 +8479,10 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 9"
+        ]
       },
       {
         "id": 552,
@@ -7570,7 +8500,8 @@
           "spDef": 45,
           "speed": 74
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 553,
@@ -7588,7 +8519,8 @@
           "spDef": 70,
           "speed": 92
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7616,7 +8548,15 @@
           "spDef": 35,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Azure Bay",
+          "Cyllage City",
+          "Glittering Cave Unknown Area 304",
+          "Route 12",
+          "Route 8"
+        ]
       },
       {
         "id": 558,
@@ -7634,7 +8574,8 @@
           "spDef": 75,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7662,7 +8603,10 @@
           "spDef": 70,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       },
       {
         "id": 560,
@@ -7680,7 +8624,8 @@
           "spDef": 115,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7708,7 +8653,10 @@
           "spDef": 80,
           "speed": 97
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -7735,7 +8683,8 @@
           "spDef": 62,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 569,
@@ -7752,7 +8701,8 @@
           "spDef": 82,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7778,7 +8728,8 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 571,
@@ -7795,7 +8746,11 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Village",
+          "Route 20"
+        ]
       }
     ],
     "types": [
@@ -7821,7 +8776,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 575,
@@ -7838,7 +8794,11 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Village",
+          "Route 20"
+        ]
       },
       {
         "id": 576,
@@ -7855,7 +8815,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7881,7 +8842,13 @@
           "spDef": 50,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       },
       {
         "id": 578,
@@ -7898,7 +8865,8 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 579,
@@ -7915,7 +8883,8 @@
           "spDef": 85,
           "speed": 30
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7942,7 +8911,10 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       },
       {
         "id": 581,
@@ -7960,7 +8932,8 @@
           "spDef": 63,
           "speed": 98
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7987,7 +8960,14 @@
           "spDef": 60,
           "speed": 44
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       },
       {
         "id": 583,
@@ -8004,7 +8984,8 @@
           "spDef": 75,
           "speed": 59
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 584,
@@ -8021,7 +9002,8 @@
           "spDef": 95,
           "speed": 79
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8048,7 +9030,10 @@
           "spDef": 60,
           "speed": 103
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -8075,7 +9060,11 @@
           "spDef": 45,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       },
       {
         "id": 589,
@@ -8093,7 +9082,8 @@
           "spDef": 105,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8120,7 +9110,13 @@
           "spDef": 55,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Village",
+          "Route 15",
+          "Route 16",
+          "Route 20"
+        ]
       },
       {
         "id": 591,
@@ -8138,7 +9134,11 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Village",
+          "Route 20"
+        ]
       }
     ],
     "types": [
@@ -8165,7 +9165,11 @@
           "spDef": 45,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Shalour City"
+        ]
       }
     ],
     "types": [
@@ -8192,7 +9196,8 @@
           "spDef": 86,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 598,
@@ -8210,7 +9215,8 @@
           "spDef": 116,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8238,7 +9244,10 @@
           "spDef": 55,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lost Hotel"
+        ]
       },
       {
         "id": 608,
@@ -8256,7 +9265,8 @@
           "spDef": 60,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 609,
@@ -8274,7 +9284,8 @@
           "spDef": 90,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8301,7 +9312,10 @@
           "spDef": 40,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Connecting Cave"
+        ]
       },
       {
         "id": 611,
@@ -8318,7 +9332,8 @@
           "spDef": 50,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 612,
@@ -8335,7 +9350,8 @@
           "spDef": 70,
           "speed": 97
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8361,7 +9377,14 @@
           "spDef": 40,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Frost Cavern Unknown Area 313",
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       },
       {
         "id": 614,
@@ -8378,7 +9401,13 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       }
     ],
     "types": [
@@ -8404,7 +9433,12 @@
           "spDef": 135,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       }
     ],
     "types": [
@@ -8430,7 +9464,11 @@
           "spDef": 65,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       },
       {
         "id": 617,
@@ -8447,7 +9485,8 @@
           "spDef": 60,
           "speed": 145
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8474,7 +9513,11 @@
           "spDef": 99,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14",
+          "Route 19"
+        ]
       }
     ],
     "types": [
@@ -8501,7 +9544,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 620,
@@ -8518,7 +9564,8 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8544,7 +9591,13 @@
           "spDef": 90,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       }
     ],
     "types": [
@@ -8571,7 +9624,10 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 623,
@@ -8589,7 +9645,8 @@
           "spDef": 80,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8617,7 +9674,11 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lost Hotel",
+          "Route 15"
+        ]
       },
       {
         "id": 625,
@@ -8635,7 +9696,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8662,7 +9724,10 @@
           "spDef": 66,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -8689,7 +9754,14 @@
           "spDef": 48,
           "speed": 109
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 18",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber"
+        ]
       }
     ],
     "types": [
@@ -8717,7 +9789,8 @@
           "spDef": 50,
           "speed": 38
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 634,
@@ -8735,7 +9808,13 @@
           "spDef": 70,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 635,
@@ -8753,7 +9832,8 @@
           "spDef": 90,
           "speed": 98
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8780,7 +9860,10 @@
           "spDef": 45,
           "speed": 38
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Aquacorde Town"
+        ]
       },
       {
         "id": 651,
@@ -8797,7 +9880,8 @@
           "spDef": 58,
           "speed": 57
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 652,
@@ -8815,7 +9899,8 @@
           "spDef": 75,
           "speed": 64
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8841,7 +9926,10 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Aquacorde Town"
+        ]
       },
       {
         "id": 654,
@@ -8858,7 +9946,8 @@
           "spDef": 70,
           "speed": 73
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 655,
@@ -8876,7 +9965,8 @@
           "spDef": 100,
           "speed": 104
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8902,7 +9992,10 @@
           "spDef": 44,
           "speed": 71
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Aquacorde Town"
+        ]
       },
       {
         "id": 657,
@@ -8919,7 +10012,8 @@
           "spDef": 56,
           "speed": 97
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 658,
@@ -8937,7 +10031,8 @@
           "spDef": 71,
           "speed": 122
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8963,7 +10058,13 @@
           "spDef": 36,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Route 22",
+          "Route 3",
+          "Route 5"
+        ]
       },
       {
         "id": 660,
@@ -8981,7 +10082,10 @@
           "spDef": 77,
           "speed": 78
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 22"
+        ]
       }
     ],
     "types": [
@@ -9008,7 +10112,12 @@
           "spDef": 38,
           "speed": 62
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Route 3",
+          "Santalune Forest"
+        ]
       },
       {
         "id": 662,
@@ -9026,7 +10135,8 @@
           "spDef": 52,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 663,
@@ -9044,7 +10154,8 @@
           "spDef": 69,
           "speed": 126
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -9071,7 +10182,11 @@
           "spDef": 25,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Santalune Forest"
+        ]
       },
       {
         "id": 665,
@@ -9088,7 +10203,8 @@
           "spDef": 30,
           "speed": 29
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 666,
@@ -9106,7 +10222,8 @@
           "spDef": 50,
           "speed": 89
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -9133,7 +10250,10 @@
           "spDef": 54,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22"
+        ]
       },
       {
         "id": 668,
@@ -9151,7 +10271,8 @@
           "spDef": 66,
           "speed": 106
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9178,7 +10299,11 @@
           "spDef": 79,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4",
+          "Route 7"
+        ]
       },
       {
         "id": 670,
@@ -9195,7 +10320,8 @@
           "spDef": 98,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 671,
@@ -9212,7 +10338,8 @@
           "spDef": 154,
           "speed": 75
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -9238,7 +10365,10 @@
           "spDef": 57,
           "speed": 52
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       },
       {
         "id": 673,
@@ -9255,7 +10385,8 @@
           "spDef": 81,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9281,7 +10412,10 @@
           "spDef": 48,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       },
       {
         "id": 675,
@@ -9299,7 +10433,8 @@
           "spDef": 71,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9325,7 +10460,10 @@
           "spDef": 90,
           "speed": 102
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5"
+        ]
       }
     ],
     "types": [
@@ -9351,7 +10489,10 @@
           "spDef": 60,
           "speed": 68
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 678,
@@ -9368,7 +10509,8 @@
           "spDef": 81,
           "speed": 104
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9395,7 +10537,10 @@
           "spDef": 37,
           "speed": 28
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 680,
@@ -9413,7 +10558,8 @@
           "spDef": 49,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 681,
@@ -9431,7 +10577,8 @@
           "spDef": 140,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -9458,7 +10605,10 @@
           "spDef": 65,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       },
       {
         "id": 683,
@@ -9475,7 +10625,8 @@
           "spDef": 89,
           "speed": 29
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9502,7 +10653,11 @@
           "spDef": 46,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Azure Bay",
+          "Route 8"
+        ]
       },
       {
         "id": 687,
@@ -9520,7 +10675,8 @@
           "spDef": 75,
           "speed": 73
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9548,7 +10704,14 @@
           "spDef": 56,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Azure Bay",
+          "Cyllage City",
+          "Route 12",
+          "Route 8"
+        ]
       },
       {
         "id": 689,
@@ -9566,7 +10729,8 @@
           "spDef": 86,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9594,7 +10758,12 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ambrette Town",
+          "Cyllage City",
+          "Route 8"
+        ]
       },
       {
         "id": 691,
@@ -9612,7 +10781,12 @@
           "spDef": 123,
           "speed": 44
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ambrette Town",
+          "Cyllage City",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -9640,7 +10814,10 @@
           "spDef": 43,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 9"
+        ]
       },
       {
         "id": 695,
@@ -9658,7 +10835,8 @@
           "spDef": 94,
           "speed": 109
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9686,7 +10864,10 @@
           "spDef": 45,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       },
       {
         "id": 697,
@@ -9704,7 +10885,8 @@
           "spDef": 59,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9732,7 +10914,10 @@
           "spDef": 63,
           "speed": 46
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Glittering Cave Unknown Area 303"
+        ]
       },
       {
         "id": 699,
@@ -9750,7 +10935,8 @@
           "spDef": 92,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -9778,7 +10964,10 @@
           "spDef": 63,
           "speed": 118
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -9806,7 +10995,10 @@
           "spDef": 67,
           "speed": 101
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -9834,7 +11026,13 @@
           "spDef": 150,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Reflection Cave Unknown Area 305",
+          "Reflection Cave Unknown Area 306",
+          "Reflection Cave Unknown Area 307",
+          "Reflection Cave Unknown Area 308"
+        ]
       }
     ],
     "types": [
@@ -9861,7 +11059,10 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14"
+        ]
       },
       {
         "id": 705,
@@ -9878,7 +11079,10 @@
           "spDef": 113,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 19"
+        ]
       },
       {
         "id": 706,
@@ -9895,7 +11099,8 @@
           "spDef": 150,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -9922,7 +11127,12 @@
           "spDef": 87,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lost Hotel",
+          "Route 15",
+          "Route 16"
+        ]
       }
     ],
     "types": [
@@ -9950,7 +11160,10 @@
           "spDef": 60,
           "speed": 38
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16"
+        ]
       },
       {
         "id": 709,
@@ -9968,7 +11181,10 @@
           "spDef": 82,
           "speed": 56
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 20"
+        ]
       }
     ],
     "types": [
@@ -9996,7 +11212,10 @@
           "spDef": 55,
           "speed": 51
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16"
+        ]
       },
       {
         "id": 711,
@@ -10014,7 +11233,8 @@
           "spDef": 75,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -10041,7 +11261,13 @@
           "spDef": 35,
           "speed": 28
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Frost Cavern Unknown Area 314",
+          "Frost Cavern Unknown Area 315",
+          "Frost Cavern Unknown Area 316",
+          "Frost Cavern Unknown Area 317"
+        ]
       },
       {
         "id": 713,
@@ -10058,7 +11284,8 @@
           "spDef": 46,
           "speed": 28
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -10085,7 +11312,8 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 715,
@@ -10103,7 +11331,8 @@
           "spDef": 80,
           "speed": 123
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [

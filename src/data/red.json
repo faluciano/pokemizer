@@ -18,7 +18,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town"
+        ]
       },
       {
         "id": 2,
@@ -36,7 +39,8 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 3,
@@ -54,7 +58,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -81,7 +86,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town"
+        ]
       },
       {
         "id": 5,
@@ -98,7 +106,8 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 6,
@@ -116,7 +125,8 @@
           "spDef": 85,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -142,7 +152,10 @@
           "spDef": 64,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town"
+        ]
       },
       {
         "id": 8,
@@ -159,7 +172,8 @@
           "spDef": 80,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 9,
@@ -176,7 +190,8 @@
           "spDef": 105,
           "speed": 78
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -202,7 +217,11 @@
           "spDef": 20,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 25",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 11,
@@ -219,7 +238,11 @@
           "spDef": 25,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 25",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 12,
@@ -237,7 +260,8 @@
           "spDef": 80,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -264,7 +288,13 @@
           "spDef": 20,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Route 24",
+          "Route 25",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 14,
@@ -282,7 +312,12 @@
           "spDef": 25,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 15,
@@ -300,7 +335,8 @@
           "spDef": 80,
           "speed": 75
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -328,7 +364,23 @@
           "spDef": 35,
           "speed": 56
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 2",
+          "Route 24",
+          "Route 25",
+          "Route 3",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8",
+          "Sea Route 21"
+        ]
       },
       {
         "id": 17,
@@ -346,7 +398,12 @@
           "spDef": 50,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14",
+          "Route 15",
+          "Sea Route 21"
+        ]
       },
       {
         "id": 18,
@@ -364,7 +421,8 @@
           "spDef": 70,
           "speed": 101
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -391,7 +449,16 @@
           "spDef": 35,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1",
+          "Route 16",
+          "Route 2",
+          "Route 22",
+          "Route 4",
+          "Route 9",
+          "Sea Route 21"
+        ]
       },
       {
         "id": 20,
@@ -408,7 +475,13 @@
           "spDef": 70,
           "speed": 97
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Sea Route 21"
+        ]
       }
     ],
     "types": [
@@ -435,7 +508,19 @@
           "spDef": 31,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10",
+          "Route 11",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23",
+          "Route 3",
+          "Route 4",
+          "Route 9"
+        ]
       },
       {
         "id": 22,
@@ -453,7 +538,12 @@
           "spDef": 61,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 17",
+          "Route 18",
+          "Route 23"
+        ]
       }
     ],
     "types": [
@@ -480,7 +570,15 @@
           "spDef": 54,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10",
+          "Route 11",
+          "Route 23",
+          "Route 4",
+          "Route 8",
+          "Route 9"
+        ]
       },
       {
         "id": 24,
@@ -497,7 +595,11 @@
           "spDef": 79,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Route 23"
+        ]
       }
     ],
     "types": [
@@ -523,7 +625,11 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Power Plant",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 26,
@@ -540,7 +646,10 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       }
     ],
     "types": [
@@ -566,7 +675,12 @@
           "spDef": 40,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 3 West"
+        ]
       },
       {
         "id": 30,
@@ -583,7 +697,11 @@
           "spDef": 55,
           "speed": 56
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Area 2 North",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 31,
@@ -601,7 +719,8 @@
           "spDef": 85,
           "speed": 76
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -627,7 +746,14 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 22",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 33,
@@ -644,7 +770,13 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 34,
@@ -662,7 +794,8 @@
           "spDef": 75,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -688,7 +821,10 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Moon"
+        ]
       },
       {
         "id": 36,
@@ -705,7 +841,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -732,7 +869,10 @@
           "spDef": 25,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 40,
@@ -750,7 +890,10 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       }
     ],
     "types": [
@@ -778,7 +921,13 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Moon",
+          "Rock Tunnel",
+          "Seafoam Islands",
+          "Victory Road 2"
+        ]
       },
       {
         "id": 42,
@@ -796,7 +945,12 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Seafoam Islands",
+          "Victory Road 2"
+        ]
       }
     ],
     "types": [
@@ -824,7 +978,18 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25",
+          "Route 5",
+          "Route 6",
+          "Route 7"
+        ]
       },
       {
         "id": 44,
@@ -842,7 +1007,13 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15"
+        ]
       },
       {
         "id": 45,
@@ -860,7 +1031,8 @@
           "spDef": 90,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -889,7 +1061,18 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 24",
+          "Route 25",
+          "Route 5",
+          "Route 6",
+          "Route 7"
+        ]
       },
       {
         "id": 44,
@@ -907,7 +1090,13 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -936,7 +1125,12 @@
           "spDef": 55,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Moon",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North"
+        ]
       },
       {
         "id": 47,
@@ -954,7 +1148,12 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Safari Zone Area 1 East",
+          "Safari Zone Middle"
+        ]
       }
     ],
     "types": [
@@ -982,7 +1181,15 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 49,
@@ -1000,7 +1207,13 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Victory Road 2"
+        ]
       }
     ],
     "types": [
@@ -1027,7 +1240,10 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Digletts Cave"
+        ]
       },
       {
         "id": 51,
@@ -1044,7 +1260,10 @@
           "spDef": 70,
           "speed": 120
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Digletts Cave"
+        ]
       }
     ],
     "types": [
@@ -1070,7 +1289,17 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean City",
+          "Route 24",
+          "Route 25",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Seafoam Islands"
+        ]
       },
       {
         "id": 55,
@@ -1087,7 +1316,10 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -1113,7 +1345,13 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 8"
+        ]
       },
       {
         "id": 57,
@@ -1130,7 +1368,8 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1156,7 +1395,12 @@
           "spDef": 50,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Mansion",
+          "Route 7",
+          "Route 8"
+        ]
       },
       {
         "id": 59,
@@ -1173,7 +1417,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1199,7 +1444,37 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Cerulean Cave",
+          "Cerulean City",
+          "Cinnabar Island",
+          "Fuchsia City",
+          "Pallet Town",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Route 6",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Viridian City"
+        ]
       },
       {
         "id": 61,
@@ -1216,7 +1491,11 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Celadon City",
+          "Route 10"
+        ]
       },
       {
         "id": 62,
@@ -1234,7 +1513,8 @@
           "spDef": 90,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1261,7 +1541,37 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Cerulean Cave",
+          "Cerulean City",
+          "Cinnabar Island",
+          "Fuchsia City",
+          "Pallet Town",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Route 6",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Viridian City"
+        ]
       },
       {
         "id": 61,
@@ -1278,7 +1588,11 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Celadon City",
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -1305,7 +1619,11 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 24",
+          "Route 25"
+        ]
       },
       {
         "id": 64,
@@ -1322,7 +1640,10 @@
           "spDef": 70,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       },
       {
         "id": 65,
@@ -1339,7 +1660,8 @@
           "spDef": 95,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1365,7 +1687,11 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Rock Tunnel",
+          "Victory Road 2"
+        ]
       },
       {
         "id": 67,
@@ -1382,7 +1708,10 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Victory Road 2"
+        ]
       },
       {
         "id": 68,
@@ -1399,7 +1728,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1426,7 +1756,18 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Viridian City"
+        ]
       },
       {
         "id": 73,
@@ -1444,7 +1785,8 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1472,7 +1814,12 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Moon",
+          "Rock Tunnel",
+          "Victory Road 2"
+        ]
       },
       {
         "id": 75,
@@ -1490,7 +1837,10 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Victory Road 2"
+        ]
       },
       {
         "id": 76,
@@ -1508,7 +1858,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1535,7 +1886,10 @@
           "spDef": 65,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Mansion"
+        ]
       },
       {
         "id": 78,
@@ -1552,7 +1906,8 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1579,7 +1934,16 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Route 10",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Seafoam Islands"
+        ]
       },
       {
         "id": 80,
@@ -1597,7 +1961,12 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Route 23",
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -1626,7 +1995,16 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Route 10",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -1655,7 +2033,10 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Power Plant"
+        ]
       },
       {
         "id": 82,
@@ -1673,7 +2054,11 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Power Plant"
+        ]
       }
     ],
     "types": [
@@ -1701,7 +2086,8 @@
           "spDef": 62,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -1729,7 +2115,14 @@
           "spDef": 35,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 3 West"
+        ]
       },
       {
         "id": 85,
@@ -1747,7 +2140,10 @@
           "spDef": 60,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       }
     ],
     "types": [
@@ -1774,7 +2170,10 @@
           "spDef": 70,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seafoam Islands"
+        ]
       },
       {
         "id": 87,
@@ -1792,7 +2191,10 @@
           "spDef": 95,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -1818,7 +2220,10 @@
           "spDef": 50,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Mansion"
+        ]
       },
       {
         "id": 89,
@@ -1835,7 +2240,10 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Mansion"
+        ]
       }
     ],
     "types": [
@@ -1861,7 +2269,18 @@
           "spDef": 25,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island",
+          "Route 11",
+          "Route 6",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock"
+        ]
       },
       {
         "id": 91,
@@ -1879,7 +2298,8 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1906,7 +2326,10 @@
           "spDef": 35,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Tower"
+        ]
       },
       {
         "id": 93,
@@ -1924,7 +2347,10 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Tower"
+        ]
       },
       {
         "id": 94,
@@ -1942,7 +2368,8 @@
           "spDef": 75,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1970,7 +2397,11 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Rock Tunnel",
+          "Victory Road 2"
+        ]
       }
     ],
     "types": [
@@ -1997,7 +2428,10 @@
           "spDef": 90,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       },
       {
         "id": 97,
@@ -2014,7 +2448,10 @@
           "spDef": 115,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       }
     ],
     "types": [
@@ -2040,7 +2477,25 @@
           "spDef": 25,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean City",
+          "Fuchsia City",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 24",
+          "Route 25",
+          "Route 6",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock"
+        ]
       },
       {
         "id": 99,
@@ -2057,7 +2512,11 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Route 23"
+        ]
       }
     ],
     "types": [
@@ -2083,7 +2542,11 @@
           "spDef": 55,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Power Plant",
+          "Route 10"
+        ]
       },
       {
         "id": 101,
@@ -2100,7 +2563,11 @@
           "spDef": 80,
           "speed": 150
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Power Plant"
+        ]
       }
     ],
     "types": [
@@ -2127,7 +2594,13 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 103,
@@ -2145,7 +2618,8 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2172,7 +2646,10 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Tower"
+        ]
       },
       {
         "id": 105,
@@ -2189,7 +2666,11 @@
           "spDef": 80,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Victory Road 2"
+        ]
       }
     ],
     "types": [
@@ -2215,7 +2696,10 @@
           "spDef": 110,
           "speed": 87
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Saffron City Fighting Dojo"
+        ]
       }
     ],
     "types": [
@@ -2241,7 +2725,10 @@
           "spDef": 110,
           "speed": 76
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Saffron City Fighting Dojo"
+        ]
       }
     ],
     "types": [
@@ -2267,7 +2754,8 @@
           "spDef": 75,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2293,7 +2781,10 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pokémon Mansion"
+        ]
       },
       {
         "id": 110,
@@ -2310,7 +2801,10 @@
           "spDef": 70,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pokémon Mansion"
+        ]
       }
     ],
     "types": [
@@ -2337,7 +2831,11 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 2 North",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 112,
@@ -2355,7 +2853,10 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       }
     ],
     "types": [
@@ -2382,7 +2883,12 @@
           "spDef": 105,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Safari Zone Area 2 North",
+          "Safari Zone Middle"
+        ]
       }
     ],
     "types": [
@@ -2408,7 +2914,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Sea Route 21"
+        ]
       }
     ],
     "types": [
@@ -2434,7 +2943,11 @@
           "spDef": 80,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 3 West"
+        ]
       }
     ],
     "types": [
@@ -2460,7 +2973,14 @@
           "spDef": 25,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands"
+        ]
       },
       {
         "id": 117,
@@ -2477,7 +2997,12 @@
           "spDef": 45,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Route 23",
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -2503,7 +3028,37 @@
           "spDef": 50,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Cerulean Cave",
+          "Cerulean City",
+          "Cinnabar Island",
+          "Fuchsia City",
+          "Pallet Town",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Route 6",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Viridian City"
+        ]
       },
       {
         "id": 119,
@@ -2520,7 +3075,12 @@
           "spDef": 80,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Fuchsia City",
+          "Route 23"
+        ]
       }
     ],
     "types": [
@@ -2546,7 +3106,14 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands"
+        ]
       },
       {
         "id": 121,
@@ -2564,7 +3131,8 @@
           "spDef": 85,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2591,7 +3159,8 @@
           "spDef": 120,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2619,7 +3188,11 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 1 East",
+          "Safari Zone Middle"
+        ]
       }
     ],
     "types": [
@@ -2648,7 +3221,11 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 1 East",
+          "Safari Zone Middle"
+        ]
       }
     ],
     "types": [
@@ -2677,7 +3254,8 @@
           "spDef": 95,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2704,7 +3282,10 @@
           "spDef": 85,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Power Plant"
+        ]
       }
     ],
     "types": [
@@ -2730,7 +3311,11 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West"
+        ]
       }
     ],
     "types": [
@@ -2756,7 +3341,39 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Cerulean Cave",
+          "Cerulean City",
+          "Cinnabar Island",
+          "Fuchsia City",
+          "Pallet Town",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 23",
+          "Route 24",
+          "Route 25",
+          "Route 3",
+          "Route 4",
+          "Route 6",
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Seafoam Islands",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Viridian City"
+        ]
       },
       {
         "id": 130,
@@ -2774,7 +3391,8 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2801,7 +3419,10 @@
           "spDef": 95,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Saffron City Silph Co"
+        ]
       }
     ],
     "types": [
@@ -2828,7 +3449,14 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 23"
+        ]
       }
     ],
     "types": [
@@ -2854,7 +3482,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       },
       {
         "id": 134,
@@ -2871,7 +3502,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2898,7 +3530,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       },
       {
         "id": 135,
@@ -2915,7 +3550,8 @@
           "spDef": 95,
           "speed": 130
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2942,7 +3578,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       },
       {
         "id": 136,
@@ -2959,7 +3598,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2986,7 +3626,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       }
     ],
     "types": [
@@ -3013,7 +3656,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       }
     ],
     "types": [
@@ -3040,7 +3686,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       }
     ],
     "types": [
@@ -3067,7 +3716,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       }
     ],
     "types": [
@@ -3094,7 +3746,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City Celadon Mansion"
+        ]
       }
     ],
     "types": [
@@ -3121,7 +3776,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3148,7 +3804,10 @@
           "spDef": 55,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island Cinnabar Lab"
+        ]
       },
       {
         "id": 139,
@@ -3166,7 +3825,8 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3194,7 +3854,10 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island Cinnabar Lab"
+        ]
       },
       {
         "id": 141,
@@ -3212,7 +3875,8 @@
           "spDef": 70,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3240,7 +3904,10 @@
           "spDef": 75,
           "speed": 130
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island Cinnabar Lab"
+        ]
       }
     ],
     "types": [
@@ -3267,7 +3934,11 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12",
+          "Route 16"
+        ]
       }
     ],
     "types": [
@@ -3293,7 +3964,13 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Area 1 East",
+          "Safari Zone Area 2 North",
+          "Safari Zone Area 3 West",
+          "Safari Zone Middle"
+        ]
       },
       {
         "id": 148,
@@ -3310,7 +3987,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 149,
@@ -3328,7 +4006,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [

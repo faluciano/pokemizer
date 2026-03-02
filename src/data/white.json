@@ -17,7 +17,10 @@
           "spDef": 55,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Nuvema Town"
+        ]
       },
       {
         "id": 496,
@@ -34,7 +37,8 @@
           "spDef": 75,
           "speed": 83
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 497,
@@ -51,7 +55,8 @@
           "spDef": 95,
           "speed": 113
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -77,7 +82,10 @@
           "spDef": 45,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Nuvema Town"
+        ]
       },
       {
         "id": 499,
@@ -95,7 +103,8 @@
           "spDef": 55,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 500,
@@ -113,7 +122,8 @@
           "spDef": 65,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -139,7 +149,10 @@
           "spDef": 45,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Nuvema Town"
+        ]
       },
       {
         "id": 502,
@@ -156,7 +169,8 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 503,
@@ -173,7 +187,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -199,7 +214,13 @@
           "spDef": 39,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dreamyard",
+          "Route 1",
+          "Route 2",
+          "Route 3"
+        ]
       },
       {
         "id": 505,
@@ -216,7 +237,15 @@
           "spDef": 69,
           "speed": 77
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dreamyard",
+          "P2 Laboratory",
+          "Route 1",
+          "Route 15",
+          "Route 18",
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -242,7 +271,12 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1",
+          "Route 2",
+          "Route 3"
+        ]
       },
       {
         "id": 507,
@@ -259,7 +293,13 @@
           "spDef": 65,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cold Storage",
+          "P2 Laboratory",
+          "Route 1",
+          "Route 10"
+        ]
       },
       {
         "id": 508,
@@ -276,7 +316,12 @@
           "spDef": 90,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Cold Storage",
+          "P2 Laboratory",
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -302,7 +347,12 @@
           "spDef": 37,
           "speed": 66
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dreamyard",
+          "Route 2",
+          "Route 3"
+        ]
       },
       {
         "id": 510,
@@ -319,7 +369,13 @@
           "spDef": 50,
           "speed": 106
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dreamyard",
+          "Route 16",
+          "Route 5",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -345,7 +401,12 @@
           "spDef": 48,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dreamyard",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 512,
@@ -362,7 +423,8 @@
           "spDef": 63,
           "speed": 101
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -388,7 +450,12 @@
           "spDef": 48,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dreamyard",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 514,
@@ -405,7 +472,8 @@
           "spDef": 63,
           "speed": 101
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -431,7 +499,12 @@
           "spDef": 48,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dreamyard",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 516,
@@ -448,7 +521,8 @@
           "spDef": 63,
           "speed": 101
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -474,7 +548,10 @@
           "spDef": 55,
           "speed": 24
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dreamyard"
+        ]
       },
       {
         "id": 518,
@@ -491,7 +568,10 @@
           "spDef": 95,
           "speed": 29
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dreamyard"
+        ]
       }
     ],
     "types": [
@@ -518,7 +598,12 @@
           "spDef": 30,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pinwheel Forest Inside",
+          "Pinwheel Forest Outside",
+          "Route 3"
+        ]
       },
       {
         "id": 520,
@@ -536,7 +621,16 @@
           "spDef": 42,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside",
+          "Route 12",
+          "Route 6",
+          "Route 7"
+        ]
       },
       {
         "id": 521,
@@ -554,7 +648,15 @@
           "spDef": 55,
           "speed": 93
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Lostlorn Forest",
+          "Route 12",
+          "Route 6",
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -581,7 +683,10 @@
           "spDef": 32,
           "speed": 76
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 523,
@@ -598,7 +703,10 @@
           "spDef": 63,
           "speed": 116
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -624,7 +732,10 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Wellspring Cave"
+        ]
       },
       {
         "id": 525,
@@ -641,7 +752,31 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Challengers Cave",
+          "Chargestone Cave",
+          "Giant Chasm",
+          "Giant Chasm Forest Cave",
+          "Guidance Chamber",
+          "Mistralton Cave",
+          "Trial Chamber",
+          "Twist Mountain B1F",
+          "Victory Road 1F Unknown Room",
+          "Victory Road 4F Middle Room",
+          "Victory Road Unknown Area 53",
+          "Victory Road Unknown Area 54",
+          "Victory Road Unknown Area 55",
+          "Victory Road Unknown Area 57",
+          "Victory Road Unknown Area 59",
+          "Victory Road Unknown Area 60",
+          "Victory Road Unknown Area 61",
+          "Victory Road Unknown Area 62",
+          "Victory Road Unknown Area 63",
+          "Victory Road Unknown Area 64",
+          "Victory Road Unknown Area 65",
+          "Victory Road Unknown Area 66"
+        ]
       },
       {
         "id": 526,
@@ -658,7 +793,8 @@
           "spDef": 80,
           "speed": 25
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -685,7 +821,29 @@
           "spDef": 43,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Challengers Cave",
+          "Guidance Chamber",
+          "Mistralton Cave",
+          "Trial Chamber",
+          "Twist Mountain B1F",
+          "Victory Road 1F Unknown Room",
+          "Victory Road 4F Middle Room",
+          "Victory Road Unknown Area 53",
+          "Victory Road Unknown Area 54",
+          "Victory Road Unknown Area 55",
+          "Victory Road Unknown Area 57",
+          "Victory Road Unknown Area 59",
+          "Victory Road Unknown Area 60",
+          "Victory Road Unknown Area 61",
+          "Victory Road Unknown Area 62",
+          "Victory Road Unknown Area 63",
+          "Victory Road Unknown Area 64",
+          "Victory Road Unknown Area 65",
+          "Victory Road Unknown Area 66",
+          "Wellspring Cave"
+        ]
       },
       {
         "id": 528,
@@ -703,7 +861,8 @@
           "spDef": 55,
           "speed": 114
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -730,7 +889,14 @@
           "spDef": 45,
           "speed": 68
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Chargestone Cave",
+          "Guidance Chamber",
+          "Mistralton Cave",
+          "Twist Mountain B1F",
+          "Wellspring Cave"
+        ]
       },
       {
         "id": 530,
@@ -748,7 +914,27 @@
           "spDef": 65,
           "speed": 88
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Challengers Cave",
+          "Giant Chasm",
+          "Giant Chasm Forest Cave",
+          "Trial Chamber",
+          "Victory Road 1F Unknown Room",
+          "Victory Road 4F Middle Room",
+          "Victory Road Unknown Area 53",
+          "Victory Road Unknown Area 54",
+          "Victory Road Unknown Area 55",
+          "Victory Road Unknown Area 57",
+          "Victory Road Unknown Area 59",
+          "Victory Road Unknown Area 60",
+          "Victory Road Unknown Area 61",
+          "Victory Road Unknown Area 62",
+          "Victory Road Unknown Area 63",
+          "Victory Road Unknown Area 64",
+          "Victory Road Unknown Area 65",
+          "Victory Road Unknown Area 66"
+        ]
       }
     ],
     "types": [
@@ -774,7 +960,36 @@
           "spDef": 86,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Abundant Shrine",
+          "Cold Storage",
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Dreamyard",
+          "Giant Chasm Forest",
+          "Giant Chasm Outside",
+          "Lostlorn Forest",
+          "P2 Laboratory",
+          "Pinwheel Forest Inside",
+          "Pinwheel Forest Outside",
+          "Route 1",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 18",
+          "Route 2",
+          "Route 3",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 9",
+          "Village Bridge"
+        ]
       }
     ],
     "types": [
@@ -800,7 +1015,11 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cold Storage",
+          "Pinwheel Forest Outside"
+        ]
       },
       {
         "id": 533,
@@ -817,7 +1036,10 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Twist Mountain B1F"
+        ]
       },
       {
         "id": 534,
@@ -834,7 +1056,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -860,7 +1083,10 @@
           "spDef": 40,
           "speed": 64
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pinwheel Forest Outside"
+        ]
       },
       {
         "id": 536,
@@ -878,7 +1104,12 @@
           "spDef": 55,
           "speed": 69
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Icirrus City",
+          "Moor Of Icirrus",
+          "Route 8"
+        ]
       },
       {
         "id": 537,
@@ -896,7 +1127,12 @@
           "spDef": 75,
           "speed": 74
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Icirrus City",
+          "Moor Of Icirrus",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -922,7 +1158,13 @@
           "spDef": 85,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pinwheel Forest Outside",
+          "Route 10",
+          "Route 15",
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -948,7 +1190,13 @@
           "spDef": 75,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pinwheel Forest Outside",
+          "Route 10",
+          "Route 15",
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -975,7 +1223,10 @@
           "spDef": 60,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 541,
@@ -993,7 +1244,12 @@
           "spDef": 80,
           "speed": 42
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside",
+          "Route 6"
+        ]
       },
       {
         "id": 542,
@@ -1011,7 +1267,11 @@
           "spDef": 80,
           "speed": 92
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Lostlorn Forest",
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -1039,7 +1299,11 @@
           "spDef": 39,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 544,
@@ -1057,7 +1321,10 @@
           "spDef": 79,
           "speed": 47
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 545,
@@ -1075,7 +1342,8 @@
           "spDef": 69,
           "speed": 112
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1102,7 +1370,12 @@
           "spDef": 50,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Abundant Shrine",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside"
+        ]
       },
       {
         "id": 549,
@@ -1119,7 +1392,12 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Abundant Shrine",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside"
+        ]
       }
     ],
     "types": [
@@ -1145,7 +1423,26 @@
           "spDef": 55,
           "speed": 98
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Abundant Shrine",
+          "Challengers Cave",
+          "Dragonspiral Tower Outside",
+          "Giant Chasm",
+          "Giant Chasm Forest Cave",
+          "Lostlorn Forest",
+          "Pinwheel Forest Inside",
+          "Route 1",
+          "Route 11",
+          "Route 14",
+          "Route 3",
+          "Route 6",
+          "Striaton City",
+          "Victory Road 1F Unknown Room",
+          "Victory Road Unknown Area 53",
+          "Village Bridge",
+          "Wellspring Cave"
+        ]
       }
     ],
     "types": [
@@ -1172,7 +1469,13 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Resort",
+          "Desert Resort Entrance",
+          "Relic Castle A",
+          "Route 4"
+        ]
       },
       {
         "id": 552,
@@ -1190,7 +1493,11 @@
           "spDef": 45,
           "speed": 74
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Relic Castle B",
+          "Relic Castle C"
+        ]
       },
       {
         "id": 553,
@@ -1208,7 +1515,8 @@
           "spDef": 70,
           "speed": 92
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1235,7 +1543,12 @@
           "spDef": 45,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Resort",
+          "Desert Resort Entrance",
+          "Route 4"
+        ]
       },
       {
         "id": 555,
@@ -1252,7 +1565,8 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1278,7 +1592,11 @@
           "spDef": 67,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Resort",
+          "Desert Resort Entrance"
+        ]
       }
     ],
     "types": [
@@ -1305,7 +1623,12 @@
           "spDef": 35,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Resort",
+          "Desert Resort Entrance",
+          "Route 18"
+        ]
       },
       {
         "id": 558,
@@ -1323,7 +1646,10 @@
           "spDef": 75,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -1351,7 +1677,14 @@
           "spDef": 70,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Resort Entrance",
+          "P2 Laboratory",
+          "Route 1",
+          "Route 18",
+          "Route 4"
+        ]
       },
       {
         "id": 560,
@@ -1369,7 +1702,8 @@
           "spDef": 115,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1397,7 +1731,10 @@
           "spDef": 80,
           "speed": 97
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Desert Resort"
+        ]
       }
     ],
     "types": [
@@ -1424,7 +1761,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Relic Castle A"
+        ]
       },
       {
         "id": 563,
@@ -1441,7 +1781,11 @@
           "spDef": 105,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Relic Castle B",
+          "Relic Castle C"
+        ]
       }
     ],
     "types": [
@@ -1468,7 +1812,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Relic Castle A"
+        ]
       }
     ],
     "types": [
@@ -1496,7 +1843,8 @@
           "spDef": 45,
           "speed": 22
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 565,
@@ -1514,7 +1862,8 @@
           "spDef": 65,
           "speed": 32
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1542,7 +1891,8 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 567,
@@ -1560,7 +1910,8 @@
           "spDef": 65,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1587,7 +1938,11 @@
           "spDef": 62,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16",
+          "Route 5"
+        ]
       },
       {
         "id": 569,
@@ -1604,7 +1959,10 @@
           "spDef": 82,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -1630,7 +1988,10 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Castelia City Game Freak Hq"
+        ]
       },
       {
         "id": 571,
@@ -1647,7 +2008,10 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lostlorn Forest"
+        ]
       }
     ],
     "types": [
@@ -1673,7 +2037,13 @@
           "spDef": 40,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cold Storage",
+          "Route 16",
+          "Route 5",
+          "Route 9"
+        ]
       },
       {
         "id": 573,
@@ -1690,7 +2060,13 @@
           "spDef": 60,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cold Storage",
+          "Route 16",
+          "Route 5",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -1716,7 +2092,11 @@
           "spDef": 50,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16",
+          "Route 5"
+        ]
       },
       {
         "id": 578,
@@ -1733,7 +2113,10 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 9"
+        ]
       },
       {
         "id": 579,
@@ -1750,7 +2133,10 @@
           "spDef": 85,
           "speed": 30
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -1777,7 +2163,10 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Driftveil Drawbridge"
+        ]
       },
       {
         "id": 581,
@@ -1795,7 +2184,10 @@
           "spDef": 63,
           "speed": 98
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Marvelous Bridge"
+        ]
       }
     ],
     "types": [
@@ -1822,7 +2214,13 @@
           "spDef": 60,
           "speed": 44
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cold Storage",
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Route 6"
+        ]
       },
       {
         "id": 583,
@@ -1839,7 +2237,11 @@
           "spDef": 75,
           "speed": 59
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside"
+        ]
       },
       {
         "id": 584,
@@ -1856,7 +2258,8 @@
           "spDef": 95,
           "speed": 79
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1883,7 +2286,13 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Route 6",
+          "Route 7"
+        ]
       },
       {
         "id": 586,
@@ -1901,7 +2310,11 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside"
+        ]
       }
     ],
     "types": [
@@ -1929,7 +2342,26 @@
           "spDef": 60,
           "speed": 103
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Abundant Shrine",
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Giant Chasm Outside",
+          "Lostlorn Forest",
+          "Route 10",
+          "Route 11",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 5",
+          "Route 6",
+          "Route 7",
+          "Route 9",
+          "Village Bridge"
+        ]
       }
     ],
     "types": [
@@ -1956,7 +2388,11 @@
           "spDef": 45,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11",
+          "Route 6"
+        ]
       },
       {
         "id": 589,
@@ -1974,7 +2410,8 @@
           "spDef": 105,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2001,7 +2438,12 @@
           "spDef": 55,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10",
+          "Route 6",
+          "Route 7"
+        ]
       },
       {
         "id": 591,
@@ -2019,7 +2461,11 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 10",
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -2047,7 +2493,14 @@
           "spDef": 85,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Driftveil City",
+          "P2 Laboratory",
+          "Route 17",
+          "Route 18",
+          "Route 4"
+        ]
       },
       {
         "id": 593,
@@ -2065,7 +2518,14 @@
           "spDef": 105,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Driftveil City",
+          "P2 Laboratory",
+          "Route 17",
+          "Route 18",
+          "Route 4"
+        ]
       }
     ],
     "types": [
@@ -2092,7 +2552,14 @@
           "spDef": 45,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Driftveil City",
+          "P2 Laboratory",
+          "Route 17",
+          "Route 18",
+          "Route 4"
+        ]
       }
     ],
     "types": [
@@ -2119,7 +2586,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Chargestone Cave"
+        ]
       },
       {
         "id": 596,
@@ -2137,7 +2607,8 @@
           "spDef": 60,
           "speed": 108
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2165,7 +2636,10 @@
           "spDef": 86,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Chargestone Cave"
+        ]
       },
       {
         "id": 598,
@@ -2183,7 +2657,8 @@
           "spDef": 116,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2210,7 +2685,11 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Chargestone Cave",
+          "P2 Laboratory"
+        ]
       },
       {
         "id": 600,
@@ -2227,7 +2706,8 @@
           "spDef": 85,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 601,
@@ -2244,7 +2724,8 @@
           "spDef": 85,
           "speed": 90
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2270,7 +2751,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Chargestone Cave"
+        ]
       },
       {
         "id": 603,
@@ -2287,7 +2771,8 @@
           "spDef": 70,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 604,
@@ -2304,7 +2789,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2330,7 +2816,10 @@
           "spDef": 55,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celestial Tower"
+        ]
       },
       {
         "id": 606,
@@ -2347,7 +2836,10 @@
           "spDef": 95,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14"
+        ]
       }
     ],
     "types": [
@@ -2374,7 +2866,10 @@
           "spDef": 55,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celestial Tower"
+        ]
       },
       {
         "id": 608,
@@ -2392,7 +2887,8 @@
           "spDef": 60,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 609,
@@ -2410,7 +2906,8 @@
           "spDef": 90,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2437,7 +2934,11 @@
           "spDef": 40,
           "speed": 57
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Guidance Chamber",
+          "Mistralton Cave"
+        ]
       },
       {
         "id": 611,
@@ -2454,7 +2955,10 @@
           "spDef": 50,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Victory Road Outside"
+        ]
       },
       {
         "id": 612,
@@ -2471,7 +2975,8 @@
           "spDef": 70,
           "speed": 97
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2497,7 +3002,13 @@
           "spDef": 40,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Route 7",
+          "Twist Mountain B1F"
+        ]
       },
       {
         "id": 614,
@@ -2514,7 +3025,11 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside"
+        ]
       }
     ],
     "types": [
@@ -2540,7 +3055,10 @@
           "spDef": 135,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Twist Mountain B1F"
+        ]
       }
     ],
     "types": [
@@ -2566,7 +3084,12 @@
           "spDef": 65,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Icirrus City",
+          "Moor Of Icirrus",
+          "Route 8"
+        ]
       },
       {
         "id": 617,
@@ -2583,7 +3106,8 @@
           "spDef": 60,
           "speed": 145
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2610,7 +3134,12 @@
           "spDef": 99,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Icirrus City",
+          "Moor Of Icirrus",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -2637,7 +3166,29 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dragonspiral Tower",
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside",
+          "Route 14",
+          "Trial Chamber",
+          "Victory Road 1F Unknown Room",
+          "Victory Road 4F Middle Room",
+          "Victory Road Outside",
+          "Victory Road Unknown Area 53",
+          "Victory Road Unknown Area 54",
+          "Victory Road Unknown Area 55",
+          "Victory Road Unknown Area 57",
+          "Victory Road Unknown Area 59",
+          "Victory Road Unknown Area 60",
+          "Victory Road Unknown Area 61",
+          "Victory Road Unknown Area 62",
+          "Victory Road Unknown Area 63",
+          "Victory Road Unknown Area 64",
+          "Victory Road Unknown Area 65",
+          "Victory Road Unknown Area 66"
+        ]
       },
       {
         "id": 620,
@@ -2654,7 +3205,10 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14"
+        ]
       }
     ],
     "types": [
@@ -2680,7 +3234,12 @@
           "spDef": 90,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dragonspiral Tower",
+          "Dragonspiral Tower Entrance",
+          "Dragonspiral Tower Outside"
+        ]
       }
     ],
     "types": [
@@ -2707,7 +3266,10 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dragonspiral Tower"
+        ]
       },
       {
         "id": 623,
@@ -2725,7 +3287,8 @@
           "spDef": 80,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2753,7 +3316,11 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11",
+          "Route 9"
+        ]
       },
       {
         "id": 625,
@@ -2771,7 +3338,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -2798,7 +3368,10 @@
           "spDef": 95,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -2825,7 +3398,13 @@
           "spDef": 50,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10",
+          "Route 11",
+          "Victory Road Outside",
+          "Village Bridge"
+        ]
       },
       {
         "id": 628,
@@ -2843,7 +3422,11 @@
           "spDef": 75,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11",
+          "Village Bridge"
+        ]
       }
     ],
     "types": [
@@ -2870,7 +3453,10 @@
           "spDef": 66,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Victory Road Outside"
+        ]
       }
     ],
     "types": [
@@ -2897,7 +3483,24 @@
           "spDef": 48,
           "speed": 109
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Trial Chamber",
+          "Victory Road 1F Unknown Room",
+          "Victory Road 4F Middle Room",
+          "Victory Road Unknown Area 53",
+          "Victory Road Unknown Area 54",
+          "Victory Road Unknown Area 55",
+          "Victory Road Unknown Area 57",
+          "Victory Road Unknown Area 59",
+          "Victory Road Unknown Area 60",
+          "Victory Road Unknown Area 61",
+          "Victory Road Unknown Area 62",
+          "Victory Road Unknown Area 63",
+          "Victory Road Unknown Area 64",
+          "Victory Road Unknown Area 65",
+          "Victory Road Unknown Area 66"
+        ]
       }
     ],
     "types": [
@@ -2925,7 +3528,11 @@
           "spDef": 50,
           "speed": 38
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Victory Road 1F Unknown Room",
+          "Victory Road Unknown Area 53"
+        ]
       },
       {
         "id": 634,
@@ -2943,7 +3550,8 @@
           "spDef": 70,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 635,
@@ -2961,7 +3569,8 @@
           "spDef": 90,
           "speed": 98
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2989,7 +3598,10 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 18"
+        ]
       },
       {
         "id": 637,
@@ -3007,7 +3619,10 @@
           "spDef": 105,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Relic Castle D"
+        ]
       }
     ],
     "types": [

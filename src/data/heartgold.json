@@ -18,7 +18,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town"
+        ]
       },
       {
         "id": 2,
@@ -36,7 +39,8 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 3,
@@ -54,7 +58,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -81,7 +86,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town"
+        ]
       },
       {
         "id": 5,
@@ -98,7 +106,8 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 6,
@@ -116,7 +125,8 @@
           "spDef": 85,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -142,7 +152,10 @@
           "spDef": 64,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pallet Town"
+        ]
       },
       {
         "id": 8,
@@ -159,7 +172,8 @@
           "spDef": 80,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 9,
@@ -176,7 +190,8 @@
           "spDef": 105,
           "speed": 78
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -202,7 +217,16 @@
           "spDef": 20,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ilex Forest",
+          "National Park",
+          "Route 2",
+          "Route 30",
+          "Route 31",
+          "Unknown All Bugs",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 11,
@@ -219,7 +243,15 @@
           "spDef": 25,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ilex Forest",
+          "National Park",
+          "Route 2",
+          "Route 30",
+          "Route 31",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 12,
@@ -237,7 +269,11 @@
           "spDef": 80,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Route 2",
+          "Viridian Forest"
+        ]
       }
     ],
     "types": [
@@ -264,7 +300,8 @@
           "spDef": 20,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 14,
@@ -282,7 +319,8 @@
           "spDef": 25,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 15,
@@ -300,7 +338,8 @@
           "spDef": 80,
           "speed": 75
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -328,7 +367,23 @@
           "spDef": 35,
           "speed": 56
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "National Park",
+          "Route 1",
+          "Route 2",
+          "Route 25",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "Route 5",
+          "Route 6",
+          "Safari Zone Zone Forest",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 17,
@@ -346,7 +401,20 @@
           "spDef": 50,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 2",
+          "Route 25",
+          "Route 37",
+          "Route 43",
+          "Route 8",
+          "Safari Zone Zone Mountain",
+          "Safari Zone Zone Plains",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 18,
@@ -364,7 +432,8 @@
           "spDef": 70,
           "speed": 101
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -391,7 +460,33 @@
           "spDef": 35,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Bell Tower",
+          "Burned Tower",
+          "Mt. Mortar",
+          "Mt. Mortar Lower Cave",
+          "Route 1",
+          "Route 11",
+          "Route 22",
+          "Route 29",
+          "Route 3",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 33",
+          "Route 34",
+          "Route 38",
+          "Route 39",
+          "Route 4",
+          "Route 46",
+          "Route 7",
+          "Route 9",
+          "Sprout Tower",
+          "Tohjo Falls",
+          "Union Cave",
+          "Unknown All Rattata"
+        ]
       },
       {
         "id": 20,
@@ -408,7 +503,24 @@
           "spDef": 70,
           "speed": 97
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Burned Tower",
+          "Mt. Mortar",
+          "Mt. Mortar Upper Cave",
+          "Route 10",
+          "Route 26",
+          "Route 27",
+          "Route 38",
+          "Route 39",
+          "Route 47",
+          "Route 7",
+          "Route 9",
+          "Safari Zone Zone Mountain",
+          "Safari Zone Zone Plains",
+          "Tohjo Falls",
+          "Union Cave"
+        ]
       }
     ],
     "types": [
@@ -435,7 +547,21 @@
           "spDef": 31,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City North Gate",
+          "Route 10",
+          "Route 22",
+          "Route 3",
+          "Route 33",
+          "Route 4",
+          "Route 42",
+          "Route 46",
+          "Route 47",
+          "Route 7",
+          "Route 9",
+          "Safari Zone Zone Wetland"
+        ]
       },
       {
         "id": 22,
@@ -453,7 +579,19 @@
           "spDef": 61,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 10",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Route 22",
+          "Route 47",
+          "Route 48",
+          "Route 9",
+          "Safari Zone Zone Desert",
+          "Safari Zone Zone Wasteland"
+        ]
       }
     ],
     "types": [
@@ -480,7 +618,10 @@
           "spDef": 54,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Zone Marshland"
+        ]
       },
       {
         "id": 24,
@@ -497,7 +638,10 @@
           "spDef": 79,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Zone Marshland"
+        ]
       }
     ],
     "types": [
@@ -523,7 +667,12 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Moon",
+          "Safari Zone Zone Desert",
+          "Union Cave"
+        ]
       },
       {
         "id": 28,
@@ -540,7 +689,13 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Moon",
+          "Route 26",
+          "Route 27",
+          "Safari Zone Zone Desert"
+        ]
       }
     ],
     "types": [
@@ -566,7 +721,12 @@
           "spDef": 40,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 35",
+          "Route 36",
+          "Safari Zone Zone Savannah"
+        ]
       },
       {
         "id": 30,
@@ -583,7 +743,13 @@
           "spDef": 55,
           "speed": 56
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Safari Zone Zone Savannah"
+        ]
       },
       {
         "id": 31,
@@ -601,7 +767,8 @@
           "spDef": 85,
           "speed": 76
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -627,7 +794,11 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 35",
+          "Route 36"
+        ]
       },
       {
         "id": 33,
@@ -644,7 +815,13 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Safari Zone Zone Savannah"
+        ]
       },
       {
         "id": 34,
@@ -662,7 +839,8 @@
           "spDef": 75,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -689,7 +867,32 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Burned Tower",
+          "Dark Cave Blackthorn City Entrance",
+          "Dark Cave Violet City Entrance",
+          "Ice Path",
+          "Ilex Forest",
+          "Mt. Moon",
+          "Mt. Mortar",
+          "Mt. Mortar Lower Cave",
+          "Rock Tunnel",
+          "Route 3",
+          "Route 32",
+          "Route 33",
+          "Route 4",
+          "Route 42",
+          "Route 47",
+          "Safari Zone Zone Mountain",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Savannah",
+          "Seafoam Islands",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Union Cave",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 42,
@@ -707,7 +910,26 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Dark Cave Blackthorn City Entrance",
+          "Ice Path",
+          "Mt. Mortar Upper Cave",
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Mountainside",
+          "Mt. Silver Top",
+          "Route 47",
+          "Safari Zone Zone Mountain",
+          "Safari Zone Zone Savannah",
+          "Seafoam Islands",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Union Cave",
+          "Victory Road 1",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 169,
@@ -725,7 +947,8 @@
           "spDef": 80,
           "speed": 130
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -753,7 +976,15 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ilex Forest",
+          "Route 24",
+          "Route 25",
+          "Route 5",
+          "Route 6",
+          "Safari Zone Zone Marshland"
+        ]
       },
       {
         "id": 44,
@@ -771,7 +1002,13 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 47",
+          "Route 48",
+          "Route 5",
+          "Safari Zone Zone Marshland"
+        ]
       },
       {
         "id": 45,
@@ -789,7 +1026,8 @@
           "spDef": 90,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -818,7 +1056,15 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ilex Forest",
+          "Route 24",
+          "Route 25",
+          "Route 5",
+          "Route 6",
+          "Safari Zone Zone Marshland"
+        ]
       },
       {
         "id": 44,
@@ -836,7 +1082,13 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 47",
+          "Route 48",
+          "Route 5",
+          "Safari Zone Zone Marshland"
+        ]
       },
       {
         "id": 182,
@@ -853,7 +1105,8 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -882,7 +1135,12 @@
           "spDef": 55,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ilex Forest",
+          "Mt. Moon",
+          "Safari Zone Zone Swamp"
+        ]
       },
       {
         "id": 47,
@@ -900,7 +1158,10 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave"
+        ]
       }
     ],
     "types": [
@@ -928,7 +1189,12 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Route 43"
+        ]
       },
       {
         "id": 49,
@@ -946,7 +1212,11 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 24",
+          "Route 25"
+        ]
       }
     ],
     "types": [
@@ -973,7 +1243,12 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Digletts Cave",
+          "Route 48",
+          "Vermilion City"
+        ]
       },
       {
         "id": 51,
@@ -990,7 +1265,10 @@
           "spDef": 70,
           "speed": 120
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Digletts Cave"
+        ]
       }
     ],
     "types": [
@@ -1016,7 +1294,15 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Ilex Forest",
+          "Route 35",
+          "Route 6",
+          "Safari Zone Zone Wetland",
+          "Seafoam Islands"
+        ]
       },
       {
         "id": 55,
@@ -1033,7 +1319,19 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Ilex Forest",
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Mountainside",
+          "Mt. Silver Top",
+          "Route 35",
+          "Route 6",
+          "Safari Zone Zone Wetland",
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -1059,7 +1357,11 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 42",
+          "Route 9"
+        ]
       },
       {
         "id": 57,
@@ -1076,7 +1378,11 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -1102,7 +1408,14 @@
           "spDef": 50,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 36",
+          "Route 37",
+          "Route 48",
+          "Route 7",
+          "Route 8"
+        ]
       },
       {
         "id": 59,
@@ -1119,7 +1432,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1145,7 +1459,33 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blackthorn City",
+          "Cerulean Cave",
+          "Ecruteak City",
+          "Ilex Forest",
+          "Mt. Moon Mt. Moon Square",
+          "Mt. Silver Outside",
+          "Route 22",
+          "Route 28",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 43",
+          "Route 44",
+          "Route 45",
+          "Route 47",
+          "Route 6",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Wetland",
+          "Unknown All Poliwag",
+          "Violet City",
+          "Viridian City"
+        ]
       },
       {
         "id": 61,
@@ -1162,7 +1502,23 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Ecruteak City",
+          "Mt. Silver Outside",
+          "Route 22",
+          "Route 28",
+          "Route 30",
+          "Route 31",
+          "Route 44",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Wetland",
+          "Violet City",
+          "Viridian City"
+        ]
       },
       {
         "id": 62,
@@ -1180,7 +1536,8 @@
           "spDef": 90,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1207,7 +1564,33 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blackthorn City",
+          "Cerulean Cave",
+          "Ecruteak City",
+          "Ilex Forest",
+          "Mt. Moon Mt. Moon Square",
+          "Mt. Silver Outside",
+          "Route 22",
+          "Route 28",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 43",
+          "Route 44",
+          "Route 45",
+          "Route 47",
+          "Route 6",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Wetland",
+          "Unknown All Poliwag",
+          "Violet City",
+          "Viridian City"
+        ]
       },
       {
         "id": 61,
@@ -1224,7 +1607,23 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Ecruteak City",
+          "Mt. Silver Outside",
+          "Route 22",
+          "Route 28",
+          "Route 30",
+          "Route 31",
+          "Route 44",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Wetland",
+          "Violet City",
+          "Viridian City"
+        ]
       },
       {
         "id": 186,
@@ -1241,7 +1640,8 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1268,7 +1668,17 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Route 34",
+          "Route 35",
+          "Route 5",
+          "Route 6",
+          "Route 8",
+          "Safari Zone Zone Plains"
+        ]
       },
       {
         "id": 64,
@@ -1285,7 +1695,11 @@
           "spDef": 70,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Route 8"
+        ]
       },
       {
         "id": 65,
@@ -1302,7 +1716,8 @@
           "spDef": 95,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1328,7 +1743,15 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Mortar",
+          "Mt. Mortar Lower Cave",
+          "Mt. Mortar Upper Cave",
+          "Rock Tunnel",
+          "Route 47",
+          "Safari Zone Zone Wasteland"
+        ]
       },
       {
         "id": 67,
@@ -1345,7 +1768,14 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Mt. Mortar Upper Cave",
+          "Rock Tunnel",
+          "Route 47",
+          "Safari Zone Zone Wasteland"
+        ]
       },
       {
         "id": 68,
@@ -1362,7 +1792,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1389,7 +1820,17 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Route 31",
+          "Route 32",
+          "Route 44",
+          "Route 5",
+          "Route 6",
+          "Safari Zone Zone Forest"
+        ]
       },
       {
         "id": 70,
@@ -1407,7 +1848,12 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 24",
+          "Route 25",
+          "Route 44"
+        ]
       },
       {
         "id": 71,
@@ -1425,7 +1871,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1453,7 +1900,32 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cherrygrove City",
+          "Cianwood City",
+          "Cianwood City Pokémon Center",
+          "Cinnabar Island",
+          "New Bark Town",
+          "Olivine City",
+          "Pallet Town",
+          "Route 12",
+          "Route 13",
+          "Route 26",
+          "Route 27",
+          "Route 32",
+          "Route 34",
+          "Route 47",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Sea Route 40",
+          "Sea Route 41",
+          "Union Cave",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 73,
@@ -1471,7 +1943,31 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cherrygrove City",
+          "Cianwood City",
+          "Cinnabar Island",
+          "New Bark Town",
+          "Olivine City",
+          "Pallet Town",
+          "Route 12",
+          "Route 13",
+          "Route 26",
+          "Route 27",
+          "Route 32",
+          "Route 34",
+          "Route 47",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Sea Route 40",
+          "Sea Route 41",
+          "Union Cave",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Whirl Islands"
+        ]
       }
     ],
     "types": [
@@ -1499,7 +1995,25 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Dark Cave Blackthorn City Entrance",
+          "Dark Cave Violet City Entrance",
+          "Mt. Moon",
+          "Mt. Mortar",
+          "Mt. Mortar Lower Cave",
+          "Mt. Mortar Upper Cave",
+          "Rock Tunnel",
+          "Route 45",
+          "Route 46",
+          "Route 47",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Peak",
+          "Team Rocket Hq",
+          "Union Cave",
+          "Victory Road 1"
+        ]
       },
       {
         "id": 75,
@@ -1517,7 +2031,16 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Dark Cave Blackthorn City Entrance",
+          "Mt. Mortar Upper Cave",
+          "Mt. Silver",
+          "Route 45",
+          "Route 47",
+          "Victory Road 1"
+        ]
       },
       {
         "id": 76,
@@ -1535,7 +2058,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Safari Zone Zone Peak"
+        ]
       }
     ],
     "types": [
@@ -1562,7 +2088,14 @@
           "spDef": 65,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver Outside",
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28"
+        ]
       },
       {
         "id": 78,
@@ -1579,7 +2112,11 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Silver Outside",
+          "Route 28"
+        ]
       }
     ],
     "types": [
@@ -1606,7 +2143,12 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Zone Rocky Beach",
+          "Slowpoke Well",
+          "Tohjo Falls"
+        ]
       },
       {
         "id": 80,
@@ -1624,7 +2166,12 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Zone Rocky Beach",
+          "Seafoam Islands",
+          "Slowpoke Well"
+        ]
       }
     ],
     "types": [
@@ -1653,7 +2200,12 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Zone Rocky Beach",
+          "Slowpoke Well",
+          "Tohjo Falls"
+        ]
       },
       {
         "id": 199,
@@ -1671,7 +2223,8 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1700,7 +2253,15 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11",
+          "Route 38",
+          "Route 39",
+          "Route 6",
+          "Safari Zone Zone Peak",
+          "Safari Zone Zone Wasteland"
+        ]
       },
       {
         "id": 82,
@@ -1718,7 +2279,12 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Safari Zone Zone Mountain",
+          "Safari Zone Zone Peak"
+        ]
       }
     ],
     "types": [
@@ -1746,7 +2312,14 @@
           "spDef": 62,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 38",
+          "Route 39",
+          "Route 47",
+          "Route 48",
+          "Safari Zone Zone Wetland"
+        ]
       }
     ],
     "types": [
@@ -1774,7 +2347,15 @@
           "spDef": 35,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver Outside",
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Safari Zone Zone Rocky Beach"
+        ]
       },
       {
         "id": 85,
@@ -1792,7 +2373,12 @@
           "spDef": 60,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Silver Outside",
+          "Route 26",
+          "Route 28"
+        ]
       }
     ],
     "types": [
@@ -1819,7 +2405,12 @@
           "spDef": 70,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 47",
+          "Seafoam Islands",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 87,
@@ -1837,7 +2428,10 @@
           "spDef": 95,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -1863,7 +2457,14 @@
           "spDef": 50,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celadon City",
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Safari Zone Zone Marshland"
+        ]
       },
       {
         "id": 89,
@@ -1880,7 +2481,13 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Celadon City",
+          "Route 16",
+          "Route 17",
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -1906,7 +2513,20 @@
           "spDef": 25,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island",
+          "New Bark Town",
+          "Pallet Town",
+          "Route 26",
+          "Route 27",
+          "Route 47",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Sea Route 41",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock"
+        ]
       },
       {
         "id": 91,
@@ -1924,7 +2544,8 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1951,7 +2572,12 @@
           "spDef": 35,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Bell Tower",
+          "Safari Zone Zone Forest",
+          "Sprout Tower"
+        ]
       },
       {
         "id": 93,
@@ -1969,7 +2595,11 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 8",
+          "Safari Zone Zone Forest"
+        ]
       },
       {
         "id": 94,
@@ -1987,7 +2617,8 @@
           "spDef": 75,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2015,7 +2646,16 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver Mountainside",
+          "Rock Tunnel",
+          "Route 47",
+          "Safari Zone Zone Wasteland",
+          "Union Cave",
+          "Victory Road 1"
+        ]
       },
       {
         "id": 208,
@@ -2033,7 +2673,11 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Silver",
+          "Route 47"
+        ]
       }
     ],
     "types": [
@@ -2060,7 +2704,13 @@
           "spDef": 90,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11",
+          "Route 34",
+          "Route 35",
+          "Safari Zone Zone Swamp"
+        ]
       },
       {
         "id": 97,
@@ -2077,7 +2727,11 @@
           "spDef": 115,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11",
+          "Safari Zone Zone Swamp"
+        ]
       }
     ],
     "types": [
@@ -2103,7 +2757,21 @@
           "spDef": 25,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City",
+          "Route 34",
+          "Route 47",
+          "Safari Zone Zone Mountain",
+          "Safari Zone Zone Rocky Beach",
+          "Sea Route 19",
+          "Sea Route 40",
+          "Seafoam Islands",
+          "Union Cave",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 99,
@@ -2120,7 +2788,20 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City",
+          "Route 34",
+          "Route 47",
+          "Safari Zone Zone Rocky Beach",
+          "Sea Route 19",
+          "Sea Route 40",
+          "Seafoam Islands",
+          "Union Cave",
+          "Whirl Islands"
+        ]
       }
     ],
     "types": [
@@ -2146,7 +2827,11 @@
           "spDef": 55,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10",
+          "Team Rocket Hq"
+        ]
       },
       {
         "id": 101,
@@ -2163,7 +2848,11 @@
           "spDef": 80,
           "speed": 150
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Team Rocket Hq"
+        ]
       }
     ],
     "types": [
@@ -2190,7 +2879,8 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 103,
@@ -2208,7 +2898,8 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2235,7 +2926,11 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Rock Tunnel",
+          "Safari Zone Zone Desert"
+        ]
       },
       {
         "id": 105,
@@ -2252,7 +2947,11 @@
           "spDef": 80,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Rock Tunnel",
+          "Safari Zone Zone Desert"
+        ]
       }
     ],
     "types": [
@@ -2278,7 +2977,11 @@
           "spDef": 75,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 44",
+          "Safari Zone Zone Mountain"
+        ]
       },
       {
         "id": 463,
@@ -2295,7 +2998,8 @@
           "spDef": 95,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2321,7 +3025,12 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Burned Tower",
+          "Safari Zone Zone Marshland",
+          "Team Rocket Hq"
+        ]
       },
       {
         "id": 110,
@@ -2338,7 +3047,10 @@
           "spDef": 70,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Safari Zone Zone Marshland"
+        ]
       }
     ],
     "types": [
@@ -2365,7 +3077,11 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Zone Savannah",
+          "Victory Road 1"
+        ]
       },
       {
         "id": 112,
@@ -2383,7 +3099,8 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2410,7 +3127,12 @@
           "spDef": 105,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15"
+        ]
       },
       {
         "id": 242,
@@ -2427,7 +3149,8 @@
           "spDef": 135,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2453,7 +3176,13 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver Outside",
+          "Route 28",
+          "Route 44",
+          "Sea Route 21"
+        ]
       },
       {
         "id": 465,
@@ -2470,7 +3199,8 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2496,7 +3226,11 @@
           "spDef": 80,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Rock Tunnel",
+          "Safari Zone Zone Wasteland"
+        ]
       }
     ],
     "types": [
@@ -2522,7 +3256,11 @@
           "spDef": 25,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seafoam Islands",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 117,
@@ -2539,7 +3277,11 @@
           "spDef": 45,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Seafoam Islands",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 230,
@@ -2557,7 +3299,8 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2583,7 +3326,30 @@
           "spDef": 50,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Cerulean City",
+          "Dark Cave Blackthorn City Entrance",
+          "Dark Cave Violet City Entrance",
+          "Mt. Mortar",
+          "Mt. Mortar Upper Cave",
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Top",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 4",
+          "Route 42",
+          "Route 9",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Swamp",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Union Cave",
+          "Unknown All Rattata"
+        ]
       },
       {
         "id": 119,
@@ -2600,7 +3366,28 @@
           "spDef": 80,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean City",
+          "Dark Cave Blackthorn City Entrance",
+          "Dark Cave Violet City Entrance",
+          "Mt. Mortar",
+          "Mt. Mortar Upper Cave",
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Top",
+          "Route 10",
+          "Route 24",
+          "Route 25",
+          "Route 4",
+          "Route 42",
+          "Route 9",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Swamp",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Union Cave"
+        ]
       }
     ],
     "types": [
@@ -2626,7 +3413,17 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City",
+          "Route 34",
+          "Route 47",
+          "Sea Route 19",
+          "Sea Route 40",
+          "Union Cave"
+        ]
       },
       {
         "id": 121,
@@ -2644,7 +3441,8 @@
           "spDef": 85,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2671,7 +3469,11 @@
           "spDef": 120,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Zone Forest",
+          "Sea Route 21"
+        ]
       }
     ],
     "types": [
@@ -2699,7 +3501,8 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 212,
@@ -2717,7 +3520,8 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2746,7 +3550,8 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2774,7 +3579,8 @@
           "spDef": 70,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -2800,7 +3606,13 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 38",
+          "Route 39",
+          "Route 48",
+          "Safari Zone Zone Savannah"
+        ]
       }
     ],
     "types": [
@@ -2826,7 +3638,76 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blackthorn City",
+          "Cerulean Cave",
+          "Cerulean City",
+          "Cherrygrove City",
+          "Cianwood City",
+          "Cinnabar Island",
+          "Dark Cave Blackthorn City Entrance",
+          "Dark Cave Violet City Entrance",
+          "Dragons Den",
+          "Ecruteak City",
+          "Fuchsia City",
+          "Ilex Forest",
+          "Lake Of Rage",
+          "Mt. Moon Mt. Moon Square",
+          "Mt. Mortar",
+          "Mt. Mortar Upper Cave",
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Outside",
+          "Mt. Silver Top",
+          "New Bark Town",
+          "Olivine City",
+          "Pallet Town",
+          "Route 10",
+          "Route 12",
+          "Route 13",
+          "Route 22",
+          "Route 24",
+          "Route 25",
+          "Route 26",
+          "Route 27",
+          "Route 28",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 34",
+          "Route 35",
+          "Route 4",
+          "Route 42",
+          "Route 43",
+          "Route 44",
+          "Route 45",
+          "Route 47",
+          "Route 6",
+          "Route 9",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Zone Swamp",
+          "Safari Zone Zone Wetland",
+          "Sea Route 19",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Sea Route 40",
+          "Sea Route 41",
+          "Seafoam Islands",
+          "Slowpoke Well",
+          "Tohjo Falls",
+          "Union Cave",
+          "Unknown All Poliwag",
+          "Unknown All Rattata",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock",
+          "Violet City",
+          "Viridian City",
+          "Whirl Islands"
+        ]
       },
       {
         "id": 130,
@@ -2844,7 +3725,15 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cerulean Cave",
+          "Fuchsia City",
+          "Lake Of Rage",
+          "Mt. Silver",
+          "Safari Zone Zone Marshland",
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -2871,7 +3760,11 @@
           "spDef": 95,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Safari Zone Zone Rocky Beach",
+          "Union Cave"
+        ]
       }
     ],
     "types": [
@@ -2898,7 +3791,14 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Route 34",
+          "Route 35",
+          "Route 47",
+          "Safari Zone Zone Wetland"
+        ]
       }
     ],
     "types": [
@@ -2924,7 +3824,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       },
       {
         "id": 134,
@@ -2941,7 +3844,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2968,7 +3872,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       },
       {
         "id": 135,
@@ -2985,7 +3892,8 @@
           "spDef": 95,
           "speed": 130
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3012,7 +3920,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       },
       {
         "id": 136,
@@ -3029,7 +3940,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3056,7 +3968,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       },
       {
         "id": 196,
@@ -3073,7 +3988,8 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3100,7 +4016,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       },
       {
         "id": 197,
@@ -3117,7 +4036,8 @@
           "spDef": 130,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3144,7 +4064,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       }
     ],
     "types": [
@@ -3171,7 +4094,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       }
     ],
     "types": [
@@ -3198,7 +4124,10 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Goldenrod City Bills House"
+        ]
       }
     ],
     "types": [
@@ -3225,7 +4154,8 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 233,
@@ -3242,7 +4172,8 @@
           "spDef": 95,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3269,7 +4200,8 @@
           "spDef": 55,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 139,
@@ -3287,7 +4219,8 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3315,7 +4248,8 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 141,
@@ -3333,7 +4267,8 @@
           "spDef": 70,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3361,7 +4296,8 @@
           "spDef": 75,
           "speed": 130
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3388,7 +4324,11 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11",
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -3414,7 +4354,11 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dragons Den",
+          "Safari Zone Zone Swamp"
+        ]
       },
       {
         "id": 148,
@@ -3431,7 +4375,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Dragons Den"
+        ]
       },
       {
         "id": 149,
@@ -3449,7 +4396,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3475,7 +4423,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "New Bark Town"
+        ]
       },
       {
         "id": 153,
@@ -3492,7 +4443,8 @@
           "spDef": 80,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 154,
@@ -3509,7 +4461,8 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3535,7 +4488,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "New Bark Town"
+        ]
       },
       {
         "id": 156,
@@ -3552,7 +4508,8 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 157,
@@ -3569,7 +4526,8 @@
           "spDef": 85,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3595,7 +4553,10 @@
           "spDef": 48,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "New Bark Town"
+        ]
       },
       {
         "id": 159,
@@ -3612,7 +4573,8 @@
           "spDef": 63,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 160,
@@ -3629,7 +4591,8 @@
           "spDef": 83,
           "speed": 78
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3655,7 +4618,13 @@
           "spDef": 45,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1",
+          "Route 29",
+          "Safari Zone Zone Swamp",
+          "Safari Zone Zone Wetland"
+        ]
       },
       {
         "id": 162,
@@ -3672,7 +4641,10 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 1"
+        ]
       }
     ],
     "types": [
@@ -3699,7 +4671,19 @@
           "spDef": 56,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "National Park",
+          "Route 1",
+          "Route 2",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "Viridian Forest"
+        ]
       },
       {
         "id": 164,
@@ -3717,7 +4701,17 @@
           "spDef": 96,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 2",
+          "Route 43",
+          "Route 47",
+          "Route 8",
+          "Viridian Forest"
+        ]
       }
     ],
     "types": [
@@ -3745,7 +4739,13 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Route 30",
+          "Route 31",
+          "Route 37"
+        ]
       },
       {
         "id": 168,
@@ -3763,7 +4763,10 @@
           "spDef": 70,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 2"
+        ]
       }
     ],
     "types": [
@@ -3791,7 +4794,20 @@
           "spDef": 56,
           "speed": 67
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cinnabar Island",
+          "New Bark Town",
+          "Pallet Town",
+          "Route 26",
+          "Route 27",
+          "Route 47",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Sea Route 41",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock"
+        ]
       },
       {
         "id": 171,
@@ -3809,7 +4825,20 @@
           "spDef": 76,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Cinnabar Island",
+          "New Bark Town",
+          "Pallet Town",
+          "Route 26",
+          "Route 27",
+          "Route 47",
+          "Sea Route 20",
+          "Sea Route 21",
+          "Sea Route 41",
+          "Vermilion City",
+          "Vermilion City S.S. Anne Dock"
+        ]
       }
     ],
     "types": [
@@ -3836,7 +4865,8 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 25,
@@ -3853,7 +4883,10 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Viridian Forest"
+        ]
       },
       {
         "id": 26,
@@ -3870,7 +4903,8 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3896,7 +4930,8 @@
           "spDef": 55,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 35,
@@ -3913,7 +4948,11 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Moon",
+          "Safari Zone Zone Meadow"
+        ]
       },
       {
         "id": 36,
@@ -3930,7 +4969,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3957,7 +4997,8 @@
           "spDef": 20,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 39,
@@ -3975,7 +5016,13 @@
           "spDef": 25,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 3",
+          "Route 4",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Swamp"
+        ]
       },
       {
         "id": 40,
@@ -3993,7 +5040,8 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4020,7 +5068,10 @@
           "spDef": 65,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Violet City Poke Mart"
+        ]
       },
       {
         "id": 176,
@@ -4038,7 +5089,8 @@
           "spDef": 105,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4065,7 +5117,10 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ruins Of Alph Outside"
+        ]
       },
       {
         "id": 178,
@@ -4083,7 +5138,8 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4110,7 +5166,13 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 32",
+          "Route 42",
+          "Route 43",
+          "Violet City Pokémon Center"
+        ]
       },
       {
         "id": 180,
@@ -4127,7 +5189,11 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 42",
+          "Route 43"
+        ]
       },
       {
         "id": 181,
@@ -4144,7 +5210,8 @@
           "spDef": 90,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4171,7 +5238,11 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Mortar",
+          "Safari Zone Zone Meadow"
+        ]
       },
       {
         "id": 184,
@@ -4189,7 +5260,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4216,7 +5288,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 36"
+        ]
       }
     ],
     "types": [
@@ -4243,7 +5318,16 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 32",
+          "Route 33",
+          "Route 48",
+          "Safari Zone Zone Meadow"
+        ]
       },
       {
         "id": 188,
@@ -4261,7 +5345,11 @@
           "spDef": 65,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 14",
+          "Safari Zone Zone Meadow"
+        ]
       },
       {
         "id": 189,
@@ -4279,7 +5367,8 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4306,7 +5395,8 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 424,
@@ -4323,7 +5413,8 @@
           "spDef": 66,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4349,7 +5440,12 @@
           "spDef": 30,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "National Park",
+          "Route 24",
+          "Safari Zone Zone Meadow"
+        ]
       },
       {
         "id": 192,
@@ -4366,7 +5462,8 @@
           "spDef": 85,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4393,7 +5490,10 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 35"
+        ]
       },
       {
         "id": 469,
@@ -4411,7 +5511,8 @@
           "spDef": 56,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4439,7 +5540,17 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 32",
+          "Route 47",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Wetland",
+          "Union Cave",
+          "Violet City Pokémon Center"
+        ]
       },
       {
         "id": 195,
@@ -4457,7 +5568,24 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Top",
+          "Route 10",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 26",
+          "Route 27",
+          "Route 32",
+          "Route 47",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Wetland",
+          "Union Cave"
+        ]
       }
     ],
     "types": [
@@ -4486,7 +5614,17 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 32",
+          "Route 47",
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Marshland",
+          "Safari Zone Zone Meadow",
+          "Safari Zone Zone Wetland",
+          "Union Cave",
+          "Violet City Pokémon Center"
+        ]
       }
     ],
     "types": [
@@ -4515,7 +5653,12 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16",
+          "Route 7",
+          "Safari Zone Zone Swamp"
+        ]
       }
     ],
     "types": [
@@ -4542,7 +5685,14 @@
           "spDef": 85,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Top",
+          "Route 47",
+          "Safari Zone Zone Forest"
+        ]
       }
     ],
     "types": [
@@ -4568,7 +5718,13 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ruins Of Alph Interior A",
+          "Ruins Of Alph Interior B",
+          "Ruins Of Alph Interior C",
+          "Ruins Of Alph Interior D"
+        ]
       }
     ],
     "types": [
@@ -4594,7 +5750,12 @@
           "spDef": 58,
           "speed": 33
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cerulean Cave",
+          "Dark Cave Blackthorn City Entrance",
+          "Safari Zone Zone Peak"
+        ]
       }
     ],
     "types": [
@@ -4621,7 +5782,12 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 43",
+          "Route 48",
+          "Safari Zone Zone Plains"
+        ]
       }
     ],
     "types": [
@@ -4648,7 +5814,8 @@
           "spDef": 35,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 205,
@@ -4666,7 +5833,8 @@
           "spDef": 60,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4692,7 +5860,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dark Cave Violet City Entrance"
+        ]
       }
     ],
     "types": [
@@ -4719,7 +5890,10 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 45"
+        ]
       }
     ],
     "types": [
@@ -4746,7 +5920,10 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 38"
+        ]
       },
       {
         "id": 210,
@@ -4763,7 +5940,8 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4790,7 +5968,12 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 12",
+          "Route 13",
+          "Route 32"
+        ]
       }
     ],
     "types": [
@@ -4818,7 +6001,12 @@
           "spDef": 230,
           "speed": 5
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cianwood City",
+          "Cianwood City Kirks House",
+          "Vermilion City"
+        ]
       }
     ],
     "types": [
@@ -4846,7 +6034,8 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -4874,7 +6063,14 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Outside",
+          "Mt. Silver Top",
+          "Route 28"
+        ]
       }
     ],
     "types": [
@@ -4903,7 +6099,14 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Outside",
+          "Mt. Silver Top",
+          "Route 28"
+        ]
       }
     ],
     "types": [
@@ -4931,7 +6134,13 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16",
+          "Route 17",
+          "Route 18",
+          "Violet City Pokémon Center"
+        ]
       },
       {
         "id": 219,
@@ -4949,7 +6158,8 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4976,7 +6186,10 @@
           "spDef": 30,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ice Path"
+        ]
       },
       {
         "id": 221,
@@ -4994,7 +6207,8 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 473,
@@ -5012,7 +6226,8 @@
           "spDef": 60,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5040,7 +6255,16 @@
           "spDef": 95,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Cherrygrove City",
+          "Cianwood City",
+          "Olivine City",
+          "Route 34",
+          "Sea Route 19",
+          "Sea Route 40",
+          "Union Cave"
+        ]
       }
     ],
     "types": [
@@ -5067,7 +6291,10 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 44"
+        ]
       },
       {
         "id": 224,
@@ -5084,7 +6311,8 @@
           "spDef": 75,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5111,7 +6339,10 @@
           "spDef": 140,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Sea Route 41"
+        ]
       }
     ],
     "types": [
@@ -5139,7 +6370,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 7"
+        ]
       },
       {
         "id": 229,
@@ -5157,7 +6391,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5184,7 +6419,13 @@
           "spDef": 40,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Mountainside",
+          "Route 45"
+        ]
       },
       {
         "id": 232,
@@ -5201,7 +6442,16 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Mountainside",
+          "Mt. Silver Outside",
+          "Mt. Silver Top",
+          "Route 28",
+          "Victory Road 1"
+        ]
       }
     ],
     "types": [
@@ -5227,7 +6477,12 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 36",
+          "Route 37",
+          "Safari Zone Zone Plains"
+        ]
       }
     ],
     "types": [
@@ -5253,7 +6508,11 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ruins Of Alph Outside",
+          "Safari Zone Zone Plains"
+        ]
       }
     ],
     "types": [
@@ -5279,7 +6538,10 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Mortar"
+        ]
       },
       {
         "id": 106,
@@ -5296,7 +6558,8 @@
           "spDef": 110,
           "speed": 87
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5323,7 +6586,10 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Mortar"
+        ]
       },
       {
         "id": 107,
@@ -5340,7 +6606,8 @@
           "spDef": 110,
           "speed": 76
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5367,7 +6634,10 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Mortar"
+        ]
       },
       {
         "id": 237,
@@ -5384,7 +6654,8 @@
           "spDef": 110,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5412,7 +6683,8 @@
           "spDef": 65,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 124,
@@ -5430,7 +6702,11 @@
           "spDef": 95,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ice Path",
+          "Seafoam Islands"
+        ]
       }
     ],
     "types": [
@@ -5457,7 +6733,8 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 125,
@@ -5474,7 +6751,10 @@
           "spDef": 85,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -5500,7 +6780,8 @@
           "spDef": 55,
           "speed": 83
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 126,
@@ -5517,7 +6798,11 @@
           "spDef": 85,
           "speed": 93
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Burned Tower",
+          "Safari Zone Zone Peak"
+        ]
       }
     ],
     "types": [
@@ -5543,7 +6828,12 @@
           "spDef": 70,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 38",
+          "Route 39",
+          "Route 47"
+        ]
       }
     ],
     "types": [
@@ -5570,7 +6860,14 @@
           "spDef": 50,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Silver",
+          "Mt. Silver 1F Top",
+          "Mt. Silver Mountainside",
+          "Mt. Silver Top",
+          "Safari Zone Zone Mountain"
+        ]
       },
       {
         "id": 247,
@@ -5588,7 +6885,10 @@
           "spDef": 70,
           "speed": 51
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Silver"
+        ]
       },
       {
         "id": 248,
@@ -5606,7 +6906,8 @@
           "spDef": 100,
           "speed": 61
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [

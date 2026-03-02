@@ -18,7 +18,28 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Acuity Lakefront",
+          "Iron Island",
+          "Lost Tower",
+          "Mt. Coronet",
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 211",
+          "Oreburgh Gate",
+          "Oreburgh Mine",
+          "Ravaged Path",
+          "Route 203",
+          "Route 204",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 211",
+          "Route 216",
+          "Route 217",
+          "Wayward Cave"
+        ]
       },
       {
         "id": 42,
@@ -36,7 +57,39 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Iron Island",
+          "Iron Island B1F Left",
+          "Iron Island B1F Right",
+          "Iron Island B2F Left",
+          "Iron Island B2F Right",
+          "Lost Tower",
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 216",
+          "Mt. Coronet 4F Small Room",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Oreburgh Gate",
+          "Ravaged Path",
+          "Route 227",
+          "Snowpoint Temple",
+          "Stark Mountain",
+          "Stark Mountain Entrance",
+          "Stark Mountain Inside",
+          "Turnback Cave After Pillar 3",
+          "Turnback Cave Before Pillar 1",
+          "Turnback Cave Between Pillars 1 And 2",
+          "Turnback Cave Between Pillars 2 And 3",
+          "Turnback Cave Pillar 1",
+          "Turnback Cave Pillar 2",
+          "Turnback Cave Pillar 3",
+          "Victory Road",
+          "Victory Road Inside",
+          "Victory Road Inside Exit"
+        ]
       },
       {
         "id": 169,
@@ -54,7 +107,8 @@
           "spDef": 80,
           "speed": 130
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -81,7 +135,31 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celestic Town",
+          "Eterna City",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 6",
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Oreburgh Gate",
+          "Ravaged Path",
+          "Route 203",
+          "Route 204",
+          "Route 205",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 212",
+          "Route 214",
+          "Twinleaf Town"
+        ]
       },
       {
         "id": 55,
@@ -98,7 +176,31 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Celestic Town",
+          "Eterna City",
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Oreburgh Gate",
+          "Ravaged Path",
+          "Resort Area",
+          "Route 203",
+          "Route 204",
+          "Route 205",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 212",
+          "Route 214",
+          "Route 225",
+          "Sea Route 226",
+          "Sea Route 230",
+          "Sendoff Spring",
+          "Twinleaf Town"
+        ]
       }
     ],
     "types": [
@@ -124,7 +226,11 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 203",
+          "Route 215"
+        ]
       },
       {
         "id": 64,
@@ -141,7 +247,11 @@
           "spDef": 70,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 215",
+          "Victory Road"
+        ]
       },
       {
         "id": 65,
@@ -158,7 +268,8 @@
           "spDef": 95,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -184,7 +295,14 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 211",
+          "Route 207",
+          "Route 208",
+          "Route 210"
+        ]
       },
       {
         "id": 67,
@@ -201,7 +319,27 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Acuity Lakefront",
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 1F Route 216",
+          "Mt. Coronet 4F Small Room",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Route 210",
+          "Route 211",
+          "Route 216",
+          "Route 217",
+          "Route 225",
+          "Sea Route 226",
+          "Stark Mountain Entrance",
+          "Stark Mountain Inside",
+          "Victory Road",
+          "Victory Road Inside",
+          "Victory Road Inside Exit"
+        ]
       },
       {
         "id": 68,
@@ -218,7 +356,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -245,7 +384,21 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Canalave City",
+          "Fuego Ironworks",
+          "Iron Island",
+          "Pastoria City",
+          "Route 205",
+          "Route 213",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Route 222",
+          "Sea Route 220",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 73,
@@ -263,7 +416,27 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Canalave City",
+          "Fuego Ironworks",
+          "Iron Island",
+          "Pastoria City",
+          "Pokémon League",
+          "Route 205",
+          "Route 213",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Route 222",
+          "Route 224",
+          "Sea Route 220",
+          "Sea Route 223",
+          "Sea Route 226",
+          "Sea Route 230",
+          "Sunyshore City",
+          "Valley Windworks"
+        ]
       }
     ],
     "types": [
@@ -291,7 +464,32 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Iron Island",
+          "Iron Island B1F Left",
+          "Iron Island B1F Right",
+          "Iron Island B2F Left",
+          "Iron Island B2F Right",
+          "Maniac Tunnel 26 Plus Different Unown Caught",
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 211",
+          "Oreburgh Gate",
+          "Oreburgh Mine",
+          "Ravaged Path",
+          "Route 206",
+          "Route 207",
+          "Route 210",
+          "Route 211",
+          "Route 214",
+          "Route 215",
+          "Ruin Maniac Cave 0 9 Different Unown Caught",
+          "Ruin Maniac Cave 10 25 Different Unown Caught",
+          "Stark Mountain Entrance",
+          "Stark Mountain Inside",
+          "Valor Lakefront",
+          "Wayward Cave"
+        ]
       },
       {
         "id": 75,
@@ -309,7 +507,30 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Iron Island",
+          "Iron Island B1F Left",
+          "Iron Island B1F Right",
+          "Iron Island B2F Left",
+          "Iron Island B2F Right",
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 1F Route 216",
+          "Mt. Coronet 4F Small Room",
+          "Route 211",
+          "Route 214",
+          "Route 216",
+          "Route 227",
+          "Snowpoint Temple",
+          "Stark Mountain",
+          "Stark Mountain Entrance",
+          "Stark Mountain Inside",
+          "Valor Lakefront",
+          "Victory Road",
+          "Victory Road Inside",
+          "Victory Road Inside Exit"
+        ]
       },
       {
         "id": 76,
@@ -327,7 +548,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -354,7 +576,14 @@
           "spDef": 65,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 206",
+          "Route 210",
+          "Route 211",
+          "Route 214",
+          "Route 215"
+        ]
       },
       {
         "id": 78,
@@ -371,7 +600,8 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -398,7 +628,20 @@
           "spDef": 35,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lost Tower",
+          "Old Chateau",
+          "Old Chateau 2F Left Room",
+          "Old Chateau 2F Leftmost Room",
+          "Old Chateau 2F Middle Room",
+          "Old Chateau 2F Private Room",
+          "Old Chateau 2F Right Room",
+          "Old Chateau 2F Rightmost Room",
+          "Old Chateau Dining Room",
+          "Old Chateau Entrance",
+          "Route 209"
+        ]
       },
       {
         "id": 93,
@@ -416,7 +659,25 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Old Chateau",
+          "Old Chateau 2F Left Room",
+          "Old Chateau 2F Leftmost Room",
+          "Old Chateau 2F Middle Room",
+          "Old Chateau 2F Private Room",
+          "Old Chateau 2F Right Room",
+          "Old Chateau 2F Rightmost Room",
+          "Old Chateau Dining Room",
+          "Old Chateau Entrance",
+          "Turnback Cave After Pillar 3",
+          "Turnback Cave Before Pillar 1",
+          "Turnback Cave Between Pillars 1 And 2",
+          "Turnback Cave Between Pillars 2 And 3",
+          "Turnback Cave Pillar 1",
+          "Turnback Cave Pillar 2",
+          "Turnback Cave Pillar 3"
+        ]
       },
       {
         "id": 94,
@@ -434,7 +695,10 @@
           "spDef": 75,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Old Chateau 2F Right Room"
+        ]
       }
     ],
     "types": [
@@ -462,7 +726,21 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Iron Island",
+          "Iron Island B1F Left",
+          "Iron Island B1F Right",
+          "Iron Island B2F Left",
+          "Iron Island B2F Right",
+          "Oreburgh Mine",
+          "Snowpoint Temple",
+          "Stark Mountain Entrance",
+          "Stark Mountain Inside",
+          "Victory Road",
+          "Victory Road Inside",
+          "Victory Road Inside Exit"
+        ]
       },
       {
         "id": 208,
@@ -480,7 +758,15 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Iron Island",
+          "Iron Island B2F Left",
+          "Snowpoint Temple",
+          "Victory Road",
+          "Victory Road Inside",
+          "Victory Road Inside Exit"
+        ]
       }
     ],
     "types": [
@@ -507,7 +793,21 @@
           "spDef": 50,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Resort Area",
+          "Route 203",
+          "Route 204",
+          "Route 209",
+          "Route 212",
+          "Route 214",
+          "Sendoff Spring",
+          "Twinleaf Town"
+        ]
       },
       {
         "id": 119,
@@ -524,7 +824,21 @@
           "spDef": 80,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Resort Area",
+          "Route 203",
+          "Route 204",
+          "Route 209",
+          "Route 212",
+          "Route 214",
+          "Sendoff Spring",
+          "Twinleaf Town"
+        ]
       }
     ],
     "types": [
@@ -550,7 +864,58 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Canalave City",
+          "Celestic Town",
+          "Eterna City",
+          "Fuego Ironworks",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 6",
+          "Iron Island",
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Mt. Coronet",
+          "Mt. Coronet 1F Route 207",
+          "Oreburgh Gate",
+          "Pastoria City",
+          "Pokémon League",
+          "Ravaged Path",
+          "Resort Area",
+          "Route 203",
+          "Route 204",
+          "Route 205",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Route 222",
+          "Route 224",
+          "Route 225",
+          "Route 227",
+          "Route 228",
+          "Route 229",
+          "Sea Route 220",
+          "Sea Route 223",
+          "Sea Route 226",
+          "Sea Route 230",
+          "Sendoff Spring",
+          "Sunyshore City",
+          "Twinleaf Town",
+          "Valley Windworks",
+          "Victory Road",
+          "Victory Road Inside"
+        ]
       },
       {
         "id": 130,
@@ -568,7 +933,58 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Canalave City",
+          "Celestic Town",
+          "Eterna City",
+          "Fuego Ironworks",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 6",
+          "Iron Island",
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Mt. Coronet",
+          "Mt. Coronet 1F Route 207",
+          "Oreburgh Gate",
+          "Pastoria City",
+          "Pokémon League",
+          "Ravaged Path",
+          "Resort Area",
+          "Route 203",
+          "Route 204",
+          "Route 205",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Route 222",
+          "Route 224",
+          "Route 225",
+          "Route 227",
+          "Route 228",
+          "Route 229",
+          "Sea Route 220",
+          "Sea Route 223",
+          "Sea Route 226",
+          "Sea Route 230",
+          "Sendoff Spring",
+          "Sunyshore City",
+          "Twinleaf Town",
+          "Valley Windworks",
+          "Victory Road",
+          "Victory Road Inside"
+        ]
       }
     ],
     "types": [
@@ -595,7 +1011,17 @@
           "spDef": 56,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Route 210",
+          "Route 211"
+        ]
       },
       {
         "id": 164,
@@ -613,7 +1039,21 @@
           "spDef": 96,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Acuity Lakefront",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Lake Acuity",
+          "Lake Valor",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Route 210",
+          "Route 211",
+          "Route 216",
+          "Route 217",
+          "Sendoff Spring"
+        ]
       }
     ],
     "types": [
@@ -640,7 +1080,10 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Trophy Garden"
+        ]
       },
       {
         "id": 25,
@@ -657,7 +1100,10 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Trophy Garden"
+        ]
       },
       {
         "id": 26,
@@ -674,7 +1120,8 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -700,7 +1147,11 @@
           "spDef": 55,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 211"
+        ]
       },
       {
         "id": 35,
@@ -717,7 +1168,15 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 1F Route 216",
+          "Mt. Coronet 4F Small Room",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall"
+        ]
       },
       {
         "id": 36,
@@ -734,7 +1193,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -760,7 +1220,8 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 424,
@@ -777,7 +1238,8 @@
           "spDef": 66,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -804,7 +1266,16 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Route 212"
+        ]
       },
       {
         "id": 195,
@@ -822,7 +1293,16 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Route 212"
+        ]
       }
     ],
     "types": [
@@ -851,7 +1331,16 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Route 212"
+        ]
       }
     ],
     "types": [
@@ -880,7 +1369,11 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Eterna Forest",
+          "Lost Tower"
+        ]
       },
       {
         "id": 430,
@@ -898,7 +1391,8 @@
           "spDef": 52,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -925,7 +1419,25 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Solaceon Ruins",
+          "Solaceon Ruins B1F A",
+          "Solaceon Ruins B1F B",
+          "Solaceon Ruins B1F C",
+          "Solaceon Ruins B2F A",
+          "Solaceon Ruins B2F B",
+          "Solaceon Ruins B2F C",
+          "Solaceon Ruins B3F A",
+          "Solaceon Ruins B3F B",
+          "Solaceon Ruins B3F C",
+          "Solaceon Ruins B3F D",
+          "Solaceon Ruins B3F E",
+          "Solaceon Ruins B4F A",
+          "Solaceon Ruins B4F B",
+          "Solaceon Ruins B4F C",
+          "Solaceon Ruins B4F D"
+        ]
       }
     ],
     "types": [
@@ -952,7 +1464,11 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 214",
+          "Valor Lakefront"
+        ]
       }
     ],
     "types": [
@@ -980,7 +1496,8 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -1008,7 +1525,14 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Acuity Lakefront",
+          "Lake Acuity",
+          "Route 216",
+          "Route 217",
+          "Snowpoint Temple"
+        ]
       },
       {
         "id": 461,
@@ -1026,7 +1550,8 @@
           "spDef": 85,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1055,7 +1580,14 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Acuity Lakefront",
+          "Lake Acuity",
+          "Route 216",
+          "Route 217",
+          "Snowpoint Temple"
+        ]
       }
     ],
     "types": [
@@ -1083,7 +1615,17 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Pastoria City",
+          "Pokémon League",
+          "Route 213",
+          "Route 222",
+          "Route 224",
+          "Sea Route 223",
+          "Sea Route 230",
+          "Sunyshore City"
+        ]
       },
       {
         "id": 224,
@@ -1100,7 +1642,17 @@
           "spDef": 75,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Pastoria City",
+          "Pokémon League",
+          "Route 213",
+          "Route 222",
+          "Route 224",
+          "Sea Route 223",
+          "Sea Route 230",
+          "Sunyshore City"
+        ]
       }
     ],
     "types": [
@@ -1126,7 +1678,10 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Eterna Forest"
+        ]
       },
       {
         "id": 266,
@@ -1143,7 +1698,10 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Eterna Forest"
+        ]
       },
       {
         "id": 267,
@@ -1161,7 +1719,12 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Eterna Forest",
+          "Route 224",
+          "Sea Route 230"
+        ]
       }
     ],
     "types": [
@@ -1188,7 +1751,10 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Eterna Forest"
+        ]
       },
       {
         "id": 268,
@@ -1205,7 +1771,8 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 269,
@@ -1223,7 +1790,8 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1251,7 +1819,22 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Canalave City",
+          "Fuego Ironworks",
+          "Iron Island",
+          "Pastoria City",
+          "Route 205",
+          "Route 213",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Route 222",
+          "Route 229",
+          "Sea Route 220",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 279,
@@ -1269,7 +1852,28 @@
           "spDef": 70,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Canalave City",
+          "Fuego Ironworks",
+          "Iron Island",
+          "Pastoria City",
+          "Pokémon League",
+          "Route 205",
+          "Route 213",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Route 222",
+          "Route 224",
+          "Route 229",
+          "Sea Route 220",
+          "Sea Route 223",
+          "Sea Route 226",
+          "Sea Route 230",
+          "Sunyshore City",
+          "Valley Windworks"
+        ]
       }
     ],
     "types": [
@@ -1297,7 +1901,15 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
+        ]
       },
       {
         "id": 183,
@@ -1315,7 +1927,15 @@
           "spDef": 50,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
+        ]
       },
       {
         "id": 184,
@@ -1333,7 +1953,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1361,7 +1982,19 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Acuity Lakefront",
+          "Mt. Coronet",
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 211",
+          "Mt. Coronet 1F Route 216",
+          "Route 208",
+          "Route 210",
+          "Route 211",
+          "Route 216",
+          "Route 217"
+        ]
       },
       {
         "id": 308,
@@ -1379,7 +2012,19 @@
           "spDef": 75,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Acuity Lakefront",
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 4F Small Room",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Route 217",
+          "Victory Road",
+          "Victory Road Inside",
+          "Victory Road Inside Exit"
+        ]
       }
     ],
     "types": [
@@ -1407,7 +2052,26 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Celestic Town",
+          "Eterna City",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 6",
+          "Mt. Coronet",
+          "Mt. Coronet 1F Route 207",
+          "Oreburgh Gate",
+          "Ravaged Path",
+          "Route 205",
+          "Route 208",
+          "Route 210",
+          "Route 212",
+          "Route 227",
+          "Route 228"
+        ]
       },
       {
         "id": 340,
@@ -1425,7 +2089,26 @@
           "spDef": 71,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Celestic Town",
+          "Eterna City",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 6",
+          "Mt. Coronet",
+          "Mt. Coronet 1F Route 207",
+          "Oreburgh Gate",
+          "Ravaged Path",
+          "Route 205",
+          "Route 208",
+          "Route 210",
+          "Route 212",
+          "Route 227",
+          "Route 228"
+        ]
       }
     ],
     "types": [
@@ -1452,7 +2135,8 @@
           "spDef": 55,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 350,
@@ -1469,7 +2153,8 @@
           "spDef": 125,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1495,7 +2180,10 @@
           "spDef": 55,
           "speed": 31
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lake Verity Before Galactic Intervention"
+        ]
       },
       {
         "id": 388,
@@ -1512,7 +2200,8 @@
           "spDef": 65,
           "speed": 36
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 389,
@@ -1530,7 +2219,8 @@
           "spDef": 85,
           "speed": 56
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1556,7 +2246,10 @@
           "spDef": 44,
           "speed": 61
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lake Verity Before Galactic Intervention"
+        ]
       },
       {
         "id": 391,
@@ -1574,7 +2267,8 @@
           "spDef": 52,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 392,
@@ -1592,7 +2286,8 @@
           "spDef": 71,
           "speed": 108
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1618,7 +2313,10 @@
           "spDef": 56,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lake Verity Before Galactic Intervention"
+        ]
       },
       {
         "id": 394,
@@ -1635,7 +2333,8 @@
           "spDef": 76,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 395,
@@ -1653,7 +2352,8 @@
           "spDef": 101,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1680,7 +2380,23 @@
           "spDef": 30,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Route 201",
+          "Route 202",
+          "Route 203",
+          "Route 204",
+          "Route 209",
+          "Route 212"
+        ]
       },
       {
         "id": 397,
@@ -1698,7 +2414,17 @@
           "spDef": 40,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Route 209",
+          "Route 212",
+          "Sendoff Spring",
+          "Trophy Garden",
+          "Valor Lakefront"
+        ]
       },
       {
         "id": 398,
@@ -1716,7 +2442,8 @@
           "spDef": 60,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1743,7 +2470,25 @@
           "spDef": 40,
           "speed": 31
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Route 201",
+          "Route 202",
+          "Route 203",
+          "Route 204",
+          "Route 205",
+          "Route 208",
+          "Route 211",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 400,
@@ -1761,7 +2506,25 @@
           "spDef": 60,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Lake Acuity",
+          "Lake Valor",
+          "Lake Verity After Galactic Intervention",
+          "Lake Verity Before Galactic Intervention",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 212",
+          "Sendoff Spring",
+          "Valor Lakefront"
+        ]
       }
     ],
     "types": [
@@ -1787,7 +2550,14 @@
           "spDef": 41,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 202",
+          "Route 203",
+          "Route 204",
+          "Route 206",
+          "Route 207"
+        ]
       },
       {
         "id": 402,
@@ -1804,7 +2574,16 @@
           "spDef": 51,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 206",
+          "Route 210",
+          "Route 212",
+          "Route 214",
+          "Route 215",
+          "Trophy Garden",
+          "Valor Lakefront"
+        ]
       }
     ],
     "types": [
@@ -1830,7 +2609,13 @@
           "spDef": 34,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fuego Ironworks",
+          "Route 202",
+          "Route 203",
+          "Route 204"
+        ]
       },
       {
         "id": 404,
@@ -1847,7 +2632,10 @@
           "spDef": 49,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Fuego Ironworks"
+        ]
       },
       {
         "id": 405,
@@ -1864,7 +2652,8 @@
           "spDef": 79,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1891,7 +2680,18 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Eterna Forest",
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
+          "Route 204",
+          "Route 212"
+        ]
       },
       {
         "id": 315,
@@ -1909,7 +2709,15 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 212",
+          "Route 221",
+          "Route 224",
+          "Route 225",
+          "Route 229",
+          "Trophy Garden"
+        ]
       },
       {
         "id": 407,
@@ -1927,7 +2735,8 @@
           "spDef": 105,
           "speed": 90
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1954,7 +2763,8 @@
           "spDef": 30,
           "speed": 58
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 409,
@@ -1971,7 +2781,8 @@
           "spDef": 50,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1997,7 +2808,8 @@
           "spDef": 45,
           "speed": 36
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 413,
@@ -2015,7 +2827,8 @@
           "spDef": 105,
           "speed": 36
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2042,7 +2855,8 @@
           "spDef": 45,
           "speed": 36
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 414,
@@ -2060,7 +2874,8 @@
           "spDef": 50,
           "speed": 66
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2088,7 +2903,8 @@
           "spDef": 42,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 416,
@@ -2106,7 +2922,8 @@
           "spDef": 102,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2133,7 +2950,12 @@
           "spDef": 90,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fuego Ironworks",
+          "Route 205",
+          "Valley Windworks"
+        ]
       }
     ],
     "types": [
@@ -2159,7 +2981,13 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 205",
+          "Route 213",
+          "Route 224",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 419,
@@ -2176,7 +3004,18 @@
           "spDef": 50,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Fuego Ironworks",
+          "Route 213",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Route 224",
+          "Sea Route 230",
+          "Victory Road",
+          "Victory Road Inside"
+        ]
       }
     ],
     "types": [
@@ -2202,7 +3041,8 @@
           "spDef": 53,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 421,
@@ -2219,7 +3059,8 @@
           "spDef": 78,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2245,7 +3086,16 @@
           "spDef": 62,
           "speed": 34
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 213",
+          "Route 218",
+          "Route 221",
+          "Route 224",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 423,
@@ -2263,7 +3113,15 @@
           "spDef": 82,
           "speed": 39
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Fuego Ironworks",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Route 224",
+          "Sea Route 230"
+        ]
       }
     ],
     "types": [
@@ -2290,7 +3148,10 @@
           "spDef": 44,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Valley Windworks"
+        ]
       },
       {
         "id": 426,
@@ -2308,7 +3169,8 @@
           "spDef": 54,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2335,7 +3197,10 @@
           "spDef": 56,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Eterna Forest"
+        ]
       },
       {
         "id": 428,
@@ -2352,7 +3217,8 @@
           "spDef": 96,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2378,7 +3244,20 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lake Acuity",
+          "Lake Valor",
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 1F Route 207",
+          "Mt. Coronet 1F Route 211",
+          "Mt. Coronet 1F Route 216",
+          "Mt. Coronet 4F Small Room",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Route 211"
+        ]
       },
       {
         "id": 358,
@@ -2395,7 +3274,12 @@
           "spDef": 90,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Coronet",
+          "Mt. Coronet 4F Small Room",
+          "Sendoff Spring"
+        ]
       }
     ],
     "types": [
@@ -2422,7 +3306,12 @@
           "spDef": 41,
           "speed": 74
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 206",
+          "Route 214",
+          "Route 221"
+        ]
       },
       {
         "id": 435,
@@ -2440,7 +3329,11 @@
           "spDef": 61,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 221",
+          "Route 225"
+        ]
       }
     ],
     "types": [
@@ -2468,7 +3361,19 @@
           "spDef": 86,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mt. Coronet",
+          "Route 206",
+          "Turnback Cave After Pillar 3",
+          "Turnback Cave Before Pillar 1",
+          "Turnback Cave Between Pillars 1 And 2",
+          "Turnback Cave Between Pillars 2 And 3",
+          "Turnback Cave Pillar 1",
+          "Turnback Cave Pillar 2",
+          "Turnback Cave Pillar 3",
+          "Wayward Cave"
+        ]
       },
       {
         "id": 437,
@@ -2486,7 +3391,21 @@
           "spDef": 116,
           "speed": 33
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Coronet",
+          "Mt. Coronet 1F From Exterior",
+          "Mt. Coronet 4F Small Room",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Turnback Cave After Pillar 3",
+          "Turnback Cave Before Pillar 1",
+          "Turnback Cave Between Pillars 1 And 2",
+          "Turnback Cave Between Pillars 2 And 3",
+          "Turnback Cave Pillar 1",
+          "Turnback Cave Pillar 2",
+          "Turnback Cave Pillar 3"
+        ]
       }
     ],
     "types": [
@@ -2513,7 +3432,8 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 185,
@@ -2530,7 +3450,8 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2557,7 +3478,11 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 209",
+          "Route 210"
+        ]
       },
       {
         "id": 122,
@@ -2575,7 +3500,11 @@
           "spDef": 120,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 218",
+          "Route 222"
+        ]
       }
     ],
     "types": [
@@ -2602,7 +3531,10 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hearthome City West Gate"
+        ]
       },
       {
         "id": 113,
@@ -2619,7 +3551,11 @@
           "spDef": 105,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 209",
+          "Route 210"
+        ]
       },
       {
         "id": 242,
@@ -2636,7 +3572,8 @@
           "spDef": 135,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2663,7 +3600,11 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 222",
+          "Route 224"
+        ]
       }
     ],
     "types": [
@@ -2691,7 +3632,10 @@
           "spDef": 108,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 209"
+        ]
       }
     ],
     "types": [
@@ -2719,7 +3663,10 @@
           "spDef": 45,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Wayward Cave"
+        ]
       },
       {
         "id": 444,
@@ -2737,7 +3684,8 @@
           "spDef": 55,
           "speed": 82
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 445,
@@ -2755,7 +3703,8 @@
           "spDef": 85,
           "speed": 102
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2782,7 +3731,8 @@
           "spDef": 85,
           "speed": 5
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 143,
@@ -2799,7 +3749,8 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2825,7 +3776,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Iron Island B2F Left"
+        ]
       },
       {
         "id": 448,
@@ -2843,7 +3797,8 @@
           "spDef": 70,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2869,7 +3824,12 @@
           "spDef": 42,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Maniac Tunnel 26 Plus Different Unown Caught",
+          "Ruin Maniac Cave 0 9 Different Unown Caught",
+          "Ruin Maniac Cave 10 25 Different Unown Caught"
+        ]
       },
       {
         "id": 450,
@@ -2886,7 +3846,10 @@
           "spDef": 72,
           "speed": 47
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 228"
+        ]
       }
     ],
     "types": [
@@ -2913,7 +3876,8 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 452,
@@ -2931,7 +3895,8 @@
           "spDef": 75,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2959,7 +3924,8 @@
           "spDef": 40,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 454,
@@ -2977,7 +3943,8 @@
           "spDef": 65,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3004,7 +3971,8 @@
           "spDef": 72,
           "speed": 46
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -3030,7 +3998,18 @@
           "spDef": 61,
           "speed": 66
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Canalave City",
+          "Fuego Ironworks",
+          "Iron Island",
+          "Route 205",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Sea Route 220",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 457,
@@ -3047,7 +4026,18 @@
           "spDef": 86,
           "speed": 91
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Canalave City",
+          "Fuego Ironworks",
+          "Iron Island",
+          "Route 205",
+          "Route 218",
+          "Route 219",
+          "Route 221",
+          "Sea Route 220",
+          "Valley Windworks"
+        ]
       }
     ],
     "types": [
@@ -3074,7 +4064,11 @@
           "spDef": 120,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Sea Route 223",
+          "Sunyshore City"
+        ]
       },
       {
         "id": 226,
@@ -3092,7 +4086,8 @@
           "spDef": 140,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3120,7 +4115,14 @@
           "spDef": 60,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Acuity Lakefront",
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall",
+          "Route 216",
+          "Route 217"
+        ]
       },
       {
         "id": 460,
@@ -3138,7 +4140,11 @@
           "spDef": 85,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mt. Coronet Exterior Blizzard",
+          "Mt. Coronet Exterior Snowfall"
+        ]
       }
     ],
     "types": [

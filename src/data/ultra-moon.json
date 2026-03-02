@@ -17,7 +17,15 @@
           "spDef": 20,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Melemele Meadow",
+          "Route 1",
+          "Route 5"
+        ]
       },
       {
         "id": 11,
@@ -34,7 +42,14 @@
           "spDef": 25,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Melemele Meadow",
+          "Route 5"
+        ]
       },
       {
         "id": 12,
@@ -52,7 +67,14 @@
           "spDef": 80,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Melemele Meadow",
+          "Route 5"
+        ]
       }
     ],
     "types": [
@@ -78,7 +100,10 @@
           "spDef": 35,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 20,
@@ -95,7 +120,10 @@
           "spDef": 70,
           "speed": 97
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Heahea Beach"
+        ]
       }
     ],
     "types": [
@@ -122,7 +150,11 @@
           "spDef": 31,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2",
+          "Route 3"
+        ]
       },
       {
         "id": 22,
@@ -140,7 +172,14 @@
           "spDef": 61,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mount Hokulani West",
+          "Poni Plains North",
+          "Poni Plains West",
+          "Route 10",
+          "Route 17"
+        ]
       }
     ],
     "types": [
@@ -167,7 +206,10 @@
           "spDef": 54,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       },
       {
         "id": 24,
@@ -184,7 +226,10 @@
           "spDef": 79,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -210,7 +255,8 @@
           "spDef": 30,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 28,
@@ -227,7 +273,8 @@
           "spDef": 55,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -254,7 +301,19 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Digletts Tunnel",
+          "Hauoli Cemetery",
+          "Memorial Hill",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Sandy Cave",
+          "Seaward Cave",
+          "Ten Carat Hill Inside",
+          "Verdant Cavern Trial Site"
+        ]
       },
       {
         "id": 42,
@@ -272,7 +331,17 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Digletts Tunnel",
+          "Lush Jungle East Cave",
+          "Memorial Hill",
+          "Mount Lanakila Cave",
+          "Resolution Cave",
+          "Thrifty Megamart Abandoned Site",
+          "Vast Poni Canyon Inside",
+          "Vast Poni Canyon Northwest"
+        ]
       },
       {
         "id": 169,
@@ -290,7 +359,11 @@
           "spDef": 80,
           "speed": 130
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Lush Jungle East Cave",
+          "Resolution Cave"
+        ]
       }
     ],
     "types": [
@@ -318,7 +391,14 @@
           "spDef": 55,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West"
+        ]
       },
       {
         "id": 47,
@@ -336,7 +416,10 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -363,7 +446,8 @@
           "spDef": 45,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 51,
@@ -380,7 +464,10 @@
           "spDef": 70,
           "speed": 120
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle East Cave"
+        ]
       }
     ],
     "types": [
@@ -406,7 +493,8 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 53,
@@ -423,7 +511,8 @@
           "spDef": 65,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -450,7 +539,8 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -477,7 +567,15 @@
           "spDef": 50,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Malie Garden",
+          "Sandy Cave",
+          "Seaward Cave",
+          "Ten Carat Hill Inside"
+        ]
       },
       {
         "id": 55,
@@ -494,7 +592,11 @@
           "spDef": 80,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Gauntlet",
+          "Vast Poni Canyon Northwest"
+        ]
       }
     ],
     "types": [
@@ -520,7 +622,10 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 57,
@@ -537,7 +642,10 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Plains West"
+        ]
       }
     ],
     "types": [
@@ -563,7 +671,10 @@
           "spDef": 50,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       },
       {
         "id": 59,
@@ -580,7 +691,8 @@
           "spDef": 80,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -606,7 +718,11 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South"
+        ]
       },
       {
         "id": 61,
@@ -623,7 +739,10 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Malie Garden"
+        ]
       },
       {
         "id": 62,
@@ -641,7 +760,10 @@
           "spDef": 90,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Malie Garden"
+        ]
       }
     ],
     "types": [
@@ -668,7 +790,11 @@
           "spDef": 40,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South"
+        ]
       },
       {
         "id": 61,
@@ -685,7 +811,10 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Malie Garden"
+        ]
       },
       {
         "id": 186,
@@ -702,7 +831,10 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Malie Garden"
+        ]
       }
     ],
     "types": [
@@ -729,7 +861,11 @@
           "spDef": 55,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Shopping District",
+          "Route 2"
+        ]
       },
       {
         "id": 64,
@@ -746,7 +882,8 @@
           "spDef": 70,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 65,
@@ -763,7 +900,8 @@
           "spDef": 95,
           "speed": 120
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -789,7 +927,10 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ten Carat Hill Farthest Hollow"
+        ]
       },
       {
         "id": 67,
@@ -806,7 +947,10 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Vast Poni Canyon Outside"
+        ]
       },
       {
         "id": 68,
@@ -823,7 +967,8 @@
           "spDef": 85,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -850,7 +995,15 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill Totems Den",
+          "Hano Beach",
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Melemele Sea",
+          "Route 7"
+        ]
       },
       {
         "id": 73,
@@ -868,7 +1021,13 @@
           "spDef": 120,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast",
+          "Route 14",
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -896,7 +1055,8 @@
           "spDef": 30,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 75,
@@ -914,7 +1074,8 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 76,
@@ -932,7 +1093,8 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -960,7 +1122,16 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Kalae Bay",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 1",
+          "Route 15",
+          "Route 16"
+        ]
       },
       {
         "id": 80,
@@ -978,7 +1149,10 @@
           "spDef": 80,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Kalae Bay"
+        ]
       }
     ],
     "types": [
@@ -1007,7 +1181,16 @@
           "spDef": 40,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Kalae Bay",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 1",
+          "Route 15",
+          "Route 16"
+        ]
       },
       {
         "id": 199,
@@ -1025,7 +1208,10 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Kalae Bay"
+        ]
       }
     ],
     "types": [
@@ -1054,7 +1240,12 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Shopping District",
+          "Malie City Outer Cape",
+          "Route 1"
+        ]
       },
       {
         "id": 82,
@@ -1072,7 +1263,8 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 462,
@@ -1090,7 +1282,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -1117,7 +1310,13 @@
           "spDef": 70,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Seaward Cave"
+        ]
       },
       {
         "id": 87,
@@ -1135,7 +1334,8 @@
           "spDef": 95,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1161,7 +1361,8 @@
           "spDef": 50,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 89,
@@ -1178,7 +1379,8 @@
           "spDef": 100,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1204,7 +1406,10 @@
           "spDef": 25,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Kalae Bay"
+        ]
       },
       {
         "id": 91,
@@ -1222,7 +1427,8 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1249,7 +1455,13 @@
           "spDef": 35,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli Cemetery",
+          "Memorial Hill",
+          "Route 1",
+          "Trainers School"
+        ]
       },
       {
         "id": 93,
@@ -1267,7 +1479,10 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Thrifty Megamart Abandoned Site"
+        ]
       },
       {
         "id": 94,
@@ -1285,7 +1500,10 @@
           "spDef": 75,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Thrifty Megamart Abandoned Site"
+        ]
       }
     ],
     "types": [
@@ -1312,7 +1530,10 @@
           "spDef": 90,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       },
       {
         "id": 97,
@@ -1329,7 +1550,12 @@
           "spDef": 115,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hauoli City Main",
+          "Hauoli City Shopping District",
+          "Poni Plains North"
+        ]
       }
     ],
     "types": [
@@ -1356,7 +1582,10 @@
           "spDef": 45,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Exeggutor Island"
+        ]
       },
       {
         "id": 103,
@@ -1374,7 +1603,8 @@
           "spDef": 75,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1401,7 +1631,10 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 105,
@@ -1418,7 +1651,8 @@
           "spDef": 80,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1444,7 +1678,10 @@
           "spDef": 75,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Gauntlet"
+        ]
       },
       {
         "id": 463,
@@ -1461,7 +1698,8 @@
           "spDef": 95,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1487,7 +1725,10 @@
           "spDef": 80,
           "speed": 90
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Wela Volcano Park"
+        ]
       }
     ],
     "types": [
@@ -1513,7 +1754,12 @@
           "spDef": 50,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Malie Garden"
+        ]
       },
       {
         "id": 119,
@@ -1530,7 +1776,12 @@
           "spDef": 80,
           "speed": 68
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Malie Garden"
+        ]
       }
     ],
     "types": [
@@ -1556,7 +1807,14 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hano Beach",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 7"
+        ]
       },
       {
         "id": 121,
@@ -1574,7 +1832,11 @@
           "spDef": 85,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hano Beach",
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -1601,7 +1863,10 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Plains Center"
+        ]
       },
       {
         "id": 212,
@@ -1619,7 +1884,8 @@
           "spDef": 80,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1648,7 +1914,10 @@
           "spDef": 80,
           "speed": 105
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Plains Center"
+        ]
       }
     ],
     "types": [
@@ -1676,7 +1945,17 @@
           "spDef": 70,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Exeggutor Island",
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Poni Grove"
+        ]
       }
     ],
     "types": [
@@ -1702,7 +1981,15 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Poni Gauntlet",
+          "Poni Plains Center",
+          "Poni Plains East",
+          "Poni Plains North",
+          "Poni Plains West"
+        ]
       }
     ],
     "types": [
@@ -1728,7 +2015,32 @@
           "spDef": 20,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts",
+          "Ancient Poni Path",
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Brooklet Hill Totems Den",
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Malie Garden",
+          "Melemele Sea",
+          "Paniola Town",
+          "Poni Breaker Coast",
+          "Poni Gauntlet",
+          "Poni Meadow",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 7",
+          "Route 8",
+          "Route 9",
+          "Seafolk Village Main",
+          "Seaward Cave",
+          "Tapu Village",
+          "Vast Poni Canyon Northwest"
+        ]
       },
       {
         "id": 130,
@@ -1746,7 +2058,32 @@
           "spDef": 100,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Akala Outskirts",
+          "Ancient Poni Path",
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Brooklet Hill Totems Den",
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Malie Garden",
+          "Melemele Sea",
+          "Paniola Town",
+          "Poni Breaker Coast",
+          "Poni Gauntlet",
+          "Poni Meadow",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 7",
+          "Route 8",
+          "Route 9",
+          "Seafolk Village Main",
+          "Seaward Cave",
+          "Tapu Village",
+          "Vast Poni Canyon Northwest"
+        ]
       }
     ],
     "types": [
@@ -1773,7 +2110,13 @@
           "spDef": 95,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ancient Poni Path",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poni Breaker Coast"
+        ]
       }
     ],
     "types": [
@@ -1800,7 +2143,13 @@
           "spDef": 48,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Konikoni City",
+          "Mount Hokulani East",
+          "Mount Hokulani West",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -1826,7 +2175,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 134,
@@ -1843,7 +2197,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1870,7 +2225,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 135,
@@ -1887,7 +2247,8 @@
           "spDef": 95,
           "speed": 130
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1914,7 +2275,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 136,
@@ -1931,7 +2297,8 @@
           "spDef": 110,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -1958,7 +2325,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 196,
@@ -1975,7 +2347,11 @@
           "spDef": 95,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 4",
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -2002,7 +2378,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 197,
@@ -2019,7 +2400,11 @@
           "spDef": 130,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 4",
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -2046,7 +2431,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 470,
@@ -2063,7 +2453,8 @@
           "spDef": 65,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2090,7 +2481,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 471,
@@ -2107,7 +2503,8 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2134,7 +2531,12 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 700,
@@ -2151,7 +2553,8 @@
           "spDef": 130,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2178,7 +2581,10 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 15"
+        ]
       },
       {
         "id": 233,
@@ -2195,7 +2601,8 @@
           "spDef": 95,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 474,
@@ -2212,7 +2619,8 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2239,7 +2647,10 @@
           "spDef": 55,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 139,
@@ -2257,7 +2668,8 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2285,7 +2697,10 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 141,
@@ -2303,7 +2718,8 @@
           "spDef": 70,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -2331,7 +2747,10 @@
           "spDef": 75,
           "speed": 130
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seafolk Village Huntail Boat"
+        ]
       }
     ],
     "types": [
@@ -2358,7 +2777,11 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Gauntlet",
+          "Poni Meadow"
+        ]
       },
       {
         "id": 148,
@@ -2375,7 +2798,11 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Gauntlet",
+          "Poni Meadow"
+        ]
       },
       {
         "id": 149,
@@ -2393,7 +2820,10 @@
           "spDef": 100,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Poni Gauntlet"
+        ]
       }
     ],
     "types": [
@@ -2420,7 +2850,15 @@
           "spDef": 56,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached"
+        ]
       },
       {
         "id": 164,
@@ -2438,7 +2876,12 @@
           "spDef": 96,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West"
+        ]
       }
     ],
     "types": [
@@ -2466,7 +2909,10 @@
           "spDef": 80,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 166,
@@ -2484,7 +2930,14 @@
           "spDef": 110,
           "speed": 85
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Malie Garden",
+          "Route 10",
+          "Route 11",
+          "Route 17",
+          "Ulaula Meadow"
+        ]
       }
     ],
     "types": [
@@ -2512,7 +2965,10 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 168,
@@ -2530,7 +2986,14 @@
           "spDef": 70,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Malie Garden",
+          "Route 10",
+          "Route 11",
+          "Route 17",
+          "Ulaula Meadow"
+        ]
       }
     ],
     "types": [
@@ -2558,7 +3021,11 @@
           "spDef": 56,
           "speed": 67
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts",
+          "Route 8"
+        ]
       },
       {
         "id": 171,
@@ -2576,7 +3043,11 @@
           "spDef": 76,
           "speed": 67
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Akala Outskirts",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -2603,7 +3074,10 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 25,
@@ -2620,7 +3094,11 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Heahea City Surf Association",
+          "Route 1"
+        ]
       },
       {
         "id": 26,
@@ -2637,7 +3115,8 @@
           "spDef": 80,
           "speed": 110
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2663,7 +3142,11 @@
           "spDef": 55,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Hokulani East",
+          "Mount Hokulani West"
+        ]
       },
       {
         "id": 35,
@@ -2680,7 +3163,11 @@
           "spDef": 65,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mount Hokulani East",
+          "Mount Hokulani West"
+        ]
       },
       {
         "id": 36,
@@ -2697,7 +3184,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2724,7 +3212,11 @@
           "spDef": 20,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 39,
@@ -2742,7 +3234,11 @@
           "spDef": 25,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 40,
@@ -2760,7 +3256,8 @@
           "spDef": 50,
           "speed": 45
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2788,7 +3285,13 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached"
+        ]
       },
       {
         "id": 178,
@@ -2806,7 +3309,10 @@
           "spDef": 70,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Akala Outskirts"
+        ]
       }
     ],
     "types": [
@@ -2833,7 +3339,10 @@
           "spDef": 45,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch"
+        ]
       },
       {
         "id": 180,
@@ -2850,7 +3359,12 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached"
+        ]
       },
       {
         "id": 181,
@@ -2867,7 +3381,8 @@
           "spDef": 90,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -2893,7 +3408,10 @@
           "spDef": 55,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Plains West"
+        ]
       },
       {
         "id": 424,
@@ -2910,7 +3428,10 @@
           "spDef": 66,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Plains West"
+        ]
       }
     ],
     "types": [
@@ -2937,7 +3458,10 @@
           "spDef": 42,
           "speed": 91
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli Cemetery"
+        ]
       },
       {
         "id": 430,
@@ -2955,7 +3479,10 @@
           "spDef": 52,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poke Pelago Elite Four Defeated"
+        ]
       }
     ],
     "types": [
@@ -2982,7 +3509,12 @@
           "spDef": 85,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poni Meadow"
+        ]
       },
       {
         "id": 429,
@@ -2999,7 +3531,8 @@
           "spDef": 105,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3025,7 +3558,10 @@
           "spDef": 35,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10"
+        ]
       },
       {
         "id": 205,
@@ -3043,7 +3579,8 @@
           "spDef": 60,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3069,7 +3606,10 @@
           "spDef": 65,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       }
     ],
     "types": [
@@ -3095,7 +3635,10 @@
           "spDef": 40,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated"
+        ]
       },
       {
         "id": 210,
@@ -3112,7 +3655,12 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Gauntlet",
+          "Poni Wilds"
+        ]
       }
     ],
     "types": [
@@ -3139,7 +3687,10 @@
           "spDef": 95,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Grove"
+        ]
       }
     ],
     "types": [
@@ -3167,7 +3718,11 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Cave",
+          "Mount Lanakila Outside"
+        ]
       },
       {
         "id": 461,
@@ -3185,7 +3740,8 @@
           "spDef": 85,
           "speed": 125
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3214,7 +3770,11 @@
           "spDef": 75,
           "speed": 115
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Cave",
+          "Mount Lanakila Outside"
+        ]
       }
     ],
     "types": [
@@ -3243,7 +3803,15 @@
           "spDef": 95,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -3270,7 +3838,13 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Melemele Sea",
+          "Route 8"
+        ]
       },
       {
         "id": 224,
@@ -3287,7 +3861,13 @@
           "spDef": 75,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Melemele Sea",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -3314,7 +3894,10 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seaward Cave"
+        ]
       }
     ],
     "types": [
@@ -3342,7 +3925,13 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Hokulani West",
+          "Route 10",
+          "Route 17",
+          "Vast Poni Canyon Outside"
+        ]
       }
     ],
     "types": [
@@ -3369,7 +3958,10 @@
           "spDef": 45,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       }
     ],
     "types": [
@@ -3396,7 +3988,10 @@
           "spDef": 65,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seaward Cave"
+        ]
       },
       {
         "id": 124,
@@ -3414,7 +4009,13 @@
           "spDef": 95,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Seaward Cave"
+        ]
       }
     ],
     "types": [
@@ -3441,7 +4042,11 @@
           "spDef": 55,
           "speed": 95
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain",
+          "Mount Hokulani West"
+        ]
       },
       {
         "id": 125,
@@ -3458,7 +4063,11 @@
           "spDef": 85,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Blush Mountain",
+          "Mount Hokulani West"
+        ]
       },
       {
         "id": 466,
@@ -3475,7 +4084,8 @@
           "spDef": 85,
           "speed": 95
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3501,7 +4111,10 @@
           "spDef": 55,
           "speed": 83
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 126,
@@ -3518,7 +4131,10 @@
           "spDef": 85,
           "speed": 93
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 467,
@@ -3535,7 +4151,8 @@
           "spDef": 95,
           "speed": 83
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3561,7 +4178,14 @@
           "spDef": 70,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Poni Plains Center",
+          "Poni Plains East",
+          "Poni Plains North",
+          "Poni Plains West"
+        ]
       }
     ],
     "types": [
@@ -3588,7 +4212,10 @@
           "spDef": 50,
           "speed": 41
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Digletts Tunnel"
+        ]
       },
       {
         "id": 247,
@@ -3606,7 +4233,8 @@
           "spDef": 70,
           "speed": 51
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 248,
@@ -3624,7 +4252,8 @@
           "spDef": 100,
           "speed": 61
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -3652,7 +4281,23 @@
           "spDef": 30,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts",
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Brooklet Hill Totems Den",
+          "Hano Beach",
+          "Hauoli City Beachfront",
+          "Hauoli City Shopping District",
+          "Kalae Bay",
+          "Melemele Sea",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 1",
+          "Route 7"
+        ]
       },
       {
         "id": 279,
@@ -3670,7 +4315,19 @@
           "spDef": 70,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Exeggutor Island",
+          "Poni Breaker Coast",
+          "Poni Gauntlet",
+          "Poni Plains East",
+          "Poni Wilds",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Tapu Village"
+        ]
       }
     ],
     "types": [
@@ -3698,7 +4355,11 @@
           "spDef": 52,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South"
+        ]
       },
       {
         "id": 284,
@@ -3716,7 +4377,10 @@
           "spDef": 82,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Malie Garden"
+        ]
       }
     ],
     "types": [
@@ -3743,7 +4407,10 @@
           "spDef": 30,
           "speed": 25
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 2"
+        ]
       },
       {
         "id": 297,
@@ -3760,7 +4427,10 @@
           "spDef": 60,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Plains North"
+        ]
       }
     ],
     "types": [
@@ -3786,7 +4456,10 @@
           "spDef": 90,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts"
+        ]
       },
       {
         "id": 476,
@@ -3804,7 +4477,8 @@
           "spDef": 150,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -3831,7 +4505,12 @@
           "spDef": 65,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ten Carat Hill Inside",
+          "Vast Poni Canyon Inside",
+          "Vast Poni Canyon Northwest"
+        ]
       }
     ],
     "types": [
@@ -3859,7 +4538,10 @@
           "spDef": 55,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ten Carat Hill Inside"
+        ]
       }
     ],
     "types": [
@@ -3886,7 +4568,11 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached"
+        ]
       },
       {
         "id": 310,
@@ -3903,7 +4589,10 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -3930,7 +4619,11 @@
           "spDef": 20,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast"
+        ]
       },
       {
         "id": 319,
@@ -3948,7 +4641,11 @@
           "spDef": 40,
           "speed": 95
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast"
+        ]
       }
     ],
     "types": [
@@ -3975,7 +4672,12 @@
           "spDef": 35,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast",
+          "Seafolk Village Main"
+        ]
       },
       {
         "id": 321,
@@ -3992,7 +4694,12 @@
           "spDef": 45,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast",
+          "Seafolk Village Main"
+        ]
       }
     ],
     "types": [
@@ -4018,7 +4725,11 @@
           "spDef": 70,
           "speed": 20
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain",
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -4044,7 +4755,10 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ten Carat Hill Farthest Hollow"
+        ]
       }
     ],
     "types": [
@@ -4070,7 +4784,10 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Haina Desert"
+        ]
       },
       {
         "id": 329,
@@ -4088,7 +4805,8 @@
           "spDef": 50,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 330,
@@ -4106,7 +4824,8 @@
           "spDef": 80,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4133,7 +4852,15 @@
           "spDef": 41,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Town",
+          "Poni Gauntlet",
+          "Poni Meadow",
+          "Royal Avenue",
+          "Seaward Cave",
+          "Vast Poni Canyon Northwest"
+        ]
       },
       {
         "id": 340,
@@ -4151,7 +4878,14 @@
           "spDef": 71,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Paniola Town",
+          "Poni Gauntlet",
+          "Poni Meadow",
+          "Seaward Cave",
+          "Vast Poni Canyon Northwest"
+        ]
       }
     ],
     "types": [
@@ -4178,7 +4912,10 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Vast Poni Canyon Northwest"
+        ]
       },
       {
         "id": 342,
@@ -4196,7 +4933,10 @@
           "spDef": 55,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Vast Poni Canyon Northwest"
+        ]
       }
     ],
     "types": [
@@ -4223,7 +4963,10 @@
           "spDef": 70,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Haina Desert"
+        ]
       },
       {
         "id": 344,
@@ -4241,7 +4984,8 @@
           "spDef": 120,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4269,7 +5013,10 @@
           "spDef": 87,
           "speed": 23
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 346,
@@ -4287,7 +5034,8 @@
           "spDef": 107,
           "speed": 43
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4315,7 +5063,10 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 348,
@@ -4333,7 +5084,8 @@
           "spDef": 80,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4360,7 +5112,11 @@
           "spDef": 55,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South"
+        ]
       },
       {
         "id": 350,
@@ -4377,7 +5133,8 @@
           "spDef": 125,
           "speed": 81
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4403,7 +5160,19 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Exeggutor Island",
+          "Haina Desert",
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Malie Garden",
+          "Mount Lanakila Base",
+          "Mount Lanakila Outside",
+          "Route 17",
+          "Tapu Village"
+        ]
       }
     ],
     "types": [
@@ -4429,7 +5198,10 @@
           "spDef": 120,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dividing Peak Tunnel"
+        ]
       }
     ],
     "types": [
@@ -4455,7 +5227,10 @@
           "spDef": 33,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Thrifty Megamart Abandoned Site"
+        ]
       },
       {
         "id": 354,
@@ -4472,7 +5247,11 @@
           "spDef": 63,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached"
+        ]
       }
     ],
     "types": [
@@ -4499,7 +5278,11 @@
           "spDef": 87,
           "speed": 51
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Exeggutor Island",
+          "Poke Pelago Elite Four Defeated"
+        ]
       }
     ],
     "types": [
@@ -4526,7 +5309,14 @@
           "spDef": 60,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Base",
+          "Mount Lanakila Cave",
+          "Mount Lanakila Outside",
+          "Route 14",
+          "Tapu Village"
+        ]
       }
     ],
     "types": [
@@ -4552,7 +5342,12 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Base",
+          "Route 14",
+          "Tapu Village"
+        ]
       },
       {
         "id": 362,
@@ -4569,7 +5364,11 @@
           "spDef": 80,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mount Lanakila Cave",
+          "Mount Lanakila Outside"
+        ]
       }
     ],
     "types": [
@@ -4596,7 +5395,12 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Base",
+          "Route 14",
+          "Tapu Village"
+        ]
       },
       {
         "id": 478,
@@ -4614,7 +5418,8 @@
           "spDef": 70,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4641,7 +5446,12 @@
           "spDef": 55,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Route 15"
+        ]
       },
       {
         "id": 367,
@@ -4658,7 +5468,12 @@
           "spDef": 75,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -4685,7 +5500,12 @@
           "spDef": 55,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Route 15"
+        ]
       },
       {
         "id": 368,
@@ -4702,7 +5522,12 @@
           "spDef": 75,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -4730,7 +5555,11 @@
           "spDef": 65,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast"
+        ]
       }
     ],
     "types": [
@@ -4757,7 +5586,12 @@
           "spDef": 65,
           "speed": 97
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -4783,7 +5617,11 @@
           "spDef": 30,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Kalae Bay",
+          "Route 3"
+        ]
       },
       {
         "id": 372,
@@ -4800,7 +5638,10 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Kalae Bay"
+        ]
       },
       {
         "id": 373,
@@ -4818,7 +5659,10 @@
           "spDef": 80,
           "speed": 100
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -4845,7 +5689,11 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Hokulani East",
+          "Mount Hokulani West"
+        ]
       },
       {
         "id": 375,
@@ -4863,7 +5711,8 @@
           "spDef": 80,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 376,
@@ -4881,7 +5730,8 @@
           "spDef": 90,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -4909,7 +5759,10 @@
           "spDef": 88,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 411,
@@ -4927,7 +5780,8 @@
           "spDef": 138,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -4954,7 +5808,10 @@
           "spDef": 62,
           "speed": 34
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seafolk Village Main"
+        ]
       },
       {
         "id": 423,
@@ -4972,7 +5829,13 @@
           "spDef": 82,
           "speed": 39
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Exeggutor Island",
+          "Poni Breaker Coast",
+          "Poni Wilds"
+        ]
       }
     ],
     "types": [
@@ -4999,7 +5862,12 @@
           "spDef": 44,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli Cemetery",
+          "Route 1",
+          "Trainers School"
+        ]
       },
       {
         "id": 426,
@@ -5017,7 +5885,8 @@
           "spDef": 54,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5044,7 +5913,11 @@
           "spDef": 56,
           "speed": 85
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Grove",
+          "Route 1"
+        ]
       },
       {
         "id": 428,
@@ -5061,7 +5934,10 @@
           "spDef": 96,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Grove"
+        ]
       }
     ],
     "types": [
@@ -5087,7 +5963,13 @@
           "spDef": 45,
           "speed": 10
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Route 1"
+        ]
       },
       {
         "id": 185,
@@ -5104,7 +5986,12 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West"
+        ]
       }
     ],
     "types": [
@@ -5131,7 +6018,10 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Shopping District"
+        ]
       },
       {
         "id": 122,
@@ -5149,7 +6039,13 @@
           "spDef": 120,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hauoli City Shopping District",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached"
+        ]
       }
     ],
     "types": [
@@ -5176,7 +6072,22 @@
           "spDef": 65,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain",
+          "Hauoli City Shopping District",
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Mount Hokulani East",
+          "Mount Hokulani West",
+          "Poni Grove",
+          "Route 1",
+          "Route 4",
+          "Route 6",
+          "Seaward Cave",
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 113,
@@ -5193,7 +6104,10 @@
           "spDef": 105,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Plains Center"
+        ]
       },
       {
         "id": 242,
@@ -5210,7 +6124,10 @@
           "spDef": 135,
           "speed": 55
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Poni Plains Center"
+        ]
       }
     ],
     "types": [
@@ -5237,7 +6154,8 @@
           "spDef": 45,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 444,
@@ -5255,7 +6173,10 @@
           "spDef": 55,
           "speed": 82
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Haina Desert"
+        ]
       },
       {
         "id": 445,
@@ -5273,7 +6194,8 @@
           "spDef": 85,
           "speed": 102
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5300,7 +6222,10 @@
           "spDef": 85,
           "speed": 5
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 143,
@@ -5317,7 +6242,8 @@
           "spDef": 110,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5343,7 +6269,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Grove"
+        ]
       },
       {
         "id": 448,
@@ -5361,7 +6290,10 @@
           "spDef": 70,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Grove"
+        ]
       }
     ],
     "types": [
@@ -5387,7 +6319,17 @@
           "spDef": 61,
           "speed": 66
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill Totems Den",
+          "Hano Beach",
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Melemele Sea",
+          "Route 14",
+          "Route 15",
+          "Route 7"
+        ]
       },
       {
         "id": 457,
@@ -5404,7 +6346,12 @@
           "spDef": 86,
           "speed": 91
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Breaker Coast",
+          "Route 15"
+        ]
       }
     ],
     "types": [
@@ -5431,7 +6378,12 @@
           "spDef": 120,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Melemele Sea"
+        ]
       },
       {
         "id": 226,
@@ -5449,7 +6401,8 @@
           "spDef": 140,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5476,7 +6429,13 @@
           "spDef": 45,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Paniola Ranch",
+          "Route 4",
+          "Route 5",
+          "Route 6"
+        ]
       },
       {
         "id": 507,
@@ -5493,7 +6452,8 @@
           "spDef": 65,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 508,
@@ -5510,7 +6470,8 @@
           "spDef": 90,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5536,7 +6497,11 @@
           "spDef": 25,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ten Carat Hill Farthest Hollow",
+          "Ten Carat Hill Inside"
+        ]
       },
       {
         "id": 525,
@@ -5553,7 +6518,12 @@
           "spDef": 40,
           "speed": 20
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Vast Poni Canyon Inside",
+          "Vast Poni Canyon Northwest",
+          "Vast Poni Canyon Outside"
+        ]
       },
       {
         "id": 526,
@@ -5570,7 +6540,8 @@
           "spDef": 80,
           "speed": 25
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5596,7 +6567,17 @@
           "spDef": 50,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Malie Garden",
+          "Melemele Meadow",
+          "Poni Meadow",
+          "Poni Plains Center",
+          "Poni Plains East",
+          "Poni Plains North",
+          "Poni Plains West",
+          "Ulaula Meadow"
+        ]
       },
       {
         "id": 549,
@@ -5613,7 +6594,8 @@
           "spDef": 75,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5639,7 +6621,13 @@
           "spDef": 55,
           "speed": 98
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Malie Garden",
+          "Vast Poni Canyon Northwest"
+        ]
       }
     ],
     "types": [
@@ -5666,7 +6654,8 @@
           "spDef": 35,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 552,
@@ -5684,7 +6673,10 @@
           "spDef": 45,
           "speed": 74
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Haina Desert"
+        ]
       },
       {
         "id": 553,
@@ -5702,7 +6694,8 @@
           "spDef": 70,
           "speed": 92
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -5730,7 +6723,11 @@
           "spDef": 70,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 16",
+          "Route 17"
+        ]
       },
       {
         "id": 560,
@@ -5748,7 +6745,8 @@
           "spDef": 115,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5776,7 +6774,10 @@
           "spDef": 45,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 567,
@@ -5794,7 +6795,8 @@
           "spDef": 65,
           "speed": 110
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5821,7 +6823,10 @@
           "spDef": 62,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Malie City Outer Cape"
+        ]
       },
       {
         "id": 569,
@@ -5838,7 +6843,8 @@
           "spDef": 82,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5864,7 +6870,10 @@
           "spDef": 40,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 571,
@@ -5881,7 +6890,10 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Grove"
+        ]
       }
     ],
     "types": [
@@ -5907,7 +6919,10 @@
           "spDef": 40,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Malie City Outer Cape"
+        ]
       },
       {
         "id": 573,
@@ -5924,7 +6939,8 @@
           "spDef": 60,
           "speed": 115
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -5950,7 +6966,11 @@
           "spDef": 60,
           "speed": 44
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Base",
+          "Tapu Village"
+        ]
       },
       {
         "id": 583,
@@ -5967,7 +6987,10 @@
           "spDef": 75,
           "speed": 59
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Mount Lanakila Outside"
+        ]
       },
       {
         "id": 584,
@@ -5984,7 +7007,10 @@
           "spDef": 95,
           "speed": 79
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Mount Lanakila Outside"
+        ]
       }
     ],
     "types": [
@@ -6011,7 +7037,10 @@
           "spDef": 60,
           "speed": 103
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Plains West"
+        ]
       }
     ],
     "types": [
@@ -6039,7 +7068,10 @@
           "spDef": 85,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 14"
+        ]
       },
       {
         "id": 593,
@@ -6057,7 +7089,8 @@
           "spDef": 105,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6084,7 +7117,10 @@
           "spDef": 45,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill Totems Den"
+        ]
       }
     ],
     "types": [
@@ -6110,7 +7146,11 @@
           "spDef": 55,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Hokulani East",
+          "Mount Hokulani West"
+        ]
       },
       {
         "id": 606,
@@ -6127,7 +7167,8 @@
           "spDef": 95,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6153,7 +7194,10 @@
           "spDef": 50,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Vast Poni Canyon Outside"
+        ]
       },
       {
         "id": 620,
@@ -6170,7 +7214,8 @@
           "spDef": 60,
           "speed": 105
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6196,7 +7241,10 @@
           "spDef": 90,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Resolution Cave"
+        ]
       }
     ],
     "types": [
@@ -6223,7 +7271,8 @@
           "spDef": 50,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 623,
@@ -6241,7 +7290,8 @@
           "spDef": 80,
           "speed": 55
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6269,7 +7319,10 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 17"
+        ]
       },
       {
         "id": 625,
@@ -6287,7 +7340,10 @@
           "spDef": 70,
           "speed": 70
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 17"
+        ]
       }
     ],
     "types": [
@@ -6315,7 +7371,10 @@
           "spDef": 65,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 3"
+        ]
       },
       {
         "id": 630,
@@ -6333,7 +7392,10 @@
           "spDef": 95,
           "speed": 80
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Plains North"
+        ]
       }
     ],
     "types": [
@@ -6361,7 +7423,10 @@
           "spDef": 55,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle East Cave"
+        ]
       },
       {
         "id": 637,
@@ -6379,7 +7444,10 @@
           "spDef": 105,
           "speed": 100
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle East Cave"
+        ]
       }
     ],
     "types": [
@@ -6407,7 +7475,11 @@
           "spDef": 38,
           "speed": 62
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8",
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 662,
@@ -6425,7 +7497,11 @@
           "spDef": 52,
           "speed": 84
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 8",
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 663,
@@ -6443,7 +7519,8 @@
           "spDef": 69,
           "speed": 126
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6471,7 +7548,10 @@
           "spDef": 54,
           "speed": 72
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated"
+        ]
       },
       {
         "id": 668,
@@ -6489,7 +7569,10 @@
           "spDef": 66,
           "speed": 106
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Plains Center"
+        ]
       }
     ],
     "types": [
@@ -6516,7 +7599,10 @@
           "spDef": 79,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Melemele Meadow"
+        ]
       },
       {
         "id": 670,
@@ -6533,7 +7619,11 @@
           "spDef": 98,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Meadow",
+          "Ulaula Meadow"
+        ]
       },
       {
         "id": 671,
@@ -6550,7 +7640,8 @@
           "spDef": 154,
           "speed": 75
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -6576,7 +7667,11 @@
           "spDef": 48,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 10",
+          "Route 11"
+        ]
       },
       {
         "id": 675,
@@ -6594,7 +7689,11 @@
           "spDef": 71,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 10",
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -6620,7 +7719,13 @@
           "spDef": 90,
           "speed": 102
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ancient Poni Path",
+          "Hauoli City Shopping District",
+          "Poni Wilds",
+          "Route 2"
+        ]
       }
     ],
     "types": [
@@ -6647,7 +7752,13 @@
           "spDef": 46,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ancient Poni Path",
+          "Poni Gauntlet",
+          "Poni Wilds",
+          "Route 1"
+        ]
       },
       {
         "id": 687,
@@ -6665,7 +7776,8 @@
           "spDef": 75,
           "speed": 73
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6693,7 +7805,8 @@
           "spDef": 60,
           "speed": 30
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 691,
@@ -6711,7 +7824,10 @@
           "spDef": 123,
           "speed": 44
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Breaker Coast"
+        ]
       }
     ],
     "types": [
@@ -6738,7 +7854,8 @@
           "spDef": 63,
           "speed": 44
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 693,
@@ -6755,7 +7872,8 @@
           "spDef": 89,
           "speed": 59
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6782,7 +7900,10 @@
           "spDef": 45,
           "speed": 48
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 697,
@@ -6800,7 +7921,8 @@
           "spDef": 59,
           "speed": 71
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6828,7 +7950,10 @@
           "spDef": 63,
           "speed": 46
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 8"
+        ]
       },
       {
         "id": 699,
@@ -6846,7 +7971,8 @@
           "spDef": 92,
           "speed": 58
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -6874,7 +8000,14 @@
           "spDef": 63,
           "speed": 118
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 2",
+          "Route 3"
+        ]
       }
     ],
     "types": [
@@ -6902,7 +8035,10 @@
           "spDef": 67,
           "speed": 101
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain"
+        ]
       }
     ],
     "types": [
@@ -6930,7 +8066,14 @@
           "spDef": 150,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ten Carat Hill Farthest Hollow",
+          "Ten Carat Hill Inside",
+          "Vast Poni Canyon Inside",
+          "Vast Poni Canyon Northwest",
+          "Vast Poni Canyon Outside"
+        ]
       }
     ],
     "types": [
@@ -6957,7 +8100,13 @@
           "spDef": 75,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Route 17"
+        ]
       },
       {
         "id": 705,
@@ -6974,7 +8123,10 @@
           "spDef": 113,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Exeggutor Island"
+        ]
       },
       {
         "id": 706,
@@ -6991,7 +8143,8 @@
           "spDef": 150,
           "speed": 80
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7018,7 +8171,10 @@
           "spDef": 87,
           "speed": 75
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Thrifty Megamart Abandoned Site"
+        ]
       }
     ],
     "types": [
@@ -7046,7 +8202,11 @@
           "spDef": 60,
           "speed": 38
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Memorial Hill",
+          "Tapu Village"
+        ]
       },
       {
         "id": 709,
@@ -7064,7 +8224,8 @@
           "spDef": 82,
           "speed": 56
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7092,7 +8253,11 @@
           "spDef": 40,
           "speed": 55
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 5",
+          "Verdant Cavern Trial Site"
+        ]
       },
       {
         "id": 715,
@@ -7110,7 +8275,10 @@
           "spDef": 80,
           "speed": 123
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Resolution Cave"
+        ]
       }
     ],
     "types": [
@@ -7138,7 +8306,10 @@
           "spDef": 50,
           "speed": 42
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 723,
@@ -7156,7 +8327,8 @@
           "spDef": 70,
           "speed": 52
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 724,
@@ -7174,7 +8346,8 @@
           "spDef": 100,
           "speed": 70
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7201,7 +8374,10 @@
           "spDef": 40,
           "speed": 70
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 726,
@@ -7218,7 +8394,8 @@
           "spDef": 50,
           "speed": 90
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 727,
@@ -7236,7 +8413,8 @@
           "spDef": 90,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7262,7 +8440,10 @@
           "spDef": 56,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1"
+        ]
       },
       {
         "id": 729,
@@ -7279,7 +8460,8 @@
           "spDef": 81,
           "speed": 50
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       },
       {
         "id": 730,
@@ -7297,7 +8479,8 @@
           "spDef": 116,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -7324,7 +8507,16 @@
           "spDef": 30,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 1",
+          "Route 4",
+          "Route 5",
+          "Route 6"
+        ]
       },
       {
         "id": 732,
@@ -7342,7 +8534,19 @@
           "spDef": 50,
           "speed": 75
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Poni Grove",
+          "Poni Plains Center",
+          "Poni Plains East",
+          "Poni Plains North",
+          "Poni Plains West",
+          "Route 11",
+          "Route 8"
+        ]
       },
       {
         "id": 733,
@@ -7360,7 +8564,15 @@
           "spDef": 75,
           "speed": 60
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Poni Grove",
+          "Poni Plains Center",
+          "Poni Plains East",
+          "Poni Plains North",
+          "Poni Plains West",
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -7387,7 +8599,15 @@
           "spDef": 30,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Kalae Bay",
+          "Route 1",
+          "Route 2",
+          "Route 4",
+          "Route 6",
+          "Route 8"
+        ]
       },
       {
         "id": 735,
@@ -7404,7 +8624,22 @@
           "spDef": 60,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Akala Outskirts",
+          "Mount Lanakila Base",
+          "Poni Plains Center",
+          "Poni Plains East",
+          "Poni Plains North",
+          "Poni Plains West",
+          "Route 10",
+          "Route 14",
+          "Route 15",
+          "Route 16",
+          "Route 17",
+          "Route 8",
+          "Tapu Village"
+        ]
       }
     ],
     "types": [
@@ -7430,7 +8665,14 @@
           "spDef": 45,
           "speed": 46
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain",
+          "Route 1",
+          "Route 4",
+          "Route 5",
+          "Route 6"
+        ]
       },
       {
         "id": 737,
@@ -7448,7 +8690,10 @@
           "spDef": 75,
           "speed": 36
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Blush Mountain"
+        ]
       },
       {
         "id": 738,
@@ -7466,7 +8711,10 @@
           "spDef": 75,
           "speed": 43
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Blush Mountain"
+        ]
       }
     ],
     "types": [
@@ -7492,7 +8740,21 @@
           "spDef": 47,
           "speed": 63
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Berry Fields",
+          "Poni Plains West",
+          "Poni Wilds",
+          "Route 10",
+          "Route 16",
+          "Route 17",
+          "Route 2",
+          "Route 3",
+          "Route 4",
+          "Route 5",
+          "Route 8",
+          "Ulaula Beach"
+        ]
       },
       {
         "id": 740,
@@ -7510,7 +8772,8 @@
           "spDef": 67,
           "speed": 43
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7537,7 +8800,10 @@
           "spDef": 70,
           "speed": 93
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ulaula Meadow"
+        ]
       }
     ],
     "types": [
@@ -7565,7 +8831,15 @@
           "spDef": 40,
           "speed": 84
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Melemele Meadow",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 2",
+          "Route 3"
+        ]
       },
       {
         "id": 743,
@@ -7583,7 +8857,11 @@
           "spDef": 70,
           "speed": 124
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Poni Meadow",
+          "Ulaula Meadow"
+        ]
       }
     ],
     "types": [
@@ -7610,7 +8888,11 @@
           "spDef": 40,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 1",
+          "Ten Carat Hill Farthest Hollow"
+        ]
       },
       {
         "id": 745,
@@ -7627,7 +8909,10 @@
           "spDef": 65,
           "speed": 112
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Vast Poni Canyon Outside"
+        ]
       }
     ],
     "types": [
@@ -7653,7 +8938,21 @@
           "spDef": 25,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts",
+          "Brooklet Hill Totems Den",
+          "Hauoli City Beachfront",
+          "Kalae Bay",
+          "Melemele Sea",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 7",
+          "Route 8",
+          "Route 9",
+          "Tapu Village"
+        ]
       }
     ],
     "types": [
@@ -7680,7 +8979,12 @@
           "spDef": 52,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hauoli City Beachfront",
+          "Melemele Sea",
+          "Route 9"
+        ]
       },
       {
         "id": 748,
@@ -7698,7 +9002,8 @@
           "spDef": 142,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7725,7 +9030,14 @@
           "spDef": 55,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain",
+          "Paniola Ranch",
+          "Route 12",
+          "Route 4",
+          "Route 6"
+        ]
       },
       {
         "id": 750,
@@ -7742,7 +9054,12 @@
           "spDef": 85,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Blush Mountain",
+          "Poni Plains West",
+          "Route 12"
+        ]
       }
     ],
     "types": [
@@ -7769,7 +9086,11 @@
           "spDef": 72,
           "speed": 27
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South"
+        ]
       },
       {
         "id": 752,
@@ -7787,7 +9108,11 @@
           "spDef": 132,
           "speed": 42
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Heahea Beach",
+          "Malie Garden"
+        ]
       }
     ],
     "types": [
@@ -7814,7 +9139,13 @@
           "spDef": 35,
           "speed": 35
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Route 5"
+        ]
       },
       {
         "id": 754,
@@ -7831,7 +9162,8 @@
           "spDef": 90,
           "speed": 45
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -7858,7 +9190,14 @@
           "spDef": 75,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Brooklet Hill North",
+          "Brooklet Hill South",
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West"
+        ]
       },
       {
         "id": 756,
@@ -7876,7 +9215,10 @@
           "spDef": 100,
           "speed": 30
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -7904,7 +9246,12 @@
           "spDef": 40,
           "speed": 77
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle East Cave",
+          "Route 8",
+          "Wela Volcano Park"
+        ]
       },
       {
         "id": 758,
@@ -7922,7 +9269,12 @@
           "spDef": 60,
           "speed": 117
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Heahea Beach",
+          "Lush Jungle East Cave",
+          "Wela Volcano Park"
+        ]
       }
     ],
     "types": [
@@ -7950,7 +9302,11 @@
           "spDef": 50,
           "speed": 50
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Akala Outskirts",
+          "Route 8"
+        ]
       },
       {
         "id": 760,
@@ -7968,7 +9324,12 @@
           "spDef": 60,
           "speed": 60
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Hauoli City Main",
+          "Hauoli City Shopping District",
+          "Poni Gauntlet"
+        ]
       }
     ],
     "types": [
@@ -7995,7 +9356,8 @@
           "spDef": 38,
           "speed": 32
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       },
       {
         "id": 762,
@@ -8012,7 +9374,12 @@
           "spDef": 48,
           "speed": 62
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West"
+        ]
       },
       {
         "id": 763,
@@ -8029,7 +9396,8 @@
           "spDef": 98,
           "speed": 72
         },
-        "stage": 2
+        "stage": 2,
+        "locations": []
       }
     ],
     "types": [
@@ -8055,7 +9423,15 @@
           "spDef": 110,
           "speed": 100
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached"
+        ]
       }
     ],
     "types": [
@@ -8082,7 +9458,12 @@
           "spDef": 110,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Lush Jungle North",
+          "Lush Jungle South",
+          "Lush Jungle West"
+        ]
       }
     ],
     "types": [
@@ -8110,7 +9491,12 @@
           "spDef": 30,
           "speed": 80
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Dividing Peak Tunnel",
+          "Poni Breaker Coast",
+          "Route 8"
+        ]
       },
       {
         "id": 768,
@@ -8128,7 +9514,8 @@
           "spDef": 90,
           "speed": 40
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8156,7 +9543,11 @@
           "spDef": 45,
           "speed": 15
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hano Beach",
+          "Route 15"
+        ]
       },
       {
         "id": 770,
@@ -8174,7 +9565,8 @@
           "spDef": 75,
           "speed": 35
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8201,7 +9593,14 @@
           "spDef": 130,
           "speed": 5
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Hano Beach",
+          "Poke Pelago Elite Four Defeated",
+          "Poke Pelago Poni Island Reached",
+          "Poke Pelago Ulaula Island Reached",
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -8228,7 +9627,11 @@
           "spDef": 100,
           "speed": 60
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Hokulani East",
+          "Mount Hokulani West"
+        ]
       }
     ],
     "types": [
@@ -8255,7 +9658,10 @@
           "spDef": 95,
           "speed": 65
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 11"
+        ]
       }
     ],
     "types": [
@@ -8282,7 +9688,11 @@
           "spDef": 73,
           "speed": 96
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Blush Mountain",
+          "Heahea Beach"
+        ]
       }
     ],
     "types": [
@@ -8310,7 +9720,11 @@
           "spDef": 105,
           "speed": 96
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Heahea Beach",
+          "Thrifty Megamart Abandoned Site"
+        ]
       }
     ],
     "types": [
@@ -8338,7 +9752,13 @@
           "spDef": 70,
           "speed": 92
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Tapu Village"
+        ]
       }
     ],
     "types": [
@@ -8366,7 +9786,10 @@
           "spDef": 91,
           "speed": 36
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Mount Lanakila Cave"
+        ]
       }
     ],
     "types": [
@@ -8394,7 +9817,10 @@
           "spDef": 90,
           "speed": 40
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Seafolk Village Main"
+        ]
       }
     ],
     "types": [
@@ -8421,7 +9847,10 @@
           "spDef": 45,
           "speed": 45
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Vast Poni Canyon Outside"
+        ]
       },
       {
         "id": 783,
@@ -8439,7 +9868,10 @@
           "spDef": 70,
           "speed": 65
         },
-        "stage": 1
+        "stage": 1,
+        "locations": [
+          "Vast Poni Canyon Outside"
+        ]
       },
       {
         "id": 784,
@@ -8457,7 +9889,11 @@
           "spDef": 105,
           "speed": 85
         },
-        "stage": 2
+        "stage": 2,
+        "locations": [
+          "Heahea Beach",
+          "Vast Poni Canyon Outside"
+        ]
       }
     ],
     "types": [
@@ -8484,7 +9920,10 @@
           "spDef": 131,
           "speed": 103
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ultra Space Ultra Deep Sea"
+        ]
       }
     ],
     "types": [
@@ -8512,7 +9951,8 @@
           "spDef": 53,
           "speed": 79
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8540,7 +9980,10 @@
           "spDef": 37,
           "speed": 151
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ultra Space Ultra Desert"
+        ]
       }
     ],
     "types": [
@@ -8567,7 +10010,10 @@
           "spDef": 71,
           "speed": 83
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ultra Space Ultra Plant"
+        ]
       }
     ],
     "types": [
@@ -8594,7 +10040,10 @@
           "spDef": 101,
           "speed": 61
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ultra Space Ultra Crater"
+        ]
       }
     ],
     "types": [
@@ -8622,7 +10071,8 @@
           "spDef": 31,
           "speed": 109
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [
@@ -8650,7 +10100,10 @@
           "spDef": 53,
           "speed": 43
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ultra Space Ultra Ruin"
+        ]
       }
     ],
     "types": [
@@ -8677,7 +10130,10 @@
           "spDef": 67,
           "speed": 73
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Ultra Megalopolis"
+        ]
       },
       {
         "id": 804,
@@ -8695,7 +10151,8 @@
           "spDef": 73,
           "speed": 121
         },
-        "stage": 1
+        "stage": 1,
+        "locations": []
       }
     ],
     "types": [
@@ -8722,7 +10179,10 @@
           "spDef": 101,
           "speed": 13
         },
-        "stage": 0
+        "stage": 0,
+        "locations": [
+          "Poni Grove"
+        ]
       }
     ],
     "types": [
@@ -8750,7 +10210,8 @@
           "spDef": 79,
           "speed": 107
         },
-        "stage": 0
+        "stage": 0,
+        "locations": []
       }
     ],
     "types": [

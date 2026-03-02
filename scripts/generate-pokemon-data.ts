@@ -39,6 +39,15 @@ interface PokeApiPokemon {
   stats: { base_stat: number; stat: { name: string } }[];
 }
 
+interface PokeApiEncounterEntry {
+  location_area: { name: string; url: string };
+  version_details: {
+    encounter_details: { chance: number; min_level: number; max_level: number; method: { name: string } }[];
+    max_chance: number;
+    version: { name: string; url: string };
+  }[];
+}
+
 interface EvolutionChainNode {
   species: { name: string; url: string };
   evolves_to: EvolutionChainNode[];
@@ -76,6 +85,7 @@ interface EvolutionStageOutput {
   sprite: string;
   stats: BaseStats;
   stage: number;
+  locations: string[];
 }
 
 interface EvolutionLineOutput {
@@ -135,6 +145,62 @@ function parseStats(
       result[key] = s.base_stat;
     }
   }
+  return result;
+}
+
+/**
+ * Convert a game display name (e.g. "FireRed", "Let's Go, Pikachu!") to a
+ * PokeAPI version slug (e.g. "firered", "lets-go-pikachu").
+ */
+function gameDisplayNameToPokeApiVersion(displayName: string): string {
+  return displayName
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")  // Remove punctuation (commas, exclamation marks, colons, periods)
+    .trim()
+    .replace(/\s+/g, "-");          // Spaces to hyphens
+}
+
+/**
+ * Transform a PokeAPI location area slug to a human-readable name.
+ * e.g. "kanto-viridian-forest-area" → "Viridian Forest"
+ * e.g. "mt-moon-1f" → "Mt. Moon 1F"
+ * e.g. "kanto-route-2-south-towards-viridian-city" → "Route 2"
+ */
+function formatLocationName(slug: string): string {
+  // Remove region prefix: "kanto-route-2-area" → "route-2-area"
+  const regionPrefixes = [
+    "kanto-", "johto-", "hoenn-", "sinnoh-", "unova-",
+    "kalos-", "alola-", "galar-", "paldea-", "hisui-", "pasio-",
+  ];
+  let name = slug;
+  for (const prefix of regionPrefixes) {
+    if (name.startsWith(prefix)) {
+      name = name.slice(prefix.length);
+      break;
+    }
+  }
+
+  // Strip generic suffixes that add noise
+  name = name.replace(/-area$/, "");
+
+  // Strip sub-area descriptors after the main name for routes
+  // "route-2-south-towards-viridian-city" → "route-2"
+  name = name.replace(/(route-\d+)-.+$/, "$1");
+
+  // Convert kebab-case to Title Case
+  let result = name
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+
+  // Fix common abbreviations
+  result = result.replace(/\bMt\b/g, "Mt.");
+  result = result.replace(/\bSs\b/g, "S.S.");
+  result = result.replace(/\bPokemon\b/g, "Pokémon");
+
+  // Uppercase floor suffixes: "1f" → "1F", "b1f" → "B1F"
+  result = result.replace(/\b([Bb]?\d+[Ff])\b/g, (m) => m.toUpperCase());
+
   return result;
 }
 
@@ -257,6 +323,7 @@ function walkChain(
     sprite: `${SPRITES_BASE}/${pokemon.id}.png`,
     stats: pokemon.stats,
     stage,
+    locations: [],
   };
 
   const newPath = [...currentPath, stageEntry];
@@ -475,6 +542,27 @@ async function main() {
     )
   );
 
+  // --- Step 8.5: Fetch encounter data for each unique species ---
+  console.log(`Fetching encounter data (0/${fetchableSpeciesIds.size})...`);
+  let encountersFetched = 0;
+  const encounterMap = new Map<number, PokeApiEncounterEntry[]>();
+
+  await Promise.all(
+    [...fetchableSpeciesIds].map((speciesId) =>
+      limit(async () => {
+        const data = await fetchWithRetry<PokeApiEncounterEntry[]>(
+          `${POKEAPI_BASE}/pokemon/${speciesId}/encounters`,
+          `pokemon/${speciesId}/encounters`
+        );
+        encounterMap.set(speciesId, data);
+        encountersFetched++;
+        if (encountersFetched % 100 === 0 || encountersFetched === fetchableSpeciesIds.size) {
+          console.log(`Fetching encounter data (${encountersFetched}/${fetchableSpeciesIds.size})...`);
+        }
+      })
+    )
+  );
+
   // --- Step 9: Build per-game evolution lines and write JSON files ---
   console.log("\nGenerating per-game data files...");
   await mkdir(DATA_DIR, { recursive: true });
@@ -542,6 +630,29 @@ async function main() {
       if (a.lineId !== b.lineId) return a.lineId - b.lineId;
       return (a.branchIndex ?? -1) - (b.branchIndex ?? -1);
     });
+
+    // Populate locations for this game version
+    const pokeApiVersionNames = game.games.map(gameDisplayNameToPokeApiVersion);
+    for (const line of gameLines) {
+      for (const stage of line.stages) {
+        const encounters = encounterMap.get(stage.id) ?? [];
+        const locationNames = new Set<string>();
+        for (const enc of encounters) {
+          for (const vd of enc.version_details) {
+            if (pokeApiVersionNames.includes(vd.version.name)) {
+              locationNames.add(formatLocationName(enc.location_area.name));
+            }
+          }
+        }
+        // Collapse floor/sub-area variants: "Mt. Moon 1F", "Mt. Moon B1F" → "Mt. Moon"
+        const collapsed = new Set<string>();
+        for (const loc of locationNames) {
+          const base = loc.replace(/\s+\d*B?\d+F$/i, "").trim();
+          collapsed.add(base);
+        }
+        stage.locations = [...collapsed].sort();
+      }
+    }
 
     // Track unique lines for summary
     for (const line of gameLines) {

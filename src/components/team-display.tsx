@@ -5,7 +5,7 @@ import type { EvolutionLine } from "@/lib/types";
 import { MAX_TEAM_SIZE } from "@/lib/game-logic";
 import { TypeBadge } from "@/components/type-badge";
 import { cn, capitalize } from "@/lib/utils";
-import { Star } from "lucide-react";
+import { MapPin, Star } from "lucide-react";
 
 interface TeamDisplayProps {
   team: EvolutionLine[];
@@ -53,6 +53,12 @@ export function TeamDisplay({ team }: TeamDisplayProps) {
                   />
                 ))}
               </div>
+              {baseStage.locations.length > 0 && (
+                <div className="mt-0.5 flex items-center gap-0.5 text-zinc-500">
+                  <MapPin className="size-2.5" />
+                  <span className="text-[8px]">{baseStage.locations.length} routes</span>
+                </div>
+              )}
             </div>
           );
         }

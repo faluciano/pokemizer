@@ -28,6 +28,7 @@ export interface EvolutionStage {
   sprite: string;
   stats: BaseStats;
   stage: number;       // 0 = base, 1 = mid, 2 = final
+  locations: string[]; // Human-readable location names where this Pokemon can be found
 }
 
 export interface EvolutionLine {
