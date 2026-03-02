@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import type { EvolutionLine } from "@/lib/types";
 import { TYPE_COLORS, TYPE_GLOW_COLORS, TYPE_HINT_FAMILY, HINT_FAMILY_COLORS } from "@/lib/type-colors";
 import { TypeBadge } from "@/components/type-badge";
@@ -77,14 +78,13 @@ export function PokemonCard({
                   TYPE_COLORS[line.types[0]].bg,
                 )}
               />
-              <div className="mt-2 h-[120px] w-[120px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+              <div className="relative mt-2 h-[120px] w-[120px]">
+                <Image
                   src={baseStage.sprite}
                   alt={baseStage.name}
-                  width={120}
-                  height={120}
-                  className="h-full w-full object-contain"
+                  fill
+                  className="object-contain"
+                  sizes="120px"
                 />
               </div>
               <p className="mt-1 text-sm font-semibold text-white">

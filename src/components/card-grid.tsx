@@ -1,6 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
 import type { EvolutionLine } from "@/lib/types";
 import { PokemonCard } from "@/components/pokemon-card";
 
@@ -21,14 +20,6 @@ export function CardGrid({
   onReveal,
   disabled,
 }: CardGridProps) {
-  // Preload all card base form sprites into browser cache when cards are dealt
-  useEffect(() => {
-    cards.forEach((line) => {
-      const img = new Image();
-      img.src = line.stages[0].sprite;
-    });
-  }, [cards]);
-
   return (
     <div className="flex flex-wrap justify-center gap-4">
       {cards.map((line, index) => (

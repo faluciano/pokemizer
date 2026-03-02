@@ -1,4 +1,4 @@
-const CACHE_NAME = "pokemizer-v1";
+const CACHE_NAME = "pokemizer-v2";
 
 // App shell to precache
 const PRECACHE_URLS = ["/", "/history"];
@@ -11,7 +11,7 @@ self.addEventListener("install", (event) => {
   self.skipWaiting();
 });
 
-// Activate: clean old caches
+// Activate: delete all old caches
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
@@ -25,6 +25,22 @@ self.addEventListener("activate", (event) => {
       ),
   );
   self.clients.claim();
+});
+
+// Message: allow the app to clear caches on demand
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "CLEAR_CACHES") {
+    event.waitUntil(
+      caches
+        .keys()
+        .then((keys) => Promise.all(keys.map((key) => caches.delete(key))))
+        .then(() => {
+          if (event.ports && event.ports[0]) {
+            event.ports[0].postMessage({ cleared: true });
+          }
+        }),
+    );
+  }
 });
 
 // Fetch: network-first for pages, cache-first for static assets
