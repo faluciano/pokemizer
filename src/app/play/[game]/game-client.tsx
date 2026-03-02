@@ -50,6 +50,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
   const [revealAll, setRevealAll] = useState(false);
   const [showSwapSelector, setShowSwapSelector] = useState(false);
   const [showActionBar, setShowActionBar] = useState(false);
+  const [duplicateIndex, setDuplicateIndex] = useState<number | null>(null);
   const initRef = useRef(false);
   const teamRef = useRef(state.team);
   teamRef.current = state.team;
@@ -103,6 +104,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
       setRevealAll(false);
       newRound();
       setRevealedLine(null);
+      setDuplicateIndex(null);
       setProcessingReveal(false);
       setShowActionBar(false);
       setShowSwapSelector(false);
@@ -125,6 +127,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
         // Duplicates are still auto-skipped (wasted pick)
         if (isDuplicate(currentTeam, line)) {
           haptic("error");
+          setDuplicateIndex(index);
           toast.warning(
             `Duplicate! ${capitalize(line.stages[0].name)} is already on your team.`
           );
@@ -236,7 +239,12 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
     return (
       <main className="mx-auto max-w-4xl px-4 py-8">
         <div className="flex flex-col gap-8">
-          <GameHeader gameVersion={state.gameVersion} />
+          <GameHeader
+            gameVersion={state.gameVersion}
+            teamSize={state.team.length}
+            attempts={state.attempts}
+            typeCoverage={getTypeCoverage(state.team)}
+          />
 
           <section className="flex flex-col items-center gap-4">
             <h3 className="text-lg font-semibold text-zinc-300">
@@ -246,6 +254,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
               cards={state.currentCards}
               revealedIndex={state.revealedIndex}
               revealAll={revealAll}
+              duplicateIndex={duplicateIndex}
               onReveal={handleReveal}
               disabled={processingReveal || showActionBar || showSwapSelector}
             />

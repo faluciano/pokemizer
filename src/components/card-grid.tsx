@@ -8,6 +8,7 @@ interface CardGridProps {
   cards: EvolutionLine[];
   revealedIndex: number | null;
   revealAll?: boolean;
+  duplicateIndex?: number | null;
   onReveal: (index: number) => void;
   disabled: boolean;
 }
@@ -16,6 +17,7 @@ export function CardGrid({
   cards,
   revealedIndex,
   revealAll = false,
+  duplicateIndex = null,
   onReveal,
   disabled,
 }: CardGridProps) {
@@ -34,6 +36,7 @@ export function CardGrid({
           key={`${line.lineId}-${index}`}
           line={line}
           faceDown={revealAll ? false : revealedIndex !== index}
+          isDuplicate={duplicateIndex === index}
           onClick={() => onReveal(index)}
           disabled={disabled || revealedIndex !== null}
           className={revealAll && revealedIndex !== index ? "opacity-60" : ""}

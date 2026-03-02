@@ -63,8 +63,12 @@ export function GenerationPicker() {
           {games.map((game) => (
             <Card
               key={game.slug}
-              className="cursor-pointer transition-all hover:scale-[1.02] hover:border-zinc-500 hover:shadow-md"
+              className="cursor-pointer transition-all hover:scale-[1.02] hover:border-zinc-500 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-900"
+              role="button"
+              tabIndex={0}
+              aria-label={`Play ${game.displayName}`}
               onClick={() => handleSelectGame(game)}
+              onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handleSelectGame(game); } }}
             >
               <CardHeader className="pb-2">
                 <CardTitle className="text-base">{game.displayName}</CardTitle>
@@ -100,8 +104,12 @@ export function GenerationPicker() {
       {GENERATIONS.map((gen) => (
         <Card
           key={gen.id}
-          className="cursor-pointer transition-all hover:scale-[1.02] hover:border-zinc-500 hover:shadow-md"
+          className="cursor-pointer transition-all hover:scale-[1.02] hover:border-zinc-500 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-900"
+          role="button"
+          tabIndex={0}
+          aria-label={`${gen.displayName} - ${gen.region}`}
           onClick={() => handleSelectGeneration(gen.id)}
+          onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); handleSelectGeneration(gen.id); } }}
         >
           <CardHeader>
             <CardTitle>{gen.displayName}</CardTitle>
