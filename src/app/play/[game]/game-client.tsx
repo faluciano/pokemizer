@@ -14,6 +14,7 @@ import {
   getTypeCoverage,
 } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
+import { haptic } from "@/lib/haptics";
 import { useGameState } from "@/hooks/use-game-state";
 import { StarterReveal } from "@/components/starter-reveal";
 import { GameHeader } from "@/components/game-header";
@@ -84,6 +85,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
   }, [state.phase, state.gameVersion, state.team, state.attempts, generation, gameVersion]);
 
   const handleStarterContinue = useCallback(() => {
+    haptic("light");
     if (starterLine) {
       track("game_started", {
         generation: generation.id,
@@ -109,6 +111,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
 
   const handleReveal = useCallback(
     (index: number) => {
+      haptic("medium");
       if (processingReveal || state.revealedIndex !== null) return;
 
       revealCard(index);
@@ -121,22 +124,24 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
 
         // Duplicates are still auto-skipped (wasted pick)
         if (isDuplicate(currentTeam, line)) {
+          haptic("error");
           toast.warning(
             `Duplicate! ${capitalize(line.stages[0].name)} is already on your team.`
           );
-          setTimeout(() => startNewRound(), 1000);
+          setTimeout(() => startNewRound(), 800);
           return;
         }
 
         // Show action bar for all non-duplicate reveals
         setShowActionBar(true);
         setProcessingReveal(false);
-      }, 1500);
+      }, 500);
     },
     [processingReveal, state.revealedIndex, state.currentCards, revealCard, startNewRound]
   );
 
   const handleAdd = useCallback(() => {
+    haptic("light");
     if (revealedLine) {
       const name = capitalize(revealedLine.stages[0].name);
       toast.success(`${name} added to your team!`);
@@ -153,6 +158,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
 
   const handleSwapSelect = useCallback(
     (teamIndex: number) => {
+      haptic("medium");
       if (revealedLine) {
         const oldName = capitalize(state.team[teamIndex].stages[0].name);
         const newName = capitalize(revealedLine.stages[0].name);
@@ -171,6 +177,7 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
   }, []);
 
   const handleSkip = useCallback(() => {
+    haptic("light");
     skipPokemon();
     setShowActionBar(false);
     startNewRound();

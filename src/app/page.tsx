@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { GenerationPicker } from "@/components/generation-picker";
+import { HowToPlay } from "@/components/how-to-play";
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
         <p className="mt-3 text-lg text-zinc-400">
           Build your Pokemon team with the randomizer card game
         </p>
+        <div className="mt-4">
+          <HowToPlay />
+        </div>
       </div>
 
       <section>

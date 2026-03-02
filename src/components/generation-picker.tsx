@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { track } from "@vercel/analytics";
 import Image from "next/image";
+import { haptic } from "@/lib/haptics";
 import { GENERATIONS } from "@/lib/starters";
 import { getGamesByGeneration } from "@/lib/games";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
@@ -24,10 +25,12 @@ export function GenerationPicker() {
   const games = selectedGenId ? getGamesByGeneration(selectedGenId) : [];
 
   function handleSelectGeneration(genId: number) {
+    haptic("light");
     setSelectedGenId(genId);
   }
 
   function handleSelectGame(game: ReturnType<typeof getGamesByGeneration>[number]) {
+    haptic("medium");
     track("generation_selected", {
       generation: game.generationId,
       region: game.region,
