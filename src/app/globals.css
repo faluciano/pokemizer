@@ -147,6 +147,8 @@
   inset: 0;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 0.75rem; /* match rounded-xl */
 }
 
 .flip-card-back {

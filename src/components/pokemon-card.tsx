@@ -84,7 +84,7 @@ export function PokemonCard({
                   alt={baseStage.name}
                   width={120}
                   height={120}
-                  className="h-full w-full object-contain drop-shadow-lg"
+                  className="h-full w-full object-contain"
                 />
               </div>
               <p className="mt-1 text-sm font-semibold text-white">
