@@ -30,6 +30,16 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="min-h-screen bg-zinc-950">{children}</div>
+        <footer className="border-t border-zinc-800 bg-zinc-950 px-4 py-6 text-center text-xs leading-relaxed text-zinc-600">
+          <p>
+            Pokemizer is an unofficial fan project and is not affiliated with,
+            endorsed, or supported by Nintendo, Game Freak, or The Pokemon
+            Company.
+          </p>
+          <p className="mt-1">
+            Pokemon and Pokemon character names are trademarks of Nintendo.
+          </p>
+        </footer>
         <Toaster />
         <Analytics />
       </body>
