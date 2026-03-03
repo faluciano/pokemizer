@@ -6,6 +6,7 @@ import type { EvolutionLine, Generation, GameVersion, TeamHistoryEntry } from "@
 import { getTypeCoverage } from "@/lib/game-logic";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { EvolutionStageViewer } from "@/components/evolution-stage-viewer";
+import { ShareButton } from "@/components/share-button";
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 
@@ -82,6 +83,11 @@ export function GameOver({
         <Button size="lg" variant="outline" onClick={onNewGeneration}>
           Pick New Game
         </Button>
+        <ShareButton
+          gameVersion={gameVersion}
+          team={team}
+          attempts={attempts}
+        />
       </div>
 
       <Link

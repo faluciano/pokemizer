@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { TeamHistoryEntry, EvolutionLine } from "@/lib/types";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { EvolutionStageViewer } from "@/components/evolution-stage-viewer";
+import { ShareButton } from "@/components/share-button";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Trash2 } from "lucide-react";
 
@@ -111,7 +112,15 @@ export default function HistoryPage() {
                     {(entry.gameVersion?.region ?? entry.generation.region)} &middot; {formatDate(entry.date)}
                   </p>
                 </div>
-
+                {entry.gameVersion && (
+                  <ShareButton
+                    gameVersion={entry.gameVersion}
+                    team={entry.team}
+                    attempts={entry.attempts}
+                    size="icon"
+                    variant="ghost"
+                  />
+                )}
               </div>
 
               <div className="flex flex-wrap gap-3">
