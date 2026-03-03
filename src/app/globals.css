@@ -180,3 +180,27 @@
 .card-shake {
   animation: card-shake 0.5s ease-in-out;
 }
+
+/* Card deal stagger animation */
+@keyframes card-deal {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.card-deal-1 {
+  animation: card-deal 450ms cubic-bezier(0.34, 1.56, 0.64, 1) 0ms backwards;
+}
+
+.card-deal-2 {
+  animation: card-deal 450ms cubic-bezier(0.34, 1.56, 0.64, 1) 100ms backwards;
+}
+
+.card-deal-3 {
+  animation: card-deal 450ms cubic-bezier(0.34, 1.56, 0.64, 1) 200ms backwards;
+}
