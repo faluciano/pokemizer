@@ -53,13 +53,22 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
   const [duplicateIndex, setDuplicateIndex] = useState<number | null>(null);
   const initRef = useRef(false);
   const teamRef = useRef(state.team);
-  teamRef.current = state.team;
 
-  // Initialize game on mount
+  // Keep a ref to the latest team so deferred setTimeout callbacks in
+  // handleReveal read the current team without stale closures. Updated in an
+  // effect (not during render) per the rules of refs.
+  useEffect(() => {
+    teamRef.current = state.team;
+  }, [state.team]);
+
+  // Initialize game on mount. This must run client-side only: the starter is
+  // chosen randomly, so computing it during render (or in a useState
+  // initializer) would cause a server/client hydration mismatch.
   useEffect(() => {
     if (!initRef.current) {
       initRef.current = true;
       const starter = getRandomStarter(allPokemon);
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- mount-only randomized init, see comment above
       setStarterLine(starter);
       setGame(generation, gameVersion, allPokemon);
     }
@@ -262,9 +271,8 @@ export function GameClient({ generation, gameVersion, allPokemon }: GameClientPr
             {/* Action bar — shown after reveal (non-duplicate) */}
             {showActionBar && revealedLine && (
               <ActionBar
-                line={revealedLine}
-                scenario={getActionScenario(teamRef.current, revealedLine)}
-                coverageDelta={getTypeCoverageDelta(teamRef.current, revealedLine)}
+                scenario={getActionScenario(state.team, revealedLine)}
+                coverageDelta={getTypeCoverageDelta(state.team, revealedLine)}
                 onAdd={handleAdd}
                 onReplace={handleStartReplace}
                 onSkip={handleSkip}

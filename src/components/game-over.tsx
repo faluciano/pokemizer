@@ -27,7 +27,7 @@ export function GameOver({
   onPlayAgain,
   onNewGeneration,
 }: GameOverProps) {
-  const [history, setHistory] = useLocalStorage<TeamHistoryEntry[]>("team-history", []);
+  const [, setHistory] = useLocalStorage<TeamHistoryEntry[]>("team-history", []);
   const savedRef = useRef(false);
 
   useEffect(() => {

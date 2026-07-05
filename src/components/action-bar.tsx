@@ -1,6 +1,5 @@
 "use client";
 
-import type { EvolutionLine } from "@/lib/types";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { Plus, ArrowLeftRight, SkipForward } from "lucide-react";
@@ -8,7 +7,6 @@ import { Plus, ArrowLeftRight, SkipForward } from "lucide-react";
 type ActionScenario = "add" | "add-with-overlap" | "replace-or-skip";
 
 interface ActionBarProps {
-  line: EvolutionLine;
   scenario: ActionScenario;
   coverageDelta: { before: number; after: number; delta: number };
   onAdd: () => void;
@@ -18,7 +16,6 @@ interface ActionBarProps {
 }
 
 export function ActionBar({
-  line,
   scenario,
   coverageDelta,
   onAdd,

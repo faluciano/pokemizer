@@ -4,7 +4,7 @@ import { useState } from "react";
 import { track } from "@vercel/analytics";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
-import { Share2, Check, Link as LinkIcon } from "lucide-react";
+import { Share2, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { encodeTeamShareCode } from "@/lib/share";
 import type { EvolutionLine, GameVersion } from "@/lib/types";

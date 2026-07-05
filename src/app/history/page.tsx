@@ -1,7 +1,13 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
-import type { TeamHistoryEntry, EvolutionLine } from "@/lib/types";
+import type {
+  TeamHistoryEntry,
+  LegacyTeamHistoryEntry,
+  EvolutionLine,
+  Pokemon,
+} from "@/lib/types";
 import { useLocalStorage } from "@/hooks/use-local-storage";
 import { EvolutionStageViewer } from "@/components/evolution-stage-viewer";
 import { ShareButton } from "@/components/share-button";
@@ -10,7 +16,9 @@ import { ArrowLeft, Trash2 } from "lucide-react";
 
 // --- History migration helpers ---
 
-function migrateOldPokemon(pokemon: any): EvolutionLine {
+type StoredHistoryEntry = TeamHistoryEntry | LegacyTeamHistoryEntry;
+
+function migrateOldPokemon(pokemon: Pokemon): EvolutionLine {
   return {
     lineId: pokemon.id,
     stages: [{
@@ -27,25 +35,28 @@ function migrateOldPokemon(pokemon: any): EvolutionLine {
   };
 }
 
-function isLegacyEntry(entry: any): boolean {
-  return entry.team?.length > 0 && !('lineId' in entry.team[0]);
+function isLegacyEntry(entry: StoredHistoryEntry): entry is LegacyTeamHistoryEntry {
+  return entry.team?.length > 0 && !("lineId" in entry.team[0]);
 }
 
-function migrateEntry(entry: any): TeamHistoryEntry {
+function migrateEntry(entry: StoredHistoryEntry): TeamHistoryEntry {
   if (isLegacyEntry(entry)) {
     return {
       ...entry,
       team: entry.team.map(migrateOldPokemon),
     };
   }
-  return entry as TeamHistoryEntry;
+  return entry;
 }
 
 // --- Page component ---
 
 export default function HistoryPage() {
-  const [rawHistory, setRawHistory] = useLocalStorage<any[]>("team-history", []);
-  const history: TeamHistoryEntry[] = rawHistory.map(migrateEntry);
+  const [rawHistory, setRawHistory] = useLocalStorage<StoredHistoryEntry[]>("team-history", []);
+  const history: TeamHistoryEntry[] = useMemo(
+    () => rawHistory.map(migrateEntry),
+    [rawHistory],
+  );
 
   const clearHistory = () => {
     setRawHistory([]);
