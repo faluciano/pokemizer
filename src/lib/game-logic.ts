@@ -33,15 +33,6 @@ export function getTypeCoverage(team: EvolutionLine[]): number {
   return getTeamTypes(team).length;
 }
 
-/** Returns indices of team members that share at least one type with the new line */
-export function getOverlappingTeamIndices(team: EvolutionLine[], line: EvolutionLine): number[] {
-  const newTypes = new Set(line.types);
-  return team
-    .map((member, index) => ({ member, index }))
-    .filter(({ member }) => member.types.some((t) => newTypes.has(t)))
-    .map(({ index }) => index);
-}
-
 /** Calculate type coverage delta if this line were added to the team */
 export function getTypeCoverageDelta(
   team: EvolutionLine[],
@@ -77,9 +68,4 @@ export function getReplaceableIndices(team: EvolutionLine[]): number[] {
     .map((member, index) => ({ member, index }))
     .filter(({ member }) => !member.isStarter)
     .map(({ index }) => index);
-}
-
-/** Check if a specific lineId is already on the team */
-export function isLineOnTeam(team: EvolutionLine[], lineId: number): boolean {
-  return team.some((l) => l.lineId === lineId);
 }

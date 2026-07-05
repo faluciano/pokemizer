@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { resolveShareCode } from "@/lib/share";
+import { resolveShareCode } from "@/lib/share-resolve";
 import { getTypeCoverage } from "@/lib/game-logic";
 import { capitalize } from "@/lib/utils";
 import { SharedTeamView } from "@/components/shared-team-view";

@@ -3,7 +3,7 @@
 import { useCallback, useReducer } from "react";
 import type { GameState, EvolutionLine, Generation, GameVersion } from "@/lib/types";
 import { getRandomCards } from "@/lib/pokemon-utils";
-import { isGameOver, isTeamFull } from "@/lib/game-logic";
+import { isGameOver } from "@/lib/game-logic";
 
 type GameAction =
   | { type: "SET_GAME"; generation: Generation; gameVersion: GameVersion; allPokemon: EvolutionLine[] }

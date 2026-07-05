@@ -1,6 +1,4 @@
-import type { EvolutionLine, GameVersion, Generation } from "@/lib/types";
-import { getGameData } from "@/data";
-import { getGameVersion, getGenerationForGame } from "@/lib/games";
+import type { EvolutionLine } from "@/lib/types";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -15,13 +13,6 @@ export interface TeamMemberRef {
 export interface SharePayload {
   gameSlug: string;
   members: TeamMemberRef[];
-  attempts: number;
-}
-
-export interface ResolvedShareData {
-  gameVersion: GameVersion;
-  generation: Generation;
-  team: EvolutionLine[];
   attempts: number;
 }
 
@@ -278,44 +269,3 @@ export function decodeShareCode(code: string): SharePayload | null {
   return { gameSlug, members, attempts };
 }
 
-// ---------------------------------------------------------------------------
-// Resolve (full data lookup)
-// ---------------------------------------------------------------------------
-
-/** Decode + resolve full EvolutionLine objects from static game data. Returns null on any failure. */
-export function resolveShareCode(code: string): ResolvedShareData | null {
-  const payload = decodeShareCode(code);
-  if (!payload) return null;
-
-  // 1. getGameData must return data
-  const data = getGameData(payload.gameSlug);
-  if (!data) return null;
-
-  // 2. Each member must be found in game data
-  const team: EvolutionLine[] = [];
-  for (const ref of payload.members) {
-    const line = data.find(
-      (l) =>
-        l.lineId === ref.lineId &&
-        (ref.branchIndex === undefined
-          ? l.branchIndex === undefined
-          : l.branchIndex === ref.branchIndex),
-    );
-    if (!line) return null;
-    team.push(line);
-  }
-
-  // 3. getGameVersion and getGenerationForGame must return values
-  const gameVersion = getGameVersion(payload.gameSlug);
-  if (!gameVersion) return null;
-
-  const generation = getGenerationForGame(gameVersion);
-  if (!generation) return null;
-
-  return {
-    gameVersion,
-    generation,
-    team,
-    attempts: payload.attempts,
-  };
-}

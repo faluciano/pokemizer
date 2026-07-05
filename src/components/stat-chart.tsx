@@ -1,6 +1,6 @@
 "use client";
 
-import type { BaseStats, PokemonType } from "@/lib/types";
+import type { BaseStats } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
 const STAT_ROWS: { label: string; key: keyof BaseStats; color: string }[] = [
@@ -16,7 +16,6 @@ const MAX_STAT = 255;
 
 interface StatChartProps {
   stats: BaseStats;
-  primaryType?: PokemonType;
   className?: string;
 }
 
