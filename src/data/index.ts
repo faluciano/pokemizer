@@ -36,6 +36,7 @@ import shiningPearl from "./shining-pearl.json";
 import legendsArceus from "./legends-arceus.json";
 import scarlet from "./scarlet.json";
 import violet from "./violet.json";
+import legendsZa from "./legends-za.json";
 
 const GAME_DATA: Record<string, EvolutionLine[]> = {
   "red": red as unknown as EvolutionLine[],
@@ -75,6 +76,7 @@ const GAME_DATA: Record<string, EvolutionLine[]> = {
   "legends-arceus": legendsArceus as unknown as EvolutionLine[],
   "scarlet": scarlet as unknown as EvolutionLine[],
   "violet": violet as unknown as EvolutionLine[],
+  "legends-za": legendsZa as unknown as EvolutionLine[],
 };
 
 export function getGameData(slug: string): EvolutionLine[] | undefined {

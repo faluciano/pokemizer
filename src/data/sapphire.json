@@ -123,6 +123,7 @@
           "Seafloor Cavern",
           "Shoal Cave",
           "Shoal Cave High Tide",
+          "Shoal Cave Low Tide",
           "Victory Road"
         ]
       },
@@ -152,6 +153,7 @@
           "Seafloor Cavern",
           "Shoal Cave",
           "Shoal Cave High Tide",
+          "Shoal Cave Low Tide",
           "Sky Pillar",
           "Victory Road"
         ]
@@ -1675,6 +1677,7 @@
         "stage": 0,
         "locations": [
           "Ever Grande City",
+          "Pacifidlog Town",
           "Route 128"
         ]
       }
@@ -2941,6 +2944,7 @@
         "locations": [
           "Granite Cave",
           "Granite Cave 1fsmall Room",
+          "Rustboro City",
           "Victory Road"
         ]
       },
@@ -3093,6 +3097,7 @@
         },
         "stage": 0,
         "locations": [
+          "Fortree City",
           "Route 116"
         ]
       },
@@ -4639,6 +4644,7 @@
         "stage": 0,
         "locations": [
           "Lavaridge Town",
+          "Mirage Island",
           "Route 130"
         ]
       },
@@ -4769,7 +4775,8 @@
         "stage": 0,
         "locations": [
           "Shoal Cave",
-          "Shoal Cave High Tide"
+          "Shoal Cave High Tide",
+          "Shoal Cave Low Tide"
         ]
       },
       {

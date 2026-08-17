@@ -468,7 +468,6 @@
           "Route 214",
           "Ruin Maniac Cave 0 9 Different Unown Caught",
           "Ruin Maniac Cave 10 25 Different Unown Caught",
-          "Team Rocket Hq",
           "Wayward Cave"
         ]
       },
@@ -1323,7 +1322,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1371,7 +1371,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1419,7 +1420,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1467,7 +1469,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1515,7 +1518,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1563,7 +1567,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1611,7 +1616,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       },
       {
@@ -1659,7 +1665,8 @@
         },
         "stage": 0,
         "locations": [
-          "Hearthome City"
+          "Hearthome City",
+          "Trophy Garden"
         ]
       }
     ],
@@ -1887,7 +1894,8 @@
         },
         "stage": 0,
         "locations": [
-          "Mt. Coronet 1F Route 211"
+          "Mt. Coronet 1F Route 211",
+          "Trophy Garden"
         ]
       },
       {
@@ -1911,7 +1919,8 @@
           "Mt. Coronet 1F From Exterior",
           "Mt. Coronet 1F Route 207",
           "Mt. Coronet 1F Route 216",
-          "Mt. Coronet 4F Small Room"
+          "Mt. Coronet 4F Small Room",
+          "Trophy Garden"
         ]
       },
       {
@@ -2025,7 +2034,26 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 424,
@@ -2446,7 +2474,26 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       }
     ],
     "types": [
@@ -2885,8 +2932,24 @@
         "stage": 0,
         "locations": [
           "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
           "Route 204",
-          "Route 205"
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
         ]
       },
       {
@@ -2962,8 +3025,24 @@
         "stage": 0,
         "locations": [
           "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
           "Route 204",
-          "Route 205"
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
         ]
       },
       {
@@ -3260,7 +3339,9 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Trophy Garden"
+        ]
       },
       {
         "id": 183,
@@ -3281,7 +3362,8 @@
         "stage": 1,
         "locations": [
           "Route 212",
-          "Route 215"
+          "Route 215",
+          "Trophy Garden"
         ]
       },
       {
@@ -3581,7 +3663,9 @@
           "speed": 80
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Mt. Coronet"
+        ]
       },
       {
         "id": 350,
@@ -3707,7 +3791,11 @@
         "stage": 0,
         "locations": [
           "Great Marsh Area 1",
-          "Great Marsh Area 2"
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
         ]
       }
     ],
@@ -4431,7 +4519,9 @@
           "speed": 58
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Oreburgh City Oreburgh Mining Museum"
+        ]
       },
       {
         "id": 409,
@@ -4477,7 +4567,9 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Oreburgh City Oreburgh Mining Museum"
+        ]
       },
       {
         "id": 411,
@@ -4524,7 +4616,26 @@
           "speed": 36
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 413,
@@ -4571,7 +4682,26 @@
           "speed": 36
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 414,
@@ -4619,7 +4749,26 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 416,
@@ -4756,7 +4905,26 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 421,
@@ -5188,7 +5356,9 @@
           "speed": 10
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Trophy Garden"
+        ]
       },
       {
         "id": 185,
@@ -5236,7 +5406,9 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Trophy Garden"
+        ]
       },
       {
         "id": 122,
@@ -5285,7 +5457,9 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Trophy Garden"
+        ]
       },
       {
         "id": 113,
@@ -5305,7 +5479,8 @@
         "stage": 1,
         "locations": [
           "Route 209",
-          "Route 210"
+          "Route 210",
+          "Trophy Garden"
         ]
       },
       {
@@ -5488,7 +5663,26 @@
           "speed": 5
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Eterna Forest",
+          "Floaroma Meadow",
+          "Fuego Ironworks",
+          "Route 205",
+          "Route 206",
+          "Route 207",
+          "Route 208",
+          "Route 209",
+          "Route 210",
+          "Route 211",
+          "Route 212",
+          "Route 213",
+          "Route 214",
+          "Route 215",
+          "Route 218",
+          "Route 221",
+          "Route 222",
+          "Valley Windworks"
+        ]
       },
       {
         "id": 143,
@@ -5633,7 +5827,14 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
+        ]
       },
       {
         "id": 452,
@@ -5652,7 +5853,14 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
+        ]
       }
     ],
     "types": [
@@ -5682,6 +5890,12 @@
         },
         "stage": 0,
         "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6",
           "Route 212"
         ]
       },
@@ -5702,7 +5916,14 @@
           "speed": 85
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
+        ]
       }
     ],
     "types": [
@@ -5730,7 +5951,14 @@
           "speed": 46
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Great Marsh Area 1",
+          "Great Marsh Area 2",
+          "Great Marsh Area 3",
+          "Great Marsh Area 4",
+          "Great Marsh Area 5",
+          "Great Marsh Area 6"
+        ]
       }
     ],
     "types": [

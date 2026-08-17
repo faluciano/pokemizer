@@ -77,6 +77,16 @@ export default function RootLayout({
           <p className="mt-1">
             Pokemon and Pokemon character names are trademarks of Nintendo.
           </p>
+          <p className="mt-2">
+            <a
+              href="https://github.com/faluciano/pokemizer/issues/new/choose"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-500 underline underline-offset-4 transition-colors hover:text-zinc-300"
+            >
+              Suggest a feature or report a bug
+            </a>
+          </p>
         </footer>
         <Toaster />
         <Analytics />

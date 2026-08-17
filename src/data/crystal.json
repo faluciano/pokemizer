@@ -1774,6 +1774,7 @@
         },
         "stage": 0,
         "locations": [
+          "Goldenrod City Game Corner",
           "Route 24",
           "Route 34",
           "Route 35",
@@ -1846,6 +1847,7 @@
         },
         "stage": 0,
         "locations": [
+          "Goldenrod City Department Store",
           "Mt. Mortar",
           "Mt. Mortar Lower Cave",
           "Mt. Mortar Upper Cave",
@@ -2357,7 +2359,9 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Power Plant"
+        ]
       }
     ],
     "types": [
@@ -2443,6 +2447,7 @@
         },
         "stage": 1,
         "locations": [
+          "Blackthorn City",
           "Mt. Silver Outside",
           "Route 27",
           "Route 28"
@@ -2716,7 +2721,8 @@
           "Mt. Silver Top",
           "Rock Tunnel",
           "Union Cave",
-          "Victory Road 1"
+          "Victory Road 1",
+          "Violet City Southwest House"
         ]
       },
       {
@@ -2881,6 +2887,7 @@
         },
         "stage": 0,
         "locations": [
+          "Olivine City",
           "Route 10",
           "Team Rocket Hq"
         ]
@@ -2994,6 +3001,7 @@
         },
         "stage": 0,
         "locations": [
+          "Goldenrod City Game Corner",
           "Rock Tunnel"
         ]
       },
@@ -4144,7 +4152,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       },
       {
         "id": 233,
@@ -4286,7 +4296,9 @@
           "speed": 130
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 14"
+        ]
       }
     ],
     "types": [
@@ -4960,6 +4972,7 @@
         },
         "stage": 1,
         "locations": [
+          "Celadon City Prize Corner",
           "Route 2"
         ]
       },
@@ -5221,7 +5234,9 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Pewter City"
+        ]
       }
     ],
     "types": [
@@ -5778,7 +5793,8 @@
         },
         "stage": 0,
         "locations": [
-          "Dark Cave Blackthorn City Entrance"
+          "Dark Cave Blackthorn City Entrance",
+          "Goldenrod City Game Corner"
         ]
       }
     ],
@@ -6992,6 +7008,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Mt. Silver",
           "Mt. Silver Top"
         ]

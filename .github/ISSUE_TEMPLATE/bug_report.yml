@@ -1,0 +1,29 @@
+name: Bug report
+description: Something broken or wrong on Pokemizer
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe the bug. Screenshots welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be reproduced?
+      placeholder: |
+        1. Go to /play/omega-ruby
+        2. Flip a card
+        3. ...
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: Device / browser
+      placeholder: e.g. iPhone 15 Safari, Windows Chrome
+    validations:
+      required: false

@@ -925,7 +925,9 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       },
       {
         "id": 38,
@@ -995,7 +997,9 @@
           "speed": 45
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       }
     ],
     "types": [
@@ -1248,6 +1252,7 @@
         "stage": 1,
         "locations": [
           "Cerulean Cave",
+          "Route 18",
           "Safari Zone Middle"
         ]
       }
@@ -1355,7 +1360,8 @@
         },
         "stage": 1,
         "locations": [
-          "Digletts Cave"
+          "Digletts Cave",
+          "Route 11"
         ]
       }
     ],
@@ -1779,6 +1785,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Route 5",
           "Route 6",
           "Route 7",
@@ -1870,6 +1877,7 @@
         },
         "stage": 1,
         "locations": [
+          "Underground Path",
           "Victory Road 2"
         ]
       },
@@ -2434,6 +2442,7 @@
         },
         "stage": 1,
         "locations": [
+          "Cinnabar Island Cinnabar Lab",
           "Seafoam Islands"
         ]
       }
@@ -2484,6 +2493,7 @@
         },
         "stage": 1,
         "locations": [
+          "Cinnabar Island Cinnabar Lab",
           "Pokémon Mansion",
           "Power Plant"
         ]
@@ -3078,7 +3088,8 @@
         },
         "stage": 1,
         "locations": [
-          "Cerulean Cave"
+          "Cerulean Cave",
+          "Cinnabar Island Cinnabar Lab"
         ]
       }
     ],
@@ -3383,7 +3394,9 @@
           "speed": 90
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 2"
+        ]
       }
     ],
     "types": [
@@ -3413,6 +3426,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Safari Zone Area 1 East",
           "Safari Zone Area 2 North"
         ]
@@ -3446,6 +3460,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Safari Zone Area 1 East",
           "Safari Zone Area 2 North"
         ]
@@ -3561,6 +3576,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Safari Zone Area 2 North",
           "Safari Zone Area 3 West"
         ]
@@ -4053,7 +4069,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       }
     ],
     "types": [

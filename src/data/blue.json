@@ -682,7 +682,8 @@
           "Safari Zone Area 1 East",
           "Safari Zone Area 2 North",
           "Safari Zone Area 3 West",
-          "Safari Zone Middle"
+          "Safari Zone Middle",
+          "Underground Path"
         ]
       },
       {
@@ -702,6 +703,7 @@
         },
         "stage": 1,
         "locations": [
+          "Route 11",
           "Safari Zone Area 1 East",
           "Safari Zone Area 2 North",
           "Safari Zone Area 3 West",
@@ -775,6 +777,7 @@
         },
         "stage": 1,
         "locations": [
+          "Celadon City Prize Corner",
           "Safari Zone Area 2 North",
           "Safari Zone Middle"
         ]
@@ -824,6 +827,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Mt. Moon"
         ]
       },
@@ -1509,6 +1513,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Route 24",
           "Route 25"
         ]
@@ -2057,7 +2062,9 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Vermilion City"
+        ]
       }
     ],
     "types": [
@@ -2142,6 +2149,7 @@
         },
         "stage": 0,
         "locations": [
+          "Cinnabar Island Cinnabar Lab",
           "Seafoam Islands"
         ]
       },
@@ -2538,6 +2546,7 @@
         "stage": 1,
         "locations": [
           "Cerulean Cave",
+          "Cinnabar Island Cinnabar Lab",
           "Power Plant"
         ]
       }
@@ -2727,7 +2736,9 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 18"
+        ]
       }
     ],
     "types": [
@@ -2888,6 +2899,7 @@
         },
         "stage": 0,
         "locations": [
+          "Cinnabar Island Cinnabar Lab",
           "Sea Route 21"
         ]
       }
@@ -3131,7 +3143,9 @@
           "speed": 90
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 2"
+        ]
       }
     ],
     "types": [
@@ -3160,7 +3174,9 @@
           "speed": 95
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Cerulean City"
+        ]
       }
     ],
     "types": [
@@ -3218,6 +3234,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Safari Zone Area 1 East",
           "Safari Zone Middle"
         ]
@@ -3712,7 +3729,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       }
     ],
     "types": [
@@ -3901,6 +3920,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Safari Zone Area 1 East",
           "Safari Zone Area 2 North",
           "Safari Zone Area 3 West",

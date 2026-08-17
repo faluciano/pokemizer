@@ -384,6 +384,17 @@ export const GAME_VERSIONS: GameVersion[] = [
     games: ["Violet"],
     excludedSpeciesIds: [207, 246, 247, 248, 408, 409, 425, 426, 434, 435, 472, 633, 634, 635, 690, 691, 765, 845, 874, 936, 984, 985, 986, 987, 988, 989, 1005, 1007, 1009, 1020, 1021],
   },
+  {
+    slug: "legends-za",
+    displayName: "Legends: Z-A",
+    generationId: 9,
+    region: "Lumiose City",
+    pokedexIds: [34],
+    starterIds: [152, 498, 158],
+    // "ZA" (not "Z-A") so gameDisplayNameToPokeApiVersion yields the
+    // PokeAPI version name "legends-za"
+    games: ["Legends: ZA"],
+  },
 ];
 
 export function getGameVersion(slug: string): GameVersion | undefined {

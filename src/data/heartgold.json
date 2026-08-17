@@ -250,6 +250,7 @@
           "Route 2",
           "Route 30",
           "Route 31",
+          "Route 47",
           "Viridian Forest"
         ]
       },
@@ -271,7 +272,10 @@
         },
         "stage": 2,
         "locations": [
+          "Ilex Forest",
+          "National Park",
           "Route 2",
+          "Route 47",
           "Viridian Forest"
         ]
       }
@@ -301,7 +305,9 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "National Park"
+        ]
       },
       {
         "id": 14,
@@ -320,7 +326,9 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "National Park"
+        ]
       },
       {
         "id": 15,
@@ -339,7 +347,9 @@
           "speed": 75
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "National Park"
+        ]
       }
     ],
     "types": [
@@ -381,7 +391,7 @@
           "Route 37",
           "Route 5",
           "Route 6",
-          "Safari Zone Zone Forest",
+          "Safari Zone Forest",
           "Viridian Forest"
         ]
       },
@@ -411,8 +421,8 @@
           "Route 37",
           "Route 43",
           "Route 8",
-          "Safari Zone Zone Mountain",
-          "Safari Zone Zone Plains",
+          "Safari Zone Mountain",
+          "Safari Zone Plains",
           "Viridian Forest"
         ]
       },
@@ -516,8 +526,9 @@
           "Route 47",
           "Route 7",
           "Route 9",
-          "Safari Zone Zone Mountain",
-          "Safari Zone Zone Plains",
+          "Safari Zone Meadow",
+          "Safari Zone Mountain",
+          "Safari Zone Plains",
           "Tohjo Falls",
           "Union Cave"
         ]
@@ -549,18 +560,25 @@
         },
         "stage": 0,
         "locations": [
+          "Azalea Town",
+          "Celadon City",
           "Goldenrod City North Gate",
           "Route 10",
+          "Route 11",
+          "Route 16",
           "Route 22",
           "Route 3",
           "Route 33",
           "Route 4",
           "Route 42",
+          "Route 44",
+          "Route 45",
           "Route 46",
           "Route 47",
           "Route 7",
           "Route 9",
-          "Safari Zone Zone Wetland"
+          "Safari Zone Wetland",
+          "Vermilion City"
         ]
       },
       {
@@ -589,8 +607,9 @@
           "Route 47",
           "Route 48",
           "Route 9",
-          "Safari Zone Zone Desert",
-          "Safari Zone Zone Wasteland"
+          "Safari Zone Desert",
+          "Safari Zone Peak",
+          "Safari Zone Wasteland"
         ]
       }
     ],
@@ -620,7 +639,8 @@
         },
         "stage": 0,
         "locations": [
-          "Safari Zone Zone Marshland"
+          "Goldenrod City Game Corner",
+          "Safari Zone Marshland"
         ]
       },
       {
@@ -640,7 +660,7 @@
         },
         "stage": 1,
         "locations": [
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       }
     ],
@@ -670,7 +690,7 @@
         "stage": 0,
         "locations": [
           "Mt. Moon",
-          "Safari Zone Zone Desert",
+          "Safari Zone Desert",
           "Union Cave"
         ]
       },
@@ -694,7 +714,7 @@
           "Mt. Moon",
           "Route 26",
           "Route 27",
-          "Safari Zone Zone Desert"
+          "Safari Zone Desert"
         ]
       }
     ],
@@ -725,7 +745,7 @@
         "locations": [
           "Route 35",
           "Route 36",
-          "Safari Zone Zone Savannah"
+          "Safari Zone Savannah"
         ]
       },
       {
@@ -748,7 +768,7 @@
           "Route 13",
           "Route 14",
           "Route 15",
-          "Safari Zone Zone Savannah"
+          "Safari Zone Savannah"
         ]
       },
       {
@@ -820,7 +840,7 @@
           "Route 13",
           "Route 14",
           "Route 15",
-          "Safari Zone Zone Savannah"
+          "Safari Zone Savannah"
         ]
       },
       {
@@ -884,9 +904,9 @@
           "Route 4",
           "Route 42",
           "Route 47",
-          "Safari Zone Zone Mountain",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Savannah",
+          "Safari Zone Mountain",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Savannah",
           "Seafoam Islands",
           "Slowpoke Well",
           "Tohjo Falls",
@@ -921,8 +941,8 @@
           "Mt. Silver Mountainside",
           "Mt. Silver Top",
           "Route 47",
-          "Safari Zone Zone Mountain",
-          "Safari Zone Zone Savannah",
+          "Safari Zone Mountain",
+          "Safari Zone Savannah",
           "Seafoam Islands",
           "Slowpoke Well",
           "Tohjo Falls",
@@ -983,7 +1003,7 @@
           "Route 25",
           "Route 5",
           "Route 6",
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       },
       {
@@ -1007,7 +1027,7 @@
           "Route 47",
           "Route 48",
           "Route 5",
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       },
       {
@@ -1063,7 +1083,7 @@
           "Route 25",
           "Route 5",
           "Route 6",
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       },
       {
@@ -1087,7 +1107,7 @@
           "Route 47",
           "Route 48",
           "Route 5",
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       },
       {
@@ -1139,7 +1159,9 @@
         "locations": [
           "Ilex Forest",
           "Mt. Moon",
-          "Safari Zone Zone Swamp"
+          "National Park",
+          "Safari Zone Peak",
+          "Safari Zone Swamp"
         ]
       },
       {
@@ -1160,7 +1182,8 @@
         },
         "stage": 1,
         "locations": [
-          "Cerulean Cave"
+          "Cerulean Cave",
+          "Safari Zone Swamp"
         ]
       }
     ],
@@ -1191,6 +1214,8 @@
         },
         "stage": 0,
         "locations": [
+          "Lake Of Rage",
+          "National Park",
           "Route 24",
           "Route 25",
           "Route 43"
@@ -1247,6 +1272,7 @@
         "locations": [
           "Digletts Cave",
           "Route 48",
+          "Safari Zone Marshland",
           "Vermilion City"
         ]
       },
@@ -1300,7 +1326,7 @@
           "Ilex Forest",
           "Route 35",
           "Route 6",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Wetland",
           "Seafoam Islands"
         ]
       },
@@ -1329,7 +1355,8 @@
           "Mt. Silver Top",
           "Route 35",
           "Route 6",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Wasteland",
+          "Safari Zone Wetland",
           "Seafoam Islands"
         ]
       }
@@ -1478,10 +1505,10 @@
           "Route 47",
           "Route 6",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Wetland",
           "Unknown All Poliwag",
           "Violet City",
           "Viridian City"
@@ -1512,10 +1539,10 @@
           "Route 30",
           "Route 31",
           "Route 44",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Wetland",
           "Violet City",
           "Viridian City"
         ]
@@ -1583,10 +1610,10 @@
           "Route 47",
           "Route 6",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Wetland",
           "Unknown All Poliwag",
           "Violet City",
           "Viridian City"
@@ -1617,10 +1644,10 @@
           "Route 30",
           "Route 31",
           "Route 44",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Wetland",
           "Violet City",
           "Viridian City"
         ]
@@ -1670,6 +1697,7 @@
         },
         "stage": 0,
         "locations": [
+          "Goldenrod City Game Corner",
           "Route 24",
           "Route 25",
           "Route 34",
@@ -1677,7 +1705,7 @@
           "Route 5",
           "Route 6",
           "Route 8",
-          "Safari Zone Zone Plains"
+          "Safari Zone Plains"
         ]
       },
       {
@@ -1750,7 +1778,7 @@
           "Mt. Mortar Upper Cave",
           "Rock Tunnel",
           "Route 47",
-          "Safari Zone Zone Wasteland"
+          "Safari Zone Wasteland"
         ]
       },
       {
@@ -1774,7 +1802,7 @@
           "Mt. Mortar Upper Cave",
           "Rock Tunnel",
           "Route 47",
-          "Safari Zone Zone Wasteland"
+          "Safari Zone Wasteland"
         ]
       },
       {
@@ -1829,7 +1857,8 @@
           "Route 44",
           "Route 5",
           "Route 6",
-          "Safari Zone Zone Forest"
+          "Safari Zone Forest",
+          "Safari Zone Wasteland"
         ]
       },
       {
@@ -1852,7 +1881,8 @@
         "locations": [
           "Route 24",
           "Route 25",
-          "Route 44"
+          "Route 44",
+          "Safari Zone Swamp"
         ]
       },
       {
@@ -2009,7 +2039,8 @@
           "Route 46",
           "Route 47",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Peak",
+          "Safari Zone Meadow",
+          "Safari Zone Peak",
           "Team Rocket Hq",
           "Union Cave",
           "Victory Road 1"
@@ -2060,7 +2091,7 @@
         },
         "stage": 2,
         "locations": [
-          "Safari Zone Zone Peak"
+          "Safari Zone Peak"
         ]
       }
     ],
@@ -2094,7 +2125,8 @@
           "Route 22",
           "Route 26",
           "Route 27",
-          "Route 28"
+          "Route 28",
+          "Safari Zone Plains"
         ]
       },
       {
@@ -2145,7 +2177,7 @@
         },
         "stage": 0,
         "locations": [
-          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Rocky Beach",
           "Slowpoke Well",
           "Tohjo Falls"
         ]
@@ -2168,7 +2200,8 @@
         },
         "stage": 1,
         "locations": [
-          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Peak",
+          "Safari Zone Rocky Beach",
           "Seafoam Islands",
           "Slowpoke Well"
         ]
@@ -2202,7 +2235,7 @@
         },
         "stage": 0,
         "locations": [
-          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Rocky Beach",
           "Slowpoke Well",
           "Tohjo Falls"
         ]
@@ -2259,8 +2292,8 @@
           "Route 38",
           "Route 39",
           "Route 6",
-          "Safari Zone Zone Peak",
-          "Safari Zone Zone Wasteland"
+          "Safari Zone Peak",
+          "Safari Zone Wasteland"
         ]
       },
       {
@@ -2282,8 +2315,8 @@
         "stage": 1,
         "locations": [
           "Cerulean Cave",
-          "Safari Zone Zone Mountain",
-          "Safari Zone Zone Peak"
+          "Safari Zone Mountain",
+          "Safari Zone Peak"
         ]
       }
     ],
@@ -2318,7 +2351,7 @@
           "Route 39",
           "Route 47",
           "Route 48",
-          "Safari Zone Zone Wetland"
+          "Safari Zone Wetland"
         ]
       }
     ],
@@ -2354,7 +2387,8 @@
           "Route 26",
           "Route 27",
           "Route 28",
-          "Safari Zone Zone Rocky Beach"
+          "Safari Zone Rocky Beach",
+          "Safari Zone Wetland"
         ]
       },
       {
@@ -2377,7 +2411,8 @@
         "locations": [
           "Mt. Silver Outside",
           "Route 26",
-          "Route 28"
+          "Route 28",
+          "Safari Zone Rocky Beach"
         ]
       }
     ],
@@ -2463,7 +2498,7 @@
           "Route 16",
           "Route 17",
           "Route 18",
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       },
       {
@@ -2486,7 +2521,8 @@
           "Celadon City",
           "Route 16",
           "Route 17",
-          "Route 18"
+          "Route 18",
+          "Safari Zone Marshland"
         ]
       }
     ],
@@ -2575,7 +2611,7 @@
         "stage": 0,
         "locations": [
           "Bell Tower",
-          "Safari Zone Zone Forest",
+          "Safari Zone Forest",
           "Sprout Tower"
         ]
       },
@@ -2598,7 +2634,7 @@
         "stage": 1,
         "locations": [
           "Route 8",
-          "Safari Zone Zone Forest"
+          "Safari Zone Forest"
         ]
       },
       {
@@ -2652,7 +2688,7 @@
           "Mt. Silver Mountainside",
           "Rock Tunnel",
           "Route 47",
-          "Safari Zone Zone Wasteland",
+          "Safari Zone Wasteland",
           "Union Cave",
           "Victory Road 1"
         ]
@@ -2709,7 +2745,7 @@
           "Route 11",
           "Route 34",
           "Route 35",
-          "Safari Zone Zone Swamp"
+          "Safari Zone Swamp"
         ]
       },
       {
@@ -2730,7 +2766,7 @@
         "stage": 1,
         "locations": [
           "Route 11",
-          "Safari Zone Zone Swamp"
+          "Safari Zone Swamp"
         ]
       }
     ],
@@ -2764,8 +2800,8 @@
           "Olivine City",
           "Route 34",
           "Route 47",
-          "Safari Zone Zone Mountain",
-          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Mountain",
+          "Safari Zone Rocky Beach",
           "Sea Route 19",
           "Sea Route 40",
           "Seafoam Islands",
@@ -2795,7 +2831,8 @@
           "Olivine City",
           "Route 34",
           "Route 47",
-          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Wasteland",
           "Sea Route 19",
           "Sea Route 40",
           "Seafoam Islands",
@@ -2830,6 +2867,7 @@
         "stage": 0,
         "locations": [
           "Route 10",
+          "Safari Zone Swamp",
           "Team Rocket Hq"
         ]
       },
@@ -2880,7 +2918,30 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Cherrygrove City",
+          "Ecruteak City",
+          "Lake Of Rage",
+          "National Park",
+          "New Bark Town",
+          "Route 26",
+          "Route 27",
+          "Route 29",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 34",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "Route 38",
+          "Route 39",
+          "Route 43",
+          "Route 47",
+          "Route 48",
+          "Safari Zone Gate",
+          "Violet City"
+        ]
       },
       {
         "id": 103,
@@ -2929,7 +2990,7 @@
         "stage": 0,
         "locations": [
           "Rock Tunnel",
-          "Safari Zone Zone Desert"
+          "Safari Zone Desert"
         ]
       },
       {
@@ -2950,7 +3011,7 @@
         "stage": 1,
         "locations": [
           "Rock Tunnel",
-          "Safari Zone Zone Desert"
+          "Safari Zone Desert"
         ]
       }
     ],
@@ -2980,7 +3041,8 @@
         "stage": 0,
         "locations": [
           "Route 44",
-          "Safari Zone Zone Mountain"
+          "Safari Zone Forest",
+          "Safari Zone Mountain"
         ]
       },
       {
@@ -3028,7 +3090,7 @@
         "stage": 0,
         "locations": [
           "Burned Tower",
-          "Safari Zone Zone Marshland",
+          "Safari Zone Marshland",
           "Team Rocket Hq"
         ]
       },
@@ -3049,7 +3111,7 @@
         },
         "stage": 1,
         "locations": [
-          "Safari Zone Zone Marshland"
+          "Safari Zone Marshland"
         ]
       }
     ],
@@ -3079,7 +3141,7 @@
         },
         "stage": 0,
         "locations": [
-          "Safari Zone Zone Savannah",
+          "Safari Zone Savannah",
           "Victory Road 1"
         ]
       },
@@ -3100,7 +3162,9 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Safari Zone Savannah"
+        ]
       }
     ],
     "types": [
@@ -3131,7 +3195,8 @@
         "locations": [
           "Route 13",
           "Route 14",
-          "Route 15"
+          "Route 15",
+          "Safari Zone Meadow"
         ]
       },
       {
@@ -3178,7 +3243,13 @@
         },
         "stage": 0,
         "locations": [
+          "Fuchsia City",
           "Mt. Silver Outside",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 18",
           "Route 28",
           "Route 44",
           "Sea Route 21"
@@ -3229,7 +3300,7 @@
         "stage": 0,
         "locations": [
           "Rock Tunnel",
-          "Safari Zone Zone Wasteland"
+          "Safari Zone Wasteland"
         ]
       }
     ],
@@ -3343,8 +3414,8 @@
           "Route 4",
           "Route 42",
           "Route 9",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Swamp",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Swamp",
           "Slowpoke Well",
           "Tohjo Falls",
           "Union Cave",
@@ -3382,8 +3453,8 @@
           "Route 4",
           "Route 42",
           "Route 9",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Swamp",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Swamp",
           "Slowpoke Well",
           "Tohjo Falls",
           "Union Cave"
@@ -3471,7 +3542,8 @@
         },
         "stage": 0,
         "locations": [
-          "Safari Zone Zone Forest",
+          "Celadon City Prize Corner",
+          "Safari Zone Forest",
           "Sea Route 21"
         ]
       }
@@ -3502,7 +3574,9 @@
           "speed": 105
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "National Park"
+        ]
       },
       {
         "id": 212,
@@ -3551,7 +3625,9 @@
           "speed": 105
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "National Park"
+        ]
       }
     ],
     "types": [
@@ -3580,7 +3656,9 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "National Park"
+        ]
       }
     ],
     "types": [
@@ -3611,7 +3689,7 @@
           "Route 38",
           "Route 39",
           "Route 48",
-          "Safari Zone Zone Savannah"
+          "Safari Zone Savannah"
         ]
       }
     ],
@@ -3686,11 +3764,11 @@
           "Route 6",
           "Route 9",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Rocky Beach",
-          "Safari Zone Zone Swamp",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Rocky Beach",
+          "Safari Zone Swamp",
+          "Safari Zone Wetland",
           "Sea Route 19",
           "Sea Route 20",
           "Sea Route 21",
@@ -3731,7 +3809,9 @@
           "Fuchsia City",
           "Lake Of Rage",
           "Mt. Silver",
-          "Safari Zone Zone Marshland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Wetland",
           "Seafoam Islands"
         ]
       }
@@ -3762,7 +3842,7 @@
         },
         "stage": 0,
         "locations": [
-          "Safari Zone Zone Rocky Beach",
+          "Safari Zone Rocky Beach",
           "Union Cave"
         ]
       }
@@ -3797,7 +3877,7 @@
           "Route 34",
           "Route 35",
           "Route 47",
-          "Safari Zone Zone Wetland"
+          "Safari Zone Wetland"
         ]
       }
     ],
@@ -3826,6 +3906,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3874,6 +3955,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3922,6 +4004,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3970,6 +4053,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -4018,6 +4102,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -4066,6 +4151,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       }
@@ -4096,6 +4182,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       }
@@ -4126,6 +4213,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       }
@@ -4155,7 +4243,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       },
       {
         "id": 233,
@@ -4201,7 +4291,9 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Pewter City Pewter Museum Of Science"
+        ]
       },
       {
         "id": 139,
@@ -4249,7 +4341,9 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Pewter City Pewter Museum Of Science"
+        ]
       },
       {
         "id": 141,
@@ -4297,7 +4391,9 @@
           "speed": 130
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Pewter City Pewter Museum Of Science"
+        ]
       }
     ],
     "types": [
@@ -4357,7 +4453,8 @@
         "stage": 0,
         "locations": [
           "Dragons Den",
-          "Safari Zone Zone Swamp"
+          "Goldenrod City Game Corner",
+          "Safari Zone Swamp"
         ]
       },
       {
@@ -4377,7 +4474,8 @@
         },
         "stage": 1,
         "locations": [
-          "Dragons Den"
+          "Dragons Den",
+          "Safari Zone Swamp"
         ]
       },
       {
@@ -4622,8 +4720,8 @@
         "locations": [
           "Route 1",
           "Route 29",
-          "Safari Zone Zone Swamp",
-          "Safari Zone Zone Wetland"
+          "Safari Zone Swamp",
+          "Safari Zone Wetland"
         ]
       },
       {
@@ -4643,7 +4741,9 @@
         },
         "stage": 1,
         "locations": [
-          "Route 1"
+          "Route 1",
+          "Safari Zone Swamp",
+          "Safari Zone Wetland"
         ]
       }
     ],
@@ -4673,15 +4773,49 @@
         },
         "stage": 0,
         "locations": [
+          "Cerulean City",
+          "Cherrygrove City",
+          "Ecruteak City",
+          "Fuchsia City",
+          "Ilex Forest",
+          "Lake Of Rage",
           "National Park",
+          "New Bark Town",
+          "Pallet Town",
+          "Pewter City",
           "Route 1",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 18",
           "Route 2",
+          "Route 22",
+          "Route 25",
+          "Route 26",
+          "Route 27",
           "Route 29",
+          "Route 3",
           "Route 30",
           "Route 31",
+          "Route 32",
+          "Route 34",
           "Route 35",
           "Route 36",
           "Route 37",
+          "Route 38",
+          "Route 39",
+          "Route 4",
+          "Route 43",
+          "Route 47",
+          "Route 48",
+          "Route 5",
+          "Route 6",
+          "Route 8",
+          "Safari Zone Gate",
+          "Sea Route 21",
+          "Violet City",
+          "Viridian City",
           "Viridian Forest"
         ]
       },
@@ -4703,6 +4837,7 @@
         },
         "stage": 1,
         "locations": [
+          "Ilex Forest",
           "Route 13",
           "Route 14",
           "Route 15",
@@ -4741,10 +4876,37 @@
         },
         "stage": 0,
         "locations": [
+          "Cherrygrove City",
+          "Ecruteak City",
+          "Fuchsia City",
+          "National Park",
+          "New Bark Town",
+          "Pallet Town",
+          "Route 1",
+          "Route 12",
+          "Route 13",
+          "Route 14",
+          "Route 15",
+          "Route 18",
           "Route 2",
+          "Route 22",
+          "Route 26",
+          "Route 27",
+          "Route 29",
           "Route 30",
           "Route 31",
-          "Route 37"
+          "Route 34",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "Route 38",
+          "Route 39",
+          "Route 47",
+          "Route 48",
+          "Safari Zone Gate",
+          "Sea Route 21",
+          "Viridian City",
+          "Viridian Forest"
         ]
       },
       {
@@ -4765,7 +4927,8 @@
         },
         "stage": 1,
         "locations": [
-          "Route 2"
+          "Route 2",
+          "Viridian Forest"
         ]
       }
     ],
@@ -4951,7 +5114,7 @@
         "stage": 1,
         "locations": [
           "Mt. Moon",
-          "Safari Zone Zone Meadow"
+          "Safari Zone Meadow"
         ]
       },
       {
@@ -5020,8 +5183,8 @@
         "locations": [
           "Route 3",
           "Route 4",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Swamp"
+          "Safari Zone Meadow",
+          "Safari Zone Swamp"
         ]
       },
       {
@@ -5119,6 +5282,9 @@
         },
         "stage": 0,
         "locations": [
+          "Mt. Silver Mountainside",
+          "Mt. Silver Outside",
+          "Route 28",
           "Ruins Of Alph Outside"
         ]
       },
@@ -5171,6 +5337,7 @@
           "Route 32",
           "Route 42",
           "Route 43",
+          "Safari Zone Rocky Beach",
           "Violet City Pokémon Center"
         ]
       },
@@ -5241,7 +5408,7 @@
         "stage": 0,
         "locations": [
           "Mt. Mortar",
-          "Safari Zone Zone Meadow"
+          "Safari Zone Meadow"
         ]
       },
       {
@@ -5326,7 +5493,7 @@
           "Route 32",
           "Route 33",
           "Route 48",
-          "Safari Zone Zone Meadow"
+          "Safari Zone Meadow"
         ]
       },
       {
@@ -5348,7 +5515,7 @@
         "stage": 1,
         "locations": [
           "Route 14",
-          "Safari Zone Zone Meadow"
+          "Safari Zone Meadow"
         ]
       },
       {
@@ -5368,7 +5535,9 @@
           "speed": 110
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Safari Zone Marshland"
+        ]
       }
     ],
     "types": [
@@ -5396,7 +5565,17 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Azalea Town",
+          "Mt. Silver Mountainside",
+          "Mt. Silver Outside",
+          "Route 28",
+          "Route 33",
+          "Route 42",
+          "Route 44",
+          "Route 45",
+          "Route 46"
+        ]
       },
       {
         "id": 424,
@@ -5444,7 +5623,7 @@
         "locations": [
           "National Park",
           "Route 24",
-          "Safari Zone Zone Meadow"
+          "Safari Zone Meadow"
         ]
       },
       {
@@ -5545,9 +5724,9 @@
           "Route 32",
           "Route 47",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Wetland",
           "Union Cave",
           "Violet City Pokémon Center"
         ]
@@ -5583,7 +5762,8 @@
           "Route 32",
           "Route 47",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Wetland",
           "Union Cave"
         ]
       }
@@ -5619,9 +5799,9 @@
           "Route 32",
           "Route 47",
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Marshland",
-          "Safari Zone Zone Meadow",
-          "Safari Zone Zone Wetland",
+          "Safari Zone Marshland",
+          "Safari Zone Meadow",
+          "Safari Zone Wetland",
           "Union Cave",
           "Violet City Pokémon Center"
         ]
@@ -5657,7 +5837,7 @@
         "locations": [
           "Route 16",
           "Route 7",
-          "Safari Zone Zone Swamp"
+          "Safari Zone Swamp"
         ]
       }
     ],
@@ -5691,7 +5871,7 @@
           "Mt. Silver 1F Top",
           "Mt. Silver Top",
           "Route 47",
-          "Safari Zone Zone Forest"
+          "Safari Zone Forest"
         ]
       }
     ],
@@ -5754,7 +5934,7 @@
         "locations": [
           "Cerulean Cave",
           "Dark Cave Blackthorn City Entrance",
-          "Safari Zone Zone Peak"
+          "Safari Zone Peak"
         ]
       }
     ],
@@ -5786,7 +5966,7 @@
         "locations": [
           "Route 43",
           "Route 48",
-          "Safari Zone Zone Plains"
+          "Safari Zone Plains"
         ]
       }
     ],
@@ -5815,7 +5995,44 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Cerulean City",
+          "Cherrygrove City",
+          "Ecruteak City",
+          "Ilex Forest",
+          "Lake Of Rage",
+          "National Park",
+          "New Bark Town",
+          "Pallet Town",
+          "Pewter City",
+          "Route 1",
+          "Route 2",
+          "Route 22",
+          "Route 25",
+          "Route 26",
+          "Route 27",
+          "Route 29",
+          "Route 3",
+          "Route 30",
+          "Route 31",
+          "Route 32",
+          "Route 34",
+          "Route 35",
+          "Route 36",
+          "Route 37",
+          "Route 38",
+          "Route 39",
+          "Route 4",
+          "Route 43",
+          "Route 47",
+          "Route 48",
+          "Route 5",
+          "Route 6",
+          "Route 8",
+          "Safari Zone Gate",
+          "Violet City",
+          "Viridian City"
+        ]
       },
       {
         "id": 205,
@@ -6005,6 +6222,7 @@
         "locations": [
           "Cianwood City",
           "Cianwood City Kirks House",
+          "Safari Zone Marshland",
           "Vermilion City"
         ]
       }
@@ -6035,7 +6253,23 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Azalea Town",
+          "Celadon City",
+          "Mt. Silver Mountainside",
+          "Mt. Silver Outside",
+          "Route 11",
+          "Route 16",
+          "Route 28",
+          "Route 33",
+          "Route 42",
+          "Route 44",
+          "Route 45",
+          "Route 46",
+          "Route 47",
+          "Route 7",
+          "Vermilion City"
+        ]
       }
     ],
     "types": [
@@ -6372,7 +6606,8 @@
         },
         "stage": 0,
         "locations": [
-          "Route 7"
+          "Route 7",
+          "Safari Zone Savannah"
         ]
       },
       {
@@ -6392,7 +6627,9 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Safari Zone Plains"
+        ]
       }
     ],
     "types": [
@@ -6481,7 +6718,7 @@
         "locations": [
           "Route 36",
           "Route 37",
-          "Safari Zone Zone Plains"
+          "Safari Zone Plains"
         ]
       }
     ],
@@ -6511,7 +6748,7 @@
         "stage": 0,
         "locations": [
           "Ruins Of Alph Outside",
-          "Safari Zone Zone Plains"
+          "Safari Zone Plains"
         ]
       }
     ],
@@ -6753,7 +6990,8 @@
         },
         "stage": 1,
         "locations": [
-          "Route 10"
+          "Route 10",
+          "Safari Zone Forest"
         ]
       }
     ],
@@ -6801,7 +7039,7 @@
         "stage": 1,
         "locations": [
           "Burned Tower",
-          "Safari Zone Zone Peak"
+          "Safari Zone Peak"
         ]
       }
     ],
@@ -6866,7 +7104,7 @@
           "Mt. Silver 1F Top",
           "Mt. Silver Mountainside",
           "Mt. Silver Top",
-          "Safari Zone Zone Mountain"
+          "Safari Zone Mountain"
         ]
       },
       {

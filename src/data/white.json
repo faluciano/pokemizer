@@ -1844,7 +1844,9 @@
           "speed": 22
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Nacrene City Nacrene Museum"
+        ]
       },
       {
         "id": 565,
@@ -1892,7 +1894,9 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Nacrene City Nacrene Museum"
+        ]
       },
       {
         "id": 567,
@@ -2479,7 +2483,7 @@
     "stages": [
       {
         "id": 592,
-        "name": "frillish",
+        "name": "frillish-male",
         "types": [
           "water",
           "ghost"

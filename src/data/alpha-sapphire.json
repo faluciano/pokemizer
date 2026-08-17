@@ -66,6 +66,7 @@
         },
         "stage": 0,
         "locations": [
+          "Mirage Spot Forest North Of Route 124",
           "Mt. Pyre Outside",
           "Mt. Pyre Summit"
         ]
@@ -595,7 +596,15 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Mirage Spot Cave North Of Route 124",
+          "Mirage Spot Cave South East Of Route 129",
+          "Mirage Spot Cave West Of Rustburo",
+          "Mirage Spot Forest West Of Route 105",
+          "Mirage Spot Island South Of Pacifidlog",
+          "Mirage Spot Island South Of Route 134",
+          "Mirage Spot Mountain South East Of Route 129"
+        ]
       },
       {
         "id": 76,
@@ -1404,7 +1413,14 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Mirage Spot Island Route 124",
+          "Mirage Spot Island South Of Pacifidlog",
+          "Mirage Spot Island South Of Route 134",
+          "Mirage Spot Island West Of Dewford Town",
+          "Mirage Spot Island West Of Route 104",
+          "Mirage Spot Mountain South East Of Route 129"
+        ]
       }
     ],
     "types": [
@@ -1433,7 +1449,9 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Mirage Spot Mountain South Of Route 131"
+        ]
       }
     ],
     "types": [
@@ -1616,7 +1634,12 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Mirage Spot Mountain North East Of Route 125",
+          "Mirage Spot Mountain North Of Lilycove",
+          "Mirage Spot Mountain South Of Route 131",
+          "Mirage Spot Mountain West Of Route 104"
+        ]
       }
     ],
     "types": [

@@ -18,7 +18,11 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Postwick Leons Room"
+        ]
       },
       {
         "id": 5,
@@ -36,7 +40,10 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C"
+        ]
       },
       {
         "id": 6,
@@ -55,7 +62,9 @@
           "speed": 100
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den D"
+        ]
       }
     ],
     "types": [
@@ -82,7 +91,14 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Rolling Fields Max Den F",
+          "Route 1",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 11,
@@ -100,7 +116,15 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den F",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 12,
@@ -119,7 +143,21 @@
           "speed": 70
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den C",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den F",
+          "Slumbering Weald Deep",
+          "South Lake Miloch Max Den A"
+        ]
       }
     ],
     "types": [
@@ -146,7 +184,27 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove",
+          "Dusty Bowl Max Den G",
+          "East Lake Axewell",
+          "Giants Cap Max Den B",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Motostoke Gym",
+          "North Lake Miloch",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Route 3",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 38,
@@ -164,7 +222,15 @@
           "speed": 100
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den C",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       }
     ],
     "types": [
@@ -192,7 +258,21 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Rolling Fields Main",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 44,
@@ -211,7 +291,20 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Cap Max Den A",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch"
+        ]
       },
       {
         "id": 45,
@@ -230,7 +323,20 @@
           "speed": 50
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D"
+        ]
       }
     ],
     "types": [
@@ -260,7 +366,21 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Rolling Fields Main",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 44,
@@ -279,7 +399,20 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Cap Max Den A",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch"
+        ]
       },
       {
         "id": 182,
@@ -297,7 +430,12 @@
           "speed": 50
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Giants Mirror Main"
+        ]
       }
     ],
     "types": [
@@ -326,7 +464,14 @@
           "speed": 95
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Giants Mirror Main",
+          "Mine",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den B",
+          "Route 4"
+        ]
       },
       {
         "id": 51,
@@ -344,7 +489,16 @@
           "speed": 120
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den B",
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -371,7 +525,9 @@
           "speed": 90
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Turffield Gym"
+        ]
       },
       {
         "id": 53,
@@ -417,7 +573,9 @@
           "speed": 90
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Turffield Gym"
+        ]
       },
       {
         "id": 863,
@@ -435,7 +593,16 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Mirror Main",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Lake Of Outrage",
+          "Route 7",
+          "Route 9",
+          "Stony Wilderness Max Den H"
+        ]
       }
     ],
     "types": [
@@ -463,7 +630,11 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Giants Mirror Area 2",
+          "Hammerlocke Hills"
+        ]
       },
       {
         "id": 59,
@@ -481,7 +652,9 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den B"
+        ]
       }
     ],
     "types": [
@@ -508,7 +681,22 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "Route 3",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Max Den E",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 67,
@@ -526,7 +714,20 @@
           "speed": 45
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dusty Bowl Max Den A",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den E"
+        ]
       },
       {
         "id": 68,
@@ -544,7 +745,15 @@
           "speed": 55
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Giants Mirror Main",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -590,7 +799,12 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -618,7 +832,19 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell",
+          "Giants Seat",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       },
       {
         "id": 91,
@@ -637,7 +863,21 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell",
+          "Giants Seat",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "Stony Wilderness Max Den D",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       }
     ],
     "types": [
@@ -665,7 +905,19 @@
           "speed": 80
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den A",
+          "Giants Mirror Max Den A",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 93,
@@ -684,7 +936,19 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den A",
+          "Giants Mirror Max Den A",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "Rolling Fields Main",
+          "Route 8",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 94,
@@ -703,7 +967,12 @@
           "speed": 110
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Giants Cap Main",
+          "Giants Mirror Max Den A",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F"
+        ]
       }
     ],
     "types": [
@@ -732,7 +1001,22 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den I",
+          "East Lake Axewell",
+          "Giants Seat",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "Motostoke Riverbank",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den B",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 208,
@@ -751,7 +1035,20 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "Rolling Fields Max Den B",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Max Den H",
+          "Stony Wilderness Max Den L"
+        ]
       }
     ],
     "types": [
@@ -779,7 +1076,23 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den E",
+          "Giants Cap Main",
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den B",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E"
+        ]
       },
       {
         "id": 99,
@@ -797,7 +1110,22 @@
           "speed": 75
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dusty Bowl Max Den E",
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den B",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E"
+        ]
       }
     ],
     "types": [
@@ -824,7 +1152,19 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D"
+        ]
       },
       {
         "id": 110,
@@ -870,7 +1210,16 @@
           "speed": 25
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den H",
+          "Route 8",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 112,
@@ -889,7 +1238,17 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "Giants Seat",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den H",
+          "Route 10",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 464,
@@ -908,7 +1267,15 @@
           "speed": 40
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Rolling Fields Max Den B"
+        ]
       }
     ],
     "types": [
@@ -936,7 +1303,17 @@
           "speed": 63
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "North Lake Miloch",
+          "Route 4",
+          "Route 5",
+          "Route 6",
+          "South Lake Miloch Main",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 119,
@@ -954,7 +1331,14 @@
           "speed": 68
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell",
+          "Lake Of Outrage",
+          "North Lake Miloch",
+          "South Lake Miloch Main",
+          "West Lake Axewell"
+        ]
       }
     ],
     "types": [
@@ -981,7 +1365,29 @@
           "speed": 80
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den G",
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Main",
+          "North Lake Miloch",
+          "Route 2",
+          "Route 4",
+          "Route 5",
+          "Route 6",
+          "Slumbering Weald Deep",
+          "South Lake Miloch Main",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 130,
@@ -1000,7 +1406,31 @@
           "speed": 81
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den G",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Main",
+          "Giants Cap Max Den D",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "North Lake Miloch",
+          "Route 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den C",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -1028,7 +1458,24 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den C",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "North Lake Miloch",
+          "Route 2",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "Stony Wilderness Max Den D",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -1056,7 +1503,11 @@
           "speed": 48
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Lake Of Outrage",
+          "Stony Wilderness Max Den A",
+          "Wild Area Max Dens"
+        ]
       }
     ],
     "types": [
@@ -1083,7 +1534,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 134,
@@ -1101,7 +1559,10 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1129,7 +1590,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 135,
@@ -1147,7 +1615,10 @@
           "speed": 130
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1175,7 +1646,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 136,
@@ -1193,7 +1671,10 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den B",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1221,7 +1702,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 196,
@@ -1239,7 +1727,10 @@
           "speed": 110
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1267,7 +1758,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 197,
@@ -1285,7 +1783,10 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den D",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1313,7 +1814,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 470,
@@ -1331,7 +1839,10 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den E",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1359,7 +1870,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 471,
@@ -1377,7 +1895,10 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -1405,7 +1926,14 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 4"
+        ]
       },
       {
         "id": 700,
@@ -1423,7 +1951,10 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den D"
+        ]
       }
     ],
     "types": [
@@ -1452,7 +1983,21 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "East Lake Axewell Max Den C",
+          "Giants Cap Area 2",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Route 1",
+          "Route 2",
+          "Slumbering Weald Main"
+        ]
       },
       {
         "id": 164,
@@ -1471,7 +2016,20 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "East Lake Axewell Max Den C",
+          "Giants Cap Main",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G"
+        ]
       }
     ],
     "types": [
@@ -1500,7 +2058,22 @@
           "speed": 67
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den C",
+          "Hulbury",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 171,
@@ -1519,7 +2092,24 @@
           "speed": 67
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -1547,7 +2137,11 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den D",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den B"
+        ]
       },
       {
         "id": 25,
@@ -1565,7 +2159,19 @@
           "speed": 90
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den C",
+          "Hammerlocke Hills Max Den F",
+          "Lake Of Outrage Max Den B",
+          "Meetup Spot",
+          "Motostoke Riverbank Max Den B",
+          "Rolling Fields Main",
+          "Route 4",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 26,
@@ -1583,7 +2189,10 @@
           "speed": 110
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den D",
+          "Motostoke Riverbank Max Den B"
+        ]
       }
     ],
     "types": [
@@ -1610,7 +2219,10 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den E",
+          "Rolling Fields Max Den I"
+        ]
       },
       {
         "id": 35,
@@ -1628,7 +2240,16 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den D",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den I"
+        ]
       },
       {
         "id": 36,
@@ -1646,7 +2267,13 @@
           "speed": 60
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den D",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den I"
+        ]
       }
     ],
     "types": [
@@ -1673,7 +2300,15 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Hammerlocke",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I"
+        ]
       },
       {
         "id": 176,
@@ -1692,7 +2327,14 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 468,
@@ -1711,7 +2353,14 @@
           "speed": 80
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Dusty Bowl",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I"
+        ]
       }
     ],
     "types": [
@@ -1739,7 +2388,24 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den A",
+          "Hammerlocke Hills Max Den C",
+          "Motostoke Riverbank Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den B",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 178,
@@ -1758,7 +2424,22 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den A",
+          "Hammerlocke Hills Max Den C",
+          "Motostoke Riverbank Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Max Den B"
+        ]
       }
     ],
     "types": [
@@ -1787,7 +2468,22 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Seat",
+          "Rolling Fields Max Den B",
+          "South Lake Miloch Main",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       },
       {
         "id": 195,
@@ -1806,7 +2502,21 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Seat",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den B",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       }
     ],
     "types": [
@@ -1836,7 +2546,22 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Seat",
+          "Rolling Fields Max Den B",
+          "South Lake Miloch Main",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       }
     ],
     "types": [
@@ -1866,7 +2591,31 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den G",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell Max Den D",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den A",
+          "Giants Cap Max Den D",
+          "Hammerlocke Hills Max Den F",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -1895,7 +2644,18 @@
           "speed": 5
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Mirror Area 2",
+          "Mine No 2",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L",
+          "Watchtower Ruins"
+        ]
       }
     ],
     "types": [
@@ -1924,7 +2684,27 @@
           "speed": 115
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dusty Bowl",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Mirror Area 2",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den G",
+          "Motostoke Riverbank",
+          "Route 10",
+          "Route 8",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den D",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 461,
@@ -1943,7 +2723,13 @@
           "speed": 125
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Stony Wilderness Max Den D",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -1973,7 +2759,27 @@
           "speed": 115
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dusty Bowl",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Mirror Area 2",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den G",
+          "Motostoke Riverbank",
+          "Route 10",
+          "Route 8",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den D",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -2003,7 +2809,16 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den F",
+          "Dusty Bowl Max Den H",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Rolling Fields Main",
+          "Stony Wilderness Max Den D"
+        ]
       },
       {
         "id": 221,
@@ -2022,7 +2837,16 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den F",
+          "Dusty Bowl Max Den H",
+          "East Lake Axewell",
+          "Lake Of Outrage",
+          "Rolling Fields Main",
+          "Stony Wilderness Max Den D"
+        ]
       },
       {
         "id": 473,
@@ -2041,7 +2865,9 @@
           "speed": 80
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Stony Wilderness Max Den D"
+        ]
       }
     ],
     "types": [
@@ -2069,7 +2895,17 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den E",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 224,
@@ -2087,7 +2923,17 @@
           "speed": 45
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "East Lake Axewell Max Den E",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -2115,7 +2961,28 @@
           "speed": 75
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Route 8",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den D",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       }
     ],
     "types": [
@@ -2143,7 +3010,25 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl Max Den A",
+          "Giants Seat",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den C",
+          "Route 3",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den E",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 106,
@@ -2161,7 +3046,13 @@
           "speed": 87
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Giants Mirror Area 2",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -2189,7 +3080,25 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl Max Den A",
+          "Giants Seat",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den C",
+          "Route 3",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den E",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 107,
@@ -2207,7 +3116,11 @@
           "speed": 76
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -2235,7 +3148,25 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl Max Den A",
+          "Giants Seat",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den C",
+          "Route 3",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den E",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 237,
@@ -2253,7 +3184,12 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Lake Of Outrage",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -2318,7 +3254,16 @@
           "speed": 95
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Lake Of Outrage",
+          "Route 2",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -2345,7 +3290,17 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Route 2",
+          "Stony Wilderness Max Den J",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 274,
@@ -2364,7 +3319,20 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Giants Cap Main",
+          "Giants Seat",
+          "Rolling Fields Main",
+          "Route 5",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 275,
@@ -2383,7 +3351,17 @@
           "speed": 80
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Stony Wilderness Max Den I",
+          "Stony Wilderness Max Den J",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -2411,7 +3389,19 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "South Lake Miloch Main",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 279,
@@ -2430,7 +3420,23 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Dusty Bowl",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den C",
+          "Lake Of Outrage",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Route 9",
+          "South Lake Miloch Main",
+          "West Lake Axewell"
+        ]
       }
     ],
     "types": [
@@ -2459,7 +3465,24 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Dappled Grove",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den I",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den A",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 281,
@@ -2478,7 +3501,15 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den D",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Main",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 282,
@@ -2497,7 +3528,20 @@
           "speed": 80
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Dusty Bowl",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -2527,7 +3571,24 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Dappled Grove",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den I",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den A",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 281,
@@ -2546,7 +3607,15 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den D",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Main",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 475,
@@ -2565,7 +3634,14 @@
           "speed": 80
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den A",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -2595,7 +3671,16 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Bridge Field Max Den H",
+          "Dappled Grove Max Den B",
+          "Rolling Fields Max Den B",
+          "Rolling Fields Max Den F",
+          "Route 5",
+          "South Lake Miloch Main",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 291,
@@ -2614,7 +3699,14 @@
           "speed": 160
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Dappled Grove Max Den B",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den F",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -2644,7 +3736,16 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Bridge Field Max Den H",
+          "Dappled Grove Max Den B",
+          "Rolling Fields Max Den B",
+          "Rolling Fields Max Den F",
+          "Route 5",
+          "South Lake Miloch Main",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 292,
@@ -2663,7 +3764,11 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den I",
+          "Rolling Fields Max Den F",
+          "South Lake Miloch Max Den A"
+        ]
       }
     ],
     "types": [
@@ -2693,7 +3798,18 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den D",
+          "Dusty Bowl",
+          "Giants Mirror Area 2",
+          "Giants Seat Max Den C",
+          "Hammerlocke Hills Max Den B",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Max Den H"
+        ]
       }
     ],
     "types": [
@@ -2721,7 +3837,22 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl",
+          "East Lake Axewell",
+          "Giants Cap Max Den D",
+          "Giants Mirror Area 2",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den B",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "Route 4",
+          "South Lake Miloch Main",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 310,
@@ -2739,7 +3870,14 @@
           "speed": 105
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Giants Cap Main",
+          "Giants Cap Max Den D",
+          "Giants Seat",
+          "Motostoke Riverbank Max Den B",
+          "Rolling Fields Main"
+        ]
       }
     ],
     "types": [
@@ -2766,7 +3904,19 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den E",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 321,
@@ -2784,7 +3934,18 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den E",
+          "Lake Of Outrage Max Den A",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -2811,7 +3972,20 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Cap Max Den B",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Motostoke Riverbank",
+          "Route 6",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       }
     ],
     "types": [
@@ -2838,7 +4012,13 @@
           "speed": 10
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Rolling Fields Max Den D",
+          "Route 6"
+        ]
       },
       {
         "id": 329,
@@ -2857,7 +4037,11 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Rolling Fields Max Den D"
+        ]
       },
       {
         "id": 330,
@@ -2876,7 +4060,13 @@
           "speed": 100
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D"
+        ]
       }
     ],
     "types": [
@@ -2904,7 +4094,12 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Cap Area 2",
+          "Route 8",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -2933,7 +4128,22 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Mine No 2",
+          "Motostoke Main",
+          "North Lake Miloch",
+          "Rolling Fields Max Den B",
+          "Slumbering Weald Deep",
+          "South Lake Miloch Main",
+          "Stony Wilderness Main",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C"
+        ]
       },
       {
         "id": 340,
@@ -2952,7 +4162,16 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den E",
+          "North Lake Miloch",
+          "Rolling Fields Max Den B",
+          "Slumbering Weald Deep",
+          "South Lake Miloch Main",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C"
+        ]
       }
     ],
     "types": [
@@ -2980,7 +4199,18 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den E",
+          "Giants Cap Main",
+          "Giants Mirror Max Den B",
+          "Mine No 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den C",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E"
+        ]
       },
       {
         "id": 342,
@@ -2999,7 +4229,21 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dusty Bowl Max Den E",
+          "Giants Mirror Max Den B",
+          "Giants Seat",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den C",
+          "Stony Wilderness Max Den I",
+          "Turffield",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den D",
+          "West Lake Axewell Max Den E"
+        ]
       }
     ],
     "types": [
@@ -3027,7 +4271,23 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Dappled Grove",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "North Lake Miloch",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "South Lake Miloch Main",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den B",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 344,
@@ -3046,7 +4306,17 @@
           "speed": 75
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Dappled Grove",
+          "Dusty Bowl",
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den B"
+        ]
       }
     ],
     "types": [
@@ -3074,7 +4344,14 @@
           "speed": 80
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den E",
+          "Lake Of Outrage Max Den A",
+          "Route 2",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 350,
@@ -3092,7 +4369,15 @@
           "speed": 81
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den E",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "South Lake Miloch Main",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -3119,7 +4404,19 @@
           "speed": 25
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Giants Cap Main",
+          "Giants Mirror Area 2",
+          "Giants Mirror Max Den A",
+          "Giants Seat",
+          "Motostoke Riverbank",
+          "Route 6",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 356,
@@ -3137,7 +4434,15 @@
           "speed": 25
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den A",
+          "Giants Seat",
+          "Route 8",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 477,
@@ -3155,7 +4460,12 @@
           "speed": 45
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den A",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den F"
+        ]
       }
     ],
     "types": [
@@ -3182,7 +4492,11 @@
           "speed": 23
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Max Den B"
+        ]
       },
       {
         "id": 202,
@@ -3200,7 +4514,18 @@
           "speed": 33
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "Giants Mirror Area 2",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den C",
+          "Route 5",
+          "Stony Wilderness Max Den B"
+        ]
       }
     ],
     "types": [
@@ -3227,7 +4552,23 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den G",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Route 8",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den D",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 362,
@@ -3245,7 +4586,18 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den F",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Route 10",
+          "Route 9",
+          "Stony Wilderness Max Den D",
+          "Watchtower Ruins"
+        ]
       }
     ],
     "types": [
@@ -3273,7 +4625,23 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den G",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Route 8",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den D",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 478,
@@ -3292,7 +4660,10 @@
           "speed": 110
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den G"
+        ]
       }
     ],
     "types": [
@@ -3321,7 +4692,21 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "East Lake Axewell",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den E",
+          "Rolling Fields Main",
+          "Route 4",
+          "Stony Wilderness Max Den J",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 315,
@@ -3340,7 +4725,27 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den A",
+          "Giants Mirror Max Den E",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Rolling Fields Main",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 407,
@@ -3359,7 +4764,11 @@
           "speed": 90
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Hammerlocke Hills"
+        ]
       }
     ],
     "types": [
@@ -3388,7 +4797,12 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den I",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 416,
@@ -3407,7 +4821,11 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den I",
+          "Rolling Fields Main",
+          "South Lake Miloch Max Den A"
+        ]
       }
     ],
     "types": [
@@ -3435,7 +4853,26 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den C",
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den E",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Route 3",
+          "Stony Wilderness Max Den J",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 421,
@@ -3453,7 +4890,13 @@
           "speed": 85
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Giants Mirror Max Den E",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -3480,7 +4923,20 @@
           "speed": 34
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den G",
+          "Dusty Bowl",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage Max Den A",
+          "Mine No 2",
+          "Motostoke Riverbank",
+          "South Lake Miloch Max Den C",
+          "Stony Wilderness Main",
+          "West Lake Axewell Max Den E"
+        ]
       },
       {
         "id": 423,
@@ -3499,7 +4955,23 @@
           "speed": 39
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Bridge Field Max Den G",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Max Den D",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage Max Den A",
+          "Mine No 2",
+          "Rolling Fields Max Den B",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "West Lake Axewell Max Den E"
+        ]
       }
     ],
     "types": [
@@ -3527,7 +4999,16 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "North Lake Miloch",
+          "Route 5",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 426,
@@ -3546,7 +5027,16 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "North Lake Miloch",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den C"
+        ]
       }
     ],
     "types": [
@@ -3575,7 +5065,21 @@
           "speed": 74
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Main",
+          "Giants Cap Max Den A",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Route 3",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 435,
@@ -3594,7 +5098,19 @@
           "speed": 84
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -3623,7 +5139,21 @@
           "speed": 23
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den D",
+          "Giants Seat",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den A",
+          "Hammerlocke Hills Max Den B",
+          "Motostoke Riverbank Max Den C",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den H"
+        ]
       },
       {
         "id": 437,
@@ -3642,7 +5172,23 @@
           "speed": 33
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den D",
+          "East Lake Axewell",
+          "Giants Seat",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den A",
+          "Hammerlocke Hills Max Den B",
+          "Lake Of Outrage",
+          "Route 8",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den H"
+        ]
       }
     ],
     "types": [
@@ -3670,7 +5216,16 @@
           "speed": 10
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 185,
@@ -3688,7 +5243,18 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "Giants Mirror Main",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Hammerlocke Hills",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Max Den L"
+        ]
       }
     ],
     "types": [
@@ -3716,7 +5282,15 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Main",
+          "Stony Wilderness Max Den B"
+        ]
       },
       {
         "id": 122,
@@ -3735,7 +5309,9 @@
           "speed": 90
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Spikemuth"
+        ]
       },
       {
         "id": 866,
@@ -3754,7 +5330,17 @@
           "speed": 70
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den F",
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den A",
+          "Hammerlocke Hills Max Den G",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den D",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -3782,7 +5368,12 @@
           "speed": 5
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den A",
+          "Stony Wilderness Max Den A"
+        ]
       },
       {
         "id": 143,
@@ -3800,7 +5391,14 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Stony Wilderness Max Den A"
+        ]
       }
     ],
     "types": [
@@ -3827,7 +5425,19 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "Stony Wilderness Max Den E"
+        ]
       },
       {
         "id": 448,
@@ -3846,7 +5456,16 @@
           "speed": 90
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Giants Seat Max Den C",
+          "Hammerlocke Hills Max Den B",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -3873,7 +5492,13 @@
           "speed": 32
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Giants Mirror Area 2",
+          "Route 6"
+        ]
       },
       {
         "id": 450,
@@ -3891,7 +5516,13 @@
           "speed": 47
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Giants Mirror Main",
+          "Lake Of Outrage",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -3919,7 +5550,17 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den F",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Route 6"
+        ]
       },
       {
         "id": 452,
@@ -3938,7 +5579,17 @@
           "speed": 95
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -3967,7 +5618,18 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den E",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 226,
@@ -3986,7 +5648,17 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den E",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -4015,7 +5687,25 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills Max Den G",
+          "North Lake Miloch",
+          "Route 10",
+          "Route 8",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 460,
@@ -4034,7 +5724,18 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den F",
+          "Giants Cap Max Den C",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Route 10"
+        ]
       }
     ],
     "types": [
@@ -4063,7 +5764,9 @@
           "speed": 91
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -4091,7 +5794,20 @@
           "speed": 66
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den F",
+          "Dappled Grove",
+          "Dusty Bowl Max Den B",
+          "East Lake Axewell",
+          "Giants Mirror Max Den D",
+          "Motostoke Riverbank",
+          "North Lake Miloch",
+          "Route 2",
+          "Stony Wilderness Max Den I",
+          "Watchtower Ruins",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 510,
@@ -4109,7 +5825,20 @@
           "speed": 106
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Cap Main",
+          "Giants Mirror Max Den D",
+          "Giants Seat",
+          "North Lake Miloch",
+          "Route 7",
+          "Route 9",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -4136,7 +5865,20 @@
           "speed": 24
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Giants Seat",
+          "Rolling Fields Main",
+          "Slumbering Weald Deep",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 518,
@@ -4154,7 +5896,12 @@
           "speed": 29
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Giants Seat",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -4182,7 +5929,20 @@
           "speed": 43
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "East Lake Axewell Max Den C",
+          "Motostoke Riverbank Max Den A",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 520,
@@ -4201,7 +5961,20 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "East Lake Axewell Max Den C",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 521,
@@ -4220,7 +5993,20 @@
           "speed": 93
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "East Lake Axewell Max Den C",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -4248,7 +6034,17 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den I",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Mine",
+          "Motostoke Outskirts",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 525,
@@ -4266,7 +6062,18 @@
           "speed": 20
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den H",
+          "Route 8",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 526,
@@ -4284,7 +6091,14 @@
           "speed": 25
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den I",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Max Den L"
+        ]
       }
     ],
     "types": [
@@ -4312,7 +6126,21 @@
           "speed": 72
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den A",
+          "Mine",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 528,
@@ -4331,7 +6159,17 @@
           "speed": 114
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -4359,7 +6197,17 @@
           "speed": 68
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl",
+          "Giants Cap Main",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Mine",
+          "Rolling Fields Max Den B",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 530,
@@ -4378,7 +6226,13 @@
           "speed": 88
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den B"
+        ]
       }
     ],
     "types": [
@@ -4405,7 +6259,12 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Mine",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       },
       {
         "id": 533,
@@ -4423,7 +6282,14 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Rolling Fields Max Den C",
+          "Route 8",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den E"
+        ]
       },
       {
         "id": 534,
@@ -4441,7 +6307,12 @@
           "speed": 45
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -4468,7 +6339,21 @@
           "speed": 64
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dusty Bowl Max Den E",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "Watchtower Ruins",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       },
       {
         "id": 536,
@@ -4487,7 +6372,31 @@
           "speed": 69
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den A",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Rolling Fields Max Den B",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       },
       {
         "id": 537,
@@ -4506,7 +6415,30 @@
           "speed": 74
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den A",
+          "Dappled Grove",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den E",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Lake Of Outrage",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Rolling Fields Max Den B",
+          "Route 7",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C"
+        ]
       }
     ],
     "types": [
@@ -4533,7 +6465,9 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Circhester"
+        ]
       }
     ],
     "types": [
@@ -4560,7 +6494,16 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den A",
+          "Giants Mirror Main",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -4588,7 +6531,15 @@
           "speed": 66
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Giants Mirror Max Den E",
+          "Hulbury",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 547,
@@ -4607,7 +6558,13 @@
           "speed": 116
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Giants Mirror Max Den E",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -4635,7 +6592,24 @@
           "speed": 98
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den B",
+          "Hulbury",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -4707,7 +6681,16 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den A",
+          "Hammerlocke Hills",
+          "Route 6",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -4735,7 +6718,32 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Dusty Bowl Max Den I",
+          "East Lake Axewell",
+          "Giants Seat",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Hammerlocke Hills",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Rolling Fields Max Den H",
+          "South Lake Miloch Area 2",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den A",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 558,
@@ -4754,7 +6762,18 @@
           "speed": 45
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dusty Bowl Max Den I",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den H",
+          "Route 8",
+          "South Lake Miloch Main",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den L"
+        ]
       }
     ],
     "types": [
@@ -4783,7 +6802,29 @@
           "speed": 48
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den A",
+          "Dusty Bowl Max Den B",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Mirror Area 2",
+          "Mine No 2",
+          "Motostoke Outskirts",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den E",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 560,
@@ -4802,7 +6843,18 @@
           "speed": 58
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den A",
+          "Dusty Bowl Max Den B",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den E",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -4831,7 +6883,21 @@
           "speed": 97
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Dusty Bowl",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den B"
+        ]
       }
     ],
     "types": [
@@ -4859,7 +6925,9 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Ballonlea Gym"
+        ]
       },
       {
         "id": 563,
@@ -4905,7 +6973,9 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Ballonlea Gym"
+        ]
       },
       {
         "id": 867,
@@ -4924,7 +6994,16 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Giants Mirror Max Den A",
+          "Rolling Fields Max Den B",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       }
     ],
     "types": [
@@ -4952,7 +7031,14 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Route 3"
+        ]
       },
       {
         "id": 569,
@@ -4970,7 +7056,16 @@
           "speed": 75
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D"
+        ]
       }
     ],
     "types": [
@@ -4997,7 +7092,14 @@
           "speed": 75
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell",
+          "East Lake Axewell Max Den C",
+          "Giants Cap Main",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den A",
+          "Route 5"
+        ]
       },
       {
         "id": 573,
@@ -5015,7 +7117,11 @@
           "speed": 115
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den C",
+          "Giants Cap Main",
+          "Rolling Fields Max Den A"
+        ]
       }
     ],
     "types": [
@@ -5042,7 +7148,12 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Cap Area 2",
+          "Giants Cap Main",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 575,
@@ -5060,7 +7171,13 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Giants Cap Area 3",
+          "Giants Mirror Area 2",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 576,
@@ -5078,7 +7195,11 @@
           "speed": 65
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Lake Of Outrage",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -5105,7 +7226,28 @@
           "speed": 44
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dappled Grove",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Cap Max Den C",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "North Lake Miloch",
+          "Rolling Fields Area 2",
+          "Rolling Fields Main",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den D",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 583,
@@ -5123,7 +7265,17 @@
           "speed": 59
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den F",
+          "Giants Mirror Area 2",
+          "Hammerlocke Hills Max Den G",
+          "North Lake Miloch",
+          "Route 10",
+          "Route 8"
+        ]
       },
       {
         "id": 584,
@@ -5141,7 +7293,18 @@
           "speed": 79
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den F",
+          "East Lake Axewell",
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Route 10",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den D",
+          "West Lake Axewell"
+        ]
       }
     ],
     "types": [
@@ -5168,7 +7331,20 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Cap Main",
+          "Hammerlocke Hills",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Route 7",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 589,
@@ -5187,7 +7363,15 @@
           "speed": 20
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "South Lake Miloch Max Den A"
+        ]
       }
     ],
     "types": [
@@ -5200,7 +7384,7 @@
     "stages": [
       {
         "id": 592,
-        "name": "frillish",
+        "name": "frillish-male",
         "types": [
           "water",
           "ghost"
@@ -5215,7 +7399,16 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "East Lake Axewell",
+          "Giants Mirror Main",
+          "North Lake Miloch",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 593,
@@ -5234,7 +7427,19 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage",
+          "North Lake Miloch",
+          "Route 9",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den E"
+        ]
       }
     ],
     "types": [
@@ -5263,7 +7468,26 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove",
+          "Dappled Grove Max Den B",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Giants Cap Max Den D",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den F",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den F",
+          "Route 4",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den A",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 596,
@@ -5282,7 +7506,21 @@
           "speed": 108
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Cap Main",
+          "Giants Cap Max Den D",
+          "Giants Seat",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "Rolling Fields Max Den F",
+          "Route 7",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den A"
+        ]
       }
     ],
     "types": [
@@ -5311,7 +7549,25 @@
           "speed": 10
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl Max Den D",
+          "Giants Mirror Max Den E",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "Motostoke Riverbank",
+          "Route 4",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den H",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 598,
@@ -5330,7 +7586,20 @@
           "speed": 20
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den D",
+          "Giants Mirror Max Den E",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Hammerlocke Hills Max Den B",
+          "Stony Wilderness Max Den H",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -5358,7 +7627,21 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove",
+          "Dusty Bowl Max Den D",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den B",
+          "North Lake Miloch",
+          "Route 3",
+          "South Lake Miloch Main",
+          "Stony Wilderness Max Den H",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 600,
@@ -5376,7 +7659,16 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den D",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den B",
+          "Route 10"
+        ]
       },
       {
         "id": 601,
@@ -5394,7 +7686,15 @@
           "speed": 90
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den B",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -5421,7 +7721,12 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Motostoke Riverbank",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 606,
@@ -5439,7 +7744,10 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -5467,7 +7775,17 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Motostoke Gym",
+          "Motostoke Riverbank",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       },
       {
         "id": 608,
@@ -5486,7 +7804,15 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den C",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       },
       {
         "id": 609,
@@ -5505,7 +7831,14 @@
           "speed": 80
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       }
     ],
     "types": [
@@ -5533,7 +7866,13 @@
           "speed": 57
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Axews Eye Max Den A",
+          "Hammerlocke Hills",
+          "Rolling Fields Max Den D",
+          "Route 6"
+        ]
       },
       {
         "id": 611,
@@ -5551,7 +7890,10 @@
           "speed": 67
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Rolling Fields Max Den D"
+        ]
       },
       {
         "id": 612,
@@ -5569,7 +7911,12 @@
           "speed": 97
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Axews Eye Max Den A",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D"
+        ]
       }
     ],
     "types": [
@@ -5596,7 +7943,18 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Route 10",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den D"
+        ]
       },
       {
         "id": 614,
@@ -5614,7 +7972,12 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Giants Cap Main",
+          "Route 10",
+          "Stony Wilderness Max Den D"
+        ]
       }
     ],
     "types": [
@@ -5641,7 +8004,19 @@
           "speed": 25
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Hammerlocke Hills",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Route 7",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 617,
@@ -5716,7 +8091,21 @@
           "speed": 35
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dappled Grove",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Seat",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den B",
+          "Route 8",
+          "Stony Wilderness Main",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 623,
@@ -5735,7 +8124,18 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Dusty Bowl Max Den I",
+          "Giants Seat",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den B",
+          "Stony Wilderness Main",
+          "Watchtower Ruins"
+        ]
       }
     ],
     "types": [
@@ -5764,7 +8164,23 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den D",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank",
+          "Route 8",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den H",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 625,
@@ -5783,7 +8199,19 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Mirror Max Den D",
+          "Giants Seat",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "Lake Of Outrage",
+          "Stony Wilderness Max Den H",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -5812,7 +8240,15 @@
           "speed": 60
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Route 8",
+          "Stony Wilderness Area 2"
+        ]
       },
       {
         "id": 628,
@@ -5831,7 +8267,19 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "Dusty Bowl",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "East Lake Axewell Max Den C",
+          "Lake Of Outrage",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den G",
+          "Stony Wilderness Max Den A"
+        ]
       }
     ],
     "types": [
@@ -5859,7 +8307,17 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den C",
+          "Route 6",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       }
     ],
     "types": [
@@ -5887,7 +8345,17 @@
           "speed": 109
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Dappled Grove Max Den B",
+          "Giants Mirror Main",
+          "Giants Seat Max Den C",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills Max Den B",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den F",
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -5916,7 +8384,12 @@
           "speed": 38
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Lake Of Outrage"
+        ]
       },
       {
         "id": 634,
@@ -5935,7 +8408,12 @@
           "speed": 58
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Lake Of Outrage"
+        ]
       },
       {
         "id": 635,
@@ -5954,7 +8432,13 @@
           "speed": 98
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -5982,7 +8466,19 @@
           "speed": 57
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "Dappled Grove",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den C",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Motostoke Riverbank Max Den A",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den A",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 660,
@@ -6001,7 +8497,23 @@
           "speed": 78
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den A",
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Motostoke Riverbank Max Den A",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den B",
+          "Stony Wilderness Max Den A",
+          "West Lake Axewell"
+        ]
       }
     ],
     "types": [
@@ -6028,7 +8540,15 @@
           "speed": 43
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "East Lake Axewell",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Area 2",
+          "Route 3",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 675,
@@ -6047,7 +8567,20 @@
           "speed": 58
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dappled Grove",
+          "Dusty Bowl Max Den A",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Lake Of Outrage",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Main",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -6074,7 +8607,13 @@
           "speed": 68
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Hammerlocke Hills",
+          "Motostoke Riverbank",
+          "Route 5",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 678,
@@ -6092,7 +8631,12 @@
           "speed": 104
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Route 7",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -6120,7 +8664,13 @@
           "speed": 28
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Seat Max Den D",
+          "Hammerlocke Hills",
+          "Stony Wilderness Max Den H",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 680,
@@ -6139,7 +8689,11 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Main",
+          "Lake Of Outrage",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 681,
@@ -6158,7 +8712,10 @@
           "speed": 60
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Giants Cap Main",
+          "Watchtower Ruins Max Den C"
+        ]
       }
     ],
     "types": [
@@ -6186,7 +8743,16 @@
           "speed": 49
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Giants Mirror Main",
+          "Glimwood Tangle",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I",
+          "Route 5",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 685,
@@ -6204,7 +8770,12 @@
           "speed": 72
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I"
+        ]
       }
     ],
     "types": [
@@ -6232,7 +8803,22 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den D",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "Route 7",
+          "Route 9",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den I",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 687,
@@ -6251,7 +8837,16 @@
           "speed": 73
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den D",
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den I",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -6280,7 +8875,22 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den I",
+          "Giants Mirror Max Den B",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Mine No 2",
+          "Motostoke Riverbank",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Rolling Fields Max Den H",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "Stony Wilderness Max Den L",
+          "West Lake Axewell Max Den E"
+        ]
       },
       {
         "id": 689,
@@ -6299,7 +8909,18 @@
           "speed": 68
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den I",
+          "Giants Mirror Max Den B",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den H",
+          "Route 9",
+          "Stony Wilderness Max Den L",
+          "West Lake Axewell Max Den E"
+        ]
       }
     ],
     "types": [
@@ -6328,7 +8949,15 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den C",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den C",
+          "Hammerlocke Hills Max Den F",
+          "Lake Of Outrage Max Den B",
+          "Rolling Fields Max Den A",
+          "Route 6"
+        ]
       },
       {
         "id": 695,
@@ -6347,7 +8976,12 @@
           "speed": 109
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den C",
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage Max Den B",
+          "Rolling Fields Max Den A"
+        ]
       }
     ],
     "types": [
@@ -6376,7 +9010,18 @@
           "speed": 118
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den C",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Route 6",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -6405,7 +9050,13 @@
           "speed": 38
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den A",
+          "Glimwood Tangle",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 709,
@@ -6424,7 +9075,12 @@
           "speed": 56
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den A",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       }
     ],
     "types": [
@@ -6453,7 +9109,16 @@
           "speed": 51
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den E",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den A",
+          "Hammerlocke Hills",
+          "Route 4",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 711,
@@ -6472,7 +9137,14 @@
           "speed": 84
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den A",
+          "Hammerlocke Hills",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       }
     ],
     "types": [
@@ -6500,7 +9172,14 @@
           "speed": 28
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den F",
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Route 9",
+          "Stony Wilderness Max Den D"
+        ]
       },
       {
         "id": 713,
@@ -6518,7 +9197,13 @@
           "speed": 28
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den F",
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Stony Wilderness Max Den D"
+        ]
       }
     ],
     "types": [
@@ -6546,7 +9231,15 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Bridge Field",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "Mine No 2",
+          "Rolling Fields Max Den D",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 715,
@@ -6565,7 +9258,11 @@
           "speed": 123
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Bridge Field",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -6593,7 +9290,17 @@
           "speed": 46
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Dappled Grove",
+          "Dappled Grove Max Den B",
+          "East Lake Axewell",
+          "North Lake Miloch",
+          "Rolling Fields Max Den F",
+          "Route 1",
+          "Slumbering Weald Main",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 737,
@@ -6612,7 +9319,16 @@
           "speed": 36
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field Max Den H",
+          "Dappled Grove Max Den B",
+          "Dusty Bowl",
+          "Giants Cap Max Den D",
+          "Hammerlocke Hills",
+          "Motostoke Riverbank Max Den B",
+          "Rolling Fields Max Den F"
+        ]
       },
       {
         "id": 738,
@@ -6631,7 +9347,16 @@
           "speed": 43
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den H",
+          "Dappled Grove Max Den B",
+          "Giants Cap Max Den D",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den C",
+          "Giants Seat",
+          "Motostoke Riverbank Max Den B",
+          "Rolling Fields Max Den F"
+        ]
       }
     ],
     "types": [
@@ -6659,7 +9384,16 @@
           "speed": 84
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den I",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den E",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den I",
+          "Route 4",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 743,
@@ -6678,7 +9412,15 @@
           "speed": 124
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den I",
+          "Hammerlocke Hills Max Den E",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den I",
+          "South Lake Miloch Max Den A",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -6706,7 +9448,26 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field Max Den G",
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Hulbury",
+          "Lake Of Outrage Max Den A",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -6734,7 +9495,28 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den D",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den A",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 748,
@@ -6753,7 +9535,26 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den D",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den A",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -6781,7 +9582,19 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den A",
+          "Dappled Grove",
+          "East Lake Axewell",
+          "Giants Cap Main",
+          "Giants Seat",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den B",
+          "Route 3",
+          "South Lake Miloch Main",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 750,
@@ -6799,7 +9612,15 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field Max Den A",
+          "Dusty Bowl",
+          "East Lake Axewell",
+          "Giants Seat",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den B"
+        ]
       }
     ],
     "types": [
@@ -6827,7 +9648,26 @@
           "speed": 27
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Dusty Bowl Max Den E",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Route 5",
+          "South Lake Miloch Max Den A",
+          "South Lake Miloch Max Den C",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C"
+        ]
       },
       {
         "id": 752,
@@ -6846,7 +9686,23 @@
           "speed": 42
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Dusty Bowl Max Den E",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "South Lake Miloch Max Den A",
+          "South Lake Miloch Max Den C",
+          "Stony Wilderness Main",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den C"
+        ]
       }
     ],
     "types": [
@@ -6875,7 +9731,19 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Bridge Field Max Den D",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den E",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den A",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den E",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 756,
@@ -6894,7 +9762,19 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Bridge Field Max Den D",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den A",
+          "Glimwood Tangle",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -6923,7 +9803,16 @@
           "speed": 77
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       },
       {
         "id": 758,
@@ -6942,7 +9831,14 @@
           "speed": 117
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       }
     ],
     "types": [
@@ -6971,7 +9867,22 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dappled Grove",
+          "Dusty Bowl Max Den A",
+          "East Lake Axewell",
+          "East Lake Axewell Max Den C",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "North Lake Miloch",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den C",
+          "Route 5",
+          "Stony Wilderness Max Den E"
+        ]
       },
       {
         "id": 760,
@@ -6990,7 +9901,20 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Dappled Grove",
+          "Dusty Bowl Max Den A",
+          "East Lake Axewell Max Den C",
+          "Giants Seat",
+          "Lake Of Outrage",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den A",
+          "Rolling Fields Max Den C",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -7018,7 +9942,18 @@
           "speed": 32
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dappled Grove",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "East Lake Axewell",
+          "Giants Mirror Max Den E",
+          "Rolling Fields Main",
+          "Stony Wilderness Area 3",
+          "Watchtower Ruins",
+          "West Lake Axewell"
+        ]
       },
       {
         "id": 762,
@@ -7036,7 +9971,13 @@
           "speed": 62
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Giants Mirror Max Den E"
+        ]
       },
       {
         "id": 763,
@@ -7054,7 +9995,13 @@
           "speed": 72
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Giants Mirror Max Den E",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -7081,7 +10028,13 @@
           "speed": 80
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Glimwood Tangle",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C"
+        ]
       }
     ],
     "types": [
@@ -7109,7 +10062,20 @@
           "speed": 80
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Mine No 2",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "South Lake Miloch Max Den A"
+        ]
       },
       {
         "id": 768,
@@ -7128,7 +10094,18 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Cap Main",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "South Lake Miloch Max Den A"
+        ]
       }
     ],
     "types": [
@@ -7156,7 +10133,27 @@
           "speed": 5
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den B",
+          "Giants Seat",
+          "Lake Of Outrage Max Den A",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 9",
+          "South Lake Miloch Main",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       }
     ],
     "types": [
@@ -7184,7 +10181,15 @@
           "speed": 36
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Dusty Bowl Max Den G",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G"
+        ]
       }
     ],
     "types": [
@@ -7213,7 +10218,16 @@
           "speed": 96
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den C",
+          "Giants Seat Max Den C",
+          "Hammerlocke Hills Max Den B",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "Route 8",
+          "Stony Wilderness Max Den H"
+        ]
       }
     ],
     "types": [
@@ -7242,7 +10256,12 @@
           "speed": 96
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Giants Mirror Main",
+          "Hammerlocke Hills Max Den E",
+          "Rolling Fields Max Den I"
+        ]
       }
     ],
     "types": [
@@ -7271,7 +10290,15 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den A",
+          "Route 9",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -7299,7 +10326,11 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D"
+        ]
       },
       {
         "id": 783,
@@ -7318,7 +10349,11 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D"
+        ]
       },
       {
         "id": 784,
@@ -7337,7 +10372,11 @@
           "speed": 85
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Dusty Bowl",
+          "Rolling Fields Max Den D"
+        ]
       }
     ],
     "types": [
@@ -7364,7 +10403,9 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Postwick"
+        ]
       },
       {
         "id": 811,
@@ -7427,7 +10468,9 @@
           "speed": 69
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Postwick"
+        ]
       },
       {
         "id": 814,
@@ -7490,7 +10533,9 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Postwick"
+        ]
       },
       {
         "id": 817,
@@ -7553,7 +10598,25 @@
           "speed": 25
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "Dappled Grove",
+          "East Lake Axewell Max Den C",
+          "Motostoke Pokémon Center",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den A",
+          "North Lake Miloch",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den A",
+          "Route 1",
+          "Route 2",
+          "Route 3",
+          "Route 4",
+          "Route 5",
+          "Slumbering Weald Main",
+          "Stony Wilderness Max Den A",
+          "Watchtower Ruins"
+        ]
       },
       {
         "id": 820,
@@ -7571,7 +10634,22 @@
           "speed": 20
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Bridge Field Max Den E",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Seat",
+          "Hammerlocke Hills",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den A",
+          "Route 6",
+          "Route 7",
+          "Route 9",
+          "Stony Wilderness Max Den A"
+        ]
       }
     ],
     "types": [
@@ -7598,7 +10676,17 @@
           "speed": 57
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "Motostoke Riverbank",
+          "Route 1",
+          "Route 2",
+          "Route 3",
+          "Slumbering Weald Main"
+        ]
       },
       {
         "id": 822,
@@ -7616,7 +10704,16 @@
           "speed": 77
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Max Den E",
+          "Giants Mirror Main",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den C",
+          "Motostoke Riverbank",
+          "Route 3"
+        ]
       },
       {
         "id": 823,
@@ -7635,7 +10732,22 @@
           "speed": 67
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "East Lake Axewell Max Den A",
+          "East Lake Axewell Max Den B",
+          "Giants Cap Main",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den C",
+          "Lake Of Outrage",
+          "Motostoke Riverbank",
+          "North Lake Miloch",
+          "Route 7",
+          "Slumbering Weald Deep",
+          "Watchtower Ruins",
+          "Wild Area Max Dens"
+        ]
       }
     ],
     "types": [
@@ -7662,7 +10774,22 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Route 1",
+          "Route 2",
+          "Slumbering Weald Main",
+          "South Lake Miloch Max Den A",
+          "Wild Area Max Dens"
+        ]
       },
       {
         "id": 825,
@@ -7681,7 +10808,21 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Cap Area 2",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Route 5",
+          "South Lake Miloch Max Den A",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 826,
@@ -7700,7 +10841,20 @@
           "speed": 90
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den H",
+          "Bridge Field Max Den I",
+          "Dappled Grove Max Den B",
+          "Giants Cap Main",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den E",
+          "Rolling Fields Max Den F",
+          "Rolling Fields Max Den G",
+          "Slumbering Weald Deep",
+          "South Lake Miloch Max Den A",
+          "Wild Area Max Dens"
+        ]
       }
     ],
     "types": [
@@ -7727,7 +10881,21 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den F",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Area 2",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den D",
+          "Route 1",
+          "Route 2",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       },
       {
         "id": 828,
@@ -7745,7 +10913,19 @@
           "speed": 90
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Hammerlocke Hills",
+          "Route 7",
+          "Route 9",
+          "South Lake Miloch Main",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den I",
+          "West Lake Axewell Max Den D"
+        ]
       }
     ],
     "types": [
@@ -7772,7 +10952,18 @@
           "speed": 10
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Giants Mirror Max Den E",
+          "Motostoke Riverbank",
+          "Route 2",
+          "Route 3",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 830,
@@ -7790,7 +10981,20 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den A",
+          "Dappled Grove Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl",
+          "Giants Cap Main",
+          "Giants Mirror Max Den E",
+          "Motostoke Riverbank",
+          "Route 5",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -7817,7 +11021,17 @@
           "speed": 48
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Max Den A",
+          "Route 1",
+          "Route 4",
+          "Stony Wilderness Max Den A",
+          "Wild Area Max Dens"
+        ]
       },
       {
         "id": 832,
@@ -7835,7 +11049,18 @@
           "speed": 88
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den E",
+          "Dusty Bowl",
+          "East Lake Axewell Max Den C",
+          "Hammerlocke Hills",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den A",
+          "Rolling Fields Main",
+          "Rolling Fields Max Den A",
+          "Stony Wilderness Max Den A",
+          "Wild Area Max Dens"
+        ]
       }
     ],
     "types": [
@@ -7862,7 +11087,32 @@
           "speed": 44
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "Dusty Bowl Max Den E",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Max Den D",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den B",
+          "Hulbury",
+          "Lake Of Outrage Max Den A",
+          "Mine No 2",
+          "Motostoke Main",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank",
+          "Route 2",
+          "Route 4",
+          "Route 5",
+          "South Lake Miloch Max Den C",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F",
+          "Wild Area Max Dens"
+        ]
       },
       {
         "id": 834,
@@ -7881,7 +11131,26 @@
           "speed": 74
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den G",
+          "Dusty Bowl",
+          "Dusty Bowl Max Den E",
+          "Giants Cap Main",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den B",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "Mine No 2",
+          "Route 2",
+          "Route 6",
+          "South Lake Miloch Max Den C",
+          "West Lake Axewell",
+          "West Lake Axewell Max Den A",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den C",
+          "West Lake Axewell Max Den E"
+        ]
       }
     ],
     "types": [
@@ -7908,7 +11177,17 @@
           "speed": 26
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Mirror Main",
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den B",
+          "Route 2",
+          "Route 4",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 836,
@@ -7926,7 +11205,15 @@
           "speed": 121
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den B",
+          "North Lake Miloch"
+        ]
       }
     ],
     "types": [
@@ -7953,7 +11240,19 @@
           "speed": 30
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den I",
+          "Giants Cap Area 2",
+          "Giants Cap Area 3",
+          "Giants Cap Main",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Mine",
+          "Motostoke Riverbank",
+          "Rolling Fields Max Den H",
+          "Route 3",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 838,
@@ -7972,7 +11271,21 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den G",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Cap Max Den B",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Mine",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G",
+          "Stony Wilderness Max Den L"
+        ]
       },
       {
         "id": 839,
@@ -7991,7 +11304,19 @@
           "speed": 30
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den G",
+          "Dusty Bowl Max Den I",
+          "Giants Cap Main",
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den H",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G",
+          "Stony Wilderness Max Den L"
+        ]
       }
     ],
     "types": [
@@ -8019,7 +11344,19 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den E",
+          "Rolling Fields Max Den D",
+          "Route 5",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den J"
+        ]
       },
       {
         "id": 841,
@@ -8038,7 +11375,13 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den D",
+          "Giants Mirror Max Den E",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -8068,7 +11411,19 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den E",
+          "Rolling Fields Max Den D",
+          "Route 5",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -8098,7 +11453,19 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Bridge Field Max Den C",
+          "Dappled Grove Max Den D",
+          "Dappled Grove Max Den E",
+          "Dusty Bowl",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den E",
+          "Rolling Fields Max Den D",
+          "Route 5",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den J"
+        ]
       }
     ],
     "types": [
@@ -8127,7 +11494,11 @@
           "speed": 46
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Route 6"
+        ]
       },
       {
         "id": 844,
@@ -8145,7 +11516,13 @@
           "speed": 71
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl",
+          "Dusty Bowl Max Den C",
+          "Dusty Bowl Max Den H",
+          "Lake Of Outrage",
+          "Route 8"
+        ]
       }
     ],
     "types": [
@@ -8173,7 +11550,16 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye",
+          "Bridge Field",
+          "Giants Cap Max Den E",
+          "Hammerlocke Hills Max Den C",
+          "Lake Of Outrage",
+          "Route 9",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -8201,7 +11587,24 @@
           "speed": 66
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "East Lake Axewell Max Den E",
+          "Giants Cap Max Den D",
+          "Giants Mirror Max Den B",
+          "Hulbury",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 2",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E",
+          "West Lake Axewell Max Den B",
+          "West Lake Axewell Max Den E",
+          "West Lake Axewell Max Den F"
+        ]
       },
       {
         "id": 847,
@@ -8219,7 +11622,19 @@
           "speed": 136
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den G",
+          "Dusty Bowl",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den A",
+          "Motostoke Riverbank",
+          "North Lake Miloch Max Den E",
+          "North Lake Miloch Max Den F",
+          "Route 2",
+          "South Lake Miloch Max Den C",
+          "South Lake Miloch Max Den D",
+          "South Lake Miloch Max Den E"
+        ]
       }
     ],
     "types": [
@@ -8247,7 +11662,26 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "East Lake Axewell Max Den D",
+          "Giants Cap Main",
+          "Giants Cap Max Den A",
+          "Giants Mirror Max Den C",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den F",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank",
+          "Motostoke Riverbank Max Den B",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D",
+          "Route 5",
+          "Route 7",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 849,
@@ -8266,7 +11700,17 @@
           "speed": 75
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "East Lake Axewell Max Den D",
+          "Giants Cap Max Den A",
+          "Giants Mirror Max Den C",
+          "Hammerlocke Hills Max Den F",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "Motostoke Riverbank Max Den D",
+          "North Lake Miloch Max Den C",
+          "North Lake Miloch Max Den D"
+        ]
       }
     ],
     "types": [
@@ -8295,7 +11739,17 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Motostoke Gym",
+          "Route 3",
+          "Stony Wilderness Max Den C",
+          "Stony Wilderness Max Den G",
+          "Wild Area Max Dens"
+        ]
       },
       {
         "id": 851,
@@ -8314,7 +11768,13 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den G",
+          "Giants Cap Max Den B",
+          "Hammerlocke Hills Max Den D",
+          "Lake Of Outrage Max Den C",
+          "Stony Wilderness Max Den C"
+        ]
       }
     ],
     "types": [
@@ -8342,7 +11802,12 @@
           "speed": 32
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Route 9"
+        ]
       },
       {
         "id": 853,
@@ -8360,7 +11825,14 @@
           "speed": 42
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Lake Of Outrage",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Route 9",
+          "West Lake Axewell"
+        ]
       }
     ],
     "types": [
@@ -8387,7 +11859,13 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den A",
+          "Glimwood Tangle",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       },
       {
         "id": 855,
@@ -8405,7 +11883,12 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den A",
+          "South Lake Miloch Max Den B",
+          "Stony Wilderness Max Den F",
+          "Watchtower Ruins Max Den C"
+        ]
       }
     ],
     "types": [
@@ -8432,7 +11915,20 @@
           "speed": 39
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Outskirts",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Area 2",
+          "Stony Wilderness Area 3",
+          "Stony Wilderness Main",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Stow On Side",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 857,
@@ -8450,7 +11946,16 @@
           "speed": 49
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Dusty Bowl",
+          "Glimwood Tangle",
+          "Hammerlocke Hills Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       },
       {
         "id": 858,
@@ -8469,7 +11974,15 @@
           "speed": 29
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank Max Den C",
+          "Stony Wilderness Max Den B",
+          "Stony Wilderness Max Den K",
+          "Watchtower Ruins Max Den A"
+        ]
       }
     ],
     "types": [
@@ -8497,7 +12010,21 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Main",
+          "Giants Mirror Max Den D",
+          "Glimwood Tangle",
+          "Hammerlocke Hills",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Motostoke Outskirts",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Main"
+        ]
       },
       {
         "id": 860,
@@ -8516,7 +12043,17 @@
           "speed": 70
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Glimwood Tangle",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I"
+        ]
       },
       {
         "id": 861,
@@ -8535,7 +12072,18 @@
           "speed": 60
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Bridge Field Max Den F",
+          "Dusty Bowl Max Den B",
+          "Giants Mirror Max Den D",
+          "Hammerlocke Hills Max Den E",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den D",
+          "Rolling Fields Max Den I",
+          "Stony Wilderness Main"
+        ]
       }
     ],
     "types": [
@@ -8563,7 +12111,14 @@
           "speed": 34
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den D",
+          "Giants Mirror Main",
+          "Lake Of Outrage Max Den D",
+          "Route 4"
+        ]
       },
       {
         "id": 869,
@@ -8581,7 +12136,10 @@
           "speed": 64
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den D",
+          "Lake Of Outrage Max Den D"
+        ]
       }
     ],
     "types": [
@@ -8608,7 +12166,15 @@
           "speed": 75
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den A",
+          "Lake Of Outrage",
+          "North Lake Miloch Max Den A",
+          "North Lake Miloch Max Den B",
+          "Rolling Fields Max Den C",
+          "Route 8",
+          "Stony Wilderness Max Den E"
+        ]
       }
     ],
     "types": [
@@ -8635,7 +12201,12 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -8663,7 +12234,14 @@
           "speed": 20
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den G",
+          "Lake Of Outrage",
+          "Route 10",
+          "Route 8",
+          "Stony Wilderness Max Den D"
+        ]
       },
       {
         "id": 873,
@@ -8682,7 +12260,11 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Giants Cap Max Den C",
+          "Hammerlocke Hills Max Den G",
+          "Stony Wilderness Max Den D"
+        ]
       }
     ],
     "types": [
@@ -8710,7 +12292,14 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Seat Max Den A",
+          "Giants Seat Max Den B",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den H",
+          "Route 10",
+          "Stony Wilderness Max Den L"
+        ]
       }
     ],
     "types": [
@@ -8738,7 +12327,19 @@
           "speed": 95
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field Max Den B",
+          "Bridge Field Max Den E",
+          "East Lake Axewell Max Den C",
+          "Glimwood Tangle",
+          "Hammerlocke Hills Max Den A",
+          "Lake Of Outrage",
+          "Motostoke Riverbank Max Den A",
+          "Motostoke Riverbank Max Den C",
+          "Rolling Fields Max Den A",
+          "Stony Wilderness Max Den A",
+          "Stony Wilderness Max Den B"
+        ]
       }
     ],
     "types": [
@@ -8767,7 +12368,14 @@
           "speed": 97
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Giants Mirror Max Den C",
+          "Lake Of Outrage",
+          "Lake Of Outrage Max Den B",
+          "Motostoke Riverbank Max Den B",
+          "Route 7",
+          "Route 9"
+        ]
       }
     ],
     "types": [
@@ -8795,7 +12403,12 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Bridge Field",
+          "Dusty Bowl Max Den D",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E"
+        ]
       },
       {
         "id": 879,
@@ -8813,7 +12426,13 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Seat Max Den D",
+          "Giants Seat Max Den E",
+          "Hammerlocke Hills",
+          "Lake Of Outrage"
+        ]
       }
     ],
     "types": [
@@ -8841,7 +12460,9 @@
           "speed": 75
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -8870,7 +12491,9 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -8899,7 +12522,9 @@
           "speed": 75
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -8928,7 +12553,9 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -8957,7 +12584,15 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Dusty Bowl Max Den D",
+          "Giants Seat",
+          "Giants Seat Max Den D",
+          "Lake Of Outrage",
+          "Route 10",
+          "Stony Wilderness Max Den H",
+          "Wyndon"
+        ]
       }
     ],
     "types": [
@@ -8986,7 +12621,11 @@
           "speed": 82
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D"
+        ]
       },
       {
         "id": 886,
@@ -9005,7 +12644,11 @@
           "speed": 102
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Lake Of Outrage",
+          "Rolling Fields Max Den D"
+        ]
       },
       {
         "id": 887,
@@ -9024,7 +12667,10 @@
           "speed": 142
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Axews Eye Max Den A",
+          "Rolling Fields Max Den D"
+        ]
       }
     ],
     "types": [

@@ -688,7 +688,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Goldenrod City Game Corner"
+        ]
       },
       {
         "id": 28,
@@ -1655,6 +1657,7 @@
         },
         "stage": 0,
         "locations": [
+          "Goldenrod City Game Corner",
           "Route 24",
           "Route 25",
           "Route 34",
@@ -1728,6 +1731,7 @@
         },
         "stage": 0,
         "locations": [
+          "Goldenrod City Department Store",
           "Mt. Mortar",
           "Mt. Mortar Lower Cave",
           "Mt. Mortar Upper Cave",
@@ -2080,6 +2084,7 @@
         "stage": 1,
         "locations": [
           "Mt. Silver Outside",
+          "Pewter City",
           "Route 28"
         ]
       }
@@ -2595,7 +2600,8 @@
           "Mt. Silver Top",
           "Rock Tunnel",
           "Union Cave",
-          "Victory Road 1"
+          "Victory Road 1",
+          "Violet City Southwest House"
         ]
       },
       {
@@ -2759,6 +2765,7 @@
         },
         "stage": 0,
         "locations": [
+          "Olivine City",
           "Route 10",
           "Team Rocket Hq"
         ]
@@ -3016,7 +3023,9 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Blackthorn City"
+        ]
       }
     ],
     "types": [
@@ -3355,6 +3364,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Sea Route 21"
         ]
       }
@@ -3684,6 +3694,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3732,6 +3743,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3780,6 +3792,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3828,6 +3841,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3876,6 +3890,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       },
@@ -3924,6 +3939,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       }
@@ -3954,6 +3970,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       }
@@ -3984,6 +4001,7 @@
         },
         "stage": 0,
         "locations": [
+          "Celadon City Prize Corner",
           "Goldenrod City Bills House"
         ]
       }
@@ -4013,7 +4031,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Celadon City Prize Corner"
+        ]
       },
       {
         "id": 233,
@@ -4155,7 +4175,9 @@
           "speed": 130
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 14"
+        ]
       }
     ],
     "types": [
@@ -4214,6 +4236,7 @@
         "stage": 0,
         "locations": [
           "Dragons Den",
+          "Goldenrod City Game Corner",
           "Route 45"
         ]
       },

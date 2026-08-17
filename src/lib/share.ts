@@ -59,6 +59,7 @@ export const SHARE_GAME_INDEX: Record<string, number> = {
   "legends-arceus": 34,
   "scarlet": 35,
   "violet": 36,
+  "legends-za": 37,
 };
 
 // ⚠️ APPEND-ONLY — must stay in sync with SHARE_GAME_INDEX
@@ -100,6 +101,7 @@ export const SHARE_INDEX_TO_GAME: string[] = [
   "legends-arceus",
   "scarlet",
   "violet",
+  "legends-za",
 ];
 
 // ---------------------------------------------------------------------------

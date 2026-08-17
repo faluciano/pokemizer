@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest an idea or improvement for Pokemizer
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature or improvement.
+      placeholder: e.g. A monotype challenge mode, support for a missing game, a way to reroll my starter...
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would this be useful?
+      description: How would you use it? What problem does it solve for you?
+    validations:
+      required: false
+  - type: input
+    id: game
+    attributes:
+      label: Which game(s) does this apply to?
+      placeholder: e.g. All games, Omega Ruby, Legends Z-A
+    validations:
+      required: false

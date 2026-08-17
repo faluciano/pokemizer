@@ -125,7 +125,8 @@
         },
         "stage": 0,
         "locations": [
-          "Abundant Shrine"
+          "Abundant Shrine",
+          "Abundant Shrine Hidden Grotto Near Youngster"
         ]
       },
       {
@@ -271,6 +272,7 @@
         "stage": 1,
         "locations": [
           "Abundant Shrine",
+          "Abundant Shrine Hidden Grotto Shrine",
           "Nature Sanctuary",
           "Route 11",
           "Route 14",
@@ -720,6 +722,7 @@
         "stage": 1,
         "locations": [
           "Giant Chasm Outside",
+          "Humilau City",
           "Route 13"
         ]
       }
@@ -835,7 +838,8 @@
         "stage": 0,
         "locations": [
           "Giant Chasm Forest",
-          "Giant Chasm Forest Cave"
+          "Giant Chasm Forest Cave",
+          "Giant Chasm Hidden Grotto"
         ]
       }
     ],
@@ -1251,6 +1255,7 @@
           "Giant Chasm",
           "Giant Chasm Forest",
           "Giant Chasm Forest Cave",
+          "Giant Chasm Hidden Grotto",
           "Giant Chasm Outside"
         ]
       },
@@ -1544,6 +1549,7 @@
         "stage": 0,
         "locations": [
           "Dreamyard",
+          "Floccesy Ranch Hidden Grotto",
           "Floccesy Ranch Inner",
           "Nature Sanctuary",
           "Route 1",
@@ -1673,6 +1679,7 @@
         "stage": 0,
         "locations": [
           "Lostlorn Forest",
+          "Lostlorn Forest Hidden Grotto",
           "Route 12"
         ]
       }
@@ -1704,7 +1711,8 @@
         },
         "stage": 0,
         "locations": [
-          "Giant Chasm"
+          "Giant Chasm",
+          "Giant Chasm Hidden Grotto"
         ]
       },
       {
@@ -1755,7 +1763,8 @@
         },
         "stage": 0,
         "locations": [
-          "Giant Chasm"
+          "Giant Chasm",
+          "Giant Chasm Hidden Grotto"
         ]
       }
     ],
@@ -2317,6 +2326,7 @@
         "stage": 1,
         "locations": [
           "Abundant Shrine",
+          "Floccesy Ranch Hidden Grotto",
           "Floccesy Ranch Inner",
           "Floccesy Ranch Outer",
           "Pinwheel Forest Inside",
@@ -2396,6 +2406,7 @@
           "Glacier Room",
           "Iron Room",
           "Rocky Mountain Room",
+          "Route 6",
           "Underground Ruins"
         ]
       },
@@ -2714,6 +2725,7 @@
         "stage": 0,
         "locations": [
           "Abundant Shrine",
+          "Abundant Shrine Hidden Grotto Shrine",
           "Route 14"
         ]
       },
@@ -2770,6 +2782,7 @@
         "stage": 0,
         "locations": [
           "Route 11",
+          "Route 23",
           "Route 7",
           "Village Bridge"
         ]
@@ -2801,6 +2814,7 @@
         "stage": 0,
         "locations": [
           "Route 11",
+          "Route 23",
           "Route 7",
           "Village Bridge"
         ]
@@ -3115,7 +3129,8 @@
         "stage": 0,
         "locations": [
           "Route 13",
-          "Route 14"
+          "Route 14",
+          "Route 23"
         ]
       }
     ],
@@ -3145,6 +3160,7 @@
         },
         "stage": 0,
         "locations": [
+          "Route 13",
           "Undella Bay"
         ]
       },
@@ -3238,7 +3254,8 @@
         "stage": 1,
         "locations": [
           "Giant Chasm Forest",
-          "Giant Chasm Forest Cave"
+          "Giant Chasm Forest Cave",
+          "Giant Chasm Hidden Grotto"
         ]
       },
       {
@@ -3367,6 +3384,7 @@
         "stage": 0,
         "locations": [
           "Lostlorn Forest",
+          "Lostlorn Forest Hidden Grotto",
           "Route 12"
         ]
       },
@@ -3480,7 +3498,9 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 13"
+        ]
       },
       {
         "id": 426,
@@ -3582,7 +3602,8 @@
         },
         "stage": 0,
         "locations": [
-          "Abundant Shrine"
+          "Abundant Shrine",
+          "Abundant Shrine Hidden Grotto Near Youngster"
         ]
       },
       {
@@ -3694,7 +3715,8 @@
           "Reversal Mountain Unknown Area 57",
           "Reversal Mountain Unknown Area 58",
           "Reversal Mountain Unknown Area 59",
-          "Reversal Mountain Unknown Area 60"
+          "Reversal Mountain Unknown Area 60",
+          "Route 13"
         ]
       },
       {
@@ -4156,6 +4178,7 @@
         },
         "stage": 1,
         "locations": [
+          "Floccesy Ranch Hidden Grotto",
           "P2 Laboratory",
           "Route 1",
           "Route 2",
@@ -4663,7 +4686,9 @@
           "speed": 25
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Route 7"
+        ]
       }
     ],
     "types": [
@@ -4713,6 +4738,7 @@
           "Reversal Mountain Unknown Area 59",
           "Reversal Mountain Unknown Area 60",
           "Rocky Mountain Room",
+          "Route 6",
           "Seaside Cave",
           "Twist Mountain B1F",
           "Underground Ruins",
@@ -5171,6 +5197,7 @@
         "stage": 2,
         "locations": [
           "Lostlorn Forest",
+          "Lostlorn Forest Hidden Grotto",
           "Route 12",
           "Route 6"
         ]
@@ -5771,7 +5798,9 @@
           "speed": 22
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Nacrene City Nacrene Museum"
+        ]
       },
       {
         "id": 565,
@@ -5819,7 +5848,9 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Nacrene City Nacrene Museum"
+        ]
       },
       {
         "id": 567,
@@ -6368,6 +6399,8 @@
         },
         "stage": 0,
         "locations": [
+          "Route 13",
+          "Route 5",
           "Route 6",
           "Route 7"
         ]
@@ -6390,6 +6423,9 @@
         },
         "stage": 1,
         "locations": [
+          "Abundant Shrine Hidden Grotto Near Youngster",
+          "Abundant Shrine Hidden Grotto Shrine",
+          "Pinwheel Forest Hidden Grotto Inner",
           "Route 11",
           "Route 22",
           "Route 23"
@@ -6407,7 +6443,7 @@
     "stages": [
       {
         "id": 592,
-        "name": "frillish",
+        "name": "frillish-male",
         "types": [
           "water",
           "ghost"
@@ -7309,7 +7345,8 @@
         },
         "stage": 0,
         "locations": [
-          "Route 23"
+          "Route 23",
+          "Route 9"
         ]
       }
     ],

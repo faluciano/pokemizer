@@ -40,7 +40,9 @@
           "speed": 60
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Grass"
+        ]
       },
       {
         "id": 3,
@@ -107,7 +109,9 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fire"
+        ]
       },
       {
         "id": 6,
@@ -173,7 +177,9 @@
           "speed": 58
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Water"
+        ]
       },
       {
         "id": 9,
@@ -260,7 +266,9 @@
           "speed": 70
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Friend Safari Bug"
+        ]
       }
     ],
     "types": [
@@ -309,7 +317,9 @@
           "speed": 35
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison"
+        ]
       },
       {
         "id": 15,
@@ -358,6 +368,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Flying",
           "Route 2",
           "Route 3"
         ]
@@ -427,7 +438,9 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Flying"
+        ]
       },
       {
         "id": 22,
@@ -446,7 +459,9 @@
           "speed": 100
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Victory Road Outside"
+        ]
       }
     ],
     "types": [
@@ -523,7 +538,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Ground"
+        ]
       },
       {
         "id": 28,
@@ -781,6 +798,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Grass",
           "Route 6"
         ]
       },
@@ -801,7 +819,9 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison"
+        ]
       },
       {
         "id": 45,
@@ -851,6 +871,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Grass",
           "Route 6"
         ]
       },
@@ -871,7 +892,9 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison"
+        ]
       },
       {
         "id": 182,
@@ -937,6 +960,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Ground",
           "Route 13"
         ]
       }
@@ -1047,6 +1071,7 @@
         "stage": 1,
         "locations": [
           "Couriway Town",
+          "Friend Safari Water",
           "Frost Cavern Unknown Area 313",
           "Frost Cavern Unknown Area 315",
           "Laverre City",
@@ -1142,6 +1167,7 @@
         "stage": 1,
         "locations": [
           "Couriway Town",
+          "Friend Safari Water",
           "Frost Cavern Unknown Area 313",
           "Frost Cavern Unknown Area 315",
           "Laverre City",
@@ -1203,6 +1229,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Psychic",
           "Route 5"
         ]
       },
@@ -1287,7 +1314,9 @@
           "speed": 45
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fighting"
+        ]
       },
       {
         "id": 68,
@@ -1673,6 +1702,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Steel",
           "Lost Hotel"
         ]
       },
@@ -1723,6 +1753,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Flying",
           "Route 22"
         ]
       }
@@ -1754,6 +1785,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Flying",
           "Route 5"
         ]
       },
@@ -1824,6 +1856,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Ice",
           "Route 8"
         ]
       }
@@ -1932,6 +1965,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Rock",
           "Glittering Cave Unknown Area 303",
           "Glittering Cave Unknown Area 304"
         ]
@@ -2000,6 +2034,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Electric",
           "Lost Hotel"
         ]
       }
@@ -2099,7 +2134,9 @@
           "speed": 45
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Ground"
+        ]
       }
     ],
     "types": [
@@ -2198,7 +2235,9 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Rock"
+        ]
       },
       {
         "id": 464,
@@ -2533,6 +2572,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Water",
           "Parfum Palace",
           "Route 22",
           "Route 3"
@@ -2566,6 +2606,7 @@
         "stage": 0,
         "locations": [
           "Azure Bay",
+          "Friend Safari Ice",
           "Route 12"
         ]
       }
@@ -2596,6 +2637,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Pokémon Village"
         ]
       }
@@ -2625,6 +2667,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2673,6 +2716,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2721,6 +2765,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2769,6 +2814,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2817,6 +2863,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2865,6 +2912,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2913,6 +2961,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -2961,6 +3010,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 10"
         ]
       },
@@ -3058,6 +3108,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Dragon",
           "Route 21"
         ]
       },
@@ -3153,7 +3204,9 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Flying"
+        ]
       },
       {
         "id": 164,
@@ -3205,6 +3258,8 @@
         },
         "stage": 0,
         "locations": [
+          "Berry Fields",
+          "Friend Safari Bug",
           "Route 4"
         ]
       },
@@ -3273,7 +3328,17 @@
           "speed": 40
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       }
     ],
     "types": [
@@ -3374,6 +3439,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Electric",
           "Route 3",
           "Santalune Forest"
         ]
@@ -3442,6 +3508,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Fairy",
           "Pokémon Village",
           "Route 20"
         ]
@@ -3676,7 +3743,9 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Ground"
+        ]
       },
       {
         "id": 195,
@@ -3696,6 +3765,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Water",
           "Route 14",
           "Route 19"
         ]
@@ -3728,7 +3798,9 @@
           "speed": 15
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Ground"
+        ]
       }
     ],
     "types": [
@@ -3809,6 +3881,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 22",
           "Route 3"
         ]
@@ -3889,6 +3962,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fairy",
           "Route 10"
         ]
       },
@@ -3968,6 +4042,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Rock",
           "Route 18",
           "Terminus Cave",
           "Terminus Cave B1F Left",
@@ -4004,6 +4079,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Bug",
           "Route 12"
         ]
       }
@@ -4035,6 +4111,8 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dark",
+          "Friend Safari Ice",
           "Route 17"
         ]
       },
@@ -4086,6 +4164,8 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dark",
+          "Friend Safari Ice",
           "Route 17"
         ]
       }
@@ -4116,7 +4196,9 @@
           "speed": 40
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Normal"
+        ]
       },
       {
         "id": 217,
@@ -4164,6 +4246,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fire",
           "Route 13"
         ]
       },
@@ -4184,7 +4267,9 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Rock"
+        ]
       }
     ],
     "types": [
@@ -4232,6 +4317,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Ice",
           "Frost Cavern Unknown Area 314",
           "Frost Cavern Unknown Area 315",
           "Frost Cavern Unknown Area 316",
@@ -4285,6 +4371,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Rock",
           "Route 12"
         ]
       }
@@ -4338,6 +4425,7 @@
         "stage": 1,
         "locations": [
           "Azure Bay",
+          "Friend Safari Water",
           "Route 12",
           "Shalour City"
         ]
@@ -4369,6 +4457,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ice",
           "Route 17"
         ]
       }
@@ -4399,7 +4488,10 @@
           "speed": 70
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Steel",
+          "Victory Road Outside"
+        ]
       }
     ],
     "types": [
@@ -4428,6 +4520,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 7"
         ]
       }
@@ -4570,6 +4663,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Rock",
           "Route 18",
           "Terminus Cave",
           "Terminus Cave B1F Left",
@@ -4867,7 +4961,9 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fairy"
+        ]
       },
       {
         "id": 282,
@@ -4937,7 +5033,9 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fairy"
+        ]
       },
       {
         "id": 475,
@@ -5006,6 +5104,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Bug",
           "Route 3"
         ]
       }
@@ -5037,6 +5136,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ground",
           "Route 6"
         ]
       },
@@ -5088,6 +5188,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ground",
           "Route 6"
         ]
       },
@@ -5157,7 +5258,9 @@
           "speed": 48
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Normal"
+        ]
       },
       {
         "id": 295,
@@ -5221,6 +5324,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Fighting",
           "Route 11"
         ]
       }
@@ -5294,6 +5398,7 @@
         },
         "stage": 2,
         "locations": [
+          "Friend Safari Water",
           "Route 22"
         ]
       }
@@ -5324,6 +5429,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Rock",
           "Route 10"
         ]
       },
@@ -5420,6 +5526,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dark",
           "Reflection Cave Unknown Area 305",
           "Reflection Cave Unknown Area 306",
           "Reflection Cave Unknown Area 307",
@@ -5454,6 +5561,8 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fairy",
+          "Friend Safari Steel",
           "Glittering Cave Unknown Area 303"
         ]
       }
@@ -5485,7 +5594,8 @@
         },
         "stage": 0,
         "locations": [
-          "Connecting Cave"
+          "Connecting Cave",
+          "Friend Safari Fighting"
         ]
       },
       {
@@ -5553,7 +5663,9 @@
           "speed": 105
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Electric"
+        ]
       }
     ],
     "types": [
@@ -5639,6 +5751,8 @@
         },
         "stage": 0,
         "locations": [
+          "Berry Fields",
+          "Friend Safari Bug",
           "Route 7"
         ]
       }
@@ -5668,6 +5782,8 @@
         },
         "stage": 0,
         "locations": [
+          "Berry Fields",
+          "Friend Safari Bug",
           "Route 7"
         ]
       }
@@ -5716,7 +5832,9 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison"
+        ]
       }
     ],
     "types": [
@@ -5893,7 +6011,9 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Psychic"
+        ]
       }
     ],
     "types": [
@@ -5950,6 +6070,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ground",
           "Route 13"
         ]
       },
@@ -6098,6 +6219,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Poison",
           "Route 8"
         ]
       }
@@ -6265,6 +6387,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Dark",
           "Parfum Palace",
           "Route 3"
         ]
@@ -6295,6 +6418,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Normal",
           "Route 6"
         ]
       }
@@ -6323,7 +6447,9 @@
           "speed": 45
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Ghost"
+        ]
       },
       {
         "id": 354,
@@ -6341,7 +6467,9 @@
           "speed": 65
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Pokémon Village"
+        ]
       }
     ],
     "types": [
@@ -6369,6 +6497,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dark",
           "Route 8"
         ]
       }
@@ -6416,6 +6545,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Psychic",
           "Reflection Cave Unknown Area 305",
           "Reflection Cave Unknown Area 306",
           "Reflection Cave Unknown Area 307",
@@ -6631,7 +6761,9 @@
           "speed": 50
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Dragon"
+        ]
       },
       {
         "id": 373,
@@ -6771,6 +6903,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Water",
           "Route 22"
         ]
       }
@@ -6871,6 +7004,7 @@
         },
         "stage": 0,
         "locations": [
+          "Berry Fields",
           "Route 3"
         ]
       },
@@ -6920,6 +7054,7 @@
         },
         "stage": 0,
         "locations": [
+          "Berry Fields",
           "Route 3"
         ]
       },
@@ -6970,6 +7105,8 @@
         },
         "stage": 0,
         "locations": [
+          "Berry Fields",
+          "Friend Safari Bug",
           "Route 4"
         ]
       },
@@ -7019,6 +7156,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Electric",
           "Route 12"
         ]
       }
@@ -7067,6 +7205,7 @@
         "stage": 1,
         "locations": [
           "Couriway Town",
+          "Friend Safari Water",
           "Frost Cavern Unknown Area 313",
           "Frost Cavern Unknown Area 315",
           "Route 15",
@@ -7124,7 +7263,9 @@
           "speed": 80
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Ghost"
+        ]
       }
     ],
     "types": [
@@ -7412,7 +7553,9 @@
           "speed": 82
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Dragon"
+        ]
       },
       {
         "id": 445,
@@ -7507,6 +7650,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fighting",
           "Route 22"
         ]
       },
@@ -7628,6 +7772,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Poison",
           "Route 19"
         ]
       }
@@ -7679,7 +7824,9 @@
           "speed": 85
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison"
+        ]
       }
     ],
     "types": [
@@ -7791,6 +7938,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ice",
           "Route 17"
         ]
       },
@@ -7842,7 +7990,9 @@
           "speed": 91
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Lost Hotel"
+        ]
       }
     ],
     "types": [
@@ -7936,6 +8086,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Dark",
           "Route 15"
         ]
       }
@@ -7965,6 +8116,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Grass",
           "Santalune Forest"
         ]
       },
@@ -8012,6 +8164,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fire",
           "Santalune Forest"
         ]
       },
@@ -8059,6 +8212,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Water",
           "Santalune Forest"
         ]
       },
@@ -8128,7 +8282,9 @@
           "speed": 20
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Rock"
+        ]
       },
       {
         "id": 526,
@@ -8174,7 +8330,12 @@
           "speed": 72
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Flying",
+          "Glittering Cave Unknown Area 303",
+          "Glittering Cave Unknown Area 304",
+          "Reflection Cave Unknown Area 305"
+        ]
       },
       {
         "id": 528,
@@ -8221,7 +8382,10 @@
           "speed": 50
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Normal",
+          "Route 6"
+        ]
       }
     ],
     "types": [
@@ -8318,6 +8482,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fighting",
           "Route 11"
         ]
       }
@@ -8346,7 +8511,9 @@
           "speed": 85
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Fighting"
+        ]
       }
     ],
     "types": [
@@ -8374,7 +8541,9 @@
           "speed": 57
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Route 6"
+        ]
       },
       {
         "id": 544,
@@ -8393,7 +8562,9 @@
           "speed": 47
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison"
+        ]
       },
       {
         "id": 545,
@@ -8481,6 +8652,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dark",
           "Route 9"
         ]
       },
@@ -8553,6 +8725,7 @@
           "Ambrette Town",
           "Azure Bay",
           "Cyllage City",
+          "Friend Safari Rock",
           "Glittering Cave Unknown Area 304",
           "Route 12",
           "Route 8"
@@ -8655,6 +8828,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Psychic",
           "Route 10"
         ]
       }
@@ -8684,7 +8858,9 @@
           "speed": 65
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Lost Hotel"
+        ]
       },
       {
         "id": 569,
@@ -8702,7 +8878,11 @@
           "speed": 75
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Poison",
+          "Lost Hotel",
+          "Pokémon Village"
+        ]
       }
     ],
     "types": [
@@ -8796,6 +8976,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Psychic",
           "Pokémon Village",
           "Route 20"
         ]
@@ -8866,7 +9047,9 @@
           "speed": 30
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Psychic"
+        ]
       },
       {
         "id": 579,
@@ -8933,7 +9116,9 @@
           "speed": 98
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Flying"
+        ]
       }
     ],
     "types": [
@@ -9032,6 +9217,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Electric",
           "Route 10"
         ]
       }
@@ -9197,7 +9383,12 @@
           "speed": 10
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Steel",
+          "Glittering Cave Unknown Area 303",
+          "Glittering Cave Unknown Area 304",
+          "Reflection Cave Unknown Area 305"
+        ]
       },
       {
         "id": 598,
@@ -9266,7 +9457,9 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Ghost"
+        ]
       },
       {
         "id": 609,
@@ -9333,7 +9526,9 @@
           "speed": 67
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Dragon"
+        ]
       },
       {
         "id": 612,
@@ -9403,6 +9598,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Ice",
           "Frost Cavern Unknown Area 314",
           "Frost Cavern Unknown Area 315",
           "Frost Cavern Unknown Area 316",
@@ -9515,6 +9711,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Electric",
           "Route 14",
           "Route 19"
         ]
@@ -9546,6 +9743,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fighting",
           "Route 8"
         ]
       },
@@ -9593,6 +9791,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dragon",
           "Victory Road Unknown Area 322",
           "Victory Road Unknown Area 324",
           "Victory Road Unknown Area 326",
@@ -9646,7 +9845,9 @@
           "speed": 55
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Ghost"
+        ]
       }
     ],
     "types": [
@@ -9676,6 +9877,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Dark",
           "Lost Hotel",
           "Route 15"
         ]
@@ -9833,7 +10035,9 @@
           "speed": 98
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Victory Road Outside"
+        ]
       }
     ],
     "types": [
@@ -9881,7 +10085,9 @@
           "speed": 57
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Grass"
+        ]
       },
       {
         "id": 652,
@@ -9947,7 +10153,9 @@
           "speed": 73
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fire"
+        ]
       },
       {
         "id": 655,
@@ -10013,7 +10221,9 @@
           "speed": 97
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Water"
+        ]
       },
       {
         "id": 658,
@@ -10084,6 +10294,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Ground",
           "Route 22"
         ]
       }
@@ -10136,7 +10347,10 @@
           "speed": 84
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fire",
+          "Friend Safari Flying"
+        ]
       },
       {
         "id": 663,
@@ -10204,7 +10418,9 @@
           "speed": 29
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Berry Fields"
+        ]
       },
       {
         "id": 666,
@@ -10223,7 +10439,9 @@
           "speed": 89
         },
         "stage": 2,
-        "locations": []
+        "locations": [
+          "Friend Safari Bug"
+        ]
       }
     ],
     "types": [
@@ -10272,7 +10490,9 @@
           "speed": 106
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fire"
+        ]
       }
     ],
     "types": [
@@ -10321,7 +10541,9 @@
           "speed": 52
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Fairy"
+        ]
       },
       {
         "id": 671,
@@ -10386,7 +10608,9 @@
           "speed": 68
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Grass"
+        ]
       }
     ],
     "types": [
@@ -10414,6 +10638,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fighting",
           "Route 5"
         ]
       },
@@ -10491,6 +10716,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Psychic",
           "Route 6"
         ]
       },
@@ -10607,6 +10833,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Fairy",
           "Route 7"
         ]
       },
@@ -10656,6 +10883,7 @@
         "stage": 0,
         "locations": [
           "Azure Bay",
+          "Friend Safari Dark",
           "Route 8"
         ]
       },
@@ -10730,7 +10958,9 @@
           "speed": 68
         },
         "stage": 1,
-        "locations": []
+        "locations": [
+          "Friend Safari Rock"
+        ]
       }
     ],
     "types": [
@@ -10816,6 +11046,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Electric",
           "Route 9"
         ]
       },
@@ -10966,6 +11197,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Flying",
           "Route 10"
         ]
       }
@@ -10997,6 +11229,8 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Electric",
+          "Friend Safari Fairy",
           "Route 11"
         ]
       }
@@ -11081,6 +11315,7 @@
         },
         "stage": 1,
         "locations": [
+          "Friend Safari Dragon",
           "Route 19"
         ]
       },
@@ -11129,6 +11364,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Steel",
           "Lost Hotel",
           "Route 15",
           "Route 16"
@@ -11162,6 +11398,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ghost",
           "Route 16"
         ]
       },
@@ -11214,6 +11451,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ghost",
           "Route 16"
         ]
       },
@@ -11263,6 +11501,7 @@
         },
         "stage": 0,
         "locations": [
+          "Friend Safari Ice",
           "Frost Cavern Unknown Area 314",
           "Frost Cavern Unknown Area 315",
           "Frost Cavern Unknown Area 316",
@@ -11313,7 +11552,17 @@
           "speed": 55
         },
         "stage": 0,
-        "locations": []
+        "locations": [
+          "Friend Safari Dragon",
+          "Terminus Cave",
+          "Terminus Cave B1F Left",
+          "Terminus Cave B1F Right",
+          "Terminus Cave Zygardes Chamber",
+          "Victory Road Unknown Area 322",
+          "Victory Road Unknown Area 324",
+          "Victory Road Unknown Area 326",
+          "Victory Road Unknown Area 328"
+        ]
       },
       {
         "id": 715,
