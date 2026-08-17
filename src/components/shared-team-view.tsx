@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { track } from "@vercel/analytics";
 import type { EvolutionLine, Generation, GameVersion } from "@/lib/types";
 import { getTypeCoverage } from "@/lib/game-logic";
 import { EvolutionStageViewer } from "@/components/evolution-stage-viewer";
@@ -72,7 +73,12 @@ export function SharedTeamView({
       </div>
 
       <div className="flex flex-col items-center gap-2">
-        <Link href={`/play/${gameVersion.slug}`}>
+        <Link
+          href={`/play/${gameVersion.slug}`}
+          onClick={() =>
+            track("shared_team_play_clicked", { game: gameVersion.slug })
+          }
+        >
           <Button variant="ghost" size="sm">
             Play {gameVersion.displayName}
           </Button>

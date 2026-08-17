@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { track } from "@vercel/analytics";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { Download, Check } from "lucide-react";
@@ -37,6 +38,7 @@ export function ImportButton({
     setHistory((prev) => [entry, ...prev]);
     setSaved(true);
     toast.success("Team saved to your history!");
+    track("shared_team_imported", { game: gameVersion.slug });
   };
 
   return (
