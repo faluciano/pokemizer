@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: "website",
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: `My ${gameVersion.displayName} Team — Pokemizer`,
       description: `${pokemonNames} — ${coverage}/18 types`,
     },
