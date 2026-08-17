@@ -135,8 +135,8 @@ export default function HistoryPage() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                {entry.team.map((line) => (
-                  <div key={line.lineId} className="flex w-[130px] flex-col items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900/50 p-2">
+                {entry.team.map((line, slotIndex) => (
+                  <div key={`${line.lineId}-${slotIndex}`} className="flex w-[130px] flex-col items-center gap-1 rounded-lg border border-zinc-800 bg-zinc-900/50 p-2">
                     <EvolutionStageViewer line={line} size="sm" />
                   </div>
                 ))}

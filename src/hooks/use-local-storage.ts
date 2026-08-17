@@ -1,20 +1,24 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 
 export function useLocalStorage<T>(
   key: string,
   initialValue: T
 ): [T, (value: T | ((prev: T) => T)) => void] {
-  const [storedValue, setStoredValue] = useState<T>(() => {
-    if (typeof window === "undefined") return initialValue;
+  // Start with initialValue and read localStorage after mount, so the first
+  // client render matches the server-rendered HTML (avoids hydration errors).
+  const [storedValue, setStoredValue] = useState<T>(initialValue);
+
+  useEffect(() => {
     try {
       const item = window.localStorage.getItem(key);
-      return item !== null ? JSON.parse(item) : initialValue;
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- intentional post-hydration sync from localStorage
+      if (item !== null) setStoredValue(JSON.parse(item));
     } catch {
-      return initialValue;
+      // Ignore unreadable/corrupt values and keep initialValue.
     }
-  });
+  }, [key]);
 
   const setValue = useCallback(
     (value: T | ((prev: T) => T)) => {
