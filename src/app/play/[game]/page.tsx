@@ -32,11 +32,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ? `${generation.displayName} Pokemon`
     : "Pokemon";
 
+  const shortDescription = `Build a random Pokemon ${gameVersion.displayName} team — flip cards to assemble six Pokemon from the ${regionName} Pokedex.`;
+
   return {
     title: `Play Pokemon ${gameVersion.displayName}`,
     description: `Build a random Pokemon team in Pokemon ${gameVersion.displayName}. Explore the ${regionName} region with ${pokemonCount} in this randomizer card game.`,
     alternates: {
       canonical: `https://pokemizer.com/play/${gameVersion.slug}`,
+    },
+    openGraph: {
+      title: `Pokemon ${gameVersion.displayName} Team Randomizer`,
+      description: shortDescription,
+      url: `https://pokemizer.com/play/${gameVersion.slug}`,
+      siteName: "Pokemizer",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Pokemon ${gameVersion.displayName} Team Randomizer`,
+      description: shortDescription,
     },
   };
 }
