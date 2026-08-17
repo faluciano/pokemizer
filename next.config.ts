@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactCompiler: true,
   images: {
+    // Sprites never change; long TTL avoids re-running image optimization
+    minimumCacheTTL: 2678400,
     remotePatterns: [
       {
         protocol: "https",
