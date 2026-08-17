@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getGameVersion, getGenerationForGame, GAME_VERSIONS } from "@/lib/games";
 import { getGameData } from "@/data";
 import { GameClient } from "./game-client";
+import { GameSeoContent } from "./seo-content";
 
 interface PageProps {
   params: Promise<{ game: string }>;
@@ -58,11 +59,43 @@ export default async function PlayPage({ params }: PageProps) {
     notFound();
   }
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: `Pokemon ${gameVersion.displayName} Team Randomizer`,
+    url: `https://pokemizer.com/play/${gameVersion.slug}`,
+    description: `Build a random Pokemon team for Pokemon ${gameVersion.displayName} (${gameVersion.region} region, ${generation.displayName}) in a card-flipping randomizer game.`,
+    applicationCategory: "GameApplication",
+    operatingSystem: "Any",
+    browserRequirements: "Requires JavaScript",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    isPartOf: {
+      "@type": "WebSite",
+      name: "Pokemizer",
+      url: "https://pokemizer.com",
+    },
+  };
+
   return (
-    <GameClient
-      generation={generation}
-      gameVersion={gameVersion}
-      allPokemon={allPokemon}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <GameClient
+        generation={generation}
+        gameVersion={gameVersion}
+        allPokemon={allPokemon}
+      />
+      <GameSeoContent
+        gameVersion={gameVersion}
+        generation={generation}
+        allPokemon={allPokemon}
+      />
+    </>
   );
 }
