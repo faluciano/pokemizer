@@ -16,8 +16,17 @@ export default function Home() {
         <p className="mt-3 text-lg text-zinc-400">
           Build your Pokemon team with the randomizer card game
         </p>
-        <div className="mt-4">
+        <div className="mt-4 flex items-center justify-center gap-3">
           <HowToPlay />
+          <a
+            href="https://ko-fi.com/faluciano"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-8 items-center gap-1.5 rounded-md bg-[#FF5E5B] px-3 text-sm font-medium text-white transition-colors hover:bg-[#ff4744]"
+          >
+            <span aria-hidden="true">☕</span>
+            Support on Ko-fi
+          </a>
         </div>
       </div>
 
