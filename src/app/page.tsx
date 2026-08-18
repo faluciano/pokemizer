@@ -1,14 +1,18 @@
 import Link from "next/link";
 import { GenerationPicker } from "@/components/generation-picker";
 import { HowToPlay } from "@/components/how-to-play";
+import { LogoMark } from "@/components/logo";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-4xl px-4 py-16">
+    <main className="mx-auto max-w-4xl px-4 py-12">
       <div className="mb-12 text-center">
-        <h1 className="text-5xl font-bold tracking-tight text-white">
-          Pokemizer
-        </h1>
+        <div className="flex items-center justify-center gap-3">
+          <LogoMark className="h-12 w-12" />
+          <h1 className="text-5xl font-bold tracking-tight text-white">
+            Pokemizer
+          </h1>
+        </div>
         <p className="mt-3 text-lg text-zinc-400">
           Build your Pokemon team with the randomizer card game
         </p>

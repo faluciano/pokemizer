@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 import { ServiceWorkerRegister } from "@/components/service-worker-register";
+import { SiteHeader } from "@/components/site-header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -67,7 +68,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="min-h-screen bg-zinc-950">{children}</div>
+        <div className="min-h-screen bg-zinc-950">
+          <SiteHeader />
+          {children}
+        </div>
         <footer className="border-t border-zinc-800 bg-zinc-950 px-4 py-6 text-center text-xs leading-relaxed text-zinc-600">
           <p>
             Pokemizer is an unofficial fan project and is not affiliated with,
