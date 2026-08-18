@@ -86,6 +86,15 @@ export default function RootLayout({
             >
               Suggest a feature or report a bug
             </a>
+            {" · "}
+            <a
+              href="https://ko-fi.com/faluciano"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-500 underline underline-offset-4 transition-colors hover:text-zinc-300"
+            >
+              Support on Ko-fi
+            </a>
           </p>
         </footer>
         <Toaster />
