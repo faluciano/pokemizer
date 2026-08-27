@@ -14,8 +14,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { code } = await params;
   const data = resolveShareCode(code);
 
+  // Share links are unbounded one-off URLs; keep them out of the index
+  const noindex: Metadata = {
+    robots: { index: false, follow: true },
+  };
+
   if (!data) {
     return {
+      ...noindex,
       title: "Shared Team — Pokemizer",
       description: "View a shared Pokemon team on Pokemizer.",
     };
@@ -28,6 +34,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     .join(", ");
 
   return {
+    ...noindex,
     title: `${gameVersion.displayName} Team — Pokemizer`,
     description: `${pokemonNames} — ${coverage}/18 types · ${attempts} attempts`,
     openGraph: {

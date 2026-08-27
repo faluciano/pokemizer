@@ -53,9 +53,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
-  alternates: {
-    canonical: "https://pokemizer.com",
-  },
 };
 
 export default function RootLayout({

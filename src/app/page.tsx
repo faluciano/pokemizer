@@ -1,7 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { GenerationPicker } from "@/components/generation-picker";
 import { HowToPlay } from "@/components/how-to-play";
 import { LogoMark } from "@/components/logo";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://pokemizer.com",
+  },
+};
 
 export default function Home() {
   return (
